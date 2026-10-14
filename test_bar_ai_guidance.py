@@ -15,7 +15,8 @@ REQUIRED = [
     "url", "url_verified", "verification", "confidentiality_note",
     "in_house_tools_note", "notes",
 ]
-KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice", "court_policy"}
+KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice", "court_policy",
+         "rule_amendment"}
 BINDING = {"advisory", "court_rule"}
 VERIFICATION = {"fetched", "cited"}
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
@@ -28,6 +29,7 @@ PRIMARY_HOSTS = (
     "vsb.org", "wsba.org", "wvodc.org",
     "alabar.org", "azbar.org", "gabar.org", "iardc.org", "illinoiscourts.gov",
     "michbar.org", "mnbars.org", "bpc.ohio.gov",
+    "azcourts.gov", "coloradojudicial.gov", "nhbar.org", "sccourts.org",
 )
 
 
@@ -45,7 +47,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 28)
+        self.assertGreaterEqual(len(self.entries), 34)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):
@@ -76,6 +78,11 @@ class GuidanceDataTest(unittest.TestCase):
     def test_kinds_documented(self):
         documented = {k.strip() for k in self.doc["fields"]["kind"].split("|")}
         self.assertEqual(documented, KINDS)
+
+    def test_rule_amendments_are_court_rules(self):
+        for e in self.entries:
+            if e["kind"] == "rule_amendment":
+                self.assertEqual(e["binding"], "court_rule", e["id"])
 
     def test_year_only_dates_are_explained(self):
         for e in self.entries:

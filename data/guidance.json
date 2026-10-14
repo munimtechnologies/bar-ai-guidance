@@ -1,6 +1,6 @@
 {
   "dataset": "US bar and court guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updated": "2026-10-14",
   "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -11,7 +11,7 @@
     "title": "the document's own title",
     "number": "opinion or notice number as the issuer cites it, or null",
     "date": "YYYY-MM-DD when the document states a day, else YYYY-MM, else YYYY when only the year is known (the entry's notes then say how the year was established)",
-    "kind": "formal_opinion | advisory_opinion | guidance | court_notice | court_policy",
+    "kind": "formal_opinion | advisory_opinion | guidance | court_notice | court_policy | rule_amendment",
     "binding": "advisory | court_rule",
     "url": "primary source only: the issuing bar, court or association",
     "url_verified": "date MV2 last checked the URL",
@@ -67,7 +67,23 @@
       "verification": "fetched",
       "confidentiality_note": "Lawyers must protect confidential client information when using AI and understand how a vendor processes and keeps what is entered; the opinion contrasts tools that do not train on inputs with free consumer versions and warns that prompts and interaction logs may be discoverable.",
       "in_house_tools_note": null,
-      "notes": "Neither the 11-page PDF nor the bar's HTML page for the opinion (alabar.org/office-of-general-counsel/formal-opinions/artificial-intelligence-use-best-practices-under-existing-professional-conduct-rules/) states a date, so only the year is recorded: the file sits under /assets/2026/05/, the opinion cites an Alabama decision of 24 April 2026, and Law360 reported it on 24 July 2026. The HTML page was fetched and its title matches; MV2's tool did not extract the PDF text, so the paraphrase comes from the search index's text of the PDF's glossary and from secondary summaries. Also covers agentic AI, fees, supervision and a pre-use checklist."
+      "notes": "MV2 read the text of the 11-page PDF on 2026-10-14. It states no date and no opinion number on its face, so only the year is recorded: the file sits under /assets/2026/05/, it cites an Alabama decision of 24 April 2026 and a source dated 18 February 2026, and Law360 reported it on 24 July 2026. The number comes from the bar's HTML page for the opinion (alabar.org/office-of-general-counsel/formal-opinions/artificial-intelligence-use-best-practices-under-existing-professional-conduct-rules/), which was fetched and whose title matches. Its Rule 1.6 section recommends closed, non-training enterprise systems over free consumer tools, anonymised or substitute identifiers, documented client consent where risks remain, and firm retention policies that cover AI interaction logs. Also covers agentic AI, fees and supervision."
+    },
+    {
+      "id": "az-aisc-ethical-best-practices",
+      "jurisdiction": "AZ",
+      "issuer": "Supreme Court of Arizona, Steering Committee on Artificial Intelligence and the Courts (AISC)",
+      "title": "Generative AI: Ethical Best Practices for Lawyers and Judges",
+      "number": null,
+      "date": "2024-11-14",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://www.azcourts.gov/Portals/0/74/AISC%20Ethical%20Best%20Practices%20Guidance_For%20Publication.pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Confidential or nonpublic information must not go into a tool unless the user has enough assurance that the tool will not share or use it; free tools may protect little even with a training opt-out, and before entering client information into a tool that risks disclosure the lawyer should get the client's informed consent.",
+      "in_house_tools_note": "Contrasts open, free tools with enterprise-level tools or tools customised for the firm or court, which may give more assurance that inputs are not revealed or used, and cites Florida 24-1 on in-house tools; when in doubt it still advises leaving confidential information out.",
+      "notes": "MV2 read the text of the 6-page PDF, dated 14 November 2024 on its first page. Written by a Supreme Court committee for both lawyers and judges, separately from the State Bar's practice guidance (az-best-practices). Also covers billing, court disclosure, bias and supervision, says prospective clients talking to a firm's chatbot should be told so, and suggests a written AI policy that staff acknowledge."
     },
     {
       "id": "az-best-practices",
@@ -91,15 +107,31 @@
       "issuer": "State Bar of California, Standing Committee on Professional Responsibility and Conduct",
       "title": "Practical Guidance for the Use of Generative Artificial Intelligence in the Practice of Law",
       "number": null,
-      "date": "2023-11-16",
+      "date": "2026-05-14",
       "kind": "guidance",
       "binding": "advisory",
-      "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
-      "url_verified": "2026-10-13",
+      "url": "https://www.calbar.ca.gov/sites/default/files/portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
+      "url_verified": "2026-10-14",
       "verification": "fetched",
-      "confidentiality_note": "Lawyers should not put confidential client information into a tool that lacks adequate protections, and should review the tool's terms, data retention and training practices first.",
+      "confidentiality_note": "A lawyer must not put confidential client information into a generative AI tool that poses material confidentiality or security risks without the client's informed consent, and must take reasonable steps, beyond trusting marketing claims, to learn how the tool collects, uses, stores and discloses what is entered, consulting IT or security experts where needed.",
+      "in_house_tools_note": "Says a tool that neither trains on nor shares inputs may still lack adequate security, that risk rises from isolated prompt tools to integrated systems to autonomous agents, and that agentic systems with access to firm email, document stores or client files need a limited scope, monitoring and access controls so they cannot leak information across matters or send it out without human review.",
+      "notes": "The 2026 revision, approved by the Board of Trustees on 14 May 2026 (per the bar's Ethics & Technology Resources page), replaces the November 2023 version and adds agentic AI at the California Supreme Court's request. MV2 read the text of the 9-page PDF on 2026-10-14; its executive summary says it replaces the 2023 version. The 2023 file was at calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf. Separately, proposed amendments to Rules 1.1, 1.4, 1.6, 3.3, 5.1 and 5.3 on AI went out for public comment in 2026; MV2 found no Supreme Court order adopting them as of 2026-10-14. Also covers fees: subscription costs for general AI tools are overhead."
+    },
+    {
+      "id": "co-rule-change-2026-02",
+      "jurisdiction": "CO",
+      "issuer": "Supreme Court of Colorado",
+      "title": "Rule Change 2026(02): Colorado Rules of Professional Conduct, Preamble and Scope and Rule 1.1",
+      "number": "Rule Change 2026(02)",
+      "date": "2026-01-08",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://www.coloradojudicial.gov/sites/default/files/2026-01/Rule%20Change%202026(02).pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "A new comment to Rule 1.1 lists the rules a lawyer's use of technology, particularly AI, can implicate, among them preserving client confidential information under Rule 1.6, and a new Scope paragraph says a lawyer may be disciplined for violations that result from using technology directly or indirectly.",
       "in_house_tools_note": null,
-      "notes": "The PDF at this URL was retrieved (9 pages) but its text was not extracted by MV2's tool. Secondary trackers report a May 2026 revision covering agentic AI; MV2 has not verified the revision date."
+      "notes": "MV2 read the text of the 6-page PDF (redline and clean versions): amended and adopted by the Court en banc on 8 January 2026, effective immediately. It adds Scope [20A], aligns Comment [8] to Rule 1.1 with the ABA Model Rule's technology-competence wording, and adds Comment [9]. The Colorado Lawyer (May/June 2026) describes it as the first AI-specific amendment to a state's lawyer conduct rules. MV2 found no Colorado Bar Association formal ethics opinion on AI; one vendor site cites a 'Formal Opinion 145' on AI that MV2 could not confirm."
     },
     {
       "id": "dc-388",
@@ -278,6 +310,22 @@
       "notes": null
     },
     {
+      "id": "nh-ethics-corner-2024",
+      "jurisdiction": "NH",
+      "issuer": "New Hampshire Bar Association, Ethics Committee",
+      "title": "Ethics of Using Artificial Intelligence in Practice",
+      "number": null,
+      "date": "2024-05-15",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://www.nhbar.org/using-artificial-intelligence-in-practice/",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Under Rule 1.6(c) a lawyer must understand how an AI tool uses and stores what is entered and whether anything keeps it from third parties, starting with the tool's terms and privacy policy, which may allow the provider to use submitted information.",
+      "in_house_tools_note": null,
+      "notes": "An Ethics Corner article, which the Committee describes as general guidance on the New Hampshire Rules of Professional Conduct, not a formal opinion. It was submitted to the Board of Governors at its 8 February 2024 meeting and is dated 15 May 2024 in the bar's article list. Also covers supervision under Rules 5.1 and 5.3 and firm AI policies; it does not discuss client consent."
+    },
+    {
       "id": "nj-preliminary-guidelines",
       "jurisdiction": "NJ",
       "issuer": "Supreme Court of New Jersey (Notice to the Bar)",
@@ -323,7 +371,23 @@
       "verification": "cited",
       "confidentiality_note": "Lawyers must make sure a generative AI tool meets confidentiality requirements and that anything shared with it is secure, following the format of California's 2023 guidance.",
       "in_house_tools_note": null,
-      "notes": "A city bar opinion, not a state-wide one. For the state bar's April 2024 report see ny-nysba-task-force-2024."
+      "notes": "A city bar opinion, not a state-wide one. For the state bar's April 2024 report see ny-nysba-task-force-2024; for the City Bar's later opinion on AI that records client calls see ny-nycbar-2025-6."
+    },
+    {
+      "id": "ny-nycbar-2025-6",
+      "jurisdiction": "NY",
+      "issuer": "New York City Bar Association, Professional Ethics Committee",
+      "title": "Ethical Issues Affecting Use of AI to Record, Transcribe, and Summarize Conversations with Clients",
+      "number": "Formal Opinion 2025-6",
+      "date": "2025-12-22",
+      "kind": "formal_opinion",
+      "binding": "advisory",
+      "url": "https://www.nycbar.org/reports/formal-opinion-2025-6-ethical-issues-affecting-use-of-ai-to-record-transcribe-and-summarize-conversations-with-clients/",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Clients must be told, and must agree, whenever an AI system records their calls; lawyers must safeguard the recordings, transcripts and summaries under Rule 1.6, find out where they are stored, for how long, whether they train the tool and whether they could be reached in discovery, and keep to any no-retention policy they announce.",
+      "in_house_tools_note": "Distinguishes tools the lawyer controls from tools controlled by a vendor or by the client; it does not address on-premises or locally run tools specifically.",
+      "notes": "A city bar opinion. Reaffirms the City Bar's Opinion 2003-02 that wanting an accurate record does not justify undisclosed taping, points to two-party consent and biometric-privacy laws, and says lawyers should know how to switch off default recording in meeting platforms and review AI summaries promptly."
     },
     {
       "id": "ny-nysba-task-force-2024",
@@ -371,7 +435,23 @@
       "verification": "fetched",
       "confidentiality_note": "Lawyers must understand how an AI tool stores information and whether it collects prompts to train the product for other users, and must check the product and vendor before client information goes in.",
       "in_house_tools_note": null,
-      "notes": "The 8-page PDF was retrieved; its heading matches the search index's text of the same file, which MV2's tool could not extract itself. A WSBA summary says it distinguishes closed and open AI models and says when client consent is needed; MV2 has not confirmed that wording in the PDF."
+      "notes": "The 8-page PDF was retrieved; its heading matches the search index's text of the same file, which MV2's tool could not extract itself. A WSBA summary says it distinguishes closed and open AI models and says when client consent is needed; MV2 has not confirmed that wording in the PDF. Oregon's later opinion on chatbots and AI agents is or-2026-208."
+    },
+    {
+      "id": "or-2026-208",
+      "jurisdiction": "OR",
+      "issuer": "Oregon State Bar, Legal Ethics Committee and Board of Governors",
+      "title": "Chatbots and AI Agent Communications",
+      "number": "Formal Opinion 2026-208",
+      "date": "2026-02",
+      "kind": "formal_opinion",
+      "binding": "advisory",
+      "url": "https://www.osbar.org/_docs/ethics/2026-208.pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Before using a chatbot a lawyer must confirm that what is sent through or stored by it is reasonably secure, which may mean constant encryption, keeping client data out of training, isolating each client's data and vetting the vendor and the products it builds on; what prospective clients type is protected under Rule 1.18.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 8-page PDF, which ends 'Approved by the Board of Governors, February 2026'. Its answer to whether Oregon lawyers may use chatbots with clients and prospective clients is a qualified yes: use clear disclaimers, have a responsible lawyer notified so conversations can be reviewed promptly, run conflict checks on prospective clients, and require lawyer approval for actions an AI agent might take on its own, such as sending an engagement letter."
     },
     {
       "id": "pa-2024-200",
@@ -388,6 +468,22 @@
       "confidentiality_note": "Lawyers must safeguard client information and make sure AI systems that handle confidential data follow strict confidentiality measures; citations produced with AI must be verified.",
       "in_house_tools_note": null,
       "notes": "Secondary sources date it to May or June 2024; MV2 recorded the month most sources give."
+    },
+    {
+      "id": "sc-interim-ai-policy-2025",
+      "jurisdiction": "SC",
+      "issuer": "Supreme Court of South Carolina (order of the Chief Justice)",
+      "title": "Interim Policy on the Use of Generative Artificial Intelligence",
+      "number": "Appellate Case No. 2025-000043",
+      "date": "2025-03-25",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://www.sccourts.org/media/courtOrders/PDFs/2025-03-25-01.pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Court staff may not use AI to process confidential court records or privileged information unless expressly authorised, and lawyers are reminded that their use of generative AI must not compromise client confidentiality or breach the South Carolina Rules of Professional Conduct.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 4-page order, signed by Chief Justice John W. Kittredge on 25 March 2025. It binds judicial branch officers and employees (approved tools on approved devices only, human oversight of anything drafted with AI); for lawyers and litigants it is a reminder, not new regulation, which is why binding is recorded as advisory. It stays in effect until further order. MV2 found no South Carolina Bar formal ethics opinion on AI."
     },
     {
       "id": "tx-705",
