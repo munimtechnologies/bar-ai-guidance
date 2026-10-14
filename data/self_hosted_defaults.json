@@ -1,0 +1,162 @@
+{
+  "dataset": "Who can reach it out of the box: default network and account settings of self-hosted AI tools, read from each project's own source and docs",
+  "version": "0.6.0",
+  "checked": "2026-10-14",
+  "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
+  "license": "CC BY 4.0 for this file; each project keeps its own licence",
+  "purpose": "California's SB 574 (Business and Professions Code section 6068.1, from 1 January 2027) turns on whether access to what an attorney enters into a generative AI system is restricted to the attorney and authorised persons. For a self-hosted setup that depends on software settings. This file records, for each tool, what those settings are before anyone changes them. It is a record of software defaults, not a legal conclusion about any office.",
+  "fields": {
+    "id": "stable slug",
+    "project": "the project's name",
+    "role": "model_server (answers prompts; Ollama-style or OpenAI-style API) | chat_app (web front end with accounts and stored chat history)",
+    "release_seen": "latest release tag on the project's GitHub releases page on the checked date; the source files were read from the default branch the same day",
+    "listen_direct": "the address the program listens on when started with no options",
+    "listen_container": "the address in the project's own container image, compose file or documented Docker command, or null if MV2 did not check one",
+    "credential_by_default": "none = the API or app answers without any login or key | login = the app requires an account",
+    "credential_options": "what the project offers to require a key or login",
+    "signup_default": "for chat apps, whether someone who can reach the app can create an account, or null for model servers",
+    "other_defaults": "other defaults that bear on who can read what is entered, or null",
+    "out_of_the_box": "one sentence: who can use the tool or read what is entered, as shipped",
+    "sources": "the source files and documentation pages the facts were read from",
+    "notes": "limits of the check, or null"
+  },
+  "entries": [
+    {
+      "id": "anythingllm",
+      "project": "AnythingLLM (Docker)",
+      "role": "chat_app",
+      "release_seen": "v1.18.0",
+      "listen_direct": null,
+      "listen_container": "port 3001 published on every host interface by the standard install command",
+      "credential_by_default": "none",
+      "credential_options": "Password Protect Instance (single user) or Multi-User Mode with admin, manager and default roles, both switched on under Settings > Security",
+      "signup_default": "no accounts exist until Multi-User Mode is turned on; before that there is no login at all",
+      "other_defaults": "In single-user mode anyone with the instance password can change every setting and view all chats.",
+      "out_of_the_box": "Anyone who can reach port 3001 on the host can use the app, change its settings and read its workspaces and chats.",
+      "sources": [
+        "https://docs.anythingllm.com/installation-docker/remote-access",
+        "https://docs.useanything.com/features/security-and-access",
+        "https://github.com/Mintplex-Labs/anything-llm/releases"
+      ],
+      "notes": "Read from the project's documentation, which states that a local instance has no authentication by default and that the standard Docker command binds port 3001 to every interface. The desktop app was not checked."
+    },
+    {
+      "id": "librechat",
+      "project": "LibreChat",
+      "role": "chat_app",
+      "release_seen": "v0.8.8",
+      "listen_direct": "localhost:3080 (HOST=localhost, PORT=3080 in .env.example)",
+      "listen_container": "0.0.0.0 (docker-compose.yml sets HOST=0.0.0.0 and publishes ${PORT}:${PORT})",
+      "credential_by_default": "login",
+      "credential_options": "email and password accounts; social and OpenID logins are off by default",
+      "signup_default": "open: ALLOW_REGISTRATION=true, and ALLOW_UNVERIFIED_EMAIL_LOGIN=true lets a new account sign in without a verified address",
+      "other_defaults": "ALLOW_SHARED_LINKS=true (users can create share links to chats); ALLOW_SHARED_LINKS_PUBLIC=false (viewers must be logged in).",
+      "out_of_the_box": "With the shipped compose file, anyone who can reach the port can register an account and use the app; each user sees their own chats, and shared links open to any logged-in user.",
+      "sources": [
+        "https://github.com/danny-avila/LibreChat/blob/main/.env.example",
+        "https://github.com/danny-avila/LibreChat/blob/main/docker-compose.yml",
+        "https://github.com/danny-avila/LibreChat/releases"
+      ],
+      "notes": "Values are those in the example environment file that the install instructions copy to .env; an operator who edits .env before first start changes them."
+    },
+    {
+      "id": "llama-cpp-server",
+      "project": "llama.cpp (llama-server)",
+      "role": "model_server",
+      "release_seen": "v0.6.0",
+      "listen_direct": "127.0.0.1 (--host default)",
+      "listen_container": "0.0.0.0 (LLAMA_ARG_HOST=0.0.0.0 in the server stage of .devops/cpu.Dockerfile; the README's Docker example also passes --host 0.0.0.0)",
+      "credential_by_default": "none",
+      "credential_options": "--api-key or --api-key-file (default: none)",
+      "signup_default": null,
+      "other_defaults": "The built-in web UI is enabled by default (--webui) and the slots monitoring endpoint is enabled by default (--slots).",
+      "out_of_the_box": "Run directly, only programs on the same machine can use it; in the project's own container image, anyone who can reach the published port can use the API and the web UI without a key.",
+      "sources": [
+        "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+        "https://github.com/ggml-org/llama.cpp/blob/master/.devops/cpu.Dockerfile",
+        "https://github.com/ggml-org/llama.cpp/releases"
+      ],
+      "notes": "Only the CPU Dockerfile was read; the CUDA and other variants were not."
+    },
+    {
+      "id": "localai",
+      "project": "LocalAI",
+      "role": "model_server",
+      "release_seen": "v4.11.0",
+      "listen_direct": ":8080 (all interfaces; Address default in core/cli/run.go)",
+      "listen_container": null,
+      "credential_by_default": "none",
+      "credential_options": "API keys via LOCALAI_API_KEY or API_KEY (empty by default), or its user database",
+      "signup_default": null,
+      "other_defaults": "The web UI is on by default (DisableWebUI default false). LocalAI refuses to start on a public address, or on a wildcard address when the host has a public interface, unless API keys or its user database are set up or LOCALAI_ALLOW_INSECURE_PUBLIC_BIND is set; loopback, RFC 1918 LAN, ULA, link-local and CGNAT (Tailscale) addresses are accepted without any credential.",
+      "out_of_the_box": "On an office LAN it starts without a key and anyone on the network can use its API and web UI; it is the only tool here that refuses an unauthenticated start, and only for public addresses.",
+      "sources": [
+        "https://github.com/mudler/LocalAI/blob/master/core/cli/run.go",
+        "https://github.com/mudler/LocalAI/releases"
+      ],
+      "notes": "The public-address rule is taken from the flag's help text and the call site in run.go; the body of the check (requireAuthOrTrustedBind) is in another file MV2 did not read."
+    },
+    {
+      "id": "ollama",
+      "project": "Ollama",
+      "role": "model_server",
+      "release_seen": "v0.40.4",
+      "listen_direct": "127.0.0.1:11434 (OLLAMA_HOST default)",
+      "listen_container": "0.0.0.0:11434 (ENV OLLAMA_HOST=0.0.0.0:11434 in the project's Dockerfile)",
+      "credential_by_default": "none",
+      "credential_options": "none on the server; the FAQ describes no server login or API key, and the OLLAMA_AUTH setting signs the client's own requests rather than making the server demand a credential",
+      "signup_default": null,
+      "other_defaults": null,
+      "out_of_the_box": "Run directly, only programs on the same machine can use it; in the official container, anyone who can reach the published port can send prompts and manage models, because the server never asks for a credential.",
+      "sources": [
+        "https://github.com/ollama/ollama/blob/main/envconfig/config.go",
+        "https://github.com/ollama/ollama/blob/main/Dockerfile",
+        "https://github.com/ollama/ollama/blob/main/docs/faq.mdx",
+        "https://github.com/ollama/ollama/releases"
+      ],
+      "notes": "Ollama does not keep a history of prompts on the server, so reaching it lets someone use the models rather than read earlier prompts; front ends that connect to it are where history is stored. The desktop apps' 'expose to network' setting was not checked."
+    },
+    {
+      "id": "open-webui",
+      "project": "Open WebUI",
+      "role": "chat_app",
+      "release_seen": "v0.12.0",
+      "listen_direct": "0.0.0.0:8080 (HOST and PORT defaults in backend/start.sh)",
+      "listen_container": "0.0.0.0:8080 (the image runs the same start script)",
+      "credential_by_default": "login",
+      "credential_options": "accounts with admin, user and pending roles; API keys are off by default (ENABLE_API_KEYS=False)",
+      "signup_default": "open but held: ENABLE_SIGNUP=True and DEFAULT_USER_ROLE=pending, so a new account waits until an admin activates it",
+      "other_defaults": "ENABLE_ADMIN_CHAT_ACCESS=True (an admin can read any user's chat); ENABLE_ADMIN_EXPORT=True; ENABLE_COMMUNITY_SHARING=True (the share dialog can upload a chat to the Open WebUI Community site); USER_PERMISSIONS_CHAT_SHARE=True with public sharing off. These are stored settings: after the first start the values in the admin panel win over the environment.",
+      "out_of_the_box": "Anyone who can reach port 8080 can request an account, but sees nothing until an admin approves it; every admin can read every user's chats, and any user can upload a chat to an outside community site from the share dialog.",
+      "sources": [
+        "https://github.com/open-webui/open-webui/blob/main/backend/open_webui/config.py",
+        "https://github.com/open-webui/open-webui/blob/main/backend/open_webui/env.py",
+        "https://github.com/open-webui/open-webui/blob/main/backend/start.sh",
+        "https://docs.openwebui.com/reference/env-configuration/",
+        "https://docs.openwebui.com/getting-started/sharing/",
+        "https://github.com/open-webui/open-webui/releases"
+      ],
+      "notes": "The image's own Dockerfile was not read; the listen address comes from start.sh, which it runs. The docs say ENABLE_ADMIN_CHAT_ACCESS only governs the interface, and admins can still reach chats through the database or server."
+    },
+    {
+      "id": "vllm",
+      "project": "vLLM",
+      "role": "model_server",
+      "release_seen": "v0.31.0",
+      "listen_direct": "all interfaces, port 8000 (--host has no default and the launcher binds (args.host or \"\", args.port))",
+      "listen_container": null,
+      "credential_by_default": "none",
+      "credential_options": "--api-key or VLLM_API_KEY, which the docs say covers only endpoints under /v1, /v2 and /inference (the security page adds /cohere); other endpoints, including /invocations, stay open",
+      "signup_default": null,
+      "other_defaults": "The docs advise not to rely on --api-key alone and to put an allowlisting reverse proxy in front.",
+      "out_of_the_box": "Started with no options it answers anyone on the network without a key, and even with a key set some inference endpoints remain open.",
+      "sources": [
+        "https://github.com/vllm-project/vllm/blob/main/vllm/entrypoints/launchers/launcher.py",
+        "https://docs.vllm.ai/en/latest/cli/serve/",
+        "https://docs.vllm.ai/en/stable/usage/security/",
+        "https://github.com/vllm-project/vllm/releases"
+      ],
+      "notes": "vLLM's quickstart says the server starts 'at http://localhost:8000', which is the address to open, not the bind address; the launcher code binds the empty host, meaning all interfaces. The project's container image was not checked."
+    }
+  ]
+}
