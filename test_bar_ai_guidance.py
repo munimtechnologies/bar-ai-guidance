@@ -15,7 +15,7 @@ REQUIRED = [
     "url", "url_verified", "verification", "confidentiality_note",
     "in_house_tools_note", "notes",
 ]
-KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice"}
+KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice", "court_policy"}
 BINDING = {"advisory", "court_rule"}
 VERIFICATION = {"fetched", "cited"}
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
@@ -26,6 +26,8 @@ PRIMARY_HOSTS = (
     "njcourts.gov", "nycbar.org", "ncbar.gov", "pabar.org", "legalethicstexas.com",
     "alaskabar.org", "mo-legal-ethics.org", "sbnm.org", "nysba.org", "osbar.org",
     "vsb.org", "wsba.org", "wvodc.org",
+    "alabar.org", "azbar.org", "gabar.org", "iardc.org", "illinoiscourts.gov",
+    "michbar.org", "mnbars.org", "bpc.ohio.gov",
 )
 
 
@@ -43,7 +45,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 19)
+        self.assertGreaterEqual(len(self.entries), 28)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):
@@ -70,6 +72,15 @@ class GuidanceDataTest(unittest.TestCase):
             self.assertRegex(e["jurisdiction"], JURIS_RE, e["id"])
             self.assertLessEqual(e["url_verified"], self.doc["updated"], e["id"])
             self.assertLessEqual(e["date"], self.doc["updated"], e["id"])
+
+    def test_kinds_documented(self):
+        documented = {k.strip() for k in self.doc["fields"]["kind"].split("|")}
+        self.assertEqual(documented, KINDS)
+
+    def test_year_only_dates_are_explained(self):
+        for e in self.entries:
+            if len(e["date"]) == 4:
+                self.assertTrue(e["notes"], f"{e['id']}: a bare-year date needs a note saying why")
 
     def test_sorted_by_jurisdiction_with_us_first(self):
         keys = [("" if e["jurisdiction"] == "US" else e["jurisdiction"]) for e in self.entries]
