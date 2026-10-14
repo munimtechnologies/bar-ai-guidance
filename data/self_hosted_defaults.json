@@ -1,6 +1,6 @@
 {
   "dataset": "Who can reach it out of the box: default network and account settings of self-hosted AI tools, read from each project's own source and docs",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "checked": "2026-10-14",
   "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
   "license": "CC BY 4.0 for this file; each project keeps its own licence",
@@ -9,10 +9,10 @@
     "id": "stable slug",
     "project": "the project's name",
     "role": "model_server (answers prompts over an Ollama-style or OpenAI-style API, itself or by forwarding to other model servers) | chat_app (web front end with accounts and stored chat history)",
-    "release_seen": "latest release tag on the project's GitHub releases page on the checked date, as the project writes it (with or without a leading v); the source files were read from the default branch the same day",
+    "release_seen": "latest release tag on the project's GitHub releases page on the checked date, as the project writes it (with or without a leading v), or main when the project publishes no releases; the source files were read from the default branch the same day",
     "listen_direct": "the address the program listens on when started with no options",
     "listen_container": "the address in the project's own container image, compose file or documented Docker command, or null if MV2 did not check one",
-    "credential_by_default": "none = the API or app answers without any login or key | key = the API answers only with a key, and the program will not start without one | login = the app requires an account",
+    "credential_by_default": "none = the API or app answers without any login or key | key = the API answers only with a key, and the program either will not start without one or generates one itself at first start | login = the app requires an account",
     "credential_options": "what the project offers to require a key or login",
     "signup_default": "for chat apps, whether someone who can reach the app can create an account, or null for model servers",
     "other_defaults": "other defaults that bear on who can read what is entered, or null",
@@ -64,6 +64,24 @@
       "notes": "Read from the default branch; the 1.17.1 tag was not compared. That /install asks for no password when INIT_PASSWORD is empty comes from the project's documentation ('If you set it, the /install page asks for this password'); the code that turns INIT_PASSWORD into the validation-required flag was not read. What the plugin debugging port accepts was not checked."
     },
     {
+      "id": "koboldcpp",
+      "project": "KoboldCpp",
+      "role": "model_server",
+      "release_seen": "v1.123",
+      "listen_direct": "all interfaces, port 5001 (--host defaults to an empty string, which RunServerMultiThreaded passes straight to socket.bind for both IPv4 and IPv6; the flag's help says that without it all routable interfaces are accepted)",
+      "listen_container": null,
+      "credential_by_default": "none",
+      "credential_options": "--password or KCPP_PASSWORD (default none) for the text endpoints; --adminpassword or KCPP_ADMINPASSWORD for admin functions when --admin is on",
+      "signup_default": null,
+      "other_defaults": "The bundled KoboldAI Lite web UI is served on the same port. The --password help says image endpoints are not secured even when a password is set, and the code exempts image generation, upscaling, interrogation and /tts_to_audio from the password check. With no --host the startup message prints a localhost address, although the server listens on every interface. --remotetunnel (off by default) opens a Cloudflare tunnel to the internet.",
+      "out_of_the_box": "Started with no options it listens on every interface without a key, so anyone on the network can use its API and web UI, even though its startup message shows a localhost address.",
+      "sources": [
+        "https://github.com/LostRuins/koboldcpp/blob/concedo/koboldcpp.py",
+        "https://github.com/LostRuins/koboldcpp/releases"
+      ],
+      "notes": "Read from the default branch (concedo) of koboldcpp.py: the --host, --port, --password, --admin, --adminpassword and --remotetunnel flags, RunServerMultiThreaded and the handler's secure_endpoint call sites; the body of secure_endpoint was not read. The project publishes no official container image, so none was checked. Whether a password also protects the web UI page itself was not checked."
+    },
+    {
       "id": "librechat",
       "project": "LibreChat",
       "role": "chat_app",
@@ -92,17 +110,19 @@
       "credential_by_default": "key",
       "credential_options": "a master key (LITELLM_MASTER_KEY, empty in .env.example) and virtual keys issued under it; JWT, OAuth2 and OAuth2-proxy authentication can be switched on in general_settings",
       "signup_default": null,
-      "other_defaults": "The proxy refuses to start when the master key is unset, empty or a publicly known default (litellm/proxy/auth/master_key_boot_check.py), whatever address it listens on. LITELLM_DANGEROUSLY_PERMIT_WEAK_OR_UNSET_MASTER_KEY=true, or dangerously_permit_weak_or_unset_master_key in general_settings, overrides that for local development; with the override on and no master key, every request is accepted as an internal user (litellm/proxy/auth/user_api_key_auth.py).",
-      "out_of_the_box": "It listens on every interface, but it will not start until someone sets a master key that is neither empty nor a known default, so no one can use it without a key unless that check is switched off.",
+      "other_defaults": "The proxy refuses to start when the master key is unset, empty or a publicly known default (litellm/proxy/auth/master_key_boot_check.py), whatever address it listens on. LITELLM_DANGEROUSLY_PERMIT_WEAK_OR_UNSET_MASTER_KEY=true, or dangerously_permit_weak_or_unset_master_key in general_settings, overrides that for local development; with the override on and no master key, every request is accepted as an internal user (litellm/proxy/auth/user_api_key_auth.py). The check is new: it first shipped in v1.104.0 (released 3 October 2026), so earlier releases do not have it and start without a master key.",
+      "out_of_the_box": "It listens on every interface, but since v1.104.0 it will not start until someone sets a master key that is neither empty nor a known default, so no one can use it without a key unless that check is switched off.",
       "sources": [
         "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/proxy_cli.py",
         "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/auth/master_key_boot_check.py",
         "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/auth/user_api_key_auth.py",
         "https://github.com/BerriAI/litellm/blob/main/docker-compose.yml",
         "https://github.com/BerriAI/litellm/blob/main/.env.example",
+        "https://github.com/BerriAI/litellm/commits/main/litellm/proxy/auth/master_key_boot_check.py",
+        "https://github.com/BerriAI/litellm/releases/tag/v1.104.0",
         "https://github.com/BerriAI/litellm/releases"
       ],
-      "notes": "The boot check was read on the default branch and confirmed present at the v1.105.1 tag; the first release that shipped it was not confirmed, and older releases were not read. The admin web UI was not checked. The published Postgres and Prometheus ports belong to the example compose file, not to the proxy itself."
+      "notes": "The boot check was read on the default branch and confirmed present at the v1.105.1, v1.104.2 and v1.104.0 tags. The file is absent at the v1.102.4 and v1.103.0 (28 September 2026) tags; its first commit is fe48053 of 19 September 2026, and the v1.104.0 release notes list it as a breaking change (PR #42019). Patch releases on older lines were not all checked. The admin web UI was not checked. The published Postgres and Prometheus ports belong to the example compose file, not to the proxy itself."
     },
     {
       "id": "llama-cpp-server",
@@ -122,6 +142,25 @@
         "https://github.com/ggml-org/llama.cpp/releases"
       ],
       "notes": "Only the CPU Dockerfile was read; the CUDA and other variants were not."
+    },
+    {
+      "id": "lmdeploy",
+      "project": "LMDeploy (api_server)",
+      "role": "model_server",
+      "release_seen": "v0.18.0",
+      "listen_direct": "0.0.0.0, port 23333 (lmdeploy serve api_server: --server-name default '0.0.0.0'; --server-port falls back to 23333)",
+      "listen_container": null,
+      "credential_by_default": "none",
+      "credential_options": "--api-keys, an optional space-separated list of keys (default None)",
+      "signup_default": null,
+      "other_defaults": "--allow-origins defaults to ['*']. The proxy subcommand also listens on 0.0.0.0 by default.",
+      "out_of_the_box": "Started with no options it listens on every interface without a key, so anyone on the network can use its OpenAI-style API.",
+      "sources": [
+        "https://github.com/InternLM/lmdeploy/blob/main/lmdeploy/cli/serve.py",
+        "https://github.com/InternLM/lmdeploy/blob/main/lmdeploy/cli/utils.py",
+        "https://github.com/InternLM/lmdeploy/releases"
+      ],
+      "notes": "Read from the default branch; the v0.18.0 tag was not compared. Which endpoints --api-keys covers when it is set was not checked. The project's container image was not checked."
     },
     {
       "id": "localai",
@@ -203,6 +242,27 @@
       "notes": "The host and api_key defaults were read on the default branch and at the v0.5.21 tag and match. The compose file is the project's example; the default command of its published image was not read."
     },
     {
+      "id": "tabbyapi",
+      "project": "TabbyAPI",
+      "role": "model_server",
+      "release_seen": "main",
+      "listen_direct": "127.0.0.1:5000 (host and port defaults in common/config_models.py and config_sample.yml)",
+      "listen_container": "0.0.0.0 (docker/Dockerfile runs main.py --host 0.0.0.0; docker/docker-compose.yml publishes 5000 on every host interface)",
+      "credential_by_default": "key",
+      "credential_options": "an API key and an admin key, read from api_tokens.yml and accepted in the x-api-key, x-admin-key or Authorization: Bearer header; disable_auth: true turns checking off",
+      "signup_default": null,
+      "other_defaults": "When api_tokens.yml is missing, TabbyAPI generates a random API key and admin key (secrets.token_hex(16) each) at first start, writes them to that file and prints both to its log, so it never runs without a key unless disable_auth is set. disable_auth defaults to false. allowed_origins defaults to [\"*\"]; the config warns this matters most when auth is off. The admin key is also accepted as an API key.",
+      "out_of_the_box": "Run directly, only the same machine can reach it; in the project's container it listens on every interface, but every request needs one of the random keys it generates at first start and prints to its log.",
+      "sources": [
+        "https://github.com/theroyallab/tabbyAPI/blob/main/common/config_models.py",
+        "https://github.com/theroyallab/tabbyAPI/blob/main/config_sample.yml",
+        "https://github.com/theroyallab/tabbyAPI/blob/main/common/auth.py",
+        "https://github.com/theroyallab/tabbyAPI/blob/main/docker/Dockerfile",
+        "https://github.com/theroyallab/tabbyAPI/blob/main/docker/docker-compose.yml"
+      ],
+      "notes": "The project publishes no GitHub releases, so the default branch is the version recorded. Because the generated keys are printed to the log, anyone who can read the container's or console's log can read the keys; who can read those logs was not checked."
+    },
+    {
       "id": "text-generation-webui",
       "project": "text-generation-webui",
       "role": "chat_app",
@@ -243,6 +303,27 @@
         "https://github.com/vllm-project/vllm/releases"
       ],
       "notes": "vLLM's quickstart says the server starts 'at http://localhost:8000', which is the address to open, not the bind address; the launcher code binds the empty host, meaning all interfaces. The project's container image was not checked."
+    },
+    {
+      "id": "xinference",
+      "project": "Xinference",
+      "role": "model_server",
+      "release_seen": "v4.0.0",
+      "listen_direct": "127.0.0.1:9997 for xinference-local (XINFERENCE_DEFAULT_LOCAL_HOST); 0.0.0.0:9997 for xinference-supervisor in a cluster (XINFERENCE_DEFAULT_DISTRIBUTED_HOST)",
+      "listen_container": "0.0.0.0 (the documented docker run command starts xinference-local -H 0.0.0.0 and publishes port 9997)",
+      "credential_by_default": "login",
+      "credential_options": "database-backed user accounts and API keys, on unless XINFERENCE_AUTH_ADVANCED is set to 0, false or no; OIDC sign-in is off by default",
+      "signup_default": null,
+      "other_defaults": "No admin account exists at first start. Until one does, the unauthenticated setup endpoint (POST /v1/admin/setup) and the web UI's setup page let whoever reaches them first create the first admin; after that the endpoint refuses. Setting XINFERENCE_AUTH_ADVANCED=0 runs with no authentication at all.",
+      "out_of_the_box": "It requires a login once set up, but until the first admin exists, whoever reaches its setup page first becomes the administrator, and in the documented Docker command that page is reachable from the whole network.",
+      "sources": [
+        "https://github.com/xorbitsai/inference/blob/main/xinference/constants.py",
+        "https://github.com/xorbitsai/inference/blob/main/xinference/deploy/cmdline.py",
+        "https://inference.readthedocs.io/en/latest/user_guide/auth_system.html",
+        "https://inference.readthedocs.io/en/latest/getting_started/using_docker_image.html",
+        "https://github.com/xorbitsai/inference/releases"
+      ],
+      "notes": "The auth default (is_auth_advanced) and listen defaults were read on the default branch; the setup endpoint and first-caller rule come from the project's documentation, which says authentication is on by default since v3.0; the endpoint's code was not read. The published image's own default command was not read; the container address is from the documented command."
     }
   ]
 }

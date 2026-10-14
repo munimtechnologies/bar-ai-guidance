@@ -20,10 +20,10 @@ REQUIRED = [
 ROLES = {"model_server", "chat_app"}
 CREDENTIAL = {"none", "key", "login"}
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-TAG_RE = re.compile(r"^v?\d+(\.\d+)*$")
+TAG_RE = re.compile(r"^(v?\d+(\.\d+)*|main)$")
 SOURCE_HOSTS = (
     "github.com", "docs.vllm.ai", "docs.openwebui.com", "docs.anythingllm.com",
-    "docs.useanything.com", "docs.dify.ai",
+    "docs.useanything.com", "docs.dify.ai", "inference.readthedocs.io",
 )
 
 
@@ -41,7 +41,7 @@ class SelfHostedDefaultsTest(unittest.TestCase):
         for key in ("dataset", "version", "checked", "license", "purpose", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["checked"]))
-        self.assertGreaterEqual(len(self.entries), 11)
+        self.assertGreaterEqual(len(self.entries), 15)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_entries_have_exactly_the_fields(self):
@@ -68,6 +68,11 @@ class SelfHostedDefaultsTest(unittest.TestCase):
         for value in CREDENTIAL:
             self.assertIn(f"{value} = ", fields["credential_by_default"])
 
+    def test_release_main_only_without_releases(self):
+        for e in self.entries:
+            if e["release_seen"] == "main":
+                self.assertIn("no GitHub releases", e["notes"] or "", e["id"])
+
     def test_signup_only_for_chat_apps(self):
         for e in self.entries:
             if e["role"] == "model_server":
@@ -75,10 +80,11 @@ class SelfHostedDefaultsTest(unittest.TestCase):
             else:
                 self.assertTrue(e["signup_default"], e["id"])
 
-    def test_key_entries_say_how_start_is_refused(self):
+    def test_key_entries_say_how_a_keyless_start_is_avoided(self):
         for e in self.entries:
             if e["credential_by_default"] == "key":
-                self.assertIn("refuses to start", e["other_defaults"] or "", e["id"])
+                text = e["other_defaults"] or ""
+                self.assertTrue("refuses to start" in text or "generates" in text, e["id"])
 
     def test_every_entry_says_where_it_listens(self):
         for e in self.entries:
