@@ -18,12 +18,14 @@ REQUIRED = [
 KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice"}
 BINDING = {"advisory", "court_rule"}
 VERIFICATION = {"fetched", "cited"}
-DATE_RE = re.compile(r"^\d{4}-\d{2}(-\d{2})?$")
+DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 JURIS_RE = re.compile(r"^(US|DC|[A-Z]{2})$")
 PRIMARY_HOSTS = (
     "americanbar.org", "calbar.ca.gov", "dcbar.org", "floridabar.org", "kybar.org",
     "njcourts.gov", "nycbar.org", "ncbar.gov", "pabar.org", "legalethicstexas.com",
+    "alaskabar.org", "mo-legal-ethics.org", "sbnm.org", "nysba.org", "osbar.org",
+    "vsb.org", "wsba.org", "wvodc.org",
 )
 
 
@@ -41,7 +43,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 10)
+        self.assertGreaterEqual(len(self.entries), 19)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):
@@ -67,6 +69,11 @@ class GuidanceDataTest(unittest.TestCase):
             self.assertRegex(e["url_verified"], DAY_RE, e["id"])
             self.assertRegex(e["jurisdiction"], JURIS_RE, e["id"])
             self.assertLessEqual(e["url_verified"], self.doc["updated"], e["id"])
+            self.assertLessEqual(e["date"], self.doc["updated"], e["id"])
+
+    def test_sorted_by_jurisdiction_with_us_first(self):
+        keys = [("" if e["jurisdiction"] == "US" else e["jurisdiction"]) for e in self.entries]
+        self.assertEqual(keys, sorted(keys))
 
     def test_urls_are_primary_https(self):
         for e in self.entries:
