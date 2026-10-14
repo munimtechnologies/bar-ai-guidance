@@ -1,6 +1,6 @@
 {
-  "dataset": "US bar and court guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.4.0",
+  "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
+  "version": "0.5.0",
   "updated": "2026-10-14",
   "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -9,13 +9,13 @@
     "jurisdiction": "two-letter state code, DC, or US for national bodies",
     "issuer": "the body that issued the document",
     "title": "the document's own title",
-    "number": "opinion or notice number as the issuer cites it, or null",
+    "number": "opinion, notice or chapter number as the issuer cites it, or null",
     "date": "YYYY-MM-DD when the document states a day, else YYYY-MM, else YYYY when only the year is known (the entry's notes then say how the year was established)",
-    "kind": "formal_opinion | advisory_opinion | guidance | court_notice | court_policy | rule_amendment",
-    "binding": "advisory | court_rule",
-    "url": "primary source only: the issuing bar, court or association",
+    "kind": "formal_opinion | advisory_opinion | guidance | court_notice | court_policy | rule_amendment | statute",
+    "binding": "advisory | court_rule | statute",
+    "url": "primary source only: the issuing bar, court, association or legislature",
     "url_verified": "date MV2 last checked the URL",
-    "verification": "fetched = the page or file was retrieved and its title matched; cited = the URL came from the issuer's own site search results or the issuer's own index page and was not retrieved",
+    "verification": "fetched = the page or file was retrieved and its title matched; cited = the URL is the issuer's own address, taken from the issuer's site or from search results for that page, and was not retrieved",
     "confidentiality_note": "MV2's one-sentence paraphrase of the confidentiality point, not a quotation",
     "in_house_tools_note": "what, if anything, the document says about tools run inside the firm, or null",
     "notes": "anything a reader should know, or null"
@@ -115,7 +115,23 @@
       "verification": "fetched",
       "confidentiality_note": "A lawyer must not put confidential client information into a generative AI tool that poses material confidentiality or security risks without the client's informed consent, and must take reasonable steps, beyond trusting marketing claims, to learn how the tool collects, uses, stores and discloses what is entered, consulting IT or security experts where needed.",
       "in_house_tools_note": "Says a tool that neither trains on nor shares inputs may still lack adequate security, that risk rises from isolated prompt tools to integrated systems to autonomous agents, and that agentic systems with access to firm email, document stores or client files need a limited scope, monitoring and access controls so they cannot leak information across matters or send it out without human review.",
-      "notes": "The 2026 revision, approved by the Board of Trustees on 14 May 2026 (per the bar's Ethics & Technology Resources page), replaces the November 2023 version and adds agentic AI at the California Supreme Court's request. MV2 read the text of the 9-page PDF on 2026-10-14; its executive summary says it replaces the 2023 version. The 2023 file was at calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf. Separately, proposed amendments to Rules 1.1, 1.4, 1.6, 3.3, 5.1 and 5.3 on AI went out for public comment in 2026; MV2 found no Supreme Court order adopting them as of 2026-10-14. Also covers fees: subscription costs for general AI tools are overhead."
+      "notes": "The 2026 revision, approved by the Board of Trustees on 14 May 2026 (per the bar's Ethics & Technology Resources page), replaces the November 2023 version and adds agentic AI at the California Supreme Court's request. MV2 read the text of the 9-page PDF on 2026-10-14; its executive summary says it replaces the 2023 version. The 2023 file was at calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf. Separately, proposed amendments to Rules 1.1, 1.4, 1.6, 3.3, 5.1 and 5.3 on AI went out for public comment in 2026 (the second comment period closed 6 August 2026); MV2 found no Supreme Court order adopting them as of 2026-10-14. California's statute on lawyers' AI use, effective 1 January 2027, is ca-sb-574. Also covers fees: subscription costs for general AI tools are overhead."
+    },
+    {
+      "id": "ca-sb-574",
+      "jurisdiction": "CA",
+      "issuer": "California Legislature (Senate Bill 574, approved by the Governor)",
+      "title": "SB 574: Attorneys, arbitrators, judicial officers, and alternative resolution providers",
+      "number": "Statutes of 2026, Chapter 858",
+      "date": "2026-09-30",
+      "kind": "statute",
+      "binding": "statute",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB574",
+      "url_verified": "2026-10-14",
+      "verification": "cited",
+      "confidentiality_note": "From 1 January 2027 an attorney may not enter confidential, personal identifying or other nonpublic information into a generative AI system unless access to it is limited to the attorney and authorised persons who are themselves bound to keep it confidential; the same new section bars delegating the practice of law to generative AI and requires reasonable steps to check AI output, including every citation.",
+      "in_house_tools_note": "Law-firm summaries say the confidentiality test turns on who can access what is entered, not on whether a product is public, enterprise or run by the firm; none of the summaries MV2 read mentions self-hosted tools.",
+      "notes": "Adds Business and Professions Code section 6068.1 and amends Code of Civil Procedure section 128.7 so that no court filing may contain a citation the responsible attorney has not personally verified; also bars arbitrators from delegating decisions to generative AI (new CCP section 1282.1) and has the Judicial Council revisit its standard on judges' use of it. Attorneys must also disclose generative AI use to the court for documents they submit; commentators note the law does not say what form that takes. Signed 30 September 2026 (the Governor's office release of that date, which MV2 fetched, lists it), effective 1 January 2027. leginfo.legislature.ca.gov returned HTTP 403 to MV2's automated fetch on 2026-10-14, so the statute text was not read: the chapter number comes from a Morgan Lewis alert (2 October 2026) and the paraphrase from Holland & Knight (1 October 2026), Morgan Lewis and Alston & Bird summaries. The first state statute on lawyers' use of generative AI, according to those firms."
     },
     {
       "id": "co-rule-change-2026-02",
@@ -180,6 +196,22 @@
       "confidentiality_note": "Do not put confidential client information into a generative AI tool that lacks adequate confidentiality, anonymise client data, check a vendor's security, and consider informed consent; standard click-through terms may exclude any duty of confidentiality, which enterprise plans with contractual data limits address.",
       "in_house_tools_note": null,
       "notes": "A living document; the first version is dated July 2025 and the current one is reported as last updated 9 July 2026, which matches the internal modification stamp of the 16-page PDF MV2 retrieved. MV2's tool did not extract the PDF text; the paraphrase comes from the Rule 1.6 and 5.3 sections of the bar's own AI and Emerging Technology page (gabar.org/programs/law-practice-management/ai-and-emerging-tech), which links the toolkit. Secondary sources say the bar chose a toolkit instead of a formal advisory opinion."
+    },
+    {
+      "id": "hi-chief-justice-letter-2025",
+      "jurisdiction": "HI",
+      "issuer": "Supreme Court of Hawaiʻi (letter of Chief Justice Mark E. Recktenwald to the Hawaii State Bar Association)",
+      "title": "Artificial Intelligence (AI) in the Practice of Law in Hawaiʻi",
+      "number": null,
+      "date": "2025-01-21",
+      "kind": "court_notice",
+      "binding": "advisory",
+      "url": "https://www.courts.state.hi.us/wp-content/uploads/2025/12/121625_SCMF-24-305_CommitteeOnArtificialIntelligenceAndTheCourts_FinalReport.pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Gives initial guidance that the existing Hawaiʻi rules already govern lawyers' use of AI, names Rule 1.6 on confidentiality among the rules every lawyer using AI should know, and points to ABA Opinion 512's duty to protect client information.",
+      "in_house_tools_note": null,
+      "notes": "The letter, dated 21 January 2025 and addressed to the HSBA president for circulation to members, is Appendix 4 of the Committee on Artificial Intelligence and the Courts' final report to the Hawaiʻi Supreme Court (dated 15 December 2025, filed 16 December 2025 in SCMF-24-0000305); MV2 read the report's pages. The letter also lists Rules 1.1, 1.3, 1.4, 1.15, 3.1, 3.3, 3.4 and 5.3 and Hawaiʻi Rules of Civil Procedure 11 and 37. The report says a proposed order and declaration on AI use in court filings was under consideration by the Supreme Court, and its Appendix 3 holds the Judiciary's own AI guardrails for staff. MV2 found no Hawaii State Bar formal ethics opinion on AI."
     },
     {
       "id": "il-ardc-implementing-ai",
@@ -342,6 +374,22 @@
       "notes": "A 30 March 2026 Notice to the Bar adds a sample starter AI policy template and encourages firms to adopt written AI policies."
     },
     {
+      "id": "nj-njsba-task-force-2024",
+      "jurisdiction": "NJ",
+      "issuer": "New Jersey State Bar Association, Task Force on Artificial Intelligence (AI) and the Law",
+      "title": "Task Force on Artificial Intelligence (AI) and the Law: Report, Requests, Recommendations, and Findings",
+      "number": null,
+      "date": "2024-05",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://njsba.com/wp-content/uploads/2024/05/NJSBA-TASK-FORCE-ON-AI-AND-THE-LAW-REPORT-final.pdf",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Before adopting an AI tool a firm should find out and document how client data is transmitted, used and stored and judge from that whether the tool can keep it confidential, and every firm should adopt a written AI policy with a risk assessment framework.",
+      "in_house_tools_note": null,
+      "notes": "A 36-page report of the bar association's 27-member task force, dated May 2024 on its cover; MV2 read its cover, summary of findings and vendor appendix. Appendices give a sample AI use policy and questions to ask vendors, including data ownership and access, breach notification, retention and deletion, subcontractors and data handling after the contract ends. It also suggests that some responsibility for protecting data may shift to technology providers. A second copy sits under /wp-content/uploads/2025/12/ on the same site. Not an ethics opinion; the Supreme Court's own guidelines are nj-preliminary-guidelines."
+    },
+    {
       "id": "nm-2024-004",
       "jurisdiction": "NM",
       "issuer": "State Bar of New Mexico, Ethics Advisory Committee",
@@ -371,7 +419,7 @@
       "verification": "cited",
       "confidentiality_note": "Lawyers must make sure a generative AI tool meets confidentiality requirements and that anything shared with it is secure, following the format of California's 2023 guidance.",
       "in_house_tools_note": null,
-      "notes": "A city bar opinion, not a state-wide one. For the state bar's April 2024 report see ny-nysba-task-force-2024; for the City Bar's later opinion on AI that records client calls see ny-nycbar-2025-6."
+      "notes": "A city bar opinion, not a state-wide one. For the state bar's April 2024 report see ny-nysba-task-force-2024; for the City Bar's later opinions on AI that records calls see ny-nycbar-2025-6 (clients) and ny-nycbar-2026-2 (non-clients)."
     },
     {
       "id": "ny-nycbar-2025-6",
@@ -388,6 +436,22 @@
       "confidentiality_note": "Clients must be told, and must agree, whenever an AI system records their calls; lawyers must safeguard the recordings, transcripts and summaries under Rule 1.6, find out where they are stored, for how long, whether they train the tool and whether they could be reached in discovery, and keep to any no-retention policy they announce.",
       "in_house_tools_note": "Distinguishes tools the lawyer controls from tools controlled by a vendor or by the client; it does not address on-premises or locally run tools specifically.",
       "notes": "A city bar opinion. Reaffirms the City Bar's Opinion 2003-02 that wanting an accurate record does not justify undisclosed taping, points to two-party consent and biometric-privacy laws, and says lawyers should know how to switch off default recording in meeting platforms and review AI summaries promptly."
+    },
+    {
+      "id": "ny-nycbar-2026-2",
+      "jurisdiction": "NY",
+      "issuer": "New York City Bar Association, Committee on Professional Ethics",
+      "title": "Ethical Issues Affecting Use of AI to Record, Transcribe, and Summarize Conversations with Persons Who Are Not Clients",
+      "number": "Formal Opinion 2026-2",
+      "date": "2026-08-05",
+      "kind": "formal_opinion",
+      "binding": "advisory",
+      "url": "https://www.nycbar.org/reports/formal-opinion-2026-2-ethical-use-of-ai-for-recording-transcribing-and-summarizing-non-client-conversations/",
+      "url_verified": "2026-10-14",
+      "verification": "fetched",
+      "confidentiality_note": "Lawyers must get every participant's consent before an AI tool records a call and must understand how the tool stores and shares recordings, transcripts and summaries because confidentiality and privilege are at stake; by default they should not record calls with non-clients at all.",
+      "in_house_tools_note": "Notes that when a client or another participant runs their own recording tool the lawyer has no control over its security and may not see its transcripts; it does not discuss locally run tools.",
+      "notes": "MV2 read the text of the 4-page PDF linked from the report page (nycbar.org/wp-content/uploads/2026/08/20221672-AiRecordingEthicsOpinion.pdf); the page is dated 5 August 2026. Extends Opinion 2025-6 (ny-nycbar-2025-6) to co-counsel, prospective clients, opposing counsel, witnesses and investigators. Warns that witness recordings may be discoverable and that a recording of a prospective client the firm turned down, kept inside the firm, can create Rule 1.18 conflicts. A footnote allows a different balance for a lawyer with a hearing impairment."
     },
     {
       "id": "ny-nysba-task-force-2024",

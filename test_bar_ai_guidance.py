@@ -16,8 +16,8 @@ REQUIRED = [
     "in_house_tools_note", "notes",
 ]
 KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice", "court_policy",
-         "rule_amendment"}
-BINDING = {"advisory", "court_rule"}
+         "rule_amendment", "statute"}
+BINDING = {"advisory", "court_rule", "statute"}
 VERIFICATION = {"fetched", "cited"}
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -30,6 +30,7 @@ PRIMARY_HOSTS = (
     "alabar.org", "azbar.org", "gabar.org", "iardc.org", "illinoiscourts.gov",
     "michbar.org", "mnbars.org", "bpc.ohio.gov",
     "azcourts.gov", "coloradojudicial.gov", "nhbar.org", "sccourts.org",
+    "legislature.ca.gov", "courts.state.hi.us", "njsba.com",
 )
 
 
@@ -47,7 +48,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 34)
+        self.assertGreaterEqual(len(self.entries), 38)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):
@@ -79,15 +80,28 @@ class GuidanceDataTest(unittest.TestCase):
         documented = {k.strip() for k in self.doc["fields"]["kind"].split("|")}
         self.assertEqual(documented, KINDS)
 
+    def test_bindings_documented(self):
+        documented = {k.strip() for k in self.doc["fields"]["binding"].split("|")}
+        self.assertEqual(documented, BINDING)
+
     def test_rule_amendments_are_court_rules(self):
         for e in self.entries:
             if e["kind"] == "rule_amendment":
                 self.assertEqual(e["binding"], "court_rule", e["id"])
 
+    def test_statutes_pair_with_statute_binding(self):
+        for e in self.entries:
+            self.assertEqual(e["kind"] == "statute", e["binding"] == "statute", e["id"])
+
     def test_year_only_dates_are_explained(self):
         for e in self.entries:
             if len(e["date"]) == 4:
                 self.assertTrue(e["notes"], f"{e['id']}: a bare-year date needs a note saying why")
+
+    def test_cited_entries_are_explained(self):
+        for e in self.entries:
+            if e["verification"] == "cited":
+                self.assertTrue(e["notes"], f"{e['id']}: an unretrieved URL needs notes")
 
     def test_sorted_by_jurisdiction_with_us_first(self):
         keys = [("" if e["jurisdiction"] == "US" else e["jurisdiction"]) for e in self.entries]
