@@ -56,7 +56,7 @@ If a link has moved, a date is wrong, or a jurisdiction is missing, open an issu
 
 ## Licence
 
-The index (this repository's data and text) is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); cite "bar-ai-guidance, MV2 of Munim, Inc.". The test code is MIT (see `LICENSE`). Each linked opinion, notice or statute remains under its issuer's own terms; this index links to them and paraphrases, it does not copy them.
+The index (this repository's data and text) is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); cite "bar-ai-guidance, MV2 of Munim, Inc.". The test code is Apache-2.0 (see `LICENSE`). Each linked opinion, notice or statute remains under its issuer's own terms; this index links to them and paraphrases, it does not copy them.
 
 ## Related
 
