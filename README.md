@@ -25,16 +25,16 @@ By October 2026 more than twenty-five US jurisdictions had issued opinions, guid
 
 The guidance index is at version 0.5.0 (14 October 2026), with 38 entries from the ABA, 26 states and DC: AK, AL, AZ (Supreme Court committee best practices and State Bar guidance), CA (State Bar guidance and SB 574), CO, DC, FL, GA, HI, IL (Supreme Court policy and ARDC guide), KY, MI, MN, MO (two informal opinions), NC, NH, NJ (Supreme Court guidelines and State Bar Association task force report), NM, NY (three City Bar opinions and the State Bar Task Force report), OH, OR (two formal opinions), PA, SC, TX, VA (bar guidance and LEO 1901 on fees), WA and WV. Where MV2's tool could not extract a PDF's text, the entry's `notes` say so and say where the date and paraphrase came from; where the text was read, the notes say that too.
 
-## New in 0.6.0: who can reach a self-hosted AI tool out of the box
+## Who can reach a self-hosted AI tool out of the box (0.7.0: eleven tools)
 
-California's **SB 574** (in force 1 January 2027) asks whether access to what an attorney enters into a generative AI system is restricted to the attorney and authorised persons. For a firm that runs its own AI, the answer depends on software settings. `data/self_hosted_defaults.json` records them as shipped for seven tools (Ollama, llama.cpp, vLLM, LocalAI, Open WebUI, LibreChat, AnythingLLM): the address each listens on when started directly and in the project's own container, whether it asks for a credential, whether anyone can sign up, and the admin and sharing defaults. Each fact links the source file or doc page it was read from, and each entry says what was not checked.
+California's **SB 574** (in force 1 January 2027) asks whether access to what an attorney enters into a generative AI system is restricted to the attorney and authorised persons. For a firm that runs its own AI, the answer depends on software settings. `data/self_hosted_defaults.json` records them as shipped for eleven tools: six model servers (Ollama, llama.cpp, SGLang, vLLM, LocalAI, LiteLLM Proxy) and five chat apps (AnythingLLM, text-generation-webui, LibreChat, Dify, Open WebUI). For each it gives the address the tool listens on when started directly and in the project's own container, whether it asks for a credential, whether anyone can sign up, and the admin and sharing defaults. Each fact links the source file or doc page it was read from, and each entry says what was not checked. 0.7.0 added SGLang, LiteLLM Proxy, text-generation-webui and Dify to the seven tools of 0.6.0.
 
 What it shows ([full write-up](analysis/sb574-self-hosted-defaults.md)):
 
-- None of the four model servers asks for a credential by default. Ollama and llama.cpp stay on the machine when started directly, but their own container images listen on all interfaces. vLLM and LocalAI listen on all interfaces even when started directly.
-- LocalAI is the only tool that refuses an unsafe start, and only on a public address. It starts without a credential on an office LAN.
-- AnythingLLM's Docker install has no login until one is turned on. LibreChat lets anyone who reaches it register. Open WebUI holds new sign-ups for admin approval, but lets every admin read every user's chat and shows a button that uploads a chat to an outside site.
-- In six of the seven, someone never given an account can, as shipped, either use the model or create an account and use the app. Self-hosting does not restrict access by itself; changed settings do.
+- Five of the six model servers ask for no credential by default. Ollama, llama.cpp and SGLang stay on the machine when started directly, but their own container or compose setups listen on all interfaces. vLLM and LocalAI listen on all interfaces even when started directly.
+- Two tools refuse an unsafe start. LocalAI does so only on a public address and starts without a credential on an office LAN. LiteLLM's proxy will not start at all until a master key is set that is neither empty nor a known default, whatever address it listens on.
+- AnythingLLM's Docker install and text-generation-webui's container have no login until one is turned on. LibreChat lets anyone who reaches it register. Dify is invitation-only once set up, but until the first admin exists whoever opens `/install` first owns it. Open WebUI holds new sign-ups for admin approval, but lets every admin read every user's chat and shows a button that uploads a chat to an outside site.
+- In eight of the eleven, someone never given an account can, as shipped, either use the model or create an account and use the app; Dify allows it only before setup. Self-hosting does not restrict access by itself; changed settings do.
 
 This is a record of defaults on 14 October 2026, not a view on whether any office meets SB 574.
 
@@ -53,7 +53,7 @@ python -m unittest test_bar_ai_guidance test_self_hosted_defaults
 python -c "import json; d=json.load(open('data/guidance.json')); print(len(d['entries']))"
 ```
 
-`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, and that it draws no legal conclusions.
+`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, that a tool marked as requiring a key says how it refuses to start without one, and that the file draws no legal conclusions.
 
 ## Corrections
 

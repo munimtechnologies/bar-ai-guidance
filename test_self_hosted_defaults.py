@@ -18,12 +18,12 @@ REQUIRED = [
     "out_of_the_box", "sources", "notes",
 ]
 ROLES = {"model_server", "chat_app"}
-CREDENTIAL = {"none", "login"}
+CREDENTIAL = {"none", "key", "login"}
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-TAG_RE = re.compile(r"^v\d+(\.\d+)*$")
+TAG_RE = re.compile(r"^v?\d+(\.\d+)*$")
 SOURCE_HOSTS = (
     "github.com", "docs.vllm.ai", "docs.openwebui.com", "docs.anythingllm.com",
-    "docs.useanything.com",
+    "docs.useanything.com", "docs.dify.ai",
 )
 
 
@@ -41,7 +41,7 @@ class SelfHostedDefaultsTest(unittest.TestCase):
         for key in ("dataset", "version", "checked", "license", "purpose", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["checked"]))
-        self.assertGreaterEqual(len(self.entries), 7)
+        self.assertGreaterEqual(len(self.entries), 11)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_entries_have_exactly_the_fields(self):
@@ -61,9 +61,12 @@ class SelfHostedDefaultsTest(unittest.TestCase):
             self.assertIn(e["credential_by_default"], CREDENTIAL, e["id"])
             self.assertRegex(e["release_seen"], TAG_RE, e["id"])
 
-    def test_roles_documented(self):
-        documented = set(re.findall(r"\b(model_server|chat_app)\b", self.doc["fields"]["role"]))
+    def test_enums_documented(self):
+        fields = self.doc["fields"]
+        documented = set(re.findall(r"\b(model_server|chat_app)\b", fields["role"]))
         self.assertEqual(documented, ROLES)
+        for value in CREDENTIAL:
+            self.assertIn(f"{value} = ", fields["credential_by_default"])
 
     def test_signup_only_for_chat_apps(self):
         for e in self.entries:
@@ -71,6 +74,11 @@ class SelfHostedDefaultsTest(unittest.TestCase):
                 self.assertIsNone(e["signup_default"], e["id"])
             else:
                 self.assertTrue(e["signup_default"], e["id"])
+
+    def test_key_entries_say_how_start_is_refused(self):
+        for e in self.entries:
+            if e["credential_by_default"] == "key":
+                self.assertIn("refuses to start", e["other_defaults"] or "", e["id"])
 
     def test_every_entry_says_where_it_listens(self):
         for e in self.entries:

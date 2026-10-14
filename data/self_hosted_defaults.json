@@ -1,6 +1,6 @@
 {
   "dataset": "Who can reach it out of the box: default network and account settings of self-hosted AI tools, read from each project's own source and docs",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "checked": "2026-10-14",
   "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
   "license": "CC BY 4.0 for this file; each project keeps its own licence",
@@ -8,11 +8,11 @@
   "fields": {
     "id": "stable slug",
     "project": "the project's name",
-    "role": "model_server (answers prompts; Ollama-style or OpenAI-style API) | chat_app (web front end with accounts and stored chat history)",
-    "release_seen": "latest release tag on the project's GitHub releases page on the checked date; the source files were read from the default branch the same day",
+    "role": "model_server (answers prompts over an Ollama-style or OpenAI-style API, itself or by forwarding to other model servers) | chat_app (web front end with accounts and stored chat history)",
+    "release_seen": "latest release tag on the project's GitHub releases page on the checked date, as the project writes it (with or without a leading v); the source files were read from the default branch the same day",
     "listen_direct": "the address the program listens on when started with no options",
     "listen_container": "the address in the project's own container image, compose file or documented Docker command, or null if MV2 did not check one",
-    "credential_by_default": "none = the API or app answers without any login or key | login = the app requires an account",
+    "credential_by_default": "none = the API or app answers without any login or key | key = the API answers only with a key, and the program will not start without one | login = the app requires an account",
     "credential_options": "what the project offers to require a key or login",
     "signup_default": "for chat apps, whether someone who can reach the app can create an account, or null for model servers",
     "other_defaults": "other defaults that bear on who can read what is entered, or null",
@@ -41,6 +41,29 @@
       "notes": "Read from the project's documentation, which states that a local instance has no authentication by default and that the standard Docker command binds port 3001 to every interface. The desktop app was not checked."
     },
     {
+      "id": "dify",
+      "project": "Dify (Docker Compose)",
+      "role": "chat_app",
+      "release_seen": "1.17.1",
+      "listen_direct": null,
+      "listen_container": "ports 80 and 443 published on every host interface by the nginx service (EXPOSE_NGINX_PORT=80 and EXPOSE_NGINX_SSL_PORT=443 in docker/.env.example); the plugin daemon's debugging port 5003 is also published",
+      "credential_by_default": "login",
+      "credential_options": "email and password login (ENABLE_EMAIL_PASSWORD_LOGIN=True); email-code login and GitHub/Google login are off by default; INIT_PASSWORD, when set, gates the one-time /install page",
+      "signup_default": "closed once set up: ALLOW_REGISTER=False and ALLOW_CREATE_WORKSPACE=False, so new members come by workspace invitation; but INIT_PASSWORD is empty, so until the first admin exists whoever opens /install first creates the admin account",
+      "other_defaults": "Setup refuses to run again once a setup time is recorded or any workspace exists (api/services/setup_service.py), so the open /install window closes when the first admin is created.",
+      "out_of_the_box": "After setup only invited members can sign in; before it, anyone who can reach port 80 can open /install and make themselves the workspace owner, because no setup password is set by default.",
+      "sources": [
+        "https://github.com/langgenius/dify/blob/main/docker/.env.example",
+        "https://github.com/langgenius/dify/blob/main/docker/docker-compose.yaml",
+        "https://github.com/langgenius/dify/blob/main/api/configs/feature/__init__.py",
+        "https://github.com/langgenius/dify/blob/main/api/services/setup_service.py",
+        "https://github.com/langgenius/dify/blob/main/api/services/init_validation_service.py",
+        "https://docs.dify.ai/en/self-host/deploy/configuration/environments",
+        "https://github.com/langgenius/dify/releases"
+      ],
+      "notes": "Read from the default branch; the 1.17.1 tag was not compared. That /install asks for no password when INIT_PASSWORD is empty comes from the project's documentation ('If you set it, the /install page asks for this password'); the code that turns INIT_PASSWORD into the validation-required flag was not read. What the plugin debugging port accepts was not checked."
+    },
+    {
       "id": "librechat",
       "project": "LibreChat",
       "role": "chat_app",
@@ -58,6 +81,28 @@
         "https://github.com/danny-avila/LibreChat/releases"
       ],
       "notes": "Values are those in the example environment file that the install instructions copy to .env; an operator who edits .env before first start changes them."
+    },
+    {
+      "id": "litellm-proxy",
+      "project": "LiteLLM Proxy",
+      "role": "model_server",
+      "release_seen": "v1.105.1",
+      "listen_direct": "0.0.0.0:4000 (--host and --port defaults in litellm/proxy/proxy_cli.py)",
+      "listen_container": "port 4000 published on every host interface (docker-compose.yml maps \"4000:4000\"); the same file also publishes its Postgres database on 5432, with a fixed password written in the file, and Prometheus on 9090",
+      "credential_by_default": "key",
+      "credential_options": "a master key (LITELLM_MASTER_KEY, empty in .env.example) and virtual keys issued under it; JWT, OAuth2 and OAuth2-proxy authentication can be switched on in general_settings",
+      "signup_default": null,
+      "other_defaults": "The proxy refuses to start when the master key is unset, empty or a publicly known default (litellm/proxy/auth/master_key_boot_check.py), whatever address it listens on. LITELLM_DANGEROUSLY_PERMIT_WEAK_OR_UNSET_MASTER_KEY=true, or dangerously_permit_weak_or_unset_master_key in general_settings, overrides that for local development; with the override on and no master key, every request is accepted as an internal user (litellm/proxy/auth/user_api_key_auth.py).",
+      "out_of_the_box": "It listens on every interface, but it will not start until someone sets a master key that is neither empty nor a known default, so no one can use it without a key unless that check is switched off.",
+      "sources": [
+        "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/proxy_cli.py",
+        "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/auth/master_key_boot_check.py",
+        "https://github.com/BerriAI/litellm/blob/main/litellm/proxy/auth/user_api_key_auth.py",
+        "https://github.com/BerriAI/litellm/blob/main/docker-compose.yml",
+        "https://github.com/BerriAI/litellm/blob/main/.env.example",
+        "https://github.com/BerriAI/litellm/releases"
+      ],
+      "notes": "The boot check was read on the default branch and confirmed present at the v1.105.1 tag; the first release that shipped it was not confirmed, and older releases were not read. The admin web UI was not checked. The published Postgres and Prometheus ports belong to the example compose file, not to the proxy itself."
     },
     {
       "id": "llama-cpp-server",
@@ -89,7 +134,7 @@
       "credential_options": "API keys via LOCALAI_API_KEY or API_KEY (empty by default), or its user database",
       "signup_default": null,
       "other_defaults": "The web UI is on by default (DisableWebUI default false). LocalAI refuses to start on a public address, or on a wildcard address when the host has a public interface, unless API keys or its user database are set up or LOCALAI_ALLOW_INSECURE_PUBLIC_BIND is set; loopback, RFC 1918 LAN, ULA, link-local and CGNAT (Tailscale) addresses are accepted without any credential.",
-      "out_of_the_box": "On an office LAN it starts without a key and anyone on the network can use its API and web UI; it is the only tool here that refuses an unauthenticated start, and only for public addresses.",
+      "out_of_the_box": "On an office LAN it starts without a key and anyone on the network can use its API and web UI; it refuses an unauthenticated start only on public addresses.",
       "sources": [
         "https://github.com/mudler/LocalAI/blob/master/core/cli/run.go",
         "https://github.com/mudler/LocalAI/releases"
@@ -137,6 +182,47 @@
         "https://github.com/open-webui/open-webui/releases"
       ],
       "notes": "The image's own Dockerfile was not read; the listen address comes from start.sh, which it runs. The docs say ENABLE_ADMIN_CHAT_ACCESS only governs the interface, and admins can still reach chats through the database or server."
+    },
+    {
+      "id": "sglang",
+      "project": "SGLang",
+      "role": "model_server",
+      "release_seen": "v0.5.21",
+      "listen_direct": "127.0.0.1:30000 (host and port defaults in python/sglang/srt/arg_groups/fields/serving.py)",
+      "listen_container": "0.0.0.0:30000 on the host's own network (docker/compose.yaml passes --host 0.0.0.0 and uses network_mode: host)",
+      "credential_by_default": "none",
+      "credential_options": "--api-key (default None), also used by the OpenAI-compatible API; --admin-api-key (default None) for admin endpoints, which then do not accept --api-key",
+      "signup_default": null,
+      "other_defaults": null,
+      "out_of_the_box": "Run directly, only programs on the same machine can use it; with the project's compose file, anyone who can reach port 30000 on the host can use it without a key.",
+      "sources": [
+        "https://github.com/sgl-project/sglang/blob/main/python/sglang/srt/arg_groups/fields/serving.py",
+        "https://github.com/sgl-project/sglang/blob/main/docker/compose.yaml",
+        "https://github.com/sgl-project/sglang/releases"
+      ],
+      "notes": "The host and api_key defaults were read on the default branch and at the v0.5.21 tag and match. The compose file is the project's example; the default command of its published image was not read."
+    },
+    {
+      "id": "text-generation-webui",
+      "project": "text-generation-webui",
+      "role": "chat_app",
+      "release_seen": "v4.9",
+      "listen_direct": "127.0.0.1:7860 (without --listen the Gradio server name is left unset, and Gradio falls back to GRADIO_SERVER_NAME or 127.0.0.1)",
+      "listen_container": "0.0.0.0 (docker/nvidia/Dockerfile starts it with --listen; docker/nvidia/docker-compose.yml publishes 7860 and 5000 on every host interface)",
+      "credential_by_default": "none",
+      "credential_options": "--gradio-auth or --gradio-auth-path (username:password pairs) for the web UI; --api-key and --admin-key for the API, which runs only with --api",
+      "signup_default": "no accounts: the web UI has no login unless --gradio-auth or --gradio-auth-path is given",
+      "other_defaults": "The program prints a warning when --listen or --share is used without either auth option; --share creates a public URL.",
+      "out_of_the_box": "Run directly, only the same machine can use the web UI; in the project's NVIDIA container, which starts with --listen, anyone who can reach port 7860 can use it without a login.",
+      "sources": [
+        "https://github.com/oobabooga/text-generation-webui/blob/main/modules/shared.py",
+        "https://github.com/oobabooga/text-generation-webui/blob/main/server.py",
+        "https://github.com/oobabooga/text-generation-webui/blob/main/docker/nvidia/Dockerfile",
+        "https://github.com/oobabooga/text-generation-webui/blob/main/docker/nvidia/docker-compose.yml",
+        "https://github.com/gradio-app/gradio/blob/main/gradio/http_server.py",
+        "https://github.com/oobabooga/text-generation-webui/releases"
+      ],
+      "notes": "Only the NVIDIA Docker variant was read. The Gradio fallback address was read from Gradio's default branch, not the version the project pins. Where chat history is kept and who can browse it from the web UI was not checked."
     },
     {
       "id": "vllm",
