@@ -1,8 +1,8 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.5.0",
-  "updated": "2026-10-14",
-  "maintainer": "MV2 of Munim, Inc. (munimversion2@gmail.com)",
+  "version": "0.9.0",
+  "updated": "2026-10-30",
+  "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
   "fields": {
     "id": "stable slug",
@@ -182,6 +182,22 @@
       "notes": "The page notes that advisory ethics opinions are not binding."
     },
     {
+      "id": "fl-sc2026-0673-rule-2-515",
+      "jurisdiction": "FL",
+      "issuer": "Supreme Court of Florida",
+      "title": "In re: Amendments to Florida Rule of General Practice and Judicial Administration 2.515",
+      "number": "No. SC2026-0673",
+      "date": "2026-05-28",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://flcourts-media.flcourts.gov/content/download/2489374/opinion/Opinion_SC2026-0673.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The amendment says nothing about confidentiality: it makes every signer of a Florida court filing, lawyer or self-represented, represent that the legal authorities cited exist and are accurately cited, and lets courts sanction filings that break that representation.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 6-page per curiam opinion of 28 May 2026, adopted on the Court's own motion. It adds subdivision (d)(2)(D) to Rule 2.515, effective 15 June 2026 at 12:01 a.m.; sanctions, after notice and an opportunity to be heard, may include reprimand, contempt, striking the document, dismissal, costs and attorneys' fees. The court commentary says the amendment is mainly a statewide, uniform replacement for varied circuit court administrative orders on disclosing and certifying AI use in filings. The Florida Bar News report of 29 May 2026 (floridabar.org/the-florida-bar-news/supreme-court-amends-rules-to-address-ai-use-in-court-filings/), also fetched, says a follow-up administrative order bars courts from imposing their own AI disclosure or certification requirements; MV2 has not read that order. Comments were due by 11 August 2026; MV2 has not checked for a later opinion on them. The Bar's ethics opinion on AI is fl-24-1."
+    },
+    {
       "id": "ga-generative-ai-toolkit",
       "jurisdiction": "GA",
       "issuer": "State Bar of Georgia (Law Practice Management Program and Special Committee on Artificial Intelligence and Emerging Technology)",
@@ -262,6 +278,38 @@
       "notes": "The KBA also publishes a sample AI use policy (April 2026) that refers to this opinion."
     },
     {
+      "id": "la-supreme-court-letter-2024",
+      "jurisdiction": "LA",
+      "issuer": "Supreme Court of Louisiana (letter from its General Counsel, at the Justices' request, to the Louisiana State Bar Association)",
+      "title": "The Emergence of Artificial Intelligence",
+      "number": null,
+      "date": "2024-01-22",
+      "kind": "court_notice",
+      "binding": "advisory",
+      "url": "https://www.lsba.org/documents/News/LSBANews/LASCLetterAI.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The Court says the existing rules already cover AI in its current forms and that Louisiana lawyers remain responsible for protecting confidential client information, citing Rule 1.6 among the rules that apply unchanged.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 2-page letter, dated 22 January 2024, addressed to the LSBA president for circulation to members and signed by the Court's General Counsel; the LSBA hosts it and links it from its news page. Besides Rule 1.6 it lists Rules of Professional Conduct 1.1, 1.3, 1.4, 1.15, 3.1, 3.3 and 5.3 and Code of Civil Procedure articles 371 and 863, and it says the Court's Technology Commission and Rules Committee will keep the Justices informed of any need for rule changes. No rule was changed."
+    },
+    {
+      "id": "ma-obc-fake-cases-2025",
+      "jurisdiction": "MA",
+      "issuer": "Massachusetts Office of Bar Counsel (article by an Assistant Bar Counsel)",
+      "title": "Two Years of Fake Cases and the Courts are Ratcheting up the Sanctions",
+      "number": null,
+      "date": "2025",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://bbopublic.massbbo.org/web/f/Two%20Years%20of%20Fake%20Cases%20and%20the%20Courts%20are%20Ratcheting%20up%20the%20Sanctions.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The article is about fabricated citations and mentions confidentiality only in a footnote, which names the possible disclosure of confidential information as another important risk of AI and points to Rules 1.6, 1.9(c) and 1.18(b).",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 7-page PDF on the Board of Bar Overseers' public file store. It shows no date; it cites a decision of 30 July 2025 and an online case list last accessed in August 2025, so it was written in or after August 2025, and only the year is recorded. It reviews court sanctions for fabricated citations, including two Massachusetts Superior Court decisions (February 2024 and June 2025), and recommends firm AI policies covering the risks, citation checking, communication within work teams, incident response and ongoing training. The article says it is for general information and has no substantive legal effect; it is not an ethics opinion. The Office's articles index (massbbo.org/s/articles-on-ethics) could not be read as text by MV2's tool."
+    },
+    {
       "id": "mi-ai-faqs",
       "jurisdiction": "MI",
       "issuer": "State Bar of Michigan (Ethics)",
@@ -340,6 +388,22 @@
       "confidentiality_note": "Lawyers should avoid putting client-specific information into publicly available AI tools, and must make reasonable efforts under Rule 1.6(c) to safeguard client information.",
       "in_house_tools_note": "Says the lawyer remains responsible for keeping information secure whether the AI tool is hosted by a vendor or run on the firm's own servers.",
       "notes": null
+    },
+    {
+      "id": "nd-public-notice-ai-2026",
+      "jurisdiction": "ND",
+      "issuer": "North Dakota Court System",
+      "title": "Public Notice on the Use of Artificial Intelligence (AI)",
+      "number": null,
+      "date": "2026-06-01",
+      "kind": "court_notice",
+      "binding": "advisory",
+      "url": "https://www.ndcourts.gov/Media/Default/public-notice/Public-Notice-Regarding-Use-of-AI.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "Anyone using AI must take care that confidential communications, personal identifying information, protected health information, juvenile, sealed or restricted records and anything else protected by law or court rule are not disclosed, and the duty to safeguard that information stays with the person using the tool.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 2-page notice dated 1 June 2026. It says AI use is not prohibited and that the courts do not require disclosure of AI use in filings solely because AI was used, though other rules or orders may; filers stay fully accountable under N.D.R.Civ.P. 11, must confirm every citation independently and may not rely on AI for legal judgments; courts keep their authority under N.D.R.Ct. 11.5 to strike filings and impose sanctions. It applies to attorneys and self-represented litigants and may be updated. A notice, not a rule change."
     },
     {
       "id": "nh-ethics-corner-2024",
@@ -470,6 +534,22 @@
       "notes": "An 86-page report approved by the NYSBA House of Delegates (6 April 2024 per secondary sources), not a formal ethics opinion. The PDF was retrieved; its title matches the search index's text of the same file. NYSBA's later AI work sits with its Committee on Artificial Intelligence and Emerging Technologies."
     },
     {
+      "id": "ny-ucs-part-161",
+      "jurisdiction": "NY",
+      "issuer": "New York State Unified Court System (22 NYCRR Part 161; notice posted by the New York State Bar Association)",
+      "title": "Effective June 1, 2026, The New York State Unified Court System Has Adopted a New Rule Regarding the Use of Artificial Intelligence",
+      "number": "22 NYCRR Part 161",
+      "date": "2026-06-01",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://nysba.org/effective-june-1-2026-the-new-york-state-unified-court-system-has-adopted-a-new-rule-regarding-the-use-of-artificial-intelligence/",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The notice says nothing about confidentiality: Part 161 lets attorneys use AI tools to prepare court papers without mandatory disclosure, but requires them to review each paper and independently make sure it contains no fabricated or fictitious cases, statutes or other material.",
+      "in_house_tools_note": null,
+      "notes": "The rule text on nycourts.gov (/rules/chiefadmin/161.shtml) returned HTTP 403 to MV2's automated fetch on 2026-10-30, so the rule itself was not read. The URL is the New York State Bar Association's posting, dated 2 June 2026 and credited to the New York Unified Court System, which MV2 fetched; the effective date, the permission to use AI without mandatory disclosure and the review duty come from it. It says the rule rests on 22 NYCRR 130-1.1 and Rule 3.3 and that individual judges may still adopt their own AI rules. The date recorded is the effective date; MV2 did not find the adoption date."
+    },
+    {
       "id": "oh-bpc-ai-ethics-guide",
       "jurisdiction": "OH",
       "issuer": "Ohio Board of Professional Conduct (staff guidance, at the request of the Supreme Court of Ohio)",
@@ -532,6 +612,38 @@
       "confidentiality_note": "Lawyers must safeguard client information and make sure AI systems that handle confidential data follow strict confidentiality measures; citations produced with AI must be verified.",
       "in_house_tools_note": null,
       "notes": "Secondary sources date it to May or June 2024; MV2 recorded the month most sources give."
+    },
+    {
+      "id": "ri-interim-guidelines-lawyers",
+      "jurisdiction": "RI",
+      "issuer": "Supreme Court of Rhode Island",
+      "title": "Interim Guidelines for the Ethical Use of Generative AI by Rhode Island Lawyers",
+      "number": null,
+      "date": "2026-06-17",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://www.courts.ri.gov/attorney-resources/Documents/Interim_Guidelines_Ethical_Use_of_Generative_AI_by_RI_Lawyers.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "Before using any generative AI tool a lawyer should read its terms and privacy policy to learn whether it keeps inputs, whether its confidentiality promises can be enforced, whether breaches are notified and whether inputs survive the end of the service, so that client information is not reachable by people outside the firm or by people inside it who should not have access; a lawyer must tell the client when entering that client's information into a tool.",
+      "in_house_tools_note": "Says a firm's ethical screens must cover the AI tools it uses so that a screened lawyer cannot reach the matter's information through them, and that a lawyer stays responsible for AI-made advertising whether the tool is run in-house or by a third party.",
+      "notes": "MV2 read the text of the 7-page PDF on the Judiciary's attorney-resources pages; it begins the same as pages 3-9 of the adopting order (ri-rule-1-1-2026), which gives the date. The order calls the guidelines advisory and subject to revision; lawyers with specific questions are pointed to the Supreme Court's Ethics Advisory Panel. They also say lawyers need not tell clients of every AI use but should consider disclosing regular use in the engagement agreement and must disclose it when a client asks; hourly bills cover only time actually spent and general AI tool costs are overhead; website chatbots carry Rule 1.18 duties to prospective clients; all output and citations must be verified before filing; and even one fabricated citation by opposing counsel may need reporting under Rule 8.3."
+    },
+    {
+      "id": "ri-rule-1-1-2026",
+      "jurisdiction": "RI",
+      "issuer": "Supreme Court of Rhode Island",
+      "title": "In re Amendments to Article V, Rule 1.1 of the Supreme Court Rules (Professional Conduct) and Adoption of Interim Generative AI Guidelines",
+      "number": null,
+      "date": "2026-06-17",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://www.courts.ri.gov/Miscellaneous%20Orders/Supreme-2026-06_In_reAmendments_Article_V_Rule_1_1_Professional_Conduct.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The order itself does not address confidentiality: it rewrites Comment [6] to Rule 1.1 so that competence includes keeping abreast of the benefits and risks of existing and developing technology, and adopts interim AI guidelines whose confidentiality section is summarised in ri-interim-guidelines-lawyers.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 14-page order. Section 1 amends Comment [6] to Rule 1.1; Section 2 adopts interim guidelines for lawyers (ri-interim-guidelines-lawyers) and for judicial officers, which the order says neither amend the Rules of Professional Conduct or the Code of Judicial Conduct nor carry the force of law. The entry line reads 'this ___ day of June, 2026' and the extracted text of the signed copy shows 17th filled in, which is the date recorded. The judicial officers' guidelines (pages 10-14) are not indexed separately because they are addressed to judges."
     },
     {
       "id": "sc-interim-ai-policy-2025",
@@ -612,6 +724,22 @@
       "confidentiality_note": "Do not put client information into an AI tool until satisfied it will be protected as RPC 1.6 requires: consumer products often lack confidentiality commitments, and for business tools the lawyer must read and periodically recheck the contract terms, such as use of data for training.",
       "in_house_tools_note": null,
       "notes": "The WSBA gives only the year 2025; one tracker dates it 20 November 2025. Depending on sensitivity, the opinion says a lawyer may need to consult the client or get informed consent, and clients may restrict tools. A PDF copy is on wsba.org at /docs/default-source/legal-community/committees/committee-on-professional-ethics/ao-202505.pdf."
+    },
+    {
+      "id": "wi-ethical-dilemma-2024-10",
+      "jurisdiction": "WI",
+      "issuer": "State Bar of Wisconsin (Ethical Dilemma column by its ethics counsel, Wisconsin Lawyer)",
+      "title": "Ethical Considerations When Using Generative Artificial Intelligence",
+      "number": null,
+      "date": "2024-10-04",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://www.wisbar.org/NewsPublications/WisconsinLawyer/Pages/Article.aspx?Volume=97&Issue=9&ArticleID=30672",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "Before entering confidential client information into a generative AI tool a lawyer must weigh the risk that others reach it, and, following ABA Opinion 512, the column says informed consent is needed before client information goes into self-learning tools and that boilerplate in an engagement letter is not enough.",
+      "in_house_tools_note": "Warns that even a firm's own proprietary generative AI tool can surface one client's confidential information in answer to another lawyer's prompt and pass it to another client of the firm.",
+      "notes": "MV2 read the article page, dated 4 October 2024 (Wisconsin Lawyer vol. 97, no. 9, October 2024; cited as 97 Wis. Law. 29-32), and retrieved the 4-page PDF of the same pages. It applies ABA Formal Opinion 512 to the Wisconsin rules (SCR 20) and says it examines only that opinion. A column by the State Bar's ethics counsel, not a formal ethics opinion; MV2 has not checked the State Bar's formal opinions for AI. Also covers client communication (a lawyer must answer honestly if asked about AI use and follow a client's request not to use it), fees, candor and supervision."
     },
     {
       "id": "wv-leo-2024-01",

@@ -23,7 +23,7 @@ By October 2026 more than twenty-five US jurisdictions had issued opinions, guid
 | `confidentiality_note` | a one-sentence paraphrase of the confidentiality point, in MV2's words |
 | `in_house_tools_note` | what the document says about tools run inside the firm, if anything |
 
-The guidance index is at version 0.5.0 (14 October 2026), with 38 entries from the ABA, 26 states and DC: AK, AL, AZ (Supreme Court committee best practices and State Bar guidance), CA (State Bar guidance and SB 574), CO, DC, FL, GA, HI, IL (Supreme Court policy and ARDC guide), KY, MI, MN, MO (two informal opinions), NC, NH, NJ (Supreme Court guidelines and State Bar Association task force report), NM, NY (three City Bar opinions and the State Bar Task Force report), OH, OR (two formal opinions), PA, SC, TX, VA (bar guidance and LEO 1901 on fees), WA and WV. Where MV2's tool could not extract a PDF's text, the entry's `notes` say so and say where the date and paraphrase came from; where the text was read, the notes say that too.
+The guidance index is at version 0.9.0 (30 October 2026), with 46 entries from the ABA, 31 states and DC: AK, AL, AZ (Supreme Court committee best practices and State Bar guidance), CA (State Bar guidance and SB 574), CO, DC, FL (Bar ethics opinion 24-1 and the Supreme Court's 2026 amendment to Rule 2.515 on cited authorities), GA, HI, IL (Supreme Court policy and ARDC guide), KY, LA (Supreme Court letter to the bar), MA (Office of Bar Counsel article), MI, MN, MO (two informal opinions), NC, ND (court system public notice), NH, NJ (Supreme Court guidelines and State Bar Association task force report), NM, NY (three City Bar opinions, the State Bar Task Force report and the court system's Part 161 rule), OH, OR (two formal opinions), PA, RI (Supreme Court order amending Rule 1.1 and its interim guidelines for lawyers), SC, TX, VA (bar guidance and LEO 1901 on fees), WA, WI (State Bar ethics counsel column) and WV. Version 0.9.0 added eight documents, five of them court instruments from 2026; the Part 161 entry rests on the State Bar's posting of the court system's notice, because nycourts.gov refused MV2's automated fetch. Where MV2's tool could not extract a PDF's text, the entry's `notes` say so and say where the date and paraphrase came from; where the text was read, the notes say that too.
 
 ## Who can reach a self-hosted AI tool out of the box (0.8.0: fifteen tools)
 
@@ -43,9 +43,9 @@ This is a record of defaults on 14 October 2026, not a view on whether any offic
 
 - **MS** (Ethics Opinion 267, November 2024): the Mississippi Bar's site says formal opinions are available through its member research platform after logging in, so there is no public primary link to point at.
 - **MD** (Maryland State Bar Association AI Task Force, *An Overview of Ethical Considerations for Attorney Use of Generative Artificial Intelligence Technologies*, April 2025, 7 pages): sold in the MSBA store at $29 for non-members, free to members; no public copy found.
-- **RI**: the Supreme Court's Executive Orders 2024-03 and 2025-06 set up and extended a Committee on Artificial Intelligence and the Courts (progress report due 27 February 2026); MV2 found no published guidance to lawyers from it.
+- **AR**: trackers cite a 2025 Arkansas Supreme Court action on AI (2025 Ark. 221); MV2 could not read it from a primary source, because CourtListener's API required a login and the Judiciary's professional-conduct page does not link it.
 - **CA rule amendments**: proposed AI amendments to Rules 1.1, 1.4, 1.6, 3.3, 5.1 and 5.3 finished public comment on 6 August 2026; no Supreme Court order adopting them found as of 14 October 2026.
-- The ABA's January 2026 law-firm guidance (americanbar.org refuses automated fetches), and DE, MA, IN, IA, KS, NE, TN, UT and WI (trackers report no formal opinion as of mid-2026).
+- The ABA's January 2026 law-firm guidance (americanbar.org refuses automated fetches), and DE, IN, IA, KS, NE, TN and UT (trackers report no formal opinion as of mid-2026; trackers say the same of MA and WI, whose Office of Bar Counsel and State Bar guidance is now listed above).
 
 ## Use
 
