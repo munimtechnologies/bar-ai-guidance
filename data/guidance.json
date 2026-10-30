@@ -1,6 +1,6 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "updated": "2026-10-30",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -83,7 +83,23 @@
       "verification": "fetched",
       "confidentiality_note": "Everyone taking part in the court system, lawyers included, is told that some generative AI tools keep what is typed into them to build their models, that anyone entering confidential or sealed information should find out whether the system keeps and uses it, and that disclosing such information, even by accident, may break the Rules of Professional Conduct and other rules.",
       "in_house_tools_note": "Does not distinguish tools run inside a firm from outside services; the question it asks of any system is whether it keeps and reuses confidential or sealed data.",
-      "notes": "MV2 read the text of the 3-page per curiam delivered on 5 June 2025, which published the proposed order for comment until 1 August 2025. Section 1 (Awareness) applies to everyone participating in the court system. Section 2 (Prohibition) bars Administrative Office of the Courts staff, clerks and their staff, and anyone else with access to internal CourtConnect from intentionally exposing the state courts' internal data to generative AI, with research projects allowed on approval of the Supreme Court's Automation Committee. The Court adopted Administrative Order No. 25 in a later per curiam (December 2025, according to trackers and a National Center for State Courts report). MV2 could not read the adopted text from a primary source, because the Judiciary's opinions site and CourtListener refused automated fetches, so whether it differs from this published text has not been checked; until it is, this entry describes the published text only and is marked advisory."
+      "notes": "MV2 read the text of the 3-page per curiam delivered on 5 June 2025, which published the proposed order for comment until 1 August 2025. Section 1 (Awareness) applies to everyone participating in the court system. Section 2 (Prohibition) bars Administrative Office of the Courts staff, clerks and their staff, and anyone else with access to internal CourtConnect from intentionally exposing the state courts' internal data to generative AI, with research projects allowed on approval of the Supreme Court's Automation Committee. The Court adopted Administrative Order No. 25 in a later per curiam (December 2025, according to trackers and a National Center for State Courts report). MV2's hands read the adopted text (2025 Ark. 220, delivered 11 December 2025) in a browser on 30 October 2026, because the Judiciary's opinions site refuses automated fetches; it is listed as ar-ao25-adopted-2025, which records how it differs from this published text. This entry describes the published text only and is marked advisory."
+    },
+    {
+      "id": "ar-ao25-adopted-2025",
+      "jurisdiction": "AR",
+      "issuer": "Supreme Court of Arkansas",
+      "title": "In re Adoption of Arkansas Supreme Court Administrative Order No. 25: Artificial Intelligence",
+      "number": "2025 Ark. 220",
+      "date": "2025-12-11",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://opinions.arcourts.gov/ark/supremecourt/en/item/524043/index.do",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "As adopted, the order still tells everyone taking part in the court system, lawyers included, to be aware of the risk of putting confidential or sealed information into generative AI, and adds definitions separating public from private large language models; its prohibition on exposing internal court data binds court staff and others with access to that data, and now reaches only generative AI using a public model.",
+      "in_house_tools_note": "Unlike the 2025 proposal, the adopted order distinguishes public from private large language models (naming OpenAI's GPT and Anthropic's Claude in those definitions), and its staff prohibition applies only to generative AI using a public model; MV2 has not yet recorded the exact wording of the definitions.",
+      "notes": "MV2's hands read the per curiam (delivered 11 December 2025, effective immediately) in a browser on the Arkansas Judiciary's opinions site on 30 October 2026, because the site refuses automated fetches, and compared it with the text published for comment in June 2025 (ar-ao25-published-2025). Reported changes: the opening of Section 1 (Awareness) adds uses of AI; Section 1(b) adds definitions of public and private large language models; Section 1(c) adds the Rules of Procedure; Section 2(a) (Prohibition) is limited to generative AI using a public large language model. The same day the Court amended the Rules of Professional Conduct (2025 Ark. 221), adding text that using non-human assistance does not excuse or mitigate a rule violation and that lawyers should be advised of this order before using AI; that amendment is not yet listed because its exact title and placement have not been recorded. The order binds court staff; for lawyers it is awareness guidance, so it is marked advisory."
     },
     {
       "id": "az-aisc-ethical-best-practices",
@@ -164,6 +180,22 @@
       "confidentiality_note": "A new comment to Rule 1.1 lists the rules a lawyer's use of technology, particularly AI, can implicate, among them preserving client confidential information under Rule 1.6, and a new Scope paragraph says a lawyer may be disciplined for violations that result from using technology directly or indirectly.",
       "in_house_tools_note": null,
       "notes": "MV2 read the text of the 6-page PDF (redline and clean versions): amended and adopted by the Court en banc on 8 January 2026, effective immediately. It adds Scope [20A], aligns Comment [8] to Rule 1.1 with the ABA Model Rule's technology-competence wording, and adds Comment [9]. The Colorado Lawyer (May/June 2026) describes it as the first AI-specific amendment to a state's lawyer conduct rules. MV2 found no Colorado Bar Association formal ethics opinion on AI; one vendor site cites a 'Formal Opinion 145' on AI that MV2 could not confirm."
+    },
+    {
+      "id": "ct-practice-book-4-9-2026",
+      "jurisdiction": "CT",
+      "issuer": "Judges of the Superior Court of Connecticut (notice of the Rules Committee of the Superior Court, Connecticut Law Journal)",
+      "title": "Practice Book Section 4-9 (new), Generative Artificial Intelligence (Generative AI) Compliance, and revised Section 4-2, Signing of Pleading",
+      "number": "Practice Book §§ 4-9 and 4-2 (b)",
+      "date": "2026-06-11",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://www.jud.ct.gov/legalresources/Docs/LJDocs/Misc/2026/26/pblj_8752.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The rule says nothing about confidentiality or about what may be entered into an AI tool: anyone who uses generative AI to create or edit a document filed with the court must independently verify every citation, legal authority or piece of evidence it produced, and filing represents good-faith efforts to comply with this rule, the Rules of Professional Conduct and Connecticut law on AI use.",
+      "in_house_tools_note": "Its definition of generative AI covers any machine-learning model or application that creates content in response to a prompt, naming commercial products only as examples, so a model run inside the firm is covered too; the duty is to verify output, wherever the tool runs.",
+      "notes": "MV2 read the text in the Connecticut Law Journal of 23 June 2026 (Superior Court Practice Book notice, PDF pages 3 to 16), fetched from jud.ct.gov. The judges of the Superior Court adopted the amendments on 11 June 2026 (the date recorded here); most take effect on 1 January 2027, but the revision of Section 4-2 and new Section 4-9 took effect on publication, 23 June 2026. Section 4-9 names ChatGPT, Co-Counsel, Harvey, DeepSeek, Grok and others as examples, warns of faulty citations, fabricated quotations and fabricated evidence, says failure to verify may bring sanctions including nonsuit or default judgment, and puts responsibility solely on the person filing: the court and clerk need not review filings for compliance. Revised Section 4-2 (b) makes a signature a certificate of compliance with Section 4-9. No disclosure of AI use is required. The notice covers Superior Court rules only; MV2 did not check whether appellate rules were amended too."
     },
     {
       "id": "dc-388",
@@ -595,7 +627,7 @@
       "verification": "fetched",
       "confidentiality_note": "The notice says nothing about confidentiality: Part 161 lets attorneys use AI tools to prepare court papers without mandatory disclosure, but requires them to review each paper and independently make sure it contains no fabricated or fictitious cases, statutes or other material.",
       "in_house_tools_note": null,
-      "notes": "The rule text on nycourts.gov (/rules/chiefadmin/161.shtml) returned HTTP 403 to MV2's automated fetch on 2026-10-30, so the rule itself was not read. The URL is the New York State Bar Association's posting, dated 2 June 2026 and credited to the New York Unified Court System, which MV2 fetched; the effective date, the permission to use AI without mandatory disclosure and the review duty come from it. It says the rule rests on 22 NYCRR 130-1.1 and Rule 3.3 and that individual judges may still adopt their own AI rules. The date recorded is the effective date; MV2 did not find the adoption date."
+      "notes": "The rule text on nycourts.gov refused MV2's automated fetch on 2026-10-30 (HTTP 403), so MV2's hands read it in a browser the same day at nycourts.gov/rules/part-161-use-artificial-intelligence-technology (the older /rules/chiefadmin/161.shtml address showed Page not found): the page shows no effective date, requires no disclosure of AI use and says nothing about confidential information entered into AI tools, and under its Appendix A model rule, which each court may choose to adopt, a signature certifies that the paper was reviewed for fabricated material. The URL is the New York State Bar Association's posting, dated 2 June 2026 and credited to the New York Unified Court System, which MV2 fetched; the effective date, the permission to use AI without mandatory disclosure and the review duty come from it. It says the rule rests on 22 NYCRR 130-1.1 and Rule 3.3 and that individual judges may still adopt their own AI rules. The date recorded is the effective date; MV2 did not find the adoption date."
     },
     {
       "id": "oh-bpc-ai-ethics-guide",
