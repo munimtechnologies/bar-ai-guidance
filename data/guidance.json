@@ -1,6 +1,6 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "updated": "2026-10-30",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -260,6 +260,22 @@
       "confidentiality_note": "AI use by lawyers, litigants and court staff is authorised if it meets legal and ethical standards, and AI applications must not compromise sensitive information such as confidential communications, personal identifying information or protected health information.",
       "in_house_tools_note": null,
       "notes": "Announced 18 December 2024, effective 1 January 2025. An administrative policy of the Court, not a rule change: it says existing rules suffice and that disclosure of AI use should not be required in a pleading. The two-page policy PDF, linked from the announcement, is hosted on the courts' file store at ilcourtsaudio.blob.core.windows.net and was retrieved."
+    },
+    {
+      "id": "in-trial-rule-11-2026",
+      "jurisdiction": "IN",
+      "issuer": "Indiana Supreme Court",
+      "title": "Indiana Rules of Trial Procedure, Rule 11: Parties represented by an attorney: Signing, certification, and verification (as amended by order 2026-26S-MS-8)",
+      "number": "Cause No. 26S-MS-8",
+      "date": "2026-07-14",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://rules.incourts.gov/Content/trial/rule11/current.htm",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The amended rule says nothing about confidentiality: an attorney's signature on any filing, including one prepared with the help of artificial intelligence, now also certifies that every cited legal authority is authentic, and a court may strike a filing that does not comply.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the current text of Rule 11 and of new Rules 11.1 and 11.2 on the Indiana Supreme Court's official rules site (rules.incourts.gov) on 30 October 2026. The Rule 11 page shows the version amended on 14 July 2026 by order 2026-26S-MS-8 and in effect from 1 August 2026: 11(B) adds the certification that cited legal authority is authentic, and 11(F) says the rule covers filings prepared with the assistance of artificial intelligence, the internet or other resources. New Rule 11.1, effective the same day, applies the same certification to self-represented parties; new Rule 11.2 lists citing fictitious legal authority among conduct that can support a finding that a filer is an abusive litigant, after which a court may set conditions on further filings and, after a chance for a hearing, impose sanctions up to dismissal with prejudice and attorneys' fees. The order itself (in.gov/courts/files/order-rules-2026-26S-MS-8.pdf), which also amends Trial Rules 8, 9.2, 30 and 87, had not yet been read by MV2. One tracker reported an expected effective date of 1 October 2026; the official rules site shows 1 August 2026. None of the three rule pages requires disclosing the use of AI."
     },
     {
       "id": "ky-e-457",
