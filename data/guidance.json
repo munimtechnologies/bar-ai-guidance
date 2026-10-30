@@ -1,6 +1,6 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "updated": "2026-10-30",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -68,6 +68,22 @@
       "confidentiality_note": "Lawyers must protect confidential client information when using AI and understand how a vendor processes and keeps what is entered; the opinion contrasts tools that do not train on inputs with free consumer versions and warns that prompts and interaction logs may be discoverable.",
       "in_house_tools_note": null,
       "notes": "MV2 read the text of the 11-page PDF on 2026-10-14. It states no date and no opinion number on its face, so only the year is recorded: the file sits under /assets/2026/05/, it cites an Alabama decision of 24 April 2026 and a source dated 18 February 2026, and Law360 reported it on 24 July 2026. The number comes from the bar's HTML page for the opinion (alabar.org/office-of-general-counsel/formal-opinions/artificial-intelligence-use-best-practices-under-existing-professional-conduct-rules/), which was fetched and whose title matches. Its Rule 1.6 section recommends closed, non-training enterprise systems over free consumer tools, anonymised or substitute identifiers, documented client consent where risks remain, and firm retention policies that cover AI interaction logs. Also covers agentic AI, fees and supervision."
+    },
+    {
+      "id": "ar-ao25-published-2025",
+      "jurisdiction": "AR",
+      "issuer": "Supreme Court of Arkansas",
+      "title": "In re Creation of Arkansas Supreme Court Administrative Order No. 25: Artificial Intelligence",
+      "number": "2025 Ark. 117",
+      "date": "2025-06-05",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://arcourts.gov/sites/default/files/In_Re_Creation_of_Admin_Order_No_25_AI.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "Everyone taking part in the court system, lawyers included, is told that some generative AI tools keep what is typed into them to build their models, that anyone entering confidential or sealed information should find out whether the system keeps and uses it, and that disclosing such information, even by accident, may break the Rules of Professional Conduct and other rules.",
+      "in_house_tools_note": "Does not distinguish tools run inside a firm from outside services; the question it asks of any system is whether it keeps and reuses confidential or sealed data.",
+      "notes": "MV2 read the text of the 3-page per curiam delivered on 5 June 2025, which published the proposed order for comment until 1 August 2025. Section 1 (Awareness) applies to everyone participating in the court system. Section 2 (Prohibition) bars Administrative Office of the Courts staff, clerks and their staff, and anyone else with access to internal CourtConnect from intentionally exposing the state courts' internal data to generative AI, with research projects allowed on approval of the Supreme Court's Automation Committee. The Court adopted Administrative Order No. 25 in a later per curiam (December 2025, according to trackers and a National Center for State Courts report). MV2 could not read the adopted text from a primary source, because the Judiciary's opinions site and CourtListener refused automated fetches, so whether it differs from this published text has not been checked; until it is, this entry describes the published text only and is marked advisory."
     },
     {
       "id": "az-aisc-ethical-best-practices",
@@ -195,7 +211,23 @@
       "verification": "fetched",
       "confidentiality_note": "The amendment says nothing about confidentiality: it makes every signer of a Florida court filing, lawyer or self-represented, represent that the legal authorities cited exist and are accurately cited, and lets courts sanction filings that break that representation.",
       "in_house_tools_note": null,
-      "notes": "MV2 read the text of the 6-page per curiam opinion of 28 May 2026, adopted on the Court's own motion. It adds subdivision (d)(2)(D) to Rule 2.515, effective 15 June 2026 at 12:01 a.m.; sanctions, after notice and an opportunity to be heard, may include reprimand, contempt, striking the document, dismissal, costs and attorneys' fees. The court commentary says the amendment is mainly a statewide, uniform replacement for varied circuit court administrative orders on disclosing and certifying AI use in filings. The Florida Bar News report of 29 May 2026 (floridabar.org/the-florida-bar-news/supreme-court-amends-rules-to-address-ai-use-in-court-filings/), also fetched, says a follow-up administrative order bars courts from imposing their own AI disclosure or certification requirements; MV2 has not read that order. Comments were due by 11 August 2026; MV2 has not checked for a later opinion on them. The Bar's ethics opinion on AI is fl-24-1."
+      "notes": "MV2 read the text of the 6-page per curiam opinion of 28 May 2026, adopted on the Court's own motion. It adds subdivision (d)(2)(D) to Rule 2.515, effective 15 June 2026 at 12:01 a.m.; sanctions, after notice and an opportunity to be heard, may include reprimand, contempt, striking the document, dismissal, costs and attorneys' fees. The court commentary says the amendment is mainly a statewide, uniform replacement for varied circuit court administrative orders on disclosing and certifying AI use in filings. The Florida Bar News report of 29 May 2026 (floridabar.org/the-florida-bar-news/supreme-court-amends-rules-to-address-ai-use-in-court-filings/), also fetched, says a follow-up administrative order bars courts from imposing their own AI disclosure or certification requirements; MV2 has since read that order, AOSC26-12, listed as fl-aosc26-12. Comments were due by 11 August 2026; MV2 has not checked for a later opinion on them. The Bar's ethics opinion on AI is fl-24-1."
+    },
+    {
+      "id": "fl-aosc26-12",
+      "jurisdiction": "FL",
+      "issuer": "Supreme Court of Florida (administrative order of the Chief Justice)",
+      "title": "In re: Representations by Signers of Filings",
+      "number": "No. AOSC26-12",
+      "date": "2026-05-28",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://flcourts-media.flcourts.gov/content/download/2489379/file/AOSC26-12.pdf",
+      "url_verified": "2026-10-30",
+      "verification": "fetched",
+      "confidentiality_note": "The order says nothing about confidentiality: it stops Florida's courts from imposing their own requirements to disclose AI use or to certify the accuracy of filings, leaving amended Rule 2.515(d)(2) and its sanctions as the single statewide rule.",
+      "in_house_tools_note": null,
+      "notes": "MV2 read the text of the 3-page administrative order signed by Chief Justice Carlos G. Muñiz on 28 May 2026, in effect from 15 June 2026 at 12:01 a.m., the same moment as the Rule 2.515 amendment (fl-sc2026-0673-rule-2-515). It says several judicial circuits had adopted orders requiring filers to disclose AI use and certify accuracy, leaving a patchwork of obligations; courts may no longer impose such requirements through local administrative orders, court policies, judicial practices or other means. Courts stay free to educate users about AI, to warn them about sanctions for inaccurate filings and to govern court employees' own use of AI. The order binds courts rather than lawyers, so it is marked advisory here; its effect for lawyers is that no Florida court may require them to disclose AI use."
     },
     {
       "id": "ga-generative-ai-toolkit",
@@ -275,7 +307,7 @@
       "verification": "fetched",
       "confidentiality_note": "The amended rule says nothing about confidentiality: an attorney's signature on any filing, including one prepared with the help of artificial intelligence, now also certifies that every cited legal authority is authentic, and a court may strike a filing that does not comply.",
       "in_house_tools_note": null,
-      "notes": "MV2 read the current text of Rule 11 and of new Rules 11.1 and 11.2 on the Indiana Supreme Court's official rules site (rules.incourts.gov) on 30 October 2026. The Rule 11 page shows the version amended on 14 July 2026 by order 2026-26S-MS-8 and in effect from 1 August 2026: 11(B) adds the certification that cited legal authority is authentic, and 11(F) says the rule covers filings prepared with the assistance of artificial intelligence, the internet or other resources. New Rule 11.1, effective the same day, applies the same certification to self-represented parties; new Rule 11.2 lists citing fictitious legal authority among conduct that can support a finding that a filer is an abusive litigant, after which a court may set conditions on further filings and, after a chance for a hearing, impose sanctions up to dismissal with prejudice and attorneys' fees. The order itself (in.gov/courts/files/order-rules-2026-26S-MS-8.pdf), which also amends Trial Rules 8, 9.2, 30 and 87, had not yet been read by MV2. One tracker reported an expected effective date of 1 October 2026; the official rules site shows 1 August 2026. None of the three rule pages requires disclosing the use of AI."
+      "notes": "MV2 read the current text of Rule 11 and of new Rules 11.1 and 11.2 on the Indiana Supreme Court's official rules site (rules.incourts.gov) on 30 October 2026. The Rule 11 page shows the version amended on 14 July 2026 by order 2026-26S-MS-8 and in effect from 1 August 2026: 11(B) adds the certification that cited legal authority is authentic, and 11(F) says the rule covers filings prepared with the assistance of artificial intelligence, the internet or other resources. New Rule 11.1, effective the same day, applies the same certification to self-represented parties; new Rule 11.2 lists citing fictitious legal authority among conduct that can support a finding that a filer is an abusive litigant, after which a court may set conditions on further filings and, after a chance for a hearing, impose sanctions up to dismissal with prejudice and attorneys' fees. MV2 also read the order itself (in.gov/courts/files/order-rules-2026-26S-MS-8.pdf, 7 pages, signed by Chief Justice Loretta H. Rush on 14 July 2026, all Justices concurring) on 30 October 2026: it says trial judges had raised concerns about voluminous and disorganized filings, including filings prepared with AI and filings citing fictitious legal authority, makes related changes to Trial Rules 8, 9.2, 30 and 87, and confirms the 1 August 2026 effective date. One tracker reported an expected effective date of 1 October 2026; the official rules site shows 1 August 2026. None of the three rule pages requires disclosing the use of AI."
     },
     {
       "id": "ky-e-457",
