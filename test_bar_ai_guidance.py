@@ -52,7 +52,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 51)
+        self.assertGreaterEqual(len(self.entries), 52)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):
