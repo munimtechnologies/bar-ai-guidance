@@ -1,7 +1,7 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.13.0",
-  "updated": "2026-10-30",
+  "version": "0.14.0",
+  "updated": "2026-10-31",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
   "fields": {
@@ -182,6 +182,22 @@
       "notes": "Adds Business and Professions Code section 6068.1 and amends Code of Civil Procedure section 128.7 so that no court filing may contain a citation the responsible attorney has not personally verified; also bars arbitrators from delegating decisions to generative AI (new CCP section 1282.1) and has the Judicial Council revisit its standard on judges' use of it. Attorneys must also disclose generative AI use to the court for documents they submit; commentators note the law does not say what form that takes. Signed 30 September 2026 (the Governor's office release of that date, which MV2 fetched, lists it), effective 1 January 2027. leginfo.legislature.ca.gov returned HTTP 403 to MV2's automated fetch on 2026-10-14, so the statute text was not read: the chapter number comes from a Morgan Lewis alert (2 October 2026) and the paraphrase from Holland & Knight (1 October 2026), Morgan Lewis and Alston & Bird summaries. The first state statute on lawyers' use of generative AI, according to those firms."
     },
     {
+      "id": "ca-crc-10-430",
+      "jurisdiction": "CA",
+      "issuer": "Judicial Council of California",
+      "title": "California Rules of Court, rule 10.430: Generative artificial intelligence use policies",
+      "number": "Cal. Rules of Court, rule 10.430",
+      "date": "2025-09-01",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://courts.ca.gov/cms/rules/index/ten/rule10_430",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Binds courts, not lawyers: every court that does not prohibit generative AI must adopt a use policy that prohibits entering confidential, personal identifying or other nonpublic information into a public generative AI system, defined as one that lets anyone other than court staff or judicial officers access the data the court puts in or use that data to train AI systems.",
+      "in_house_tools_note": "The clearest court-rule line on in-house tools in the index: a system the court creates or manages is excluded from the definition of a public generative AI system, so the confidentiality prohibition turns on who can reach or train on the data, not on which model is used. It governs courts, not law firms.",
+      "notes": "Read on the California courts' rules site on 31 October 2026. Adopted effective 1 September 2025; a court that does not prohibit generative AI had to adopt a use policy by 15 December 2025. Applies to the superior courts, the Courts of Appeal and the Supreme Court. Court staff means employees, contractors, volunteers and anyone else working for or on behalf of the court; for judicial officers the policy covers tasks outside their adjudicative role (the Advisory Committee Comment points adjudicative use to standard 10.80 of the Standards of Judicial Administration). Subdivisions: (a) Definitions, (b) Generative AI use policies, (c) Policy scope, (d) Policy requirements. Policies must also require a clear label, watermark or statement when a final work provided to the public consists entirely of generative AI outputs. It does not govern attorneys or litigants. Separate from the State Bar's practical guidance (ca-practical-guidance) and SB 574 (ca-sb-574)."
+    },
+    {
       "id": "co-rule-change-2026-02",
       "jurisdiction": "CO",
       "issuer": "Supreme Court of Colorado",
@@ -228,6 +244,22 @@
       "confidentiality_note": "Do not enter client confidences or secrets into a generative AI tool unless reasonably satisfied the provider will not see, keep or reuse them; otherwise use another product, negotiate zero retention, or enter only non-confidential information.",
       "in_house_tools_note": null,
       "notes": null
+    },
+    {
+      "id": "de-interim-genai-policy-2024",
+      "jurisdiction": "DE",
+      "issuer": "Supreme Court of the State of Delaware",
+      "title": "Interim Policy on the Use of GenAI by Judicial Officers and Court Personnel",
+      "number": "Order of 21 October 2024; Judicial Branch Operating Procedures, Appendix O-1",
+      "date": "2024-10-21",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://courts.delaware.gov/forms/download.aspx?id=266848",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Governs judicial officers and court personnel, not lawyers: authorized users may not input any non-public information into generative AI that the Administrative Office has not approved, and non-approved generative AI may not be used on state technology resources at all.",
+      "in_house_tools_note": "Draws the line by administrative approval, not by who hosts a tool or what it does with entered data: the input ban covers generative AI the Administrative Office has not approved, and the policy does not say what an approved tool must do with what users enter.",
+      "notes": "Order of the Supreme Court signed by Chief Justice Collins J. Seitz, Jr., dated and effective 21 October 2024, adopting the interim policy recommended by the Delaware Commission on Law and Technology as Exhibit A and adding it as Appendix O-1 to the Judicial Branch Operating Procedures; read in the Court's own PDF on 31 October 2026. Authorized Users are all judicial branch judicial officers, employees, law clerks, interns, externs and volunteers; Non-Public Information is information they have access to because of their official position and that is not otherwise publicly available. Users remain responsible for GenAI output and the accuracy of their work, should be trained before using approved GenAI, and may not delegate their decision-making to it. It does not govern attorneys or litigants."
     },
     {
       "id": "fl-24-1",
@@ -662,6 +694,22 @@
       "notes": "Nonbinding staff guidance for lawyers and judges. The 16-page PDF is the copy the Supreme Court of Ohio's AI Resource Library and Court News Ohio link; it was retrieved, but MV2's tool did not extract its text, so the paraphrase rests on passages quoted by the Ohio Employer Law Blog (4 June 2026) and law-firm summaries. Court News Ohio (30 June 2026) says the guide went to Ohio lawyers earlier that month; some firms date it April or 2 June 2026."
     },
     {
+      "id": "ok-2026-ok-19",
+      "jurisdiction": "OK",
+      "issuer": "Supreme Court of the State of Oklahoma",
+      "title": "Re: Generative Artificial Intelligence",
+      "number": "2026 OK 19",
+      "date": "2026-03-23",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551237",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Says nothing about confidential, privileged or sealed information or about what may be entered into an AI tool; it only requires that AI use comply with legal and ethical standards.",
+      "in_house_tools_note": "Says nothing specific about tools run inside the firm; it does not distinguish between kinds of AI tools.",
+      "notes": "Order of the Supreme Court in conference, 23 March 2026, all justices concurring, marked for publication in the Oklahoma Bar Journal only; read on OSCN on 31 October 2026. Four sentences: the Court expects increasing use of generative AI in Oklahoma courts and does not discourage it provided its use complies with legal and ethical standards; disclosure of AI assistance shall not be required in a legal filing; and all persons filing documents in Oklahoma courts are responsible for the content and accuracy of the documents. It does not mention verifying citations, court staff or judges' own AI use, or local rules and judges' orders."
+    },
+    {
       "id": "or-2025-205",
       "jurisdiction": "OR",
       "issuer": "Oregon State Bar, Legal Ethics Committee and Board of Governors",
@@ -708,6 +756,22 @@
       "confidentiality_note": "Lawyers must safeguard client information and make sure AI systems that handle confidential data follow strict confidentiality measures; citations produced with AI must be verified.",
       "in_house_tools_note": null,
       "notes": "Secondary sources date it to May or June 2024; MV2 recorded the month most sources give."
+    },
+    {
+      "id": "pa-ujs-interim-genai-policy-2025",
+      "jurisdiction": "PA",
+      "issuer": "Supreme Court of Pennsylvania",
+      "title": "Interim Policy on the Use of Generative Artificial Intelligence by Judicial Officers and Court Personnel",
+      "number": "No. 643 Judicial Administration Docket; 55 Pa.B. 6696",
+      "date": "2025-09-09",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol55/55-38/1289.html",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Governs court personnel, not lawyers: personnel shall not share any non-public information with non-secured AI systems, may share case records, administrative records or information with a Secured AI System, one that protects the confidentiality and privilege of all data and documents entered by users, and must assume that anything entered into a non-secured system will not be treated as confidential and privileged.",
+      "in_house_tools_note": "Draws the line by what a system does with entered data, not by who hosts it: a Secured AI System does not retain, transfer or sell entered data or expose it to the public domain, and a Non-Secured AI System includes one that retains user documents or data, so read literally a self-hosted chat app that keeps conversation history would not be secured.",
+      "notes": "Per curiam order of 9 September 2025 on the recommendation of the Artificial Intelligence Advisory Committee, effective 8 December 2025, published at 55 Pa.B. 6696 on 20 September 2025 (Pa.B. Doc. No. 25-1289); read in the Pennsylvania Bulletin and in the policy PDF on pacourts.us on 31 October 2026. Applies to Personnel using GenAI on UJS Technology Resources, which include a personal device used for work. Personnel may only use GenAI tools approved by Leadership, are responsible for the accuracy of their work, and the commentary says humans must review GenAI output; personnel may be required to seek supervisory approval for a GenAI tool or, at a minimum, disclose its use in their work product. A Secured AI System may include a vendor's use of a subcontractor if the data stays under the same limits. It does not govern attorneys or litigants. Separate from the Pennsylvania Bar Association's Formal Opinion 2024-200 (pa-2024-200)."
     },
     {
       "id": "ri-interim-guidelines-lawyers",
