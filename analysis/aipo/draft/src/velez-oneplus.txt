@@ -1,0 +1,7 @@
+Velez v. OnePlus Technology (Shenzhen) Co., Ltd., No. 25-cv-2432 (S.D.N.Y.), ECF 28, 16 June 2026. Passages copied word for word from the order's PDF in the RECAP archive on CourtListener, in a browser, on 31 October 2026. Three dots mark words left out of the copy. Only these passages were copied.
+
+... image-generation tool, or similar service where information submitted by users may be retained, used for model training, ... or otherwise used for the benefit of persons or entities other than the parties to this litigation.
+
+Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or HIPAA-compliant artificial intelligence platform, provided that: ...
+
+Permitted systems may include private enterprise implementations of AI tools, self-hosted language models, secure document-review platforms incorporating AI functionality, or HIPAA-compliant environments configured to prevent disclosure or model training using Confidential Material.
