@@ -1,6 +1,6 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "updated": "2026-10-31",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
@@ -246,6 +246,22 @@
       "notes": null
     },
     {
+      "id": "dc-courts-ai-internal-use-2025",
+      "jurisdiction": "DC",
+      "issuer": "District of Columbia Courts",
+      "title": "DC Courts AI Internal Use Policy",
+      "number": "Promulgated 16 May 2025",
+      "date": "2025-05-16",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://www.dccourts.gov/sites/default/files/Internal-Use-Policy-Final-without-Attachments.pdf",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Governs the DC Courts' judicial officers, employees, contractors and volunteers, not lawyers: no court information, public or confidential, should go into a non-sequestered system (virtually all free AI tools and some paid ones), and no confidential, sensitive or personally identifying information should be shared with any AI tool.",
+      "in_house_tools_note": "Draws the line by what the provider promises: a sequestered tool is one whose provider purports to protect the confidentiality of the data and prompts users enter. Tools contracted for or developed for the DC Courts are exempt from the policy, and no non-sequestered system may be installed locally on court-owned devices or on personal devices used to access confidential court information.",
+      "notes": "Read in the court's PDF (the version without attachments) on 31 October 2026; it states that it was promulgated and last amended on 16 May 2025 and names no signer. Attachment A (court approved and contracted AI tools) and Attachment B (related policies) are not in this version. The policy also bars delegating decision-making to AI, requires mandatory court-offered AI training and review of all AI output, sets password and two-factor rules for outside AI tools, and lists the steps to take after a suspected disclosure. It does not govern attorneys or litigants. Separate from the DC Bar's Ethics Opinion 388 (dc-388)."
+    },
+    {
       "id": "de-interim-genai-policy-2024",
       "jurisdiction": "DE",
       "issuer": "Supreme Court of the State of Delaware",
@@ -340,6 +356,22 @@
       "confidentiality_note": "Gives initial guidance that the existing Hawaiʻi rules already govern lawyers' use of AI, names Rule 1.6 on confidentiality among the rules every lawyer using AI should know, and points to ABA Opinion 512's duty to protect client information.",
       "in_house_tools_note": null,
       "notes": "The letter, dated 21 January 2025 and addressed to the HSBA president for circulation to members, is Appendix 4 of the Committee on Artificial Intelligence and the Courts' final report to the Hawaiʻi Supreme Court (dated 15 December 2025, filed 16 December 2025 in SCMF-24-0000305); MV2 read the report's pages. The letter also lists Rules 1.1, 1.3, 1.4, 1.15, 3.1, 3.3, 3.4 and 5.3 and Hawaiʻi Rules of Civil Procedure 11 and 37. The report says a proposed order and declaration on AI use in court filings was under consideration by the Supreme Court, and its Appendix 3 holds the Judiciary's own AI guardrails for staff. MV2 found no Hawaii State Bar formal ethics opinion on AI."
+    },
+    {
+      "id": "ia-ch27-judicial-ai-2026",
+      "jurisdiction": "IA",
+      "issuer": "Supreme Court of Iowa",
+      "title": "Iowa Court Rules, Chapter 27: Judicial Use of Artificial Intelligence Tools",
+      "number": "Iowa Ct. R. 27.101-27.107",
+      "date": "2026-07-21",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://www.iowacourts.gov/collections/1007/files/2231/embedDocument",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Binds judicial officers and their adjudicative assistants, not lawyers appearing in court: they may not use an AI tool with any judicial case information for a judge's adjudicative work unless a judicial branch committee has approved that tool as meeting the confidentiality, security and reliability requirements for that use.",
+      "in_house_tools_note": "Gives no exemption for tools the courts build or run: an AI tool is covered whether the judicial branch developed it or an outside vendor provides it, approval of a tool the branch does not provide may be conditioned on specific configuration requirements, and the list of approved tools must be posted publicly. It governs courts, not law firms.",
+      "notes": "Adopted by order of the Supreme Court of 21 July 2026, effective 1 January 2027 (the adopting order was read on iowacourts.gov earlier); the rules text was read in the court's PDF on 31 October 2026. Judicial case information covers anything filed or submitted in a proceeding, public or confidential, draft rulings and information derived from them. Judges must keep independent decision-making and verify the accuracy of all factual or legal sources in AI-prepared work; an adjudicative assistant (a staff attorney, law clerk, law student or other person assisting a judge) needs the judge's approval before using AI for that work and must disclose the use. Every approval requires deleting judicial case information from non-judicial-branch devices when service ends. It does not govern attorneys or litigants."
     },
     {
       "id": "il-ardc-implementing-ai",
@@ -868,6 +900,22 @@
       "confidentiality_note": "Lawyers must understand a tool's terms of service and how it may use what they enter, since many free public tools may show inputs to others or train on them; the page also warns that AI-enabled browsers can be steered by hidden text on malicious sites.",
       "in_house_tools_note": "Contrasts free public tools with legal-specific or internally developed products that no one outside the firm can reach, which may protect confidential information, but says the lawyer must still make reasonable efforts to assess their security.",
       "notes": "The guidance is a section of the bar's Ethics page and shows no date; August 2024 is the month secondary sources give. The same section points to LEO 1901 on fees and AI, indexed separately as va-leo-1901."
+    },
+    {
+      "id": "vt-ad38-2025",
+      "jurisdiction": "VT",
+      "issuer": "Vermont Supreme Court",
+      "title": "Administrative Directive No. 38: Policy on Artificial Intelligence (as amended)",
+      "number": "Administrative Directive No. 38, October Term, 2025",
+      "date": "2025-10-06",
+      "kind": "court_policy",
+      "binding": "advisory",
+      "url": "https://www.vtcourts.gov/sites/default/files/documents/PROMULGATED%20Administrative%20Directive%20No%2038%20Amendment--SIGNED.pdf",
+      "url_verified": "2026-10-31",
+      "verification": "fetched",
+      "confidentiality_note": "Addresses all court users, self-represented litigants included and so lawyers too: besides checking AI output, they must ensure that AI systems do not compromise sensitive or confidential information and that data used with AI is handled under data privacy regulations. It does not say which systems meet that duty.",
+      "in_house_tools_note": "Does not distinguish between kinds of AI system or where they run; for the Judiciary's own use it sends employees to an AI Advisory Board that reviews and approves AI use cases, and requires reliability assessments that cover inputs and data protection.",
+      "notes": "Directive of the Vermont Supreme Court under its administrative control of the courts (Vt. Const. ch. II, s. 30), amended and effective 6 October 2025 and signed by the Chief Justice and three Associate Justices; read in the court's PDF on 31 October 2026. The amendment marks new matter by underlining and deleted matter by strike-through; a sandboxed reading of that markup found the court-users confidentiality sentence in Section II unmarked, so it predates the amendment and remains in force. The court's directives list gives only the amended and effective dates, not the date of the first version. For attorneys and judicial officers, the directive says the Rules of Professional Conduct and the Code of Judicial Conduct apply fully to AI use. It is an administrative directive, not a rule of procedure or of professional conduct, so this index records it as advisory; unlike the other court policies listed here it is addressed to everyone who uses the courts, not only to court staff."
     },
     {
       "id": "wa-202505",

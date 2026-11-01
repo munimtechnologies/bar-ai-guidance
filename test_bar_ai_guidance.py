@@ -31,6 +31,7 @@ PRIMARY_HOSTS = (
     "michbar.org", "mnbars.org", "bpc.ohio.gov",
     "azcourts.gov", "coloradojudicial.gov", "nhbar.org", "sccourts.org",
     "legislature.ca.gov", "courts.state.hi.us", "njsba.com",
+    "dccourts.gov", "iowacourts.gov", "vtcourts.gov",
     "courts.ca.gov", "courts.delaware.gov", "oscn.net", "pacodeandbulletin.gov",
     "jud.ct.gov",
     "arcourts.gov",
@@ -53,7 +54,7 @@ class GuidanceDataTest(unittest.TestCase):
         for key in ("dataset", "version", "updated", "license", "fields", "entries"):
             self.assertIn(key, self.doc)
         self.assertTrue(DAY_RE.match(self.doc["updated"]))
-        self.assertGreaterEqual(len(self.entries), 56)
+        self.assertGreaterEqual(len(self.entries), 59)
         self.assertEqual(set(self.doc["fields"]), set(REQUIRED))
 
     def test_required_fields_present(self):

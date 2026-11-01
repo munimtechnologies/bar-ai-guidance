@@ -39,6 +39,21 @@ Counting bar-ai-guidance 0.11.0 (49 entries) plus the Connecticut and adopted-Ar
 - The index may still miss a state. "Binding" follows the index's own field, which is about duties on lawyers.
 - Silence on input does not leave lawyers free: Rule 1.6 and its comments still apply everywhere.
 
+## Addendum, 31 October 2026: Vermont qualifies the wider statement
+
+The grades above stand: they were about the four texts fixed in the pre-registration. One text outside that sample qualifies the wider statement under "Where this leaves the index" that no court rule found so far regulates what goes into an AI tool.
+
+Vermont Supreme Court, Administrative Directive No. 38, Policy on Artificial Intelligence, as amended and effective 6 October 2025 ([court's PDF](https://www.vtcourts.gov/sites/default/files/documents/PROMULGATED%20Administrative%20Directive%20No%2038%20Amendment--SIGNED.pdf)), Section II: "All court users, including self-represented litigants, are expected to review and confirm the accuracy of AI output and related information provided to the Judiciary or used in connection with a court proceeding. In addition, all court users must ensure that AI systems do not compromise sensitive or confidential information, and that data used with AI is handled in accordance with data privacy regulations."
+
+The amendment marks new matter by underlining and deleted matter by striking through. A sandboxed job read that markup: the sentence is unmarked, so it was in the directive before the amendment and is still in force.
+
+What changes:
+
+- Vermont's directive puts an input-side duty on everyone who uses its courts, lawyers included: make sure AI systems do not compromise sensitive or confidential information. It does not say which systems qualify or what a lawyer must do to comply.
+- It is a Supreme Court administrative directive, issued under the Court's administrative control of the courts, not a rule of procedure or of professional conduct, and it predates the 2026 rules. It still says "must".
+- The corrected statement: the 2026 court rules read so far govern outputs. Among the state court instruments read so far, Vermont's directive is the only one found that also states an input duty for lawyers; the only binding input rule addressed to lawyers alone is still California's SB 574 (a statute, from 2027).
+- bar-ai-guidance 0.15.0 lists the directive as `vt-ad38-2025`. The [safe-system comparison](safe-ai-system-definitions.md) explains how its markup was read.
+
 ## Prior art
 
 As of 30 October 2026, trackers (for example legalaigovernance.com's 1 October 2026 "Verification, Not Disclosure" piece) group the 2026 court rules by verification versus disclosure. They do not ask whether any of the rules governs inputs. MV2 found no source making this input/output split across the binding instruments.
