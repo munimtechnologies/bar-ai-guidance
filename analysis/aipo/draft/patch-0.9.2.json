@@ -1,0 +1,129 @@
+{
+ "from_version": "0.9.1",
+ "version": "0.9.2",
+ "status_note": "Draft coding of 2 November 2026 (later). Not graded yet. Since 0.9.1: the four S.D.N.Y. orders whose free RECAP copies have no usable text layer were OCR'd and coded from the OCR text (R11); one of them (Sarris) takes software that runs entirely on the defense's own systems out of its definition of an AI tool (R12). Two civil orders have no free copy at the source and are final as not codable (Campbell, Elgin). Two more are being read at the source (Fischman: a free copy of the protective order was found; Dunn: only the order granting the motion is free), and Velez's provisos are being copied in full.",
+ "add_rules": [
+  "R11. An order whose free RECAP copy has no usable text layer (pypdf returns only the CM/ECF stamp, or unreadable characters) is coded from OCR text: pages rendered at 300 dpi grayscale by pdftoppm and read by tesseract 5.5.0 (language eng, page segmentation mode 6), with only well-formed CM/ECF page-header stamps and bare page-number lines removed. The OCR text is not corrected by hand; quotations skip OCR errors (stray '|' marks, misread stamps) with '...'. Its spans point to src:<case_id>, the published OCR text.",
+  "R12 (rule own_systems_exclusion). Where an order's definition of an AI tool leaves out software that operates entirely on systems the party controls with no material sent to any third party, setup A (run on a party-controlled server, no outside provider) is outside the clause and is coded permitted, and self-hosting is named. Written while coding, after the frame was read."
+ ],
+ "replace": [
+  {
+   "case_id": "us-v-jones-sdny",
+   "caption": "United States v. Jones",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00372; 2026 WL 2607719",
+   "order": "Protective order entered by consent, 3 Sep 2026 (ECF 11), para. 7; read at the source: RECAP archive (OCR, R11)",
+   "posts": [5529],
+   "status": "codable",
+   "spans": [{"doc": "src:us-v-jones-sdny", "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.", "end": "removed from the AI tool(s) at the conclusion of this case."}],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible ... version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false, "self_hosting_quote": "",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains ... the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Same wording as Paula's paras. a-c, without the government's matching duties and without the sentence on the risks of publicly accessible tools. The OCR text has stray '|' marks at line ends, so two quotations skip them."
+  },
+  {
+   "case_id": "us-v-sarris",
+   "caption": "United States v. Sarris",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00399; 2026 WL 2937892",
+   "order": "Protective order entered by consent, 30 Sep 2026 (ECF 13), para. 9; read at the source: RECAP archive (OCR, R11)",
+   "posts": [5617, 5656],
+   "status": "codable",
+   "spans": [{"doc": "src:us-v-sarris", "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.", "end": "consistent with paragraph 14."}],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a consumer (i.e., non- ... version of an AI tool, meaning a version offered to individuals under consumer terms of service",
+    "DATA": "under terms or account settings that permit use of submitted data for its own model training"
+   },
+   "self_hosting_named": true,
+   "self_hosting_quote": "software that operates entirely on systems controlled by the defense, such that no Disclosure Materials are transmitted to any third party",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "\"AI tool\" does not include (i) software that operates entirely on systems controlled by the defense",
+   "reading_rule": "own_systems_exclusion",
+   "note": "R10, R11, R12. Differs from the S.D.N.Y. template the posts group it with: its AI-tool definition leaves out software that runs entirely on the defense's own systems (and routine office features), it bars 'consumer (i.e., non-commercial)' versions rather than 'publicly accessible' ones, and it lets the defense use an AI tool once counsel has taken reasonable steps to confirm four safeguards, including that the tool permits deletion. Setup A is outside the clause; it would also meet the four safeguards."
+  },
+  {
+   "case_id": "us-v-dejesus",
+   "caption": "United States v. DeJesus",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00392; 2026 WL 3034296",
+   "order": "Protective order entered by consent, 9 Oct 2026 (ECF 17), para. 7; read at the source: RECAP archive (OCR, R11)",
+   "posts": [5617, 5656],
+   "status": "codable",
+   "spans": [{"doc": "src:us-v-dejesus", "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.", "end": "removed from the AI tool(s) at the conclusion of this case."}],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false, "self_hosting_quote": "",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Template wording with the sentence on the risks of publicly accessible tools and without the government's matching duties."
+  },
+  {
+   "case_id": "us-v-santos",
+   "caption": "United States v. Santos",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00332; 2026 WL 3003653",
+   "order": "Protective order entered by consent, 6 Oct 2026 (ECF 33), para. 9; read at the source: RECAP archive (OCR, R11)",
+   "posts": [5617, 5656],
+   "status": "codable",
+   "spans": [{"doc": "src:us-v-santos", "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.", "end": "all Defense Materials will be removed from the AI tool(s) at the conclusion of this case."}],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false, "self_hosting_quote": "",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Template wording with the government's matching duties (paras. d, e); the sentence on the risks of publicly accessible tools appears twice in a row in para. b. The PDF's fonts have no usable character map, so the text is OCR."
+  },
+  {
+   "case_id": "campbell-v-tidalhealth",
+   "caption": "Campbell v. TidalHealth, Inc.",
+   "court": "D. Md.",
+   "case_no": "No. 1:25-cv-04293; 2026 WL 2162749 (protective order: ECF 21, 27 Feb 2026, para. 8)",
+   "order": "Protective order, 27 Feb 2026, as described in a 28 Jul 2026 opinion",
+   "posts": [5479, 5656],
+   "status": "not_codable",
+   "reason": "R2: a later opinion describes the order's 'prohibition on submitting discovery material to public generative artificial intelligence tools' but does not quote it. No free copy at the source: a read-only check of the RECAP archive on 2 Nov 2026 found the docket with only ECF 54 (the 28 Jul 2026 memorandum opinion); the protective order (ECF 21) is not there."
+  },
+  {
+   "case_id": "elgin-v-wells-fargo",
+   "caption": "Elgin v. Wells Fargo Bank, N.A.",
+   "court": "N.D. Cal.",
+   "case_no": "No. 4:25-cv-03937; 2026 WL 2664674",
+   "order": "Stipulated protective order, 22 Aug 2025 (ECF 20), applied 9 Sep 2026",
+   "posts": [5519],
+   "status": "not_codable",
+   "reason": "R2: the post describes a stipulated order with an AI provision but quotes none of it. No free copy at the source: a read-only check of the RECAP archive on 2 Nov 2026 found the stipulated protective order (ECF 20) available only from PACER, and no later protective order."
+  },
+  {
+   "case_id": "fischman-v-epic",
+   "caption": "Fischman v. Epic Systems Corp.",
+   "court": "N.D. Tex.",
+   "case_no": "2026 WL 3182476 (protective order: ECF 58)",
+   "order": "Protective order (ECF 58) entered after the 23 Oct 2026 order granting a contested motion for a protective order with AI restrictions",
+   "posts": [5703],
+   "status": "not_codable",
+   "reason": "Pending (R10): the post quotes the court's summary of the proposed AI clause ('[cleaned up]'), not the clause, but a read-only check on 2 Nov 2026 found a free copy of the protective order (ECF 58, AI section paras. 26-29) in the RECAP archive. It is being extracted and will be coded from its own text before grading."
+  },
+  {
+   "case_id": "dunn-v-lexisnexis",
+   "caption": "Dunn v. LexisNexis Risk Solutions, Inc.",
+   "court": "D. Colo.",
+   "case_no": "2026 WL 2568346 (order: ECF 32; protective order: ECF 33)",
+   "order": "Order of 31 Aug 2026 on an agreed AI provision (ECF 32); protective order of the same day (ECF 33)",
+   "posts": [5724],
+   "status": "not_codable",
+   "reason": "Pending: the post quotes the court's description of the agreed AI provision, not the provision. A read-only check on 2 Nov 2026 found the protective order itself (ECF 33) available only from PACER, but the order granting the motion (ECF 32) is free in the RECAP archive. ECF 32 is being extracted; the case is coded from it only if it sets out the provision's own words, and otherwise stays not codable (no free copy)."
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "pypdf": "5.1.0",
+ "tesseract": "tesseract 5.5.0",
+ "base_sha256": "0878ed0cb090f248f8f5d4b6858d8542b6290ee13e75372c6cd618b922bc7a68",
+ "orders": [
+  {
+   "case_id": "us-v-paula",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 13,
+   "text_sha256": "03d5dcde1bc7621919223f8084c92ea86fc44ccb22c1304efe017c52280194cc"
+  },
+  {
+   "case_id": "us-v-jones-sdny",
+   "use": "ocr",
+   "sha256_matches_pinned": true,
+   "ocr_chars_by_page": [
+    1751,
+    1919,
+    2099,
+    1967,
+    838
+   ],
+   "furniture_lines_removed": 4,
+   "text_sha256": "758a7ba5eafb76bd8935ab3c1167bcc134ec0e7d20576f0e7e7b24db0a8e0f6d"
+  },
+  {
+   "case_id": "us-v-hawkins",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 11,
+   "text_sha256": "7fb75744d6aa1f466ebe505774d0217cc8fb4bc4ebb890732ca3009eff2b1abb"
+  },
+  {
+   "case_id": "us-v-santos",
+   "use": "ocr",
+   "sha256_matches_pinned": true,
+   "ocr_chars_by_page": [
+    1693,
+    1962,
+    1716,
+    2104,
+    1942,
+    614,
+    713
+   ],
+   "furniture_lines_removed": 6,
+   "text_sha256": "212875b70876622d475b48fd60e32e0a918e9c02a7281f42e6d686339712a9c6"
+  },
+  {
+   "case_id": "us-v-robinson",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 10,
+   "text_sha256": "e41236e1fce3427a84e5fd58f4a5322dd0e8dad6ea632f69a80e23e5d7639ebc"
+  },
+  {
+   "case_id": "us-v-sarris",
+   "use": "ocr",
+   "sha256_matches_pinned": true,
+   "ocr_chars_by_page": [
+    1670,
+    2052,
+    1770,
+    2072,
+    1992,
+    950,
+    695
+   ],
+   "furniture_lines_removed": 6,
+   "text_sha256": "5581a831eb2f5777981073e6f59318843549c6ff40366c37be9947d80ad128c1"
+  },
+  {
+   "case_id": "us-v-dejesus",
+   "use": "ocr",
+   "sha256_matches_pinned": true,
+   "ocr_chars_by_page": [
+    1679,
+    1831,
+    2058,
+    1950,
+    1026
+   ],
+   "furniture_lines_removed": 4,
+   "text_sha256": "0222960994fa286e720cd40cbc84a0fc76fab8b9e6fdba2aa77ddc6d63032dca"
+  },
+  {
+   "case_id": "james-v-cerebras",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 638,
+   "text_sha256": "ab2476df3206b3e53a4aa2eb56b0976d04873f4404a7e9230517ef067b3ca501"
+  },
+  {
+   "case_id": "us-v-stamp",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 11,
+   "text_sha256": "7fc3ed1f03559cad7c9722014018f0bcf1e43444df6341d792188a17dd9ea20d"
+  },
+  {
+   "case_id": "us-v-spatola",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 13,
+   "text_sha256": "f4b9e85c81d06e7a55f4c2f3763adf7d95d4b5b63c34d76105bf4ffe667dc992"
+  },
+  {
+   "case_id": "us-v-morell",
+   "use": "text",
+   "sha256_matches_pinned": true,
+   "furniture_lines_removed": 8,
+   "text_sha256": "1bd8650ad43ae32d2283ef16adcb7f2c8aebf958b93b0e8880841436ef25d9d3"
+  }
+ ],
+ "grade_aipo.py_sha256": "8ad2e2f9243ca23fbe5f5cbe299e86a0e7fe1abd9e1307d58017b09801269b3b",
+ "test_grade_aipo.py_sha256": "5c0e35fb1816bffd82832e7945865ec7ab9eb7bb3fd299c28cf49e82d02e5c7c",
+ "grader_tests_exit": 0,
+ "grader_tests_tail": "or (test_grade_aipo.TestText.test_extract_refuses_missing_or_repeated_anchor) ... ok\ntest_norm (test_grade_aipo.TestText.test_norm) ... ok\ntest_quote_in (test_grade_aipo.TestText.test_quote_in) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.010s\n\nOK\n",
+ "posts_checked": 29,
+ "posts_changed_or_missing": [],
+ "version": "0.9.1",
+ "cases": 51,
+ "statuses": {
+  "codable": 39,
+  "refusal": 3,
+  "not_codable": 9
+ },
+ "problems": [],
+ "diagnostics": {}
+}

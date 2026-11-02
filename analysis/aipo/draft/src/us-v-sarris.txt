@@ -1,0 +1,187 @@
+us-v-sarris, S.D.N.Y., No. 1:26-cr-00399, ECF 13. OCR text (tesseract 5.5.0, 300 dpi grayscale pages from pdftoppm, language eng) of the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.nysd.671758/gov.uscourts.nysd.671758.13.0.pdf, sha256 971a14d2aeeebfa0f5531043fe18e47dd12ceab336cf086a45bf2fce128fb9bb), which has no usable text layer. Not corrected by hand; CM/ECF page-header stamps and bare page-number lines removed.
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page1of7
+DOCUMENT
+ELECTRONICALLY FILED
+UNITED STATES DISTRICT COURT DOC #:___
+SOUTHERN DISTRICT OF NEW YORK DATE FILED: 35005
+United States of America fPrepesed} Protective Order
+Vv. 26 Cr. 399 (VM)
+William Sarris,
+Defendant.
+Upon the application of the United States of America, with the consent of the
+undersigned counsel, and the defendant having requested discovery under Fed. R. Crim. P. 16,
+the Court hereby finds and orders as follows:
+Categories
+1. Disclosure Material. The Government will make disclosure to the defendant of
+documents, objects, and information, including electronically stored information (“ESI’’), pursuant
+to Federal Rule of Criminal Procedure 16, 18 U.S.C. § 3500, and the Government’s general
+obligation to produce exculpatory and impeachment material in criminal cases, all of which will
+be referred to herein as “Disclosure Material.” The Government’s Disclosure Material may include
+material that (i) affects the privacy, confidentiality, and business interests of individuals and
+entities; (ii) would impede, if prematurely disclosed, the Government’s ongoing investigation of
+uncharged individuals; (iii) would risk prejudicial pretrial publicity if publicly disseminated; (iv)
+may be produced with more limited redactions than would otherwise be necessary; and (v) is not
+authorized to be disclosed to the public or disclosed beyond that which is necessary for the defense
+of this criminal case.
+2. Sealed Material. Certain of the Government’s Disclosure Material, referred to herein
+as “Sealed Material,” contains information that identifies, or could lead to the identification of,
+l
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 2 of 7
+witnesses who may be subject to intimidation or obstruction, and whose lives, persons, and
+property, as well as the lives, persons, and property of loved ones, will be subject to risk of harm
+absent the protective considerations set forth herein, or information that may reveal trade secrets
+or other information that may cause financial loss or other harm to a business entity.
+
+3. Attorney’s Possession Only (“APO”) Material. Certain materials in this case raise a
+particular risk of affecting the privacy or safety of victims or witnesses, or the confidentiality of
+ongoing investigations. Disclosure Material produced by the Government to the defendant or his
+counsel that either (1) is designated in whole or in part as “Attorney’s Possession Only” by the
+Government in emails or communications to defense counsel that identify such designated
+Disclosure Material by Bates number or Bates range, provided that any designation of a document
+in part shall identify the portion so designated, or (2) includes a Bates or other label stating
+“Attorney’s Possession Only” or “APO” shall be deemed “APO Material.” Any material
+designated as APO Material shall also be deemed Sealed Material.
+
+4. Attorney’s Eyes Only (“AEO”) Material. Certain materials in this case raise a more
+significant risk of affecting the privacy or safety of victims or witnesses, or the confidentiality of
+ongoing investigations. Disclosure Material produced by the Government to the defendant or his
+counsel that either (1) is designated in whole or in part as “Attorney’s Eyes Only” by the
+Government in emails or communications to defense counsel that identify such designated
+Disclosure Material by Bates number or Bates range, provided that any designation of a document
+in part shall identify the portion so designated, or (2) includes a Bates or other label stating
+“Attorney’s Eyes Only” or “AEO” shall be deemed “AEO Material.” Any material designated as
+AEO Material shall also be deemed Sealed Material.
+
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 3of7
+NOW, THEREFORE, FOR GOOD CAUSE SHOWN, IT IS HEREBY ORDERED:
+Disclosure and Treatment
+
+5. Disclosure Material shall not be disclosed by the defendant or defense counsel, including
+any successor counsel (“the defense”) other than as set forth herein, and shall be used by the
+defense solely for purposes of defending this action. The defense shall not post any Disclosure
+Material on any Internet site or network site, including any social media site, to which persons
+other than the parties hereto have access, and shall not disclose any Disclosure Material to the
+media.
+
+6. Sealed Material pertinent to any motion before the Court should initially be filed under
+seal, absent consent of the Government or Order of the Court, and may be disclosed by defense
+counsel to:
+
+a. The defendant;
+
+b. Personnel for whose conduct defense counsel is responsible, i.e., personnel
+employed by or retained by counsel, as needed for purposes of defending this action; and
+
+c. Prospective witnesses for purposes of defending this action.
+
+7. APO Material received by defense counsel shall be maintained in a safe and secure
+manner by defense counsel and any personnel for whose conduct defense counsel is responsible;
+shall not be possessed by the defendant, except in the presence of the defendant’s counsel and any
+personnel for whose conduct defense counsel is responsible; and shall not be disclosed in any form
+by the defendant, his counsel, or any personnel for whose conduct defense counsel is responsible
+except as set forth herein.
+
+8. AEO Material received by defense counsel shall be maintained on an attorney’s eyes
+only basis, and the defense shall not share any AEO Material or the content of the AEO Material
+
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 4of7
+with any other persons, including the defendant, except for any personnel for whose conduct
+defense counsel is responsible.
+
+9. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.
+
+a. “AI tool” means any automated system that uses machine learning, or similar
+techniques, to process inputs and generate outputs, recommendations, or predictions, including but
+not limited to large language models, generative AI services, or Al-assisted software tools, whether
+cloud-based or otherwise. “AI tool” does not include (i) software that operates entirely on systems
+controlled by the defense, such that no Disclosure Materials are transmitted to any third party; or
+(ii) standard office, communication, legal-research, or litigation-support software by reason of
+embedded assistive features such as spelling or grammar correction, text completion, search,
+optical character recognition, or document ranking and classification, provided that no Disclosure
+Material is transmitted to any third party.
+
+b. The defense team will not submit Disclosure Materials to a consumer (i.e., non-
+commercial) version of an AI tool, meaning a version offered to individuals under consumer terms
+of service rather than to organizations under commercial or enterprise terms. The defense team
+will not submit Disclosure Materials to an AI tool (e.g., OpenAI, Anthropic, Microsoft, Google)
+under terms or account settings that permit use of submitted data for its own model training, allows
+submitted data to be publicly accessed, discloses submitted data to third parties, or, except as
+specified below, retains submitted data. Such AI tools pose unique risks to the security and
+integrity of Disclosure Materials, given the practical inability to claw back or delete data once it
+has been incorporated into a model.
+
+c. The defense may submit Disclosure Materials to an AI tool provided that defense
+counsel has taken reasonable steps to confirm that (i) the AI tool maintains the confidentiality of
+
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 5of7
+Disclosure Materials; (ii) the AI tool will not expose any Disclosure Materials to third parties not
+authorized under this Protective Order to receive such materials except as required by law; (iii) the
+AI tool will not retain or use any Disclosure Materials for model training; and (iv) the AI tool
+permits deletion of submitted data. At the conclusion of this case, the defense will delete
+Disclosure Materials from its accounts with any such AI tool or request their deletion, consistent
+with paragraph 14.
+
+Other Provisions
+
+10. This Order does not prevent the disclosure of any Disclosure Material in any hearing
+or trial held in this action, or to any judge or magistrate judge, for purposes of this action but,
+except to the extent provided otherwise below, shall not be disclosed or used in any form in any
+other civil litigation, arbitration, or other private or alternative dispute resolution. All filings should
+comply with the privacy protection provisions of Fed. R. Crim. P. 49.1 and the above provisions.
+
+11. This Order does not apply to material that is or becomes public, or that the defense
+obtains or has obtained from a source other than the Government’s production in this case.
+
+12. The Government’s designation of material will be controlling absent contrary order of
+the Court. The parties shall meet and confer regarding any dispute over such designations after
+which the defense may seek de-designation by the Court. The Government may authorize, in
+writing, disclosure of Disclosure Material beyond that otherwise permitted by this Order without
+further Order of this Court.
+
+13. The defense shall provide a copy of this Order to prospective witnesses and persons
+retained by counsel to whom the defense has disclosed Disclosure Material. All such persons shall
+be subject to the terms of this Order. Defense counsel shall maintain a record of what information
+has been disclosed to which such persons.
+
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 6of7
+
+14. Except for Disclosure Material that has been made part of the record of this case, the
+defense shall return to the Government or securely destroy or delete all Disclosure Material,
+including any ESI, within 30 days of the expiration of the period for direct appeal from any verdict
+in the above-captioned case; the period of direct appeal from any order dismissing any of the
+charges in the above-captioned case; and the granting of any motion made on behalf of the
+Government dismissing any charges in the above-captioned case, whichever date is later, subject
+to defense counsel’s obligation to retain client files under the Rules of Professional Conduct. If
+Disclosure Material is provided to any personnel for whose conduct defense counsel is responsible
+or prospective witnesses, defense counsel shall make reasonable efforts to seek the return or
+destruction of such materials.
+
+
+Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 7 of 7
+Retention of Jurisdiction
+15. The provisions of this order shall not terminate at the conclusion of this criminal
+prosecution and the Court will retain jurisdiction to enforce this Order following termination of
+the case.
+AGREED AND CONSENTED TO:
+JAMES M. MCDONALD
+United States Attorney
+by: -Srtmuk F. Rettrchild Date: 9/25/2026
+Shiva H. Logarajah
+Alexandra N. Rothman
+Samuel P. Rothschild
+Assistant United States Attorneys
+(J Date: 7 [a5/ae
+Timothy J/Treanor, Esq.
+Arlo Devlin-Brown, Esq.
+Counsel for William Sarris
+SO ORDERED:
+Dated: New York, New York
+September 30, 2026
+THE HONORABLE VICTOR MARRERO
+UNITED STATES DISTRICT JUDGE
