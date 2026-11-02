@@ -1,0 +1,151 @@
+us-v-spatola, S.D.N.Y., No. 1:26-cr-00327, ECF 9. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.nysd.669521/gov.uscourts.nysd.669521.9.0.pdf, sha256 5fe93e414041d4854a7a6ff9b40d1df1e9782450e15b127ecd4332ea294c4cb7), downloaded 2026-11-01. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+2026-07-10 
+UNITED STATES DISTRICT COURT 
+SOUTHERN DISTRICT OF NEW YORK 
+ 
+United States of America 
+ 
+    v. 
+ 
+Matthew Spatola, 
+ 
+       Defendant. 
+ 
+ 
+Protective Order 
+ 
+26 Cr. 327 (RA) 
+ 
+ 
+  Upon the application of the United States of America, with the consent of the undersigned 
+counsel, and the defendant having requested discovery under Fed. R. Crim. P. 16, the Court hereby 
+finds and orders as follows: 
+Categories 
+1. Disclosure Material. The Government will make disclosure  to the defendant  of 
+documents, objects and information, including electronically stored information (“ESI”), pursuant 
+to Federal Rule of Criminal Procedure 16, 18 U.S.C. § 3500, and the Government’s general 
+obligation to produce exculpatory and impeachment material  in criminal cases, all of which will 
+be referred to herein as “Disclosure Material.” The Government’s Disclosure Material may include 
+material that (i) affects the privacy, confidentiality, and security of individuals; (ii) would impede, 
+if prematurely disclosed, the Government’s ongoing investigation of uncharged individuals; (iii) 
+would risk prejudicial pretrial publicity if publicly disseminated; (iv) may be produced with more 
+limited redactions than would otherwise be necessary; and (v) that is not authorized to be disclosed 
+to the public or disclosed beyond that which is necessary for the defense of this criminal case.  
+2. Sealed Material. Certain of the Government’s Disclosure Material, referred to herein 
+as “Sealed Material ,” contains information that identifies, or could lead to the identification of , 
+witnesses who may be subject to intimidation or obstruction, and whose lives, persons, and 
+2023.11.26 
+property, as well as the lives, persons and property of loved ones, will be subject to risk of harm 
+absent the protective considerations set forth herein. 
+3. Attorney’s Possession Only (“APO”) Material. Certain materials in this case raise a 
+particular risk of affecting the privacy or safety of victims or witnesses , or the confidentiality of 
+ongoing investigations. Disclosure Material produced by the Government to the defendant or his 
+counsel that is either (1) designated in whole or in part as “Attorney’s Possession Only” by the 
+Government in emails or communications to defense counsel, or (2) that includes a Bates or other 
+label stating “Attorney’s Possession Only” or “APO”  shall be deemed “APO Material.” Any 
+material designated as APO Material shall also be deemed Sealed Material.  
+4. Attorney’s Eyes Only (“AEO”) Material. Certain materials in this case raise a more 
+significant risk of affecting the privacy or safety of victims or witnesses, or the confidentiality of 
+ongoing investigations. Disclosure Material produced by the Government to the defendant or his 
+counsel that is either (1) designated in whole or in part as “Attorney’s Eyes Only” by the 
+Government in emails or communications to defense counsel, or (2) that includes a Bates or other 
+label stating “Attorney’s Eyes Only”  or “AEO” shall be deemed “AEO Material.” Any material 
+designated as AEO Material shall also be deemed Sealed Material.  
+NOW, THEREFORE, FOR GOOD CAUSE SHOWN, IT IS HEREBY ORDERED: 
+Disclosure and Treatment 
+5. Disclosure Material shall not be disclosed by the defendant or defense counsel , 
+including any successor counsel  (“the defense”) other than as set forth herein, and s hall be used 
+by the defense solely for purposes of defending this action. The defense shall not post any 
+Disclosure Material on any Internet site or network site, including any social media site, to which 
+2023.11.26 
+persons other than the parties hereto have access , and shall not disclose any Disclosure Material 
+to the media. 
+6. Sealed Material pertinent to any motion before the Court should initially be filed under 
+seal, absent consent of the Government or Order of the Court , and may be disclosed by defense 
+counsel to: 
+a. The defendant;  
+b. Personnel for whose conduct defense counsel is responsible, i.e. , personnel 
+employed by or retained by counsel, as needed for purposes of defending this action; and 
+c. Prospective witnesses for purposes of defending this action. 
+7. APO Material received by defense counsel shall be maintained in a safe and secure 
+manner by defense counsel and any personnel for whose conduct defense counsel is responsible ; 
+shall not be possessed by the defendant, except in the presence of the defendant’s counsel and any 
+personnel for whose conduct defense counsel is responsible; and shall not be disclosed in any form 
+by the defendant, his counsel, or any personnel for whose conduct defense counsel is responsible  
+except as set forth herein.  
+8. AEO Material received by defense counsel shall be maintained on an attorney’s eyes 
+only basis, and the defense shall not share any AEO Material or the content of the AEO Material 
+with any other persons, including the defendant, except for any personnel for whose conduct 
+defense counsel is responsible.  
+9. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. 
+a. “AI tool” means any automated system that uses machine learning, or similar 
+techniques to process inputs and generate outputs, recommendations, or predictions, including but 
+2023.11.26 
+not limited to large language models, generative AI services, or AI-assisted software tools, whether 
+cloud-based or otherwise. 
+b. The defense team will not submit Disclosure Materials to a publicly accessible 
+version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, 
+Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool 
+provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own 
+model training, allows submitted data to be publicly accessed, discloses submitted data to third 
+parties, or, except as specified below, retains submitted data. 
+c. The defense may submit Disclosure Materials to an AI tool (i) that maintains 
+the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to 
+third parties not authorized under this Protective Order to receive such materials; (iii) that will not 
+retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be 
+removed from the AI tool(s) at the conclusion of this case 
+Other Provisions 
+10. This Order does not  prevent the disclosure of any D isclosure Material in any hearing 
+or trial held in this action, or to any judge or magistrate judge, for purposes of this action. All 
+filings should comply with the privacy protection provisions of Fed. R. Crim. P. 49.1 and the above 
+provisions. 
+11. The Government’s designation of material will be controlling absent contrary order of 
+the Court. The parties shall meet and confer regarding any dispute over such designations, after 
+which the defense may seek de -designation by the Court. The Government may authorize, in 
+writing, disclosure of Disclosure Material beyond that otherwise permitted by this Order without 
+further Order of this Court.  
+2023.11.26 
+12. The defense shall provide a copy of this Order to prospective witnesses and persons 
+retained by counsel to whom the defense has disclosed Disclosure Material. All such persons shall 
+be subject to the terms of this Order. Defense counsel shall maintain a record of what information 
+has been disclosed to which such persons. 
+13. Except for Disclosure Material that has been made part of the record of this case, the 
+defense shall return  to the Government or securely destroy or delete all Disclosure Material, 
+including any ESI, within 30 days of the expiration of the period for direct appeal from any verdict 
+in the above -captioned case; the period of direct appeal from any order dismissing any of the 
+charges in the above -captioned case ; and the granting of any motion made on behalf of the 
+Government dismissing any charges in the above -captioned case, whichever date is later, subject 
+to defense counsel’s obligation to retain client files under the Rules of Professional Conduct . If 
+Disclosure Material is provided to any personnel for whose conduct defense counsel is responsible 
+or prospective witnesses , defense counsel shall make reasonable efforts to seek the return or 
+destruction of such materials. 
+2023.11.26
+Retent
+ion of Jurisdiction 
+14. The provisions of this order shall not terminate at the conclusion of this criminal
+prosecution and the Court will retain jurisdiction to enforce this Order following termination of 
+the case.  
+AGREED AND C
+ONSENTED TO: 
+JAMES M
+. MCDONALD 
+United States Attorney 
+by: _____________________________ Date: 
+_____________________ 
+Date: __8/10/2026________________ 
+Joe Zabel 
+Assistant United States Attorney 
+___/s/LisaScolari_____________ 
+Lisa Scolari 
+Counsel for Matthew Spatola 
+SO ORDER
+ED: 
+Dated: Ne
+w York, New York  
+August___, 2026 
+_________________________________ 
+THE HONORAB
+LE RONNIE ABRAMS 
+UNITED STATES DISTRICT JUDGE 
+8/10/2026

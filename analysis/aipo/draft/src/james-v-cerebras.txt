@@ -1,0 +1,684 @@
+james-v-cerebras, N.D. Cal., No. 4:25-cv-09361, ECF 75. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.cand.458918/gov.uscourts.cand.458918.75.0.pdf, sha256 40ec1db7393c1dcab0cb11f436f9292e16e8c9b3ead6994e2395ad108ab2ec70), downloaded 2026-11-01. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+ 
+- 1 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+UNIT
+ED STATES DISTRICT COURT 
+NORTHERN DISTRICT OF CALIFORNIA 
+SAN FRANCISCO DIVISION 
+DARIUS H. JAMES, individually and on 
+behalf of similarly situated individuals, 
+Plaintiff, 
+v. 
+CER
+EBRAS SYSTEMS INC., 
+a Delaware corporation, 
+Def
+endant. 
+Case No. 4:25-cv-09361-AMO 
+[PR
+OPOSED] STIPULATED 
+P
+ROTECTIVE ORDER  
+ 
+- 2 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+Pursuant to Rule 26(c) of the Federal Rules of Civil Procedure, the Parties hereby jointly stipulate to 
+this Protective Order.  Pursuant to this Court’s Civil Standing Order, the Parties state that this Protective 
+Order is based in part on the United States District Court for the Northern District of California’s model 
+protective order titled “Model Protective Order for Litigation Involving Patents, Highly Sensitive 
+Confidential Information and/or Trade Secrets.” A declaration explaining the Parties’ modifications to the 
+model order is attached hereto as Exhibit 1. A redline comparing the Parties’ proposed Protective Order to 
+the model is attached hereto as Exhibit 2. 
+1.P URPOSES AND LIMITATIONS
+Disclosure and discovery activity in this Action are likely to involve production of confidential,
+proprietary, or private information for which special protection from public disclosure and from use for any 
+purpose other than prosecuting this litigation may be warranted. Accordingly, the Parties hereby stipulate to 
+and petition the Court to enter the following Stipulated Protective Order (“Protective Order” or “Order”). 
+The Parties acknowledge that this Order does not confer blanket protections on all disclosures or responses 
+to discovery and that the protection it affords from public disclosure and use extends only to the limited 
+information or items that are entitled to confidential treatment under the applicable legal principles. The 
+Parties further acknowledge, as set forth in Section 13.3, below, that this Stipulated Protective Order does 
+not entitle them to file confidential information under seal; Civil Local Rule 79-5 sets forth the procedures 
+that must be followed and the standards that will be applied when a Party seeks permission from the Court 
+to file material under seal. 
+2. DE FINITIONS
+2.1 Action: this pending lawsuit, James v. Cerebras Systems Inc., No. 3:25-cv-09361-AMO. 
+2.2 Challenging Party: a Party or Non-Party that challenges the designation of information or 
+items under this Order. 
+2.3 “CONFIDENTIA L” Information or Items: information (regardless of how it is generated, 
+stored or maintained) or tangible things that qualify for protection under Federal Rule of Civil Procedure 
+26(c). 
+2.4 “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” Information or Items: a 
+subset of “Confidential Information or Items” that is so competitively or commercially sensitive that 
+ 
+- 3 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+disclosure to another Party would create a substantial risk of serious harm that could not be avoided by less 
+restrictive means. Such material may be disclosed only to Outside Counsel of Record, House Counsel, and 
+other persons expressly permitted under this Order. 
+2.5 “ HIGHLY CONFIDENTIAL – SOURCE CODE” Information or Items: extremely sensitive 
+“Confidential Information or Items” comprised of Source Code, disclosure of which to another Party or 
+Non-Party would create a substantial risk of serious harm that could not be avoided by less restrictive 
+means. 
+2.6 Counsel (without qualifier): Outside Counsel of Record and House Counsel (as well as their 
+support staff). 
+2.7 Designating Party:  a Party or Non-Party that designates information or items that it produces 
+in disclosures or in responses to discovery as “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE.”  
+2.8 Disclosure or Discovery Material: a ll items or information, regardless of the medium or 
+manner in which it is generated, stored, or maintained (including, among other things, testimony, transcripts, 
+and tangible things), that are produced or generated in disclosures or responses to discovery in this matter. 
+2.9 Expert:  a person with specialized knowledge or experience in a matter pertinent to the 
+litigation who has been retained by a Party or its counsel to serve as an expert witness or as a consultant in 
+this action. 
+2.10 House Counsel: attorneys who are employees of a Party to this Action. House Counsel does 
+not include Outside Counsel of Record or any other outside counsel. 
+2.11 Non-P arty: any natural person, partnership, corporation, association, or other legal entity not 
+named as a Party to this action. 
+2.12 Outside Counsel of Record: attorneys who are not employees of a Party t o this Action but are 
+retained to represent or advise a Party to this Action and have appeared in this Action on behalf of that Party 
+or are affiliated with a law firm that has appeared on behalf of that Party, and includes support staff. 
+2.13 Party: a ny party to this Action, including all of its officers, directors, employees, consultants, 
+retained experts, and Outside Counsel of Record (and their support staffs). 
+ 
+- 4 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+2.14 Producing Party: a Party or Non-Party that produces Disclosure or Discovery Material in this 
+Action. 
+2.15 Professional Vendors: persons or entities that provide litigation support services (e.g., 
+photocopying, videotaping, translating, preparing exhibits or demonstrations, and organizing, storing, or 
+retrieving data in any form or medium) and their employees and subcontractors. 
+2.16 Protected Material: any Disclosure or Discovery Material that is designated as 
+“CONFIDENTIAL”, “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY 
+CONFIDENTIAL – SOURCE CODE.”  
+2.17 Receiving Party: a Party that receives Disclosure or Discovery Material from a Producing 
+Party. 
+2.18 Source Code: Source code is extremely sensitive technical information, disclosure of which 
+would create a substantial risk of serious competitive harm that could not be avoided by less restrictive 
+means, including but not limited to: 
+(a) source code;
+(
+b) object code;
+(c) executable files;
+(d) scripts;
+(e) build instructions;
+(f) version histories;
+(g) training pipeline code;
+(h) data ingestion or filtering scripts;
+(i) tokenization or preprocessing scripts;
+(j) configuration files; and
+(k) model architecture files.
+For the avoidance of doubt, Source Code does not include Training Data.
+2.19 Training Data: Training Data means any information or dataset in any form that is used,
+processed, ingested, or referenced to develop, improve, refine, or validate machine learning models or 
+ 
+- 5 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+artificial intelligence systems.  The parties agree that Training Data shall be considered Highly Confidential 
+– Attorneys’ Eyes Only under the Order.
+3. S COPE
+The protections conferred by this Stipulated Protective Order cover not only Protected Material (as
+defined above), but also (1) any information copied or extracted from Protected Material; (2) all copies, 
+excerpts, summaries, or compilations of Protected Material; and (3) any testimony, conversations, or 
+presentations by Parties or their Counsel that might reveal Protected Material. However, the protections 
+conferred by this Stipulated Protective Order do not cover the following information: (a) any information 
+that is in the public domain at the time of disclosure to a Receiving Party or becomes part of the public 
+domain after its disclosure to a Receiving Party as a result of publication not involving a violation of this 
+Order, including becoming part of the public record through trial or otherwise; and (b) any information 
+known to the Receiving Party prior to the disclosure or obtained by the Receiving Party after the disclosure 
+from a source who obtained the information lawfully and under no obligation of confidentiality to the 
+Designating Party. Any use of Protected Material at trial shall be governed by a separate agreement or order. 
+4. DURAT ION
+Even after final disposition of this litigation, the confidentiality obligations imposed by this Order
+shall remain in effect until a Designating Party agrees otherwise in writing or a court order otherwise 
+directs. Final disposition shall be deemed to be the later of (1) dismissal of all claims and defenses in this 
+Action, with or without prejudice; and (2) final judgment herein after the completion and exhaustion of all 
+appeals, rehearings, remands, trials, or reviews of this Action, including the time limits for filing any 
+motions or applications for extension of time pursuant to applicable law. 
+5.DE SIGNATING PROTECTE D MATERIAL
+5.1 Exercise of Restraint and Care in Designating Material for Protection. Each Party or Non-
+Party that designates information or items for protection under this Order must take care to limit any such 
+designation to specific material that qualifies under the appropriate standards. The Designating Party must 
+designate for protection only those parts of material, documents, items, or oral or written communications 
+that qualify so that other portions of the material, documents, items, or communications for which protection 
+is not warranted are not swept unjustifiably within the ambit of this Order. 
+ 
+- 6 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+Mass, indiscriminate, or routinized designations are prohibited. Designations that are shown to be 
+clearly unjustified or that have been made for an improper purpose (e.g., to unnecessarily encumber or slow 
+the case development process or to impose unnecessary expenses and burdens on other Parties) expose the 
+Designating Party to potential sanctions. 
+If it comes to a Designating Party’s attention that information or items that it designated for 
+protection do not qualify for protection, that Designating Party must promptly notify all other Parties that it 
+is withdrawing the mistaken or no longer appropriate designation. 
+5.2 M anner and Timing of Designations. Except as otherwise provided in this Order, or as 
+otherwise stipulated or ordered, Disclosure or Discovery Material that qualifies for protection under this 
+Order must be clearly so designated before the material is disclosed or produced or in compliance with 
+Section 5.3. 
+Designation in conformity with this Order requires: 
+(
+a) For information in documentary form (e.g., paper, electronic documents, or
+multimedia, but excluding transcripts of depositions or other pretrial or trial proceedings), that the 
+Producing Party affix the legend “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – ATTORNEYS’ 
+EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE,” to each document that contains 
+protected material or, in the case of documents produced in native format, by affixing the legend 
+“CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY 
+CONFIDENTIAL – SOURCE CODE” to a slip sheet produced along with the document.  
+A Party or Non-Party that makes original documents or materials available for inspection need not 
+designate them for protection until after the inspecting Party has indicated which material it would like 
+copied and produced. During the inspection and before the designation, all of the material made available 
+for inspection shall be deemed “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY.” After the 
+inspecting Party has identified the documents it wants copied and produced, the Producing Party must 
+determine which documents, or portions thereof, qualify for protection under this Order. Then, before 
+producing the specified documents, the Producing Party must affix the appropriate legend 
+(“CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY 
+CONFIDENTIAL – SOURCE CODE”) to each such document or, in the case of documents produced in 
+ 
+- 7 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(b
+) For testimony given in depositions  or in other pretrial or trial proceedings, that the
+Designating Party identifies, within 30 days of receipt of the transcript for any deposition, or before the 
+close of the hearing or other proceeding, all protected testimony. 
+Any Party ma y designate information disclosed at a deposition for protection under this Order by 
+notifying all Parties in writing not later than 30 days of receipt of the transcript of the specific pages and 
+lines of the transcript that should be treated as Protected Material thereafter. Any transcript that is prepared 
+before the expiration of the 30-day period for designation shall be treated during that period as if it had been 
+designated “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” in its entirety unless otherwise 
+agreed. After the expiration of that period, the transcript shall be treated only as actually designated; 
+To the extent possible, the court reporter shall segregate into separate transcripts information 
+designated for protection with blank, consecutively numbered pages being provided in a nondesignated 
+main transcript. The separate transcript containing Protected Material shall have page numbers that 
+correspond to the blank pages in the main transcript.  
+Parties shall give the other parties notice if they reasonably expect a deposition, hearing, or other 
+proceeding to include Protected Material so that the other parties can ensure that only authorized individuals 
+who have signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A) are present at those 
+proceedings. The use of a document as an exhibit at a deposition shall not in any way affect its designation 
+as “CONFIDENTIAL” or “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY.”   
+Counsel for a Party or a non-Party witness shall have the right to exclude from depositions any 
+person who is not authorized to receive Protected Material information under this Order, but such right of 
+exclusion shall be applicable only during periods of examination or testimony during which Protected 
+Material is used or discussed. After the discussion and use of the Protected Material has ceased, others may 
+be readmitted to the deposition, but no other person than the witness and those authorized to receive the 
+Protected Material shall be permitted to access the Protected Material or the testimony elicited therefrom by 
+any means, including but not limited to real-time stenography software, exhibit sharing software, or 
+native format, by affixing the appropriate legend (“CONFIDENTIAL,” “HIGHLY CONFIDENTIAL,” 
+“HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – 
+SOURCE CODE”) to a slip sheet produced along with the document. 
+ 
+- 8 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(c) For information contained in written discovery responses, the responses may be
+designated as containing “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES 
+ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE” information by clearly indicating the 
+portions containing such information and specifying the level of designation of the Protected Material, 
+and by placing a legend on the front page of such discovery responses stating: “CONTAINS 
+CONFIDENTIAL INFORMATION/[the highest level of designation contained in the answers].” 
+(d) For information produced in some form other than documentary and for any other
+tangible items, that the Producing Party affix in a prominent place on the exterior of the container or 
+containers in which the information or item is stored the legend “CONFIDENTIAL,” “HIGHLY 
+CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE 
+CODE.” If only a portion or portions of the information or item warrant protection, the Producing Party, 
+to the extent practicable, shall identify the protected portion(s). 
+5.3 Inadvertent Failures to Designate. If timely corrected, an inadvertent failure to designate 
+qualified information or items does not, standing alone, waive the Designating Party’s right to secure 
+protection under this Order for such material. Upon timely correction of a designation, the Receiving Party 
+must make reasonable efforts to assure that the material is treated in accordance with the provisions of this 
+Order. 
+6. CHALLENGING CONFIDENTIALITY DESIGNATIONS
+6.1 Timing of Challenges. Any Party or Non-Party may challenge a designation of
+confidentiality at any time. Unless a prompt challenge to a Designating Party’s confidentiality designation is 
+necessary to avoid foreseeable, substantial unfairness, unnecessary economic burdens, or a significant 
+disruption or delay of the litigation, a Party does not waive its right to challenge a confidentiality 
+designation by electing not to mount a challenge promptly after the original designation is disclosed. 
+transcript. Any document designated as “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE” that is marked as an 
+exhibit in any deposition shall be treated according to the designation of that document prior to the 
+deposition. 
+ 
+- 9 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+6.2 Meet and Confer. The Challenging Party shall initiate the dispute resolution process by 
+providing written notice of each designation it is challenging and describing the basis for each challenge. To 
+avoid ambiguity as to whether a challenge has been made, the written notice must recite that the challenge 
+to confidentiality is being made in accordance with this specific paragraph of the Protective Order. The 
+Parties shall attempt to resolve each challenge in good faith and must begin the process by conferring 
+directly (in voice to voice dialogue; other forms of communication are not sufficient) within 14 days of the 
+date of service of notice. In conferring, the Challenging Party must explain the basis for its belief that the 
+confidentiality designation was not proper and must give the Designating Party an opportunity to review the 
+designated material, to reconsider the circumstances, and, if no change in designation is offered, to explain 
+the basis for the chosen designation. A Challenging Party may proceed to the next stage of the challenge 
+process only if it has engaged in this meet and confer process first or establishes that the Designating Party 
+is unwilling to participate in the meet and confer process in a timely manner. 
+6.3 Judicial Intervention. If the Parties cannot resolve a challe nge without Court intervention, the 
+Designating Party shall file and serve a motion to retain confidentiality under Civil Local Rule 7 (and in 
+compliance with Civil Local Rule 79-5, if applicable) within 21 days of the initial notice of challenge or 
+within 14 days of the Parties agreeing that the meet and confer process will not resolve their dispute, 
+whichever is earlier.1 Each such motion must be accompanied by a competent declaration affirming that the 
+movant has complied with the meet and confer requirements imposed in the preceding paragraph. Failure by 
+the Designating Party to make such a motion including the required declaration within 21 days (or 14 days, 
+if applicable shall automatically waive the confidentiality designation for each challenged designation. In 
+1 Pursuant to footnote 1 of the Northern District of California Model Order, after the Challenging Party has 
+made more than 7 challenges to confidentiality designations, the Challenging Party shall bear the burden of 
+moving for relief as to any further challenges. To the extent the Designating Party has uniformly designated 
+a category of documents, a challenge to the propriety of that designation shall be treated as 1 challenge. A 
+challenge to a Uniform Category Designation shall count as one challenge only if the Designating Party has 
+applied the same confidentiality designation to a discrete, objectively defined category of documents and the 
+basis for the designation is materially the same for every document in that category. By way of example 
+only, if the Designating Party designates all contracts with third parties HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY and there are 10 such contracts, the Challenging Party may lodge 1 challenge 
+to the designation of all 10 contracts. By contrast, a “Uniform Category Designation” does not include, for 
+example, a challenge to documents grouped only by production, custodian, date range, Bates range, search 
+term, document type at a high level, or the fact that they bear the same designation. The Designating Party 
+shall at all times retain the burden of persuasion to justify the challenged designation.  
+ 
+- 10 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+7. ACCESS TO AND USE OF PROTECTED MATERIAL
+7.1 Basic Principles. A Receiving Party may use Protected Material that is disclosed or produced
+by another Party or by a Non-Party in connection with this Action only for prosecuting, defending, or 
+attempting to settle this Action. Such Protected Material may be disclosed only to the categories of persons 
+and under the conditions described in this Order. When the Action has been terminated, a Receiving Party 
+must comply with the provisions of section 14 below (FINAL DISPOSITION). 
+Protected Material must be stored and maintained by a Receiving Party at a location and in a secure 
+ma
+nner that ensures that access is limited to the persons authorized under this Order. 
+7.2 Disclosure of “CONFIDENTIAL” Information or Items. Unless otherwise ordered by the 
+Court or permitted in writing by the Designating Party, a Receiving Party may disclose any information or 
+item designated “CONFIDENTIAL” only to: 
+(a) Outside Counsel of Record and their staff;
+(b
+) the officers, directors, and employees (including House Counsel) of the Receiving
+Party, or any Receiving Party who is an individual, to whom disclosure is reasonably necessary for this 
+litigation; 
+addition, the Challenging Party may file a motion challenging a confidentiality designation at any time if 
+there is good cause for doing so, including a challenge to the designation of a deposition transcript or any 
+portions thereof. Any motion brought pursuant to this provision must be accompanied by a competent 
+declaration affirming that the movant has complied with the meet and confer requirements imposed by the 
+preceding paragraph. 
+The burden of persuasion in any such challenge proceeding shall be on the Designating Party. 
+Frivolous challenges, and those made for an improper purpose (e.g., to harass or impose unnecessary 
+expenses and burdens on other Parties) may expose the Challenging Party to sanctions. Unless the 
+Designating Party has waived the confidentiality designation by failing to file a motion to retain 
+confidentiality as described above, all Parties shall continue to afford the material in question the level of 
+protection to which it is entitled under the Producing Party’s designation until the Court rules on the 
+challenge. 
+ 
+- 11 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(c) Experts (as defined in this Order) of the Receiving Party to whom disclosure is
+reasonably necessary for this litigation and who have signed the “Acknowledgment and Agreement to Be 
+Bound” (Exhibit A); 
+(d) the Court and its personnel;
+(e) mediators, special masters, or others engaged  by the Court or jointly by the Parties
+in this action who have signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A); 
+(f) court reporters and their staff, professional jury or trial consultants, mock jurors,
+and Professional Vendors to whom disclosure is reasonably necessary for this litigation and who have 
+signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A); 
+(g) during their depositions, witnesses in the Action to whom disclosure is reasonably
+necessary; provided, however, that (i) such witness’s appearance at a deposition after being informed that 
+the deposition is subject to this Stipulated Protective Order shall constitute agreement to be bound by its 
+terms for purposes of that deposition, and (ii) if continued access to Protected Material is required after 
+the deposition, such witness shall sign the “Acknowledgment and Agreement to Be Bound” (Exhibit A), 
+unless otherwise agreed by the Designating Party or ordered by the Court. Pages of transcribed 
+deposition testimony or exhibits to depositions that reveal Protected Material must be separately bound 
+by the court reporter and may not be disclosed to anyone except as permitted under this Stipulated 
+Protective Order; the author or recipient of a document containing the information or a custodian or other 
+person who otherwise possessed or knew the information; and  
+(h) other persons only by written consent of the Designating Party or upon order of the
+Court and who have signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A). 
+7.3 Di sclosure of “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” or “HIGHLY 
+CONFIDENTIAL – SOURCE CODE” Information or Items. Unless otherwise ordered by the Court or 
+permitted in writing by the Designating Party, information designated “HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY” or “HIGHLY CONFIDENTIAL – SOURCE CODE” may be disclosed only 
+to: 
+(a) O utside Counsel of Record and t heir staff;
+(b) House Counsel and their staff;
+ 
+- 12 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(c) Subject to Section 7.4, Experts (as defined in this Order) of the Receiving Party to
+whom disclosure is reasonably necessary for this litigation and who have signed the “Acknowledgment 
+and Agreement to Be Bound” (Exhibit A); 
+(d) the Court and its personnel;
+(e) mediators, special masters, or others engaged by the Court or jointly by the Parties
+in this action who have signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A); 
+(f) court reporters and their staff, professional jury or trial consultants, mock jurors,
+and Professional Vendors to whom disclosure is reasonably necessary for this litigation and who have 
+signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A); 
+(g) the author or recipient of a document containing the information or a custodian or
+other person who otherwise possessed or knew the information; and 
+(h) other persons only by written consent of the Designating Party or upon order of the
+Court and who have signed the “Acknowledgment and Agreement to Be Bound” (Exhibit A). 
+7.4 P rocedures for Approving or Objecting to Disclosure of “HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY” Information or Items to Experts. 
+(a) U nless otherwise ordered by the court or agreed to in writing by the Designating
+Party, a Party that seeks to disclose to an Expert any information or item that has been designated 
+“HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” or “HIGHLY CONFIDENTIAL – SOURCE 
+CODE” pursuant to 7.3(c) first must make a written request to the Designating Party that (1) identifies the 
+general categories of “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” or “HIGHLY 
+CONFIDENTIAL – SOURCE CODE”  information that the Receiving Party seeks permission to disclose to 
+the Expert, (2) sets forth the full name of the Expert and the city and state of their primary residence, (3) 
+attaches a copy of the Expert’s current resume, (4) identifies the Expert’s current employer(s), (5) identifies 
+each person or entity from whom the Expert has received compensation or funding for work in their areas of 
+expertise or to whom the expert has provided professional services, including in connection with a litigation, 
+at any time during the preceding five years, and (6) identifies (by name and number of the case, filing date, 
+and location of court) any litigation in connection with which the Expert has offered expert testimony, 
+including through a declaration, report, or testimony at a deposition or trial, during the preceding five years. 
+ 
+- 13 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(b) A Party that makes a request and provides the information specified in the
+preceding respective paragraphs may disclose the subject Protected Material to the identified Expert unless, 
+within 14 days of delivering the request, the Party receives a written objection from the Designating Party. 
+Any such objection must set forth in detail the grounds on which it is based. 
+(c) A Party that receives a timely written objection must meet and confer with the
+Designating Party (through direct voice to voice dialogue) to try to resolve the matter by agreement within 
+seven days of the written objection. If no agreement is reached, the Party seeking to make the disclosure to 
+the Expert may follow the discovery dispute procedures outlined in Judge Martínez-Olguín’s Standing 
+Order for Civil Cases seeking permission from the court to do so. Any such motion must describe the 
+circumstances with specificity, set forth in detail the reasons why the disclosure to the Expert is reasonably 
+necessary, assess the risk of harm that the disclosure would entail, and suggest any additional means that 
+could be used to reduce that risk. In addition, any such motion must be accompanied by a competent 
+declaration describing the parties’ efforts to resolve the matter by agreement (i.e., the extent and the content 
+of the meet-and-confer discussions) and setting forth the reasons advanced by the Designating Party for its 
+refusal to approve the disclosure. 
+(d) In any such proceeding, the Party opposing disclosure to the Expert shall bear the
+burden of proving that the risk of harm that the disclosure would entail (under the safeguards proposed) 
+outweighs the Receiving Party’s need to disclose the Protected Material to its Expert. 
+8. S OURCE CODE
+(a) To the extent production of Source Code becomes necessary in this Action, a
+Producing Party may designate Source Code as “HIGHLY CONFIDENTIAL – SOURCE CODE” as 
+provided in Section 2.5. 
+(b) Protected Material designated as “HIGHLY CONFIDENTIAL – SOURCE
+CODE” shall be subject to all of the protections afforded to “HIGHLY CONFIDENTIAL – 
+ATTORNEYS’ EYES ONLY” information and may be disclosed only to the individuals to whom 
+“HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES ONLY” information may be disclosed, as set forth 
+in Paragraph 7.3. 
+ 
+- 14 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+(c) Any Source Code produced in discovery shall be made available for inspection in a
+format allowing it to be reasonably reviewed and searched during normal business hours (9:00 a.m. to 
+5:00 p.m. local time, Monday through Friday) or at other mutually agreeable times at (1) an office of the 
+Producing Party or the Producing Party’s primary outside counsel of record or (2) another mutually 
+agreed upon location. Any location under (1) or (2) shall be within the United States. The Source Code 
+shall be made available for inspection on a secured, stand-alone computer (the “Source Code Computer”) 
+in a secured room without Internet access or network access to other computers, and the Receiving Party 
+shall not copy, remove, or otherwise transfer any portion of the Source Code onto any recordable media 
+or recordable device.  The Producing Party may visually monitor the activities of the Receiving Party’s 
+representatives during any Source Code review, but only to ensure that there is no unauthorized 
+recording, copying, or transmission of the Source Code. The Reviewing Party shall provide, at least five 
+(5) business days before any source code review, all applications, tools, licenses, credentials, and related
+materials requested for installation or use on the designated source code review machine. The Reviewing
+Party shall provide written notice of its intent to conduct a source code review at least five (5) business
+days before the requested review date. No electronic devices or equipment, other than the designated
+source code review machine and any pre-approved equipment, may be brought into or used in the source
+code review room.
+(d) The Receiving Party may request paper copies of no more than 250 total pages and
+30 sequential pages of limited portions of Source Code that are reasonably necessary for the preparation 
+of court filings, pleadings, expert reports, or for deposition or trial, but shall not request paper copies for 
+the purposes of reviewing the source code other than electronically as set forth in paragraph (c) in the 
+first instance.  The Receiving Party may request for good cause additional total or sequential pages of 
+Source Code. Following such a request for additional paper copies, the Parties shall meet and confer 
+regarding the total and sequential pages of Source Code requested. Printed copies shall be (i) Bates 
+numbered, (ii) labeled “HIGHLY CONFIDENTIAL – SOURCE CODE.” and (iii) stored in a secure, 
+access-controlled location. If the parties are unable to resolve any disputes regarding the Receiving 
+Party’s request for additional hard copies of Source Code, the Producing Party may challenge the amount 
+of Source Code requested in hard copy form pursuant to the dispute resolution procedure and timeframes 
+ 
+- 15 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+set forth in Paragraph 6 whereby the Producing Party is the “Challenging Party” and the Receiving Party 
+is the “Designating Party” for purposes of dispute resolution.  
+(e) The Receiving Party shall maintain a record of any individual who has inspected
+any portion of the Source Code in electronic or paper form. The Receiving Party shall maintain all paper 
+copies of any printed portions of the Source Code in a secured, locked area. The Receiving Party shall 
+not create any electronic or other images of the paper copies and shall not convert any of the information 
+contained in the paper copies into any electronic format. The Receiving Party shall only make additional 
+paper copies if such additional copies are (1) necessary to prepare court filings, pleadings, or other papers 
+(including a testifying expert’s expert report), (2) necessary for deposition, or (3) otherwise necessary for 
+the preparation of its case. Any paper copies used during a deposition shall be retrieved by the Producing 
+Party at the end of each day and must not be given to or left with a court reporter or any other 
+unauthorized individual. 
+9. P ROTECTED MATERIAL S UBPOENAED OR ORDERED PRODUCED IN OTHER
+LITIGATION
+If a Party is served with a subpoena or a court order issued in other litigation that compels disclosure
+of any information or items designated in this action as “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL 
+– ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE” that Party must:
+(a) promptly notify in writing the Designating Party. Such notification shall include a
+copy of the subpoena or court order; 
+(b) promptly notify in writing the Party who caused the subpoena or order to issue in
+the other litigation that some or all of the material covered by the subpoena or order is subject to this 
+Protective Order. Such notification shall include a copy of this Stipulated Protective Order; and  
+(c) not impede reasonable procedures sought to be pursued by the Designating Party
+whose Protected Material may be affected. 
+If the Designating Party timely seeks a protective order, the Party served with the subpoena or court 
+order shall not produce any information designated in this action as “CONFIDENTIAL,” “HIGHLY 
+CONFIDENTIAL – ATTORNEYS’ EYES ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE,” 
+before a determination by the court from which the subpoena or order issued, unless (i) the Party has 
+ 
+- 16 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+obtained the Designating Party’s permission, (ii) production is required to comply with applicable law, or 
+(iii) a court of competent jurisdiction has entered an order compelling such production. The Designating
+Party shall bear the burden and expense of seeking protection in that court of its confidential material – and
+nothing in these provisions should be construed as authorizing or encouraging a Receiving Party in this
+Action to disobey a lawful directive from another court.
+10. A NO N-PARTY’S PROTECTED MATERIAL SOUGHT TO BE PRODUCED IN THIS
+LITIGATION
+(a) The terms of this Order are applicable to information produced by a Non-Party in
+this Action and designated as “CONFIDENTIAL,” “HIGHLY CONFIDENTIAL – ATTORNEYS’ EYES 
+ONLY,” or “HIGHLY CONFIDENTIAL – SOURCE CODE.” Such information produced by Non-Parties 
+in connection with this litigation is protected by the remedies and relief provided by this Order. Nothing in 
+these provisions should be construed as prohibiting a Non-Party from seeking additional protections.  
+(b) In the event that a Party is required, by a valid discovery request, to produce a
+Non-Party’s confidential information in its possession, and the Party is subject to an agreement with the 
+Non-Party not to produce the Non-Party’s confidential information, then the Party shall:  
+(1) promptly notify in writing the Requesting Party and the Non-Party that some
+or all of the information requested is subject to a confidentiality agreement with a Non-Party; 
+(2) promptly provide the Non-Party with a copy of the Stipulated Protective
+Order in this litigation, the relevant discovery request(s), and a reasonably specific description of the 
+information requested; and  
+(3) make the information requested available for inspection by the Non-Party.
+(c) If the Non-Party fails to object or seek a protective order from this Court within 14
+days of receiving the notice and accompanying information, the Receiving Party may produce the Non-
+Party’s confidential information responsive to the discovery request. If the Non-Party timely seeks a 
+protective order, the Receiving Party shall not produce any information in its possession or control that is 
+subject to the confidentiality agreement with the Non-Party before a determination by the Court. Absent a 
+court order to the contrary, the Non-Party shall bear the burden and expense of seeking protection in this 
+Court of its Protected Material. 
+ 
+- 17 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+11. UNAUTHORIZED DISCLOSURE OF PROTECTED MATERIAL
+If a Receiving Party learns that, by inadvertence or otherwise, it has disclosed Protected Material to
+any person or in any circumstance not authorized under this Stipulated Protective Order, the Receiving Party 
+must immediately (a) notify in writing the Designating Party of the unauthorized disclosures, (b) use its best 
+efforts to retrieve all unauthorized copies of the Protected Material, (c) inform the person or persons to 
+whom unauthorized disclosures were made of all the terms of this Order, and (d) request such person or 
+persons to execute the “Acknowledgment and Agreement to Be Bound” that is attached hereto as Exhibit A. 
+12. I NADVERTENT PRODUCTION OF PRIVILEGED OR OTHERWISE PROTECTED
+MATERIAL
+12.1 If a Party or Non-Party claims that information produced in discovery, or withheld from
+discovery, is protected by the attorney-client privilege, the attorney work-product doctrine, or any other 
+applicable privilege, that Party or Non-Party must notify each Party that received the information, or from 
+whom the information was withheld, of the claim and its basis. 
+12.2 The Parties reserve the right to challenge any assertion by a Designating Party that a 
+particular document, or collection or compilation of documents or data, is protected by the attorney-client 
+privilege, the attorney work-product doctrine, or any other applicable privilege. 
+12.3 If a Receiving Party receives a document from a Designating Party that the Receiving Party 
+has reason to believe is privileged, the Receiving Party shall, in good faith, take reasonable steps to 
+promptly notify the Designating Party of the production so that the Designating Party may determine 
+whether to assert a claim of privilege. 
+12.4 If the Designating Party notifies a Receiving Party of the inadvertent production of materials 
+subject to a claim of privilege (the “Identified Materials”), the Receiving Party must promptly return, 
+sequester, or destroy all copies of the Identified Materials, except as otherwise described in this Paragraph. 
+The Receiving Party may not use or disclose the Identified Materials or the information contained therein 
+until any dispute regarding the claim is resolved. If the Receiving Party disclosed the Identified Materials 
+before receiving notice, it must take reasonable steps to retrieve them. The Designating Party must preserve 
+the Identified Materials in their as-produced form until any dispute regarding the claim is resolved.  
+12.5 The agreement set forth in this Section 12 does not constitute a concession by any Party that 
+any documents are protected by the attorney-client privilege, the attorney work-product doctrine, or any 
+ 
+- 18 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+other potentially applicable privilege. Nothing in this Section waives or limits any Party’s right to challenge 
+any privilege claim asserted with respect to any produced document, except as expressly stated herein. 
+Nothing in this Section waives or limits any Party’s right, before production, to review documents, ESI, or 
+information (including metadata) for relevance, responsiveness, or the segregation of privileged or protected 
+material. 
+13. M ISCELLANEOUS
+13.1 Right to Further Relief.  Nothing in this Order abridges the right of any person to seek its
+modification by the Court in the future. 
+13.2 Right to Assert Other Objections.  B y stipulating to the entry of this Order, no Party waives 
+any right it otherwise would have to object to disclosing or producing any information or item on any 
+ground not addressed in this Stipulated Protective Order. Similarly, no Party waives any right to object on 
+any ground to use in evidence of any of the material covered by this Order. 
+13.3 Filing Protected Material.  Without written permission from the Designating Party or a Court 
+order secured after appropriate notice to all interested persons, a Party may not file in the public record in 
+this action any Protected Material. A Party that seeks to file under seal any Protected Material must comply 
+with Civil Local Rule 79-5. Protected Material may only be filed under seal pursuant to a Court order 
+authorizing the sealing of the specific Protected Material at issue. Pursuant to Civil Local Rule 79-5, a 
+sealing order will issue only upon a request establishing that the Protected Material at issue is privileged, 
+protectable as a trade secret, or otherwise entitled to protection under the law. If a Receiving Party’s request 
+to file Protected Material under seal pursuant to Civil Local Rule 79-5 is denied by the Court, then the 
+Receiving Party may file the information in the public record pursuant to Civil Local Rule 79-5 unless 
+otherwise instructed by the Court. 
+13.4 Large Language Models / Generative AI Tools.   All Parties shall take commercially 
+reasonable steps to prevent unauthorized access to any Protected Material, including when using generative 
+AI tools or large language models (“LLMs”).  Without notifying and obtaining permission from the 
+Producing Party, individuals or entities with access to Protected Material under this Order must not use 
+Protected Material in AI tools or similar applications (e.g., OpenAI GPT, ChatGPT, Google Bard, Meta 
+LLAMA) without taking commercially reasonable efforts to ensure such tools (a) do not incorporate inputs 
+ 
+- 19 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+14. F
+INAL DISPOSITION
+Within 60 days after the final disposition of this action, as defined in Section 4, each Receiving Party
+must return all Protected Material to the Producing Party or destroy such material. As used in this 
+subdivision, “all Protected Material” includes all copies, abstracts, compilations, summaries, and any other 
+format reproducing or capturing any of the Protected Material. Whether the Protected Material is returned or 
+destroyed, the Receiving Party must submit a written certification to the Producing Party (and, if not the 
+same person or entity, to the Designating Party) by the 60 day deadline that (1) identifies (by category, 
+where appropriate) all the Protected Material that was returned or destroyed and (2) affirms that the 
+Receiving Party has not retained any copies, abstracts, compilations, summaries or any other format 
+reproducing or capturing any of the Protected Material. Notwithstanding this provision, Counsel are entitled 
+to retain an archival copy of all pleadings, motion papers, trial, deposition, and hearing transcripts, legal 
+memoranda, correspondence, deposition and trial exhibits, expert reports, attorney work product, and 
+consultant and expert work product, even if such materials contain Protected Material. Any such archival 
+copies that contain or constitute Protected Material remain subject to this Protective Order as set forth in 
+Section 4 (DURATION). 
+PUR
+SUANT TO STIPULATION, IT IS SO ORDERED. 
+into model weights, or otherwise train on Protected Material, and (b) adhere to industry standard 
+cybersecurity practices and provide sufficient administrative controls to prevent unauthorized access. For 
+the avoidance of doubt, the parties’ enterprise ChatGPT and Harvey accounts satisfy the foregoing 
+requirements.  
+13.5 Modification and Exceptions.  The Parties and any non-Parties may, by stipulation, provide 
+for exceptions to this Order and any Party may seek an order of this Court modifying this Order. 
+ 
+- 20 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+DATED: June 29, 2026 /s/ Sean A. Petterson 
+McGuire Law, P.C. 
+Eugene Y. Turin (SB # 342413) 
+1089 Willowcreek Road, Suite 200 
+San Diego, CA 92131 
+Tel: (312) 893-7002 Ex. 3 
+Fax: 312-275-7895 
+Email: eturin@mcgpc.com 
+David L. Gerbie (pro hac vice) 
+Jordan R. Frysinger (pro hac vice) 
+Donald S. Cuba II (pro hac vice) 
+Brendan J. Duffner (pro hac vice) 
+55 W. Wacker Dr., 9th Fl. 
+Chicago, IL 60601 
+Tel: (312) 893-7002 
+Fax: (312) 275-7895 
+Email: dgerbie@mcgpc.com 
+Email: jfrysinger@mcgpc.com 
+Email: dcuba@mcgpc.com 
+Email: bduffner@mcgpc.com 
+Lieff Cabraser Heimann & Bernstein LLP 
+Daniel M. Hutchinson (SB # 239548) 
+Anne B. Shaver (SB # 255928) 
+Amelia H. Haselkorn (SB # 339633) 
+Alison C. Fraerman (SB # 351981) 
+275 Battery St., 29th Floor 
+San Francisco, CA 94111 
+Tel: (415) 956-1000 
+Email: dhutchinson@lchb.com 
+Email: ashaver@lchb.com 
+Email: ahaselkorn@lchb.com 
+Email: afraerman@lchb.com 
+Rachel J. Geman (pro hac vice) 
+Sean A. Petterson (pro hac vice) 
+250 Hudson St., 8th Floor 
+New York, NY 10013 
+Tel: (212) 355-9500 
+Email: rgeman@lchb.com 
+Email: spetterson@lchb.com 
+C
+ounsel for Plaintiffs and the Putative Class Members 
+ 
+- 21 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+DATED: June 29, 2026 Catherine C. Porto 
+Keker, Van Nest & Peters LLP 
+Robert A. Van Nest (SB # 84065) 
+Sophie Hood (SB #295881) 
+Christopher S. Sun (SB #308945) 
+Christina Lee (SB #314339) 
+Eric K. Phung (SB #346625) 
+Celina S. Malave (SB #347808) 
+Lisa C. Lu (SB #364259) 
+Catherine C. Porto (SB #331168) 
+633 Battery Street 
+San Francisco, CA 94111 
+Tel: (415) 391-5400 
+Fax: (415) 397-7188 
+Email: rvannest@keker.com 
+Email: shood@keker.com 
+Email: csun@keker.com 
+Email: clee@keker.com 
+Email: ephung@keker.com 
+Email: cmalave@keker.com 
+Email: llu@keker.com 
+Email: cporto@keker.com 
+Counse
+l for Defendant Cerebras Systems Inc. 
+IT IS ORDERED that the foregoing Agreement is approved. 
+DATED: July 7, 2026 
+Hon. Robert M. Illman
+United States Magistrate Judge
+ 
+- 22 - [PROPOSED] STIPULATED PROTECTIVE ORDER 
+CASE NO. 4:25-CV-09361-AMO  
+EXHIBIT A 
+ACKNOWLEDGMENT AND AGREEMENT TO BE BOUND 
+I, _____________________________ [print or type full name], of _________________ [print or type full 
+address], declare under penalty of perjury that I have read in its entirety and understand the Stipulated 
+Protective Order that was issued by the United States District Court for the Northern District of California on 
+______[date] in the case of James v. Cerebras Systems Inc., No. 3:25-cv-09361-AMO. I agree to comply with 
+and to be bound by all the terms of this Stipulated Protective Order and I understand and acknowledge that 
+failure to so comply could expose me to sanctions and punishment in the nature of contempt. I solemnly 
+promise that I will not disclose in any manner any information or item that is subject to this Stipulated 
+Protective Order to any person or entity except in strict compliance with the provisions of this Order. 
+I further agree to submit to the jurisdiction of the United States District Court for the Northern District of 
+California for the purpose of enforcing the terms of this Stipulated Protective Order, even if such enforcement 
+proceedings occur after termination of this action. 
+I hereby appoint __________________________ [print or type full name] of 
+_______________________________________ [print or type full address and telephone number] as my 
+California agent for service of process in connection with this action or any proceedings related to enforcement 
+of this Stipulated Protective Order. 
+D
+ate: ______________________________________ 
+City and State where sworn and signed: _________________________________ 
+P
+rinted name: _______________________________ 
+Signature: __________________________________ 

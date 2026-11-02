@@ -1,0 +1,156 @@
+us-v-stamp, S.D.N.Y., No. 1:26-cr-00316, ECF 18. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.nysd.669119/gov.uscourts.nysd.669119.18.0.pdf, sha256 19b2e7d2dfc0cfbceab1a4c52342dfb42ad5d1f7843204c03042297613002a10), downloaded 2026-11-01. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+2026-07-10
+UNITED S
+TATES DISTRICT COURT 
+SOUTHERN DISTRICT OF NEW YORK 
+United States of America 
+v .  
+Michael Stamp & 
+Marcus Plank, 
+Defendants. 
+Protective Order 
+26 Cr. 316 (KPF) 
+ Upon the application of the United States of  America, with the consent of the undersigned 
+counsel, the Court hereby finds and orders as follows: 
+Categories 
+1. Disclosure Material.  The Government will make disclosure to the defendants of
+documents, objects and information, including electronically stored information (“ESI”), pursuant 
+to Federal Rule of Criminal Procedure 16, 18 U.S.C. § 3500, and the Government’s general 
+obligation to produce exculpatory a nd impeachment material in crimin al cases, all of which will 
+be referred to herein as “Disclosure Material.” The Government’s Disclosure Material may include 
+material that (i) affects the privacy, confidentiality and business interests of individuals and 
+entities; (ii) would impede, if  prematurely disclosed, the Gove rnment’s ongoing investigation of 
+uncharged individuals; (iii) would risk prejudicial pretrial publicity if publicly disseminated; (iv) 
+may be produced with more limited redactions than would otherwise be necessary; and (v) that is 
+not authorized to be disclosed to the public or  disclosed beyond that which is necessary for the 
+defense of this criminal case.  
+2. Sealed Material. Certain of the Government’s Disclosure Material, referred to herein
+as “Sealed Material,” contains information that id entifies, or could lead to the identification of, 
+2023.11.26 
+witnesses who may be subject to intimidati on or obstruction, and whose lives, persons, and 
+property, as well as the lives, pe rsons and property of l oved ones, will be subj ect to risk of harm 
+absent the protective considerations set forth herein or information that may reveal trade secrets or 
+other information that may cause financial loss or other harm to a business entity.  
+NOW, THEREFORE, FOR GOOD CAUSE SHOWN, IT IS HEREBY ORDERED: 
+Disclosure and Treatment 
+3. Disclosure Material shall not be disclosed by the defendant or defense counsel, 
+including any successor couns el (“the defense”) other than as set forth here in, and shall be used 
+by the defense solely for purposes of defendi ng this action. The defense shall not post any 
+Disclosure Material on any Internet site or network site, including any social media site, to which 
+persons other than the parties hereto have access, and shall not disclose any Disclosure Material 
+to the media. 
+4. Sealed Material pertinent to any motion before the Court should initially be filed under 
+seal, absent consent of the Government or Orde r of the Court, and may be disclosed by defense 
+counsel to: 
+a. The defendant;  
+b. Personnel for whose conduct defe nse counsel is responsible, i.e., personnel 
+employed by or retained by counsel, as needed for purposes of defending this action; and 
+c. Prospective witnesses for purposes of defending this action. 
+5. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. 
+a. “AI tool” means any automated system that uses statistical modeling, machine 
+learning, or similar techniques to  process inputs and generate  outputs, recommendations, or 
+predictions, including but not limit ed to large language models, generative AI services, or AI-
+2023.11.26 
+assisted software tools, whether cloud-based or otherwise. The term does not include ordinary 
+local or enterprise spell-check ing, grammar checking, optical ch aracter recognition, indexing, 
+search, deduplication, cybersecurity, or other rou tine functions that do not make the substantive 
+content available to unauthorized persons or use it to train a public or shared model.  
+b. Under no circumstances will any me mber of the defense team submit 
+Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted 
+data to train models.  Such AI tools pose unique ri sks to the security and integrity of Disclosure 
+Materials, given the practical inability to claw b ack or delete data once it has been incorporated 
+into a model. 
+c. With respect to any AI tool used by the defendant, defense counsel must be able 
+to certify, after reasonable diligence based on the applicable contractual terms, provider 
+documentation, and account settings, that defense counsel is using an AI tool and the provider for 
+that AI tool represents (i) the AI tool(s) will  maintain the confidentiality of any Disclosure 
+Materials; (ii) the AI tool(s) will not expose any Disclosure Materials to third parties not authorized 
+under this Protective Order to receive such materials; and (iii) the AI tool(s) will not retain or use 
+any Disclosure Materials for model training.  Defense counsel will make all reasonable efforts to 
+ensure that all Disclosure Materials will be remo ved from the AI tool(s) at  the conclusion of this 
+case. 
+d. Any translation, transcript, summary, or other output that reveals the substance 
+of Disclosure Material shall be treated as Disc losure Material, but draft legal briefs, counsel 
+memoranda, and other attorney work product shal l not be considered Disclosure Material 
+irrespective of whether they were created in part through the use of an AI tool. 
+2023.11.26 
+e. Defense counsel may  permit access by AI tool pr ovider personnel, affiliates, 
+and subprocessors, to databases containing Disclo sure Material only as reasonably necessary to 
+provide, maintain, secure, or suppor t the AI tool, subject to confid entiality obligations set forth 
+herein. 
+Other Provisions 
+6. This Order does not prevent the disclosure of  any Disclosure Material in any hearing 
+or trial held in this action, or to any judge or magistrate judge, for purposes of this action. All 
+filings should comply with the privacy protection provisions of Fed. R. Crim. P. 49.1 and the above 
+provisions. 
+7. The Government’s designation of material will be controlling absent contrary order of 
+the Court. The parties shall meet and confer re garding any dispute over su ch designations, after 
+which the defense may seek de-d esignation by the Court. The G overnment may authorize, in 
+writing, disclosure of Disclosure Material beyond that otherwise permitted by this Order without 
+further Order of this Court.  
+8. The defense shall provide a copy of this Or der to prospective witnesses and persons 
+retained by counsel to whom the defense has disclosed Disclosure Material. All such persons shall 
+be subject to the terms of this Order. Defense counsel shall maintain a record of what information 
+has been disclosed to which such persons. 
+9. Except for Disclosure Material that has been made part of the record of this case, the 
+defense shall return to the Gove rnment or securely destroy or delete all Disclosure Material, 
+including any ESI, within 30 days of the expiration of the period for direct appeal from any verdict 
+in the above-captioned case; the period of direct appeal from an y order dismissing any of the 
+charges in the above-captioned case; and the gr anting of any motion ma de on behalf of the 
+2023.11.26 
+Government dismissing any charges in the above-captioned case, whichever date is later, subject 
+to defense counsel’s obligation to retain client files under the Rules of Professional Conduct. If 
+Disclosure Material is provided to any personnel for whose conduct defense counsel is responsible 
+or prospective witnesses, defens e counsel shall make reasonable efforts to seek the return or 
+destruction of such materials. 
+10. Cross Production of ESI  The Government has advised th at information that may be 
+subject to disclosure in this case may be contai ned within ESI that the Government has received, 
+pursuant to warrants issued durin g the course of the investiga tion, from vari ous computers, 
+cellphones, electronic accounts, and other devices and storage media. This ESI was obtained from: 
+Michael Stamp and Marcus Plank. Upon consent of all counsel, the Government is authorized to 
+disclose to defense counsel the entirety of such ESI, which shall be deemed Sealed Material unless 
+otherwise designated. Consent to cross-production, and the production itself, shall not waive any 
+privilege or protection or any otherwise available factual or legal argument.  
+11. Defendant’s Material  This Order places no restri ction on a defendant’s use or 
+disclosure of ESI or other Disclosure Material that originally belonged to the defendant. 
+12. Foreign Disclosure  The defense shall not provide a ny Disclosure Material to any 
+foreign persons or entities, ex cept if such persons or entitie s are personnel for whose conduct 
+defense counsel is responsible, is a potential witness in this matter, or if the Court authorizes such 
+disclosure on a case-by-case basis. 
+ 
+ 
+ 
+ 
+2023.11.26
+Retention of Jurisdiction
+13. The provisions of this order shall not terminate at the conclusion of this criminal
+prosecution and the Court will retain jurisdiction to enforce this Order following termination of 
+the case.  
+AGREED AND CONSENTED TO:
+JAMES M. MCDONALD
+United States Attorney
+by: _____________________________ Date: August 10, 2026_____________ 
+Shiva H. Logarajah  
+Daniel G. Nessim
+Assistant United States Attorneys 
+___________________________ Date: _____________________
+Noah Solowiejczyk, Esq.  
+Counsel for Michael Stamp
+___________________________ Date: _____________________
+Michael Longyear, Esq.  
+Counsel for Marcus Plank
+SO ORDERED:
+Dated: New York, New York  
+ _____________, 2026 
+__________________________________________ 
+THE HONORABLE KATHERINE POLK FAILLA
+UNITED STATES DISTRICT JUDGE
+_________________________________________________________________
+Michael Longyear
+, EEsEsEsEEsEEsEsEsEsEEEEsEsEEsEsEEsEEEEEEEEEEEEE q.  
+August 10, 2026
+_________________________________________________ __________________________________________________________________________________
+Noah Solowiejczyk Esq
+August 10, 2026
+August 11

@@ -1,0 +1,95 @@
+us-v-morell, S.D.N.Y., No. 1:26-cr-00362, ECF 13. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.nysd.670947/gov.uscourts.nysd.670947.13.0.pdf, sha256 815896f3a8efba3591863edb9aa4b0e50bf993d8c7b03303ced3907d7afd76ae), downloaded 2026-11-01. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+2026-07-10
+UNITED STATES DISTRICT COURT 
+SOUTHERN DISTRICT OF NEW YORK 
+United States of America 
+v. 
+Jesus Luis Morell, 
+Defendant. 
+Protective Order 
+26 Cr. 362 (DEH) 
+ Upon the application of the United States of America, with the consent of the undersigned 
+counsel, and the defendants having requested discovery under Fed. R. Crim. P. 16, the Court 
+hereby finds and orders as follows: 
+Categories 
+1. Disclosure Material. The Government will make disclosure to the defendant of
+documents, objects and information, including electronically stored 
+to Federal Rule of Criminal Procedure 16, 18
+obligation to produce exculpatory and impeachment material in criminal cases, all of which will 
+re Material may include 
+material that (i) affects the privacy, confidentiality and business interests of individuals and 
+entities; (ii) would impede, if prematurely disc ongoing investigation of 
+uncharged individuals; (iii) would risk prejudicial pretrial publicity if publicly disseminated; 
+(iv) may be produced with more limited redactions than would otherwise be necessary; and (v) that
+is not authorized to be disclosed to the public or disclosed beyond that which is necessary for the 
+defense of this criminal case. 
+2. Sealed Material.
+2023.11.26 
+witnesses who may be subject to intimidation or obstruction, and whose lives, persons, and 
+property, as well as the lives, persons and property of loved ones, will be subject to risk of harm 
+absent the protective considerations set forth herein or information that may reveal trade secrets or 
+other information that may cause financial loss or other harm to a business entity.  
+NOW, THEREFORE, FOR GOOD CAUSE SHOWN, IT IS HEREBY ORDERED: 
+Disclosure and Treatment 
+3. Disclosure Material shall not be disclosed by the defendant or defense counsel, 
+r than as set forth herein, and shall be used 
+by the defense solely for purposes of defending this action. The defense shall not post any 
+Disclosure Material on any Internet site or network site, including any social media site, to which 
+persons other than the parties hereto have access, and shall not disclose any Disclosure Material 
+to the media. 
+4. Sealed Material pertinent to any motion before the Court should initially be filed under 
+seal, absent consent of the Government or Order of the Court, and may be disclosed by defense 
+counsel to: 
+a. The defendant;  
+b. Personnel for whose conduct defense counsel is responsible, i.e., personnel 
+employed by or retained by counsel, as needed for purposes of defending this action; and 
+c. Prospective witnesses for purposes of defending this action. 
+5. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. 
+a. at uses machine learning, or similar 
+techniques to process inputs and generate outputs, recommendations, or predictions, including but 
+2023.11.26 
+not limited to large language models, generative AI services, or AI-assisted software tools, whether 
+cloud-based or otherwise. 
+b. The defense team will not submit Disclosure Materials to a publicly accessible 
+version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, 
+Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool 
+provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own 
+model training, allows submitted data to be publicly accessed, discloses submitted data to third 
+parties, or, except as specified below, retains submitted data.  Publicly accessible AI tools pose 
+unique risks to the security and integrity of Disclosure Materials, given the practical inability to 
+claw back or delete data once it has been incorporated into a model. 
+c. The defense may submit Disclosure Materials to an AI tool (i) that maintains 
+the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to 
+third parties not authorized under this Protective Order to receive such materials; (iii) that will not 
+retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be 
+removed from the AI tool(s) at the conclusion of this case. 
+Other Provisions 
+6. This Order does not prevent the disclosure of any Disclosure Material in any hearing 
+or trial held in this action, or to any judge or magistrate judge, for purposes of this action. All 
+filings should comply with the privacy protection provisions of Fed. R. Crim. P. 49.1 and the above 
+provisions. 
+7. ill be controlling absent contrary order of 
+the Court. The parties shall meet and confer regarding any dispute over such designations, after 
+which the defense may seek de-designation by the Court. The Government may authorize, in 
+2023.11.26
+writing, disclosure of Disclosure Material beyond that otherwise permitted by this Order without 
+further Order of this Court.  
+8. The defense shall provide a copy of this Order to prospective witnesses and persons
+retained by counsel to whom the defense has disclosed Disclosure Material. All such persons shall 
+be subject to the terms of this Order. Defense counsel shall maintain a record of what information 
+has been disclosed to which such persons. 
+9. Except for Disclosure Material that has been made part of the record of this case, the
+defense shall return to the Government or securely destroy or delete all Disclosure Material, 
+including any ESI, within 30 days of the expiration of the period for direct appeal from any verdict 
+in the above-captioned case; the period of direct appeal from any order dismissing any of the 
+charges in the above-captioned case; and any direct appeal therefrom; and the granting of any 
+motion made on behalf of the Government dismissing any charges in the above-captioned case, 
+whichever date is later, subject 
+of Professional Conduct. If Disclosure Material is provided to any personnel for whose conduct 
+defense counsel is responsible or prospective witnesses, defense counsel shall make reasonable 
+efforts to seek the return or destruction of such materials. 
+10. Nothing in this Order places any restricti
+Disclosure Materials that are (1) materials refl
+account statements, etc.), (2) publicly available materials, or (3) materials that are duplicative of 
+materials available to the defendant from sources other than the government.  
