@@ -1,0 +1,110 @@
+velez-v-oneplus-pdf, S.D.N.Y., No. 1:25-cv-02432, ECF 28. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.nysd.639231/gov.uscourts.nysd.639231.28.0.pdf, sha256 3813674c8fbaadcb2fbe54623fc1518cb6a1006fb80fe119c12bf72bebbfc48a), downloaded 2026-11-02. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+3. proprietary information;
+4. private personal information;
+5. medical or healthcare information;
+6. financial information;
+7. personnel or employment records;
+8. information protected by statute, regulation, or common law; or
+9. other information entitled to confidential treatment.
+Documents may be designated by stamping or marking them “CONFIDENTIAL.” 
+Deposition testimony may be designated confidential either: 
+(a) on the record during the deposition; or
+(b) by written notice served within thirty (30) days after receipt of the transcript.
+Until expiration of the 30-day period, the entire transcript shall be treated as confidential. 
+4. Use of Confidential Material
+Confidential Material shall be used solely for purposes of prosecuting, defending, settling, or 
+attempting to settle this litigation and for no other purpose. 
+Confidential Material shall not be disclosed except as provided in this Order. 
+5. Persons Who May Receive Confidential Material
+Confidential Material may be disclosed only to: 
+1. the Court and court personnel;
+2. counsel of record and their employees;
+3. the parties, including officers or employees reasonably necessary to assist counsel;
+4. retained experts, consultants, and litigation vendors;
+5. court reporters, videographers, and interpreters;
+6. witnesses during depositions or testimony where reasonably necessary;
+7. mediators or settlement officers; and
+8. any other person upon written agreement of the parties or order of the Court.
+Any person receiving Confidential Material, other than the Court and court personnel, shall be 
+advised of and bound by the terms of this Order. 
+6. Filing Confidential Material
+Any party seeking to file Confidential Material with the Court shall comply with all applicable 
+court rules governing sealed filings. 
+Designation as “CONFIDENTIAL” alone does not entitle material to filing under seal. 
+7. Challenges to Confidentiality Designations
+A party may challenge a confidentiality designation at any time by written notice to the 
+producing party. 
+The parties shall confer in good faith to resolve the dispute. 
+If no resolution is reached, the challenging party may seek relief from the Court. Until the Court 
+rules otherwise, the material shall retain its confidential designation. 
+The producing party bears the burden of establishing that the designation is proper. 
+8. Inadvertent Failure to Designate
+An inadvertent failure to designate material as confidential shall not waive the right to later 
+designate the material. 
+Upon receiving notice of the designation, all parties shall treat the material as confidential from 
+that point forward. 
+9. Privileged Material / Clawback
+The inadvertent production of material subject to the attorney-client privilege, work-product 
+doctrine, or any other applicable privilege or immunity shall not constitute a waiver of that 
+privilege or protection. 
+● OpenAI’s ChatGPT consumer products;
+● Anthropic Claude consumer products;
+● Google Gemini;
+● Microsoft Copilot consumer products;
+● Meta Meta AI;
+● xAI Grok;
+● Perplexity AI Perplexity;
+● Midjourney;
+● Stability AI Stable Diffusion-hosted services;
+● Character Technologies Character.AI; and
+● any similar publicly available generative AI platform or service.
+B. Prohibition on Use of Public Generative AI Platforms
+No party, attorney, expert, consultant, vendor, witness, or other person receiving Confidential 
+Material shall upload, input, transmit, disclose, summarize, paraphrase, or otherwise provide 
+Confidential Material to any Public Generative AI Platform. 
+Upon written notice of inadvertent production, the receiving party shall promptly return, 
+sequester, or destroy the specified material and any copies thereof, subject to applicable rules 
+governing challenges to privilege claims. 
+10. Use of Confidential Material with Artificial Intelligence Systems
+A. Definitions
+For purposes of this Order, “Confidential Material” includes all documents, electronically stored 
+information (“ESI”), deposition testimony, discovery responses, tangible things, summaries, 
+notes, extracts, metadata, and any copies thereof designated confidential pursuant to this Order. 
+“Public Generative AI Platform” means any publicly accessible or commercially hosted artificial 
+intelligence system, large language model, chatbot, document-analysis tool, image-generation 
+tool, or similar service where information submitted by users may be retained, used for model 
+training, used to improve services, reviewed by human personnel, disclosed to third parties, or 
+otherwise used for the benefit of persons or entities other than the parties to this litigation. 
+Public Generative AI Platforms include, by way of example and without limitation: 
+This prohibition includes, without limitation: 
+1. uploading documents or images;
+2. copying and pasting text from Confidential Material;
+3. providing summaries or paraphrases derived from Confidential Material;
+4. using Confidential Material as prompts for document review, drafting, summarization,
+legal analysis, chronology creation, deposition preparation, or trial preparation; and
+5. permitting any Public Generative AI Platform to access Confidential Material through
+integrations, plug-ins, extensions, APIs, cloud-sync functions, or automated workflows.
+C. Permitted Use of Secure or Closed AI Systems
+Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or 
+HIPAA-compliant artificial intelligence platform, provided that: 
+1. the platform does not use the submitted information or documents to train models for
+non-parties;
+2. the platform does not permit access to the information by unrelated third parties;
+3. the information remains subject to commercially reasonable administrative, technical,
+and physical safeguards;
+4. the user has a good-faith basis to believe the platform contractually prohibits use of the
+information for generalized model training or other benefit to non-parties; and
+5. use of the platform otherwise complies with this Order and all applicable privacy,
+data-security, and professional-responsibility obligations.
+Permitted systems may include private enterprise implementations of AI tools, self-hosted 
+language models, secure document-review platforms incorporating AI functionality, or 
+HIPAA-compliant environments configured to prevent disclosure or model training using 
+Confidential Material. 
+D. Responsibility for Compliance
+Counsel of record shall take reasonable steps to ensure compliance with this provision by their 
+employees, experts, consultants, vendors, contract attorneys, litigation-support providers, and 
+any other persons given access to Confidential Material. 
+E. Inadvertent Disclosure
+If a party learns that Confidential Material has been disclosed to a Public Generative AI Platform 
+in violation of this Order, that party shall promptly: 

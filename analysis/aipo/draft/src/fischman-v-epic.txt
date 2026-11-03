@@ -1,0 +1,664 @@
+fischman-v-epic, N.D. Tex., No. (RECAP docket gov.uscourts.txnd.416479), ECF 58. Text extracted with pypdf 5.1.0 from the PDF in the RECAP archive on CourtListener (https://storage.courtlistener.com/recap/gov.uscourts.txnd.416479/gov.uscourts.txnd.416479.58.0.pdf, sha256 18fedf5077be1c67309d82b9933125873dda07c41f5965d33322f6e3f688b932), downloaded 2026-11-02. CM/ECF page-header stamps and bare page-number lines removed; nothing else changed.
+
+ 
+IN THE UNITED STATES DISTRICT COURT 
+FOR THE NORTHERN DISTRICT OF TEXAS 
+DALLAS DIVISION 
+ 
+GALLIT FISCHMAN, 
+ 
+Plaintiff, 
+ 
+v. 
+ 
+EPIC SYSTEMS CORPORATION, 
+ 
+Defendant. 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+ 
+ 
+ 
+ 
+ 
+ 
+Case No. 3:26-CV-0770-D 
+ 
+PROTECTIVE ORDER 
+ 
+ 
+It is hereby ordered as follows concerning confidentiality in this Action: 
+This Protective Order governs only the handling, use, disclosure, and protection of 
+information produced or disclosed in discovery. Unless this order includes a clause that explicitly states 
+that a particular local civil rule is modified as applied to this case, nothing in this order shall be 
+construed to modify the provisions, operation, or effect of any local civil rule of this court . 
+Notwithstanding any other clause to the contrary, this order cannot be modified except by court order.  
+Plaintiff Gallit Fischman and Defendant Epic Systems Corporation (referred to herein 
+individually as a “Party” or collectively as “Parties”) must not unreasonably file under seal pleadings, 
+motions, or other papers that do not qualify under this protective order for filing under seal. For 
+example, if a party files a 50 -page appendix entirely under seal when only a small percentage of the 
+pages qualify under this protective order for filing under seal, the party has probably unreasonably 
+filed the entire appendix under seal. Instead, the parties must attempt to file unsealed as much of a 
+pleading, motion, or other paper as they reasonably can without undermining the protections 
+conferred by this protective order. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 1 of 25     PageID 1014
+ 
+Scope and Applicability  
+1. The Parties and any Non -Parties that disclose or produce information in connection 
+with this Action may produce or disclose certain confidential information subject to the terms of this 
+Protective Order. This Protective Order is applicable to the Parties, any additional parties joined in 
+this Action, and any Non -Parties subject to this Protective Order and/or otherwise agreeing  to be 
+bound by this Protective Order. The protections conferred by this Protective Order cover not only 
+Discovery Material (as defined below), but also (1) any information copied or extracted therefrom; (2) 
+all copies, excerpts, summaries, or compilations  thereof; and (3) any testimony, conversations, or 
+presentations by Parties or their Counsel in settings that might reveal Protected Material.  
+Definitions 
+2. Confidential Information: a Designating Party may, subject to the provisions of this 
+Protective Order, designate as “CONFIDENTIAL” any Discovery Material that the Designating 
+Party determines, in good faith, contains , reflects, or could reveal: (a) proprietary or confidential 
+business information, non -public personal, client, or customer information concerning non-party 
+individuals or other entities; (b) information that should otherwise be subject to confidential treatment 
+pursuant to applicable federal, state, and/or other applicable laws and regulations; (c) Protected Health 
+Information; (d) sensitive  personally identifiable information ( e.g., social security numbers); or 
+(e) information deemed or required to be kept confidential by contract with a non-party.  
+3. Counsel (without qualifier): Outside Counsel and In-House Counsel. 
+4. Designating Party : any Party or Non -Party that designates Discovery Material as 
+“CONFIDENTIAL” or “HIGHLY CONFIDENTIAL.” 
+5. Discovery Material : all items or information, regardless of the medium or manner 
+generated, stored, or maintained, including, among other things, documents, testimony, interrogatory 
+responses, transcripts, depositions and deposition exhibits, responses to requests to admit, r ecorded 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 2 of 25     PageID 1015
+ 
+or graphic matter, electronically stored information, tangible things, and/or other information 
+produced, given, exchanged by, or obtained from any Party or Non -Party during discovery in this 
+Action. 
+6. Expert: a person who has been retained by a Party or its Counsel to serve as an expert 
+witness or as a consultant in this Action, along with his or her employees and support personnel, and 
+who is not currently an employee of a Party and who, at the time of retenti on, is not anticipated to 
+become an employee of a Party. 
+7. Highly Confidential Information: a Designating Party may, subject to the provisions 
+of this Protective Order, designate as “HIGHLY CONFIDENTIAL” any Discovery Material that the 
+Designating Party determines, in good faith, contains, reflects, or could reveal: (a) trade secrets or 
+other highly competitive or commercially sensitive proprietary and non -public information that, if 
+disclosed, would likely result in competitive or commercial harm to the Producing Party; or (b) material 
+that a Producing Party reasonab ly determines in good faith would not otherwise be adequately 
+protected under the procedures set forth herein for Confidential Information.  The HIGHLY 
+CONFIDENTIAL designation shall not be construed as an attorneys’-eyes-only designation and shall 
+not be used to deny any pro se Party access to Discovery Material. 
+8. In-House Counsel: attorneys or other personnel employed by a Party to perform legal 
+functions, along with their paralegals and other support personnel assisting them with this Action. 
+9. Non-Party: any natural person or entity that is not a named party to this Action. 
+10. Outside Counsel: attorneys that work for a law firm that is counsel of record in this 
+Action, along with their paralegals and other support personnel assisting them with this Action 
+(including temporary or contract staff), who are not employees of a Party but who have been retained 
+to represent or advise a Party in connection with this Action. 
+11. Party: any party to this Action, including all of its officers, directors, and employees. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 3 of 25     PageID 1016
+ 
+12. Producing Party : any Party or Non -Party that produces Discovery Material in this 
+Action as to the Discovery Material it has produced. 
+13. Professional Vendors: persons or entities who are not employees of a Party or Counsel 
+but are retained to provide litigation support services ( e.g., photocopying, data processing, graphic 
+production, e -discovery, IT support services, professional jury or trial consultants, videotaping, 
+translating, preparing exhibits or demonstratives, and organizing, storing, or retrieving documents or 
+data in any f orm or medium and their employees and subcontractors)  and who have signed the 
+“Agreement to Be Bound By Protective Order” (Exhibit A). 
+14. Protected Material: any Discovery Material that is designated as “CONFIDENTIAL” 
+or “HIGHLY CONFIDENTIAL.” 
+15. Receiving Party: any Party that receives Discovery Material from a Producing Party. 
+Designation of Discovery Material 
+16. Any Discovery Material may be designated as  Protected Material  by marking it as 
+“CONFIDENTIAL” or “HIGHLY CONFIDENTIAL .” All Protected Material  must remain 
+accessible to the named Parties, subject to the safeguards set forth in this Order. 
+17. For documents and electronically stored information, such designation shall be made 
+when copies are furnished to a Party conducting discovery or when such documents are otherwise 
+disclosed by a Producing Party. For testimony or hearing transcripts, such designation shall be made 
+pursuant to the Designation of Testimony section below . Any such designation that is inadvertently 
+omitted during production may be corrected by the Producing Party reasonably promptly upon 
+discovery of the omission by written notification from the Producing Party to all counsel of record 
+along with a copy of the properly endorsed documents or electronically stored information. When the 
+corrected copy is received, the Receiving Party must immediately destroy or return the original 
+documents or electronically stored information and notify the Producing Party of completion within  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 4 of 25     PageID 1017
+ 
+fourteen (14) days of receiving the replacement copy. A corrected designation shall not, without more, 
+create liability or constitute a violation based on any use or disclosure that occurred before the 
+receiving party received notice of the corrected designation. At the reasonable request of a Receiving 
+Party with respect to particular material, documents, items, or communications, and to the extent it is 
+reasonably practical to do so, the Producing Party must designate for protection only those parts of 
+material, documents, items or oral or written communications that qualify – so that other portions of 
+the material, documents, items, or communications for which protection is not warranted are not 
+swept unjustifiably within the ambit of this Protective Order.  If it comes to a Producing Party’s 
+attention that information or items that it designated for protection do not qualify for protection at 
+all or do not qualify for the level of protection initially asserted, that Producing Party must promptly 
+notify all other Parties (via their counsel of record) that it is withdrawing the mistaken designation.  
+18. No Party or Non-Party may withhold Discovery Material from a pro se Party on the 
+ground that the material is available only to counsel , except for information withheld on the basis of 
+attorney-client, work product, or other applicable privilege.  
+Designation of Testimony 
+19. The Producing Parties may designate testimony at a deposition or hearing as Protected 
+Material by indicating on the record at the deposition or hearing that the testimony is so designated 
+and subject to the terms of this Protective Order or, alternatively,  any Producing Party has a right to 
+have up to twenty -one (21) days after the transcript becomes available to identify the testimony (by 
+specific page and line) as to which protection is sought and specify the level of protection being 
+asserted. If designated during the deposition or hearing, the court reporter shall stamp the testimony 
+as “CONFIDENTIAL” or “HIGHLY CONFIDENTIAL,” and access thereto shall be limited as 
+provided herein. Following any deposition or hearing, all Parties agree to treat the entire transcript as 
+“HIGHLY CONFIDENTIAL,” unless it was designated as “CONFIDENTIAL” during the 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 5 of 25     PageID 1018
+ 
+deposition or hearing (in which case it will remain “CONFIDENTIAL”) until the 21-day window for 
+designation following receipt of the transcript has passed and no Party has designated it as “HIGHLY 
+CONFIDENTIAL.” The use of a document as an exhibit at a deposition or hearing shall not in any 
+way affect its designation as “CONFIDENTIAL” or “HIGHLY CONFIDENTIAL” regardless of 
+whether the deposition or deposition transc ript itself is later designated, in whole or part, as 
+“CONFIDENTIAL” or “HIGHLY CONFIDENTIAL.” Documents or information designated as 
+Protected Material may be used or disclosed in a deposition or hearing and marked as exhibits 
+consistent with the terms set forth herein.  
+Challenging Confidentiality Designations 
+20. Nothing in this Protective Order shall constitute a waiver of any Party’s right to object 
+to the designation or non-designation of a particular document as Protected Material. 
+21. In the event that a Party disagrees with a Producing Party’s designation of any 
+particular document or information as “CONFIDENTIAL” or “HIGHLY CONFIDENTIAL,” the 
+objecting Party shall advise counsel for the Producing Party, in writing, of the objection an d identify 
+the particular document or item with sufficient specificity to permit identification.  Within ten (10) 
+business days of receiving the objection, the Producing Party shall advise whether it will change the 
+designation of the document or item. If the parties cannot resolve a challenge after meeting and 
+conferring, the objecting Party may file a motion with the Court challenging the designation. Each 
+such motion must be accompanied by a competent declaration  (consistent with local rule 
+requirements) that affirms the objecting Party has made reasonable efforts to comply with the meet 
+and confer requirements of this procedure, where applicable.  The protection afforded by this 
+Protective Order shall continue until the Court makes a decision on the motion. For the avoidance of 
+doubt, no Protected Material will be filed in the public record prior to such a determination by the 
+Court.  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 6 of 25     PageID 1019
+ 
+Use of Protected Material 
+22. Notwithstanding anything to the contrary herein, Protected Material shall be produced 
+and may be used solely for purposes of this Action.  This paragraph does not restrict information 
+already lawfully possessed by the Receiving Party, information that becomes public through no 
+violation of law or this Order, information de-designated by agreement or Court order, or information 
+whose disclosure is required by law or further order of a court of competent jurisdiction  (subject to 
+the notice requirements in the Legal Process section below). Any request to close proceedings or seal 
+trial evidence shall be requested in accordance with local rules . Notwithstanding any other provision 
+of this Order, a natural person who is a named Party and is proceeding pro se may review all Discovery 
+Material produced in the Action, including material designated “HIGHLY CONFIDENTIAL ,” 
+subject to the applicable handling and nondisclosure requirements of this Order. 
+Disclosure of Protected Material 
+23. Disclosure of CONFIDENTIAL Information. Other than upon the prior written 
+consent of the Designating Party or order of the Court, a Receiving Party may only disclose, 
+summarize, describe, characterize or otherwise communicate or make available material designated 
+“CONFIDENTIAL” to the following persons and only to the extent reasonably necessary to 
+prosecute and defend this Action:  
+a. Receiving Party’s Counsel:  The Receiving Party’s Outside  and In -House 
+Counsel. 
+b. Receiving Party: The Receiving Party, including the officers, directors, and 
+employees of the Receiving Party to whom disclosure is reasonably necessary 
+because they either have responsibility for making decisions dealing directly 
+with this Action or are assisting Counsel in the prosecution or defense of this 
+Action, and who have been advised of their obligations hereunder . This 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 7 of 25     PageID 1020
+ 
+includes a Receiving Party who is a natural person and who is proceeding pro 
+se in this Action.  
+c. Experts: Experts (as defined in this Protective Order) of the Receiving Party 
+in this Action, provided that , before access is given, any such Expert has 
+signed the “Agreement to Be Bound By Protective Order” (Exhibit A) and 
+the same is served upon the Producing Party with a current curriculum vitae 
+of the Expert, which shall contain a list of all cases in which t he Expert 
+testified as an expert at trial or by deposition within the past four (4) years, at 
+least ten (10) days before access to the Protected Material is to be given to 
+that Expert. Upon receipt of such disclosure, the Producing Party may within 
+seven (7) business days object to and notify the Receiving Party in writing that 
+it objects to disclosure of Protected Material to the Expert , and such parties 
+will promptly confer and use good faith efforts to resolve any such objection. 
+If the Parties are unable to resolve any objection, the objecting Party may 
+promptly file a motion with the Court within thirty (30) days after receiving 
+the notice of objection or the conclusion of the good faith meet and confer 
+to resolve the objection, whichever is later, or within such other time as the 
+Parties may agree, seeking a protective order with respect to the proposed 
+disclosure. The objecting Party shall have the burden of proving that 
+disclosure should be prohibited . No disclosure shall occur until all such 
+objections are resolved by agreement or Court order . This paragraph is not 
+intended to address objections to expert qualifications and/or relevancy or 
+reliability of expert opinions. 
+d. Court: The Court presiding over this Action and its support personnel. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 8 of 25     PageID 1021
+ 
+e. Professional Vendors : Court reporters, videographers, and their respective 
+staff, and Professional Vendors employed in connection with this Action. 
+f. Author/Prior Recipient: The author, addressee, or copy recipient (including 
+“bcc” recipient) of the document, or any other person who otherwise is 
+shown to have previously received a copy of the document not in violation 
+of this Protective Order or any other obligation of confidentiality. 
+g. Designating Party’s Employees:  Any current employee of the Designating 
+Party. 
+h. Others by Agreement: Any other person agreed to by the Designating Party 
+in writing. 
+i. Others by Court Order:  Any other person to whom the Court compels 
+disclosure of the Protected Material or to whom disclosure is required by law, 
+subject to the requirements of the “Legal Process” section below. 
+24. Disclosure of HIGHLY CONFIDENTIAL Information. Other than upon the 
+prior written consent of the Designating Party or order of the Court, a Receiving Party may only 
+disclose, summarize, describe, characterize or otherwise communicate or make available material 
+designated “HIGHLY CONFIDENTIAL” to the following persons and only to the extent reasonably 
+necessary to prosecute and defend this Action: 
+a. Receiving Party’s Counsel: the Receiving Party’s Outside Counsel and one In-
+House Counsel of the Receiving Party who is not regularly involved in 
+competitive decision-making for the Receiving Party, and to whom disclosure 
+is reasonably necessary because he or she has responsibility for  making 
+decisions dealing directly with this Action. Any material designated “HIGHLY 
+CONFIDENTIAL” received by a Receiving Party’s Counsel shall be subject 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 9 of 25     PageID 1022
+ 
+to the following handling requirements: (i ) the material shall remain in the 
+Receiving Party’s Counsel’s sole possession, custody, and control (with the 
+understanding that the Receiving Party’s Counsel may provide such 
+information to other persons authorized by this section, such as professional 
+service vendors), and shall be stored in a secure location or, if in electronic 
+form, on a password-protected device or account under the Receiving Party’s 
+Counsel’s control or management; (ii) the material shall not be copied, 
+photographed, or otherwise re produced except as reasonably necessary to 
+prosecute or defend this Action, and any copies shall be marked and protected 
+as the original; (iii) the material shall not be shown, transmitted, or otherwise 
+disclosed to any person not authorized by this section to receive it; and (iv) the 
+material shall remain subject to all other provisions of this Protective Order, 
+including the provisions governing the use of Protected Material with artificial-
+intelligence platforms and the provisions governing the return or  destruction 
+of Protected Material at the conclusion of this Action. 
+b. Receiving Party, if Pro Se:  A Party who is a natural person and who is 
+proceeding pro se in this Action . Any material designated “HIGHLY 
+CONFIDENTIAL” received by a pro se Party shall be subject to the following 
+handling requirements: (i) the material shall remain in the pro se Party’s sole 
+possession, custody, and control  (with the understanding that a pro se Party 
+may provide such information  to other persons authorized by this section, 
+such as professional service vendors), and shall be stored in a secure location 
+or, if in electronic form, on a password-protected device or account under the 
+pro se Party’s exclusive control; (ii)  the material shall not be copied, 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 10 of 25     PageID 1023
+ 
+photographed, or otherwise reproduced except as reasonably necessary to 
+prosecute or defend this Action, and any copies shall be marked and protected 
+as the original; (iii) the material shall not be shown, transmitted, or otherwise 
+disclosed to any person not authorized by this section to receive it; and (iv) the 
+material shall remain subject to all other provisions of this Protective Order, 
+including the provisions governing the use of Protected Material with artificial-
+intelligence platforms and the provisions governing the return or d estruction 
+of Protected Material at the conclusion of this Action. 
+c. Experts: Experts (as defined in this Protective Order) of the Receiving Party 
+in this Action, provided that, before access is given, any such Expert has signed 
+the “Agreement to Be Bound By Protective Order” (Exhibit A) and the same 
+is served upon the Producing Party with a current curriculum vitae of the 
+Expert, which shall contain a list of all cases in which the Expert testified as 
+an expert at trial or by deposition within the past four (4) years, at least ten (10) 
+days before access to the Protected Material is to be given to that Expert. Upon 
+receipt of such disclosure, the Producing Party may within seven (7) business 
+days object to and notify the Receiving Party in writing that it objects to 
+disclosure of Protected Material to the Expert. The Parties agree to promptly 
+confer and use good faith efforts to resolve any such objection. If the Parties 
+are unable to resolve any objection, the objecting Party may promptly file a 
+motion with the Court within thirty (30) days after receiving the notice of 
+objection or the conclusion of the good faith meet and confer to resolve the 
+objection, whichever is later, or within such other time as the Parties may agree, 
+seeking a protective order with respect to the proposed disclosure.  The 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 11 of 25     PageID 1024
+ 
+objecting Party shall have the burden of proving that disclosure should be 
+prohibited. No disclosure shall occur until all such objections are resolved by 
+agreement or Court order. This paragraph is not intended to address 
+objections to expert qualifications and/or relevancy or reliability of expert 
+opinions. 
+d. Court: The Court presiding over this Action and its support personnel. 
+e. Professional Vendors : Court reporters, videographers, and their respective 
+staff, and Professional Vendors employed in connection with this Action. 
+f. Author/Prior Recipient: The author, addressee, or copy recipient (including 
+“bcc” recipient) of the document, or any other person who otherwise is 
+shown to have previously received a copy of the document not in violation 
+of this Protective Order or any other obligation of confidentiality. 
+g. Designating Party’s Employees:  Any current employee of the Designating 
+Party. 
+h. Others by Agreement: Any other person agreed to by the Designating Party 
+in writing. 
+i. Others by Court Order:  Any other person to whom the Court compels 
+disclosure of the Protected Material or to whom disclosure is required by law, 
+subject to the requirements of the “Legal Process” section below. 
+Production and Use of Protected Health Information 
+25. The following provisions shall apply to the production, disclosure, transmission, 
+storage, and use of any Protected Health Information (“PHI”), which shall have the same scope and 
+definition as set forth in 45 C.F.R. §  160.103, and includes, but is not lim ited to, health information, 
+including demographic information, relating to either: (a)  the past, present, or future physical or 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 12 of 25     PageID 1025
+ 
+mental condition of an individual, (b) the provision of health care to an individual, or (c) the payment 
+for the provision of health care to an individual, which identifies the individual or which reasonably 
+could be expected to identify the individual. 
+a. In accordance with the requirements of the regulations promulgated under the 
+Health Insurance Portability and Accountability Act of 1996 (HIPAA), 
+specifically, 45 C.F.R. § 164.512(e)(1)(ii)(B) and § 164.512(e)(1)(v), this 
+Protective Order is a HIPAA qualified protective order, as that term is defined 
+at § 164.512(e)(1)(v). In addition to the foregoing federal laws and regulations, 
+this Protective Order is entered to facilitate compliance with applicable state 
+laws and regulations governing patient privacy and protecting healthcare 
+information.  
+b. All Covered Entities who receive or have already received in this Action a 
+discovery request are hereby authorized to disclose PHI to the extent necessary 
+to comply with such a discovery request  and may not withhold otherwise 
+discoverable information based on HIPAA or the existence of PHI, provided, 
+however, that nothing in this Protective Order shall require any Covered 
+Entity (or Party) to produce PHI ( i.e., nothing in this Protective Order shall 
+affect other objections to such a discovery request, such as those unrelated to 
+HIPAA). Authorized uses include disclosure to the Court and support staff, 
+the Parties and the Parties’ employees, their Counsel, the Counsel’s firms (i.e., 
+attorneys and support staff), the Parties’ experts, consultants, mediators, court 
+reporters, videographers, copy services, and e -discovery vendors.  Covered 
+Entities may disclose PHI pursuant to this Protective Order to any Party in 
+this Action or to any Party’s Counsel without violating the provisions of 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 13 of 25     PageID 1026
+ 
+HIPAA. Nothing in this paragraph subjects any non-party to discovery, waives 
+or limits any immunity or objection other than one based on HIPAA, or 
+requires any person to produce PHI. 
+c. The Parties shall at all times use reasonable and appropriate physical, technical, 
+and administrative safeguards to protect the privacy, security, integrity, and 
+confidentiality of any PHI disclosed or received in connection with this Action. 
+d. The Parties may not object to search terms designed to capture potentially 
+relevant documents or information on the basis that the documents or 
+information sought contain PHI protected by HIPAA. 
+e. Pursuant to 45 C.F.R. § 164.512(e)(1)(v)(A), the Parties and their Counsel shall 
+be allowed to use or disclose PHI for this Action, and any appeals, settlement, 
+enforcement, or monitoring that may result.  The Parties and their Counsel 
+seeking the PHI may not use such PHI for any other purpose. 
+f. A Party producing documents of Covered Entities that contain PHI shall first 
+stamp each document containing PHI with the following stamp: 
+“PROTECTED HEALTH INFORMATION SUBJECT TO 
+PROTECTIVE ORDER.”  Such stamp shall be in addition to the 
+“CONFIDENTIAL” or “HIGHLY CONFIDENTIAL” legend affixed to 
+such documents pursuant to the above sections, as appropriate. If a document 
+marked “PROTECTED HEALTH INFORMATION SUBJECT TO 
+PROTECTIVE ORDER” does not also bear a separate confidentiality 
+marking, it shall be treated as though it is also marked “CONFIDENTIAL” if 
+it contains identifiable PHI.  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 14 of 25     PageID 1027
+ 
+g. Any Party may discuss PHI covered by this Protective Order at a deposition.  
+The Party must request that this portion of the testimony be marked as 
+“PROTECTED HEALTH INFORMATION SUBJECT TO 
+PROTECTIVE ORDER” in the deposition transcript.  Any Party must 
+comply with the redaction and de -identification requirements of this 
+Protective Order, as referenced in the following paragraph, before filing a 
+deposition or portion of a deposition containing PHI with the Court. 
+h. If a Party wishes to file a document containing PHI with the Court, it must be 
+filed under seal, following the appropriate procedures to do so in the applicable 
+court. However, any Party may publicly file a pleading or document with the 
+Court that describes, summarizes, or quotes PHI, as long as that Party redacts 
+the name and date of birth (and any other identifying information) of the 
+individual to whom the PHI pertain s or the individual’s relatives, employers, 
+or household members, and also complies with the de -identification 
+requirements of 45 C.F.R. §  164.514(b)(2), and simultaneously files an un -
+redacted version under seal, and provides a copy of the un-redacted version to 
+the other Parties. Similarly, any Party may publicly file a document containing 
+deidentified information relating to an individual (such as a medical record), as 
+long as that Party redacts the name and date of birth of the individual to whom 
+the information pertains or the individual’s relatives, employers, or household 
+members, and also complies with the de -identification requirements of 
+45 C.F.R. § 164.514(b)(2), and files an un -redacted version under seal, and 
+provides a copy of the un-redacted version to the other Parties.  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 15 of 25     PageID 1028
+ 
+i. Any Party may use documents containing PHI at trial, an evidentiary or other 
+motion hearing, including but not limited to, introducing them into evidence 
+and asking a witness about their contents.  If a Party moves a document 
+containing PHI into evidence and wants it to be a part of the record, the Court 
+shall appropriately instruct the Clerk on how to handle such documents. 
+j. Pursuant to 45 C.F.R. § 164.512(e)(1)(v)(B), any recipient of PHI under this 
+Protective Order must comply with the provisions of the Final Disposition 
+section below with respect to such PHI. 
+k. If any Party learns that, by inadvertence or otherwise, an unauthorized 
+disclosure of PHI has occurred, the Party must, not later than fourteen  (14) 
+calendar days after learning of the disclosure or access:  (a) notify in writing 
+relevant Parties; (b)  if the Party is the one who made the unauthorized 
+disclosure or access, use its best efforts to retrieve all PHI that was improperly 
+disclosed or mitigate the circumstances that permitted the unauthorized access; 
+(c) inform the person or persons to whom unauthorized disclosures or access 
+were made of all the terms of this Protective Order; and (d) request that such 
+person or persons execute the “Agreement to Be Bound By Protective Order” 
+(Exhibit A) to this Prote ctive Order , with the understanding that an 
+unauthorized recipient’s failure or refusal to sign Exhibit A does not alone 
+constitute a violation by the receiving party.  
+Use of Protected Material with Artificial Intelligence Platforms 
+26. The following provisions govern the use of Protected Material in and with artificial -
+intelligence platforms. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 16 of 25     PageID 1029
+ 
+27. No person subject to this Protective Order may input, upload, submit, or otherwise 
+transfer any Protected Material into any artificial -intelligence platform, including any generative, 
+analytical, or large-language-model-based tool (“AI Platform”), unless the provider of the AI Platform 
+is contractually prohibited from (i) storing or using the inputs to train or improve any model, and (ii) 
+disclosing the inputs to any third party except to the limited extent essential to deliver the requested 
+service, and the provider contractually affords the ability to require deletion o f all such inputs.  This 
+restriction applies regardless of whether the Protected Material has been anonymized, redacted, or 
+summarized. As a practical matter, this provision prohibits entering Protected Material into the 
+standard consumer or other publicly accessible versions of widely available generative artificial -
+intelligence services—such as, but not limited to, ChatGPT, Claude, Gemini, and Copilot—that retain 
+user inputs or use them to train or improve their models. This provision does not prohibit the use of 
+enterprise versions of generative artificial-intelligence services that comply with the restrictions in this 
+section. 
+28. Nothing in this provision restricts any Party from using AI Platforms for any purpose 
+that does not involve inputting another Party’s Protected Material, or from using an AI Platform that 
+satisfies the requirements of Paragraph 27. This provision shall not be construed to limit any Party’s 
+use of artificial intelligence for legal research, drafting, organization, or other litigation tasks that do 
+not entail the input of Protected Material.  
+29. To the extent a Party is unsure whether a specific AI Platform satisfies Paragraph  27, 
+the Party agrees that, prior to entering any Protected Material into the AI Platform, it will confer with 
+the Designating Party(ies). If such parties are unable to agree on whether the AI Platform at issue 
+satisfies Paragraph 27, the party opposed to its use may submit an appropriate motion to the Court. 
+Until either the parties come to an agreement or the Court makes a determination, whichever is earlier, 
+no Protected Material may be entered into the AI Platform at issue.  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 17 of 25     PageID 1030
+ 
+30. Any person who uses Protected Material as an input into an AI Platform in reliance 
+on Paragraph 27 shall retain written documentation of the contractual protections relied upon, and 
+shall, upon request by the D esignating Party, identify the AI Platform used and produce that 
+documentation. This paragraph does not require the disclosure of any AI Platform used solely for 
+purposes permitted by Paragraph 28. 
+31. Nothing in this Protective Order shall be interpreted as requiring a self -represented 
+party to purchase, subscribe to, or maintain any particular software, platform, or technology —
+including any enterprise AI platform—in order to participate in discovery.  
+Legal Process 
+32. Any Party who receives a subpoena, court order issued in another litigation, or some 
+other form of legal process or request from any federal or state regulatory or administrative body or 
+agency, legislative body, or self -regulatory organization, seeking th e disclosure of any Protected 
+Material must promptly: (a) notify the Designating Party and include with that notice a copy of the 
+subpoena, order, or other form of legal process or request promptly upon receipt and shall allow for 
+a period of at least ten (10) days for the Designating Party to object to any production—except where 
+the subpoena, court order, statute, regulation, or governmental authority requires production sooner 
+or prohibits delay, in which case the Party shall allow for a period of no less than forty-eight (48) hours 
+for the Designating Party to object to any production—before any production of documents is made; 
+and (b) notify the party that caused the subpoena, order, or other form of legal process or request to 
+issue that some or all of the material requested is the subject of this Protective Order. If the party 
+seeking to prevent disclosure seeks a protective order, that party bears the burden and expense of 
+obtaining appropriate relief, and the Party served with the subpoena, order, or other form of legal 
+process or request shall not produce any Pro tected Material unless and until a court of competent 
+jurisdiction so directs unless the Party has obtained the Designating Party’s permission. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 18 of 25     PageID 1031
+ 
+Use of Public Material 
+33. Information shall not qualify as Protected Material to the extent it is publicly available 
+through lawful means.  A receiving party may continue to use a public version obtained through lawful 
+means, even if an identical copy was produced as Protected Material in discovery.  
+Procedures for Disclosing Protected Material 
+34. The Parties shall advise any person permitted access under this Protective Order to 
+Protected Material produced by another Party or Non-Party of the claimed confidential nature of said 
+documents and information and provide such person with a copy of this P rotective Order. Before 
+disclosure is made to any person required by this Protective Order to sign the acknowledgement 
+attached hereto as Exhibit A, such person must sign Exhibit A and a copy of the executed Exhibit A 
+must be provided to all named Parties, as well as to any Non-Party(ies) whose Protected Material is to 
+be disclosed.  
+Unauthorized Disclosure of Protected Material 
+35. If a Receiving Party learns that, by inadvertence or otherwise, it has disclosed Protected 
+Material to any person or in any circumstance not authorized under this Protective Order, the 
+Receiving Party must immediately: (a) notify in writing the Designating  Party of the unauthorized 
+disclosures; (b) use its best efforts to retrieve all unauthorized copies of the Protected Material; 
+(c) inform the person or persons to whom unauthorized disclosures were made of all the terms of this 
+Protective Order; and (d) request such person or persons to execute the “Agreement to Be Bound By 
+Protective Order” (Exhibit A). 
+Protected Material Produced by a Non-Party 
+36. A Non-Party’s Protected Material may be sought to be produced in this Action. The 
+terms of this Protective Order are applicable to information produced by a Non -Party in this Action 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 19 of 25     PageID 1032
+ 
+and designated as Protected Material. Nothing in these provisions should be construed as prohibiting 
+a Non-Party from seeking additional protections.  
+Filing of Protected Material  
+37. For any filing containing or making reference to documents or information designated 
+by any Party or Non -Party as Protected Material, the Parties shall follow the Court’s policies and 
+procedures for filing under seal as set forth in Administrative Order No. 337. The filing Party shall be 
+responsible for redacting (and conferring on redactions as needed) and/or filing a motion to seal. 
+Duration and Final Disposition 
+38. Even after conclusion of the instant proceeding, the confidentiality obligations set 
+forth in this Protective Order shall remain in effect until the Parties agree otherwise in writing or a 
+court order otherwise directs. “Conclusion of the instant proceeding ” shall occur when (i ) all claims 
+and defenses in this Action are dismissed after being resolved by settlement or compromise; or (ii) 
+final judgment is entered herein after the completion and exhaustion of all appeals, re -hearings, 
+remands, trials, or reviews of this Action, i ncluding the time limits for filing any motions or 
+applications for extension of time pursuant to applicable law. 
+39. Within sixty (60) calendar days of the conclusion of the instant proceeding, each 
+Receiving Party must return all Protected Material to the Producing Party or destroy such material, 
+including all copies, summaries, and excerpts thereof. The Receiving Party or its counsel, as applicable, 
+shall certify compliance with this provision in writing by notifying counsel of record for the 
+Designating Party or its counsel, if applicable, within seventy (70) calendar days of the conclusion of 
+the instant proceeding. Notwithstanding this provision, Counsel for any Party is entitled to retain an 
+archival copy of all pleadings, motion s, papers, trial, deposition, and hearing transcripts, legal 
+memoranda, correspondence, deposition and trial exhibits, expert reports , attorney work product,  
+consultant and expert work product, and other materials reasonably necessary to preserve a complete 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 20 of 25     PageID 1033
+ 
+record, even if such materials contain Protected Material. Any such archival copies that contain or 
+constitute Protected Material remain subject to this Protective Order. Where a Party has produced an 
+original document rather than a copy, nothing in this Paragraph requires that original to be destroyed, 
+and the Producing Party shall be entitled to the return of that original upon request, in addition to any 
+other relief provided by this Paragraph. 
+Inadvertently Produced Privileged Material 
+40. Pursuant to Fed. R. Evid. 502(d), the production of a privileged or work -product-
+protected document is not a waiver of privilege or protection from discovery in this Action or in any 
+other federal or state proceeding. A Producing Party may assert privilege or protection over produced 
+documents at any reasonable time by notifying the Receiving Party in writing of the assertion of 
+privilege or protection. After being notified, a Party must promptly return (if requested) or destroy 
+the specified information and any copies it has unless the Party intends to file a motion to compel, in 
+which case the Party may sequester the specified information and any associated work product until 
+the claim is resolved. Any such motion to compel should be made by a Receiving Party within twenty-
+one (21) days after receiving notification of the claimed privileged and/or protected material from the 
+Producing Party. Each Party may use the content of the document(s) at issue solely in briefing or 
+argument submitted in connection wit h the motion to compel, in which case the Receiving Party 
+agrees not to argue that such use constitutes waiver of the claimed privilege or work product 
+protection. Nothing in this Protective Order shall preclude a Party from arguing that the production 
+of the allegedly inadvertently produced document was not inadvertent or that conduct other than the 
+alleged inadvertent production in this Action constitutes a waiver. 
+Enforcement 
+41. Any party, including a third  party, may seek redress from this Court to enforce the 
+provisions of this Protective Order.  
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 21 of 25     PageID 1034
+ 
+42. Until the conclusion of the instant proceeding, any action by a Party against another 
+Party to enforce the provisions of this Protective Order shall be brought in this same proceeding. 
+Even after the conclusion of this litigation, this Court retains  and shall have continuing jurisdiction 
+over the Parties and recipients of Protected Material for enforcement of the provisions of this Order.  
+Miscellaneous 
+43. This Protective Order does not constitute a waiver of any Party’s rights to object to 
+discovery on any grounds. Nor does this Protective Order constitute an admission by any Party that 
+any Protected Material in fact contains trade secrets, confidential business information, and/or 
+information in which a Party has a privacy or proprietary right. Similarly, accepting production subject 
+to a designation does not concede that the designation is valid, that the material is entitled to 
+protection, that it may be sealed, or that it is inadmissible or unusable at trial.  
+44. The Parties enter into this Protective Order on behalf of themselves and any of their 
+successors and assigns, which shall be bound by its terms.  
+45. This Protective Order may not be changed or modified except by a written instrument 
+signed by authorized representatives of all of  the Parties, with express reference to the provisions 
+being modified, and approved by Court Order.  Nothing in this paragraph limits any Party’s right to 
+seek modification of this Order from the Court after reasonable notice and an appropriate meet and 
+confer.  
+46. Nothing in this Protective Order stays, postpones, limits, or conditions any Party’s or 
+Non-Party’s discovery obligations based on the filing or pendency of a motion to dismiss, motion for 
+judgment, motion for summary judgment, jurisdictional motion, discovery dispute, protective motion, 
+appeal, or any other procedural vehicle, unless the party has filed a motion with the Court requesting 
+a stay or the Court has otherwise ordered a stay. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 22 of 25     PageID 1035
+47. Nothing in this Protective Order, and no action taken in good faith to comply with it,
+should be construed as a waiver of any right, claim, or argument otherwise available to a Party. Nor 
+should a Party’s self-represented status be used by any other Party as a basis to argue diminished rights, 
+standing, or credibility in any proceeding to enforce this Order. Conduct expressly authorized by this 
+Order does not constitute a violation of the Order. 
+SO ORDERED. 
+October 23, 2026
+SIDNEY A. FITZWATER
+SENIOR JUDGE
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 23 of 25     PageID 1036
+ 
+ 
+IN THE UNITED STATES DISTRICT COURT 
+FOR THE NORTHERN DISTRICT OF TEXAS 
+DALLAS DIVISION 
+ 
+GALLIT FISCHMAN, 
+ 
+Plaintiff, 
+ 
+v. 
+ 
+EPIC SYSTEMS CORPORATION, 
+ 
+Defendant. 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+§ 
+ 
+ 
+ 
+ 
+ 
+Case No. 3:26-CV-0770-D 
+ 
+EXHIBIT A 
+AGREEMENT OF A NON-PARTY TO BE BOUND BY PROTECTIVE ORDER 
+ 
+ 
+I, ____________, acknowledge that I have received a copy of the Protective Order governing 
+the exchange of confidential information in the above -entitled Action.  I declare under penalty of 
+perjury that I have carefully read and understand the provisions of the Protective Order governing the 
+non-disclosure of confidential information. I will comply with all provisions of the Protective Order, 
+and I understand and acknowledge that failure to so comply could expose me to sanctions and 
+punishment in the nature of contempt. I hereby agree that I will not use or disclose any such designated 
+materials except as authorized by the Protective Order. I further agree not to use any such designated 
+materials for any purpose other than in connection with the above-entitled Action. I also agree that at 
+the conclusion of the instant proceeding, I will either return any such designated materials to the party 
+or attorney from whom I received them, or upon permission of the producing party, destroy such 
+materials and certify same in writing.  
+I also agree to notify any stenographic, clerical or technical personnel who are required to 
+assist me of the terms of this Protective Order and of its binding effect on them and me. 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 24 of 25     PageID 1037
+ 
+By acknowledging these obligations under the Protective Order, I understand that I am 
+submitting myself to the jurisdiction of the Court for the purpose of enforcing this Agreement and 
+the underlying Protective Order in the above-entitled Action. 
+ 
+Dated: ____________________         
+ 
+Signed: _______________________________________ 
+ 
+Printed Name: ___________________________________ 
+Case 3:26-cv-00770-D     Document 58     Filed 10/23/26      Page 25 of 25     PageID 1038

@@ -1,71 +1,58 @@
-# Draft coding, frozen before grading (1-2 November 2026)
+# AI protective-order study: coding versions (draft folder)
 
-This folder holds MV2's draft coding for the pre-registered count of AI clauses in court
-protective orders ([pre-registration](../../ai-protective-orders-prereg.md),
-[addendum](../../ai-protective-orders-prereg-addendum.md)). It is published **before any
-count or prediction has been computed**, so that anyone can compare the final coding with
-these snapshots and see every change made after them.
+MV2 of Munim, Inc. (mv2@munimtech.com). Made with AI agents working in his name.
+Coding and texts written here: CC BY 4.0. Code: Apache-2.0. Court documents are public record.
+Information about public court documents, not legal advice.
 
-- `ai_protective_orders-0.9.0.json` (1 Nov): 51 cases from the 29 posts in the fixed frame.
-  32 are coded from the order's own words, 3 are refusals, and 16 are listed as not codable
-  because the posts describe those orders without quoting them. Nine further posts were
-  screened out, each with a reason. Coding rules R1-R9 are in the file. R2-R9 were written
-  while coding, after the frame was read; the pre-registration did not fix them, so the
-  final write-up will report each prediction under the opposite reading of each rule as well.
-- `patch-0.9.1.json` (2 Nov): the changes that turn 0.9.0 into 0.9.1. Whole cases are
-  replaced by `case_id`, and nothing else changes:
-  - seven orders the posts describe without quoting are coded from their own text, read
-    free in the RECAP archive (Paula, Hawkins, Robinson, Stamp, Spatola and Morell, all
-    S.D.N.Y. criminal cases, and James v. Cerebras, N.D. Cal.);
-  - two anchors that pointed to the wrong post are corrected (Hintermaier and Brower are
-    quoted in post 5724, not 5656), with their coding unchanged;
-  - four RECAP copies (Jones, Sarris, DeJesus, Santos) have no usable text layer and are
-    marked "pending OCR";
-  - a new rule R10 says how orders read at the source are cited.
-- `ai_protective_orders-0.9.1.json` (2 Nov): 0.9.0 with patch 0.9.1 applied, as built and
-  checked by job aipo-build-v1. All 11 PDFs matched their pinned sha256, all 29 posts were
-  unchanged, the grader's 13 tests passed, and its per-case check found 0 problems
-  (39 codable, 3 refusals, 9 not codable).
-- `patch-0.9.2.json` (2 Nov, later): the changes that turn 0.9.1 into 0.9.2:
-  - the four image-only orders are coded from OCR text (new rule R11). Jones, DeJesus and
-    Santos use the S.D.N.Y. template wording. **Sarris does not**: its definition of an
-    "AI tool" leaves out "software that operates entirely on systems controlled by the
-    defense, such that no Disclosure Materials are transmitted to any third party", it bars
-    "consumer (i.e., non-commercial)" versions rather than "publicly accessible" ones, and
-    it lets the defense use a tool once counsel has taken reasonable steps to confirm four
-    safeguards (new rule R12 for the exclusion);
-  - Campbell (D. Md.) and Elgin (N.D. Cal.) are final as not codable: a read-only check of
-    the RECAP archive on 2 Nov found no free copy of either protective order;
-  - Fischman (N.D. Tex.) and Dunn (D. Colo.) are marked "pending": a free copy of Fischman's
-    protective order (ECF 58) was found, and Dunn's order granting the motion (ECF 32) is
-    free, though its protective order (ECF 33) is not. Both are being read at the source.
-- `src/`: the order texts that the coding cites as `src:<case_id>`. `velez-oneplus.txt` holds
-  passages copied by hand from the free PDF. `us-v-jones-sdny.txt`, `us-v-sarris.txt`,
-  `us-v-dejesus.txt` and `us-v-santos.txt` are tesseract 5.5.0 OCR text (300 dpi, not
-  corrected by hand). The other files are pypdf 5.1.0 text of the free PDFs. In all of them
-  only CM/ECF page stamps and bare page numbers are removed, and the first line names the
-  PDF and its sha256. `recap_report-2026-11-01.json` lists per-page character counts and
-  template-phrase probes for the first 11 PDFs.
-- The build script is `../build_aipo.py`, with its tests and `../build_manifest.json`. It
-  applies the patches, re-downloads and checks every PDF, rebuilds `src/`, re-reads the
-  posts and runs the grader's check. With `--grade` it also grades P1-P6 on the coding and
-  on each alternative reading, but it refuses while any case is still pending.
+This folder holds every version of the coding for the pre-registered count of AI clauses in
+US court protective orders (`../../ai-protective-orders-prereg.md` and its addendum).
+**The graded results are in [`../../ai-protective-orders.md`](../../ai-protective-orders.md)**; the final
+data file is `../../../data/ai_protective_orders.json` (version 1.0.0).
 
-Still to do before grading:
-1. code Fischman from its own text, and Dunn if ECF 32 sets out the provision's words;
-2. copy the Velez provisos in full and code Velez under rule R9.
+## Versions
 
-Then the published grader (`../grade_aipo.py`) runs on the final file, and the result is
-published whichever way the predictions go.
+| Version | Date (2026) | What changed |
+|---|---|---|
+| `ai_protective_orders-0.9.0.json` | 1 Nov | 51 cases from the 29 frame posts: 32 coded from quoted text, 3 refusals, 16 not codable; 9 posts screened out. Rules R2-R9 were written while coding, so each prediction is also reported under the opposite reading of each rule. |
+| `patch-0.9.1.json` | 2 Nov | Seven orders the posts only describe are coded from their free RECAP copies (R10); two anchors fixed; four image-only PDFs marked for OCR. Built file: `ai_protective_orders-0.9.1.json`, check `check-0.9.1.json` (0 problems). |
+| `patch-0.9.2.json` | 2 Nov | The four image-only S.D.N.Y. orders coded from OCR text (R11). Sarris leaves software that runs entirely on the defense's own systems out of its AI-tool definition (R12). Campbell and Elgin final as not codable. Built file: `ai_protective_orders-0.9.2.json`, check `check-0.9.2.json` (0 problems, 2 cases pending). |
+| `patch-1.0.0.json` | 2 Nov | **Final coding.** Fischman coded from the protective order itself (ECF 58). Dunn final as not codable. Velez recoded from its five provisos, now copied in full (R13). No case is pending. Built file: `../../../data/ai_protective_orders.json`, check `../check-1.0.0.json` (0 problems, 0 integrity failures). |
 
-Seen while reading the courts' own copies (not a result): a post's "same" is not always
-the same. The Robinson order the post calls the same as Lockhart lacks Lockhart's duties on
-the government. Stamp's certification rests on what the AI provider represents, which
-Mora and Dygdon do not require. Sarris, grouped by the posts with the template orders, is
-the only S.D.N.Y. criminal order read so far that names software running on the defense's
-own systems.
+Versions 0.9.0 to 0.9.2 were on GitHub before any count was computed. Patch 1.0.0 was written and handed
+to the grading job before any count was computed, but its first commit did not land, so it was first
+published together with the results (3 Nov 2026). The results page shows that no coding of its three
+cases could change any of the six outcomes.
 
-Not graded, not a result. Information about public court documents, not legal advice.
-The coding is CC BY 4.0, and court text is public record. The blog posts in the frame are
-not reproduced. Made with AI agents working in the name of MV2 of Munim, Inc.
-(mv2@munimtech.com).
+The frame itself (each post's id, date, link, title and content hash, as fixed on 1 Nov 2026) is
+`../frame.json`; blog post texts are not reproduced.
+
+## The three cases settled in 1.0.0
+
+- **Fischman v. Epic Systems Corp.** (N.D. Tex., No. 3:26-cv-00770-D, ECF 58, 23 Oct 2026), paras. 26-31,
+  read from the free copy in the RECAP archive (`src/fischman-v-epic.txt`). Protected material may go into
+  an AI platform only if "the provider of the AI Platform is contractually prohibited from" storing or
+  training on inputs and from disclosing them beyond what the service needs, and must let the user require
+  deletion. A self-hosted model has no outside provider, so the words do not settle it: coded **unclear**
+  (rule R5, provider_contract), and also reported as forbidden.
+- **Dunn v. LexisNexis Risk Solutions** (D. Colo.). The free order granting the motion (ECF 32,
+  `src/dunn-v-lexisnexis.txt`) describes the agreed AI provision but does not set out its words, and the
+  protective order (ECF 33) is available only from PACER. Final: **not codable**.
+- **Velez v. OnePlus** (S.D.N.Y., No. 1:25-cv-02432, ECF 28). The order lists "self-hosted language models"
+  among permitted systems, but only if five provisos hold (`src/velez-oneplus-provisos.txt`, pasted from
+  the PDF's text layer and found once, word for word, in pypdf's extraction of the same PDF). A
+  self-hosted model meets the first three; the fourth asks for a good-faith basis to believe "the platform
+  contractually prohibits use of the information for generalized model training", and there is no outside
+  provider to promise that. Coded **unclear** under rule R13 (self_hosted_contract_proviso), and also
+  reported as permitted.
+
+## How it is built and graded
+
+`../build_aipo.py` (with `../test_build_aipo.py`, `../build_manifest.json`, `../patch-1.0.0.json` and
+`../srcextra/`) downloads the frozen 0.9.0 file and the published patches, applies 1.0.0, re-downloads
+every cited RECAP PDF and checks its pinned sha256, rebuilds each cited text (pypdf, or tesseract OCR for
+image-only PDFs) and checks its pinned text hash, re-reads the 29 frame posts against their content hashes,
+runs the published grader's tests and its word-for-word check of every quotation, and only then, with
+`--grade`, grades P1-P6 on the coding and on every pre-declared alternative reading. It refuses to grade if
+anything above fails.
+
+Not legal advice.

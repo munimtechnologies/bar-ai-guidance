@@ -1,0 +1,1520 @@
+{
+ "version": "1.0.0",
+ "dataset": "AI clauses in US court protective and confidentiality orders, coded for how they treat a self-hosted open-weight model (frame: E-Discovery LLC blog posts, 1 Oct 2025 - 31 Oct 2026)",
+ "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com); coded with AI agents working in his name",
+ "license": "CC BY 4.0 for the coding; quoted court text is public record; blog posts are not reproduced",
+ "status_note": "Final coding of 2 November 2026, frozen and published before any count or prediction was computed. Since 0.9.2: Fischman is coded from the protective order itself (ECF 58, read free at the source); Dunn is final as not codable (the free order granting the motion describes the agreed AI provision but does not set out its words, and the protective order is PACER-only); Velez is recoded from its five provisos, now copied in full from the PDF (R13). No case is pending.",
+ "coding_rules": [
+  "R1 (pre-registered unit). One case per court case; if a case has several AI orders in the frame, the latest is used. When the same order is quoted in several posts, the copy in the latest post is used.",
+  "R2. 'Quoted' means the order's own words appear in the post, as a block quote or in quotation marks. A court's later summary of an order, a parenthetical description, or a post saying that an order is 'the same' as another is not a quotation; such cases are not codable unless the order can be read free at the source.",
+  "R3. A span must point to the order's own words with a start anchor that occurs once in the post. Where an order's quoted text is word for word a part of another order's quotation in the same post, no span can point to it alone, and the case is listed as not codable with that reason.",
+  "R4. Self-hosting named (item 2) requires the words self-hosted, on-premises, locally run or locally installed, or words about a party's own infrastructure or environment. The definition phrase 'whether cloud-based or otherwise' does not count. The result is also reported with it counted (sensitivity 'cloud').",
+  "R5 (rule provider_contract). When the only route to use is a contract or commitment binding an outside AI provider or vendor, or an enterprise or commercial subscription, setup A (which has no outside provider) is coded unclear. The result is also reported with these cases coded forbidden.",
+  "R6 (rule public_model). 'Publicly accessible' or 'publicly available' attached to a version, service, tool or platform is read as describing the running service that receives the data; setup A's is reachable only from the party's own network. Attached to a model or LLM itself, setup A is coded unclear, because an openly published model is itself publicly available. The result is also reported with these cases coded permitted.",
+  "R7. A route through the producing party's consent, the parties' agreement, notice or a court order makes setup A conditional, not forbidden.",
+  "R8 (rule open_use_conditions). Where an order lets 'open' systems be used on conditions about disclosure and bars some materials outright, setup A is coded unclear. Also reported as permitted.",
+  "R9 (rule provisos_not_copied). Where an order names self-hosted models as permitted subject to provisos that were not copied, setup A is coded unclear until the provisos are read. Also reported as permitted.",
+  "Rules R2-R9 were written while coding, after the frame was read; the pre-registration did not fix them. Each rule's cases are marked, and the predictions are reported under the opposite reading as well.",
+  "R10. An order the posts describe without quoting is coded from its own text when a free copy is in the RECAP archive (the pre-registration counts an order as not codable only if it also cannot be read free at the source). Its spans point to src:<case_id>, the text pypdf 5.1.0 extracted from that PDF with only CM/ECF page-header stamps and bare page-number lines removed; extraction artefacts (split words, stray date stamps) are left as they are, and quotations skip them with '...'. Where pypdf returns a passage out of page order, the passage is given as two spans in reading order.",
+  "R11. An order whose free RECAP copy has no usable text layer (pypdf returns only the CM/ECF stamp, or unreadable characters) is coded from OCR text: pages rendered at 300 dpi grayscale by pdftoppm and read by tesseract 5.5.0 (language eng, page segmentation mode 6), with only well-formed CM/ECF page-header stamps and bare page-number lines removed. The OCR text is not corrected by hand; quotations skip OCR errors (stray '|' marks, misread stamps) with '...'. Its spans point to src:<case_id>, the published OCR text.",
+  "R12 (rule own_systems_exclusion). Where an order's definition of an AI tool leaves out software that operates entirely on systems the party controls with no material sent to any third party, setup A (run on a party-controlled server, no outside provider) is outside the clause and is coded permitted, and self-hosting is named. Written while coding, after the frame was read.",
+  "R13 (rule self_hosted_contract_proviso). Where an order names self-hosted systems among those permitted but one of its provisos asks for a contract or contractual commitment, which setup A (no outside provider) has no one to give, setup A is coded unclear. The result is also reported with these cases coded permitted. Written while coding, after the frame was read."
+ ],
+ "screened_out": [
+  {
+   "post": 5295,
+   "case": "Waterford Twp. Gen. Employees Ret. Sys. v. Monolithic Power Systems (W.D. Wash.), 2026 WL 1858112",
+   "reason": "The quoted order protects an expert's AI prompts and outputs from disclosure; it does not limit the use of AI with material from the case."
+  },
+  {
+   "post": 5633,
+   "case": "Dean & Deluca Brands v. Fire Brands Innovation (S.D.N.Y.), 2026 WL 2905875",
+   "reason": "The quoted order governs a producing party's own use of AI review tools; it does not limit the use of AI with material received in the case."
+  },
+  {
+   "post": 5152,
+   "case": "Jones v. Delta Air Lines (E.D. Mich.), 2026 WL 1091186",
+   "reason": "An instruction not to use ChatGPT to answer deposition questions, not a protective or confidentiality order on case material."
+  },
+  {
+   "post": 4830,
+   "case": "Allen v. Amazon (N.D. Tex.), 2025 WL 3719889",
+   "reason": "A local rule on disclosing AI use in briefs; no order limiting AI use with case material."
+  },
+  {
+   "post": 4949,
+   "case": "Warner v. Gilbarco (E.D. Mich.), 2026 WL 373043; United States v. Heppner (S.D.N.Y.)",
+   "reason": "Rulings on work product and privilege for AI use; Warner's protective order is coded from post 4703."
+  },
+  {
+   "post": 5571,
+   "case": "Cifuentes v. SID Tool Co. (M.D. Fla.), 2026 WL 2795597",
+   "reason": "Denial of discovery about a party's AI use; no order limiting AI use with case material."
+  },
+  {
+   "post": 5643,
+   "case": "Villanueva v. Las Vegas Metro. Police Dep't (D. Nev.), 2026 WL 2942348",
+   "reason": "Discovery of an expert's ChatGPT history; no order limiting AI use with case material."
+  },
+  {
+   "post": 5694,
+   "case": "Fontainebleau Florida Hotel v. Boteach (S.D. Fla.), 2026 WL 3151630",
+   "reason": "Subpoenas to AI providers; no order limiting AI use with case material."
+  },
+  {
+   "post": 5535,
+   "case": "(none)",
+   "reason": "A thank-you note; no order."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "warner-v-gilbarco",
+   "caption": "Warner v. Gilbarco, Inc.",
+   "court": "E.D. Mich.",
+   "case_no": "2025 WL 3047881",
+   "order": "Order modifying the protective order, 30 Oct 2025",
+   "posts": [
+    4703
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:4703",
+     "start": "[T]he Court’s March 18, 2025 Fed. R. Civ. P. 26(c) protective order",
+     "end": "shall not be uploaded onto any AI platform."
+    }
+   ],
+   "tests": {
+    "BAN": "any documents marked confidential shall not be uploaded onto any AI platform"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "forbidden",
+   "setup_a_quote": "any documents marked confidential shall not be uploaded onto any AI platform"
+  },
+  {
+   "case_id": "jeffries-v-harcros",
+   "caption": "Jeffries v. Harcros Chemicals, Inc.",
+   "court": "D. Kan.",
+   "case_no": "2026 WL 820218",
+   "order": "Order amending the protective order, 25 Mar 2026 (with the original protective order's AI provision it quotes)",
+   "posts": [
+    5056
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5056",
+     "start": "must provide other parties with notice and an opportunity to object;",
+     "end": "all Confidential Information is deleted at the conclusion of this action."
+    },
+    {
+     "doc": "post:5056",
+     "start": "Highly summarized, Defendants seek to prevent parties",
+     "end": "(collectively, “open AI Tools”)."
+    },
+    {
+     "doc": "post:5056",
+     "start": "But Defendants’ proposal does not foreclose a party from using any AI Tools",
+     "end": "while allowing the use of closed AI Tools—for good reason."
+    }
+   ],
+   "tests": {
+    "NOTICE": "must provide other parties with notice and an opportunity to object",
+    "DATA": "Confidential Information is not used to train or improve any AI Tool except one used exclusively in this action",
+    "PUBLIC": "prevent parties from uploading even non-confidential documents into public or “open loop” generative artificial intelligence tools",
+    "OTHER": "ensure that the AI Tool is used in a secure environment"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "must provide other parties with notice and an opportunity to object",
+   "note": "The amended order's own words are not quoted in the post; the court's description of the amendment it granted is. 'Open' here means public or open-loop, not open-source."
+  },
+  {
+   "case_id": "morgan-v-v2x",
+   "caption": "Morgan v. V2X, Inc.",
+   "court": "D. Colo.",
+   "case_no": "No. 25-cv-01991; 2026 WL 864223",
+   "order": "Order amending the protective order, 30 Mar 2026 (ECF 65)",
+   "posts": [
+    5067
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5067",
+     "start": "No party or authorized recipient may input, upload, or submit CONFIDENTIAL Information",
+     "end": "must retain written documentation of these contractual protections."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "unless the AI provider is contractually prohibited from",
+    "DATA": "storing or using inputs to train or improve its model"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "unless the AI provider is contractually prohibited from",
+   "setup_a_reason": "The only route is a contract binding 'the AI provider'; setup A has no outside provider, and the words do not say whether a system without one is barred or outside the clause.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "stansfield-v-ibm",
+   "caption": "Stansfield v. International Business Machines Corp.",
+   "court": "D. Nev.",
+   "case_no": "2026 WL 1031230",
+   "order": "Stipulated protective order, 16 Apr 2026",
+   "posts": [
+    5126
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5126",
+     "start": "Persons receiving Confidential information under this Stipulated Protective Order shall not upload",
+     "end": "do not use the producing Party’s information to retrain or improve their systems."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "any publicly available generative artificial intelligence tool or platform",
+    "DATA": "will not train on, learn from, or otherwise incorporate the producing Party’s data into its underlying models"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "Any use of generative artificial intelligence for litigation support must be limited to secure, private tools that do not use the producing Party’s information to retrain or improve their systems"
+  },
+  {
+   "case_id": "in-re-byheart",
+   "caption": "In re ByHeart, Inc., Infant Formula Marketing, Sales Practices, and Products Liability Litigation",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-md-03178; 2026 WL 1103170",
+   "order": "Protective order, Document 45, 23 Apr 2026, para. 20",
+   "posts": [
+    5136
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5136",
+     "start": "The parties agree that individuals or entities with access to Protected Materials are prohibited",
+     "end": "(3) adherence to cybersecurity best practices"
+    }
+   ],
+   "tests": {
+    "DATA": "will not train the model or incorporate into model weights any inputs containing those Protected Materials",
+    "OTHER": "adherence to cybersecurity best practices"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "unless the tools or applications provide the following protections against inadvertent disclosure of data"
+  },
+  {
+   "case_id": "rudasill-v-swiss-re",
+   "caption": "Rudasill v. Swiss Re American Holding Corp.",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 1329451",
+   "order": "Protective order entered by consent, 13 May 2026",
+   "posts": [
+    5228
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5228",
+     "start": "The Receiving Party shall not load, import, submit, or otherwise transfer Discovery Material",
+     "end": "will be deleted in accordance with Paragraph 12 of this Order."
+    }
+   ],
+   "tests": {
+    "NOTICE": "the Receiving Party shall disclose the specific LLM or AI platform(s) it intends to use and verify its compliance with (a) through (h) above",
+    "DATA": "does not use, retain, or incorporate produced data to train, fine-tune, or otherwise improve any AI model or system",
+    "CONTRACT": "the technology provider for the platform must agree to maintain confidentiality",
+    "OTHER": "maintains data only on servers located in the United States"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "to any Large Language Model (“LLM”) or Artificial Intelligence (“AI”) platform without agreement of the parties"
+  },
+  {
+   "case_id": "orechovesky-v-bny",
+   "caption": "Orechovesky v. BNY Administrative Services, LLC",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:25-cv-08517; 2026 WL 1725149",
+   "order": "Confidentiality order entered on the parties' agreement, 15 Jun 2026",
+   "posts": [
+    5266
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5266",
+     "start": "A receiving party shall not load, import, submit, or otherwise transfer Discovery Material to any Large Language Model",
+     "end": "for any purpose other than prosecuting or defending this matter."
+    }
+   ],
+   "tests": {
+    "NOTICE": "the receiving party shall disclose the specific LLM or AI platform(s) it intends to use",
+    "DATA": "Does not use, retain, or incorporate produced data to train, fine-tune, or otherwise improve any AI model or system",
+    "CONTRACT": "The technology provider for the platform must agree to maintain confidentiality",
+    "OTHER": "Maintains security certifications or controls consistent with industry standards for legal technology"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "transfer Discovery Material to any Large Language Model (“LLM”) or Artificial Intelligence (“AI”) platform without agreement of the Parties"
+  },
+  {
+   "case_id": "pujas-v-bdo",
+   "caption": "Pujas v. BDO USA, P.C.",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 1724307",
+   "order": "Stipulated protective order, 15 Jun 2026",
+   "posts": [
+    5266
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5266",
+     "start": "Absent the prior written consent of the producing Party or an order of the Court, no receiving Party shall upload",
+     "end": "even where the data or the Confidential Material has been anonymized."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "is subject to a binding written agreement that",
+    "DATA": "expressly prohibits the provider from using such data for training, fine-tuning, product improvement",
+    "OTHER": "is an enterprise-grade platform that the receiving Party (or its counsel) has licensed"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "Absent the prior written consent of the producing Party or an order of the Court, no receiving Party shall upload"
+  },
+  {
+   "case_id": "velez-v-oneplus",
+   "caption": "Velez v. OnePlus Technology (Shenzhen) Co., Ltd.",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 25-cv-2432; 2026 WL 1734645",
+   "order": "Stipulated confidentiality and protective order, ECF 28, 16 Jun 2026, section C (read at the source: RECAP archive)",
+   "posts": [
+    5266
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:velez-oneplus",
+     "start": "image-generation tool, or similar service where information submitted by users",
+     "end": "parties to this litigation."
+    },
+    {
+     "doc": "src:velez-oneplus-provisos",
+     "start": "Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or HIPAA-compliant",
+     "end": "configured to prevent disclosure or model training using Confidential Material."
+    }
+   ],
+   "tests": {
+    "DATA": "where information submitted by users may be retained, used for model training",
+    "CONTRACT": "the user has a good-faith basis to believe the platform contractually prohibits use of the information for generalized model training",
+    "OTHER": "secure, closed, enterprise, self-hosted, or HIPAA-compliant artificial intelligence platform"
+   },
+   "self_hosting_named": true,
+   "self_hosting_quote": "self-hosted language models",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "the user has a good-faith basis to believe the platform contractually prohibits use of the information for generalized model training",
+   "setup_a_reason": "The order lists 'self-hosted language models' among permitted systems, but only if all five provisos hold. Setup A meets provisos 1-3 (no training for non-parties, no third-party access, safeguards), but proviso 4 asks for a good-faith basis to believe 'the platform contractually prohibits' use for model training, and setup A has no outside provider to make that promise. The words do not settle whether a self-hosted model with no such contract qualifies.",
+   "reading_rule": "self_hosted_contract_proviso",
+   "note": "R10, R13. Replaces the 0.9.0-0.9.2 coding (unclear, R9 provisos_not_copied): the five provisos and the next sentence were selected and pasted from the PDF's text layer on 2 Nov 2026 (src:velez-oneplus-provisos); the build also extracts the PDF with pypdf and reports whether the pasted passage appears in it."
+  },
+  {
+   "case_id": "litton-v-roblox",
+   "caption": "Litton v. Roblox Corp.",
+   "court": "N.D. Cal.",
+   "case_no": "2026 WL 1483493",
+   "order": "Discovery management order, 27 May 2026: proposed AI edits to the model protective order refused",
+   "posts": [
+    5254
+   ],
+   "status": "refusal",
+   "spans": [
+    {
+     "doc": "post:5254",
+     "start": "Section 7.1 SHALL not be edited as proposed",
+     "end": "is now applicable to these cases"
+    }
+   ]
+  },
+  {
+   "case_id": "us-v-hoskins",
+   "caption": "United States v. Hoskins",
+   "court": "N.D. Ill.",
+   "case_no": "2026 WL 1493698",
+   "order": "Amended protective order governing discovery, 28 May 2026, para. 6",
+   "posts": [
+    5254
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5254",
+     "start": "Restrictions on Use of AI to Process Materials. No person or entity authorized",
+     "end": "once it has been incorporated into a model."
+    }
+   ],
+   "tests": {
+    "NOTICE": "without prior written notice to, and corresponding receipt of acknowledgement from, the government",
+    "DATA": "certify that it does not (i) retain or use any Materials for model training",
+    "PUBLIC": "submit Materials to a publicly accessible AI system that retains and uses submitted data to train models"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "to any artificial intelligence (“AI”) tool without prior written notice to"
+  },
+  {
+   "case_id": "rmme-v-majestic-steel",
+   "caption": "RMME LLC v. Majestic Steel USA, Inc.",
+   "court": "D. Nev.",
+   "case_no": "No. 2:26-cv-01041-APG-MDC; 2026 WL 1831063",
+   "order": "Stipulated protective order, ECF 20, 24 Jun 2026",
+   "posts": [
+    5324
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5324",
+     "start": "Counsel and the Parties may use artificial intelligence (“AI”) systems",
+     "end": "outputs generated for other users or matters."
+    }
+   ],
+   "tests": {
+    "OPENNESS": "an “open AI system” means an AI system for which the source code, training data, or underlying models are publicly accessible",
+    "DATA": "does not use Protected Material to train, improve, or refine its models or algorithms",
+    "OTHER": "does not violate Section III(4) of Judge Couvillier’s Standing Order"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "the source code, training data, or underlying models are publicly accessible",
+   "setup_a": "unclear",
+   "setup_a_quote": "Open AI systems may be used only if such use does not result in the disclosure of Protected Material in violation of this Order",
+   "setup_a_reason": "Setup A is an 'open AI system' here and can never be 'closed'. Open systems may be used only if the use does not 'result in the disclosure' of Protected Material, which the order does not define for a system with no outside party, and sealed filings and documents with personal-data identifiers may not be uploaded to them at all.",
+   "reading_rule": "open_use_conditions"
+  },
+  {
+   "case_id": "us-v-mora",
+   "caption": "United States v. Mora",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2058416",
+   "order": "Protective order entered by consent, 16 Jul 2026",
+   "posts": [
+    5386
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5386",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a.",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "submit Disclosure Material to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models",
+    "DATA": "the AI tool will not retain or use any Disclosure Material for model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "With respect to any AI tool used by the defendant, defense counsel must be able to certify that"
+  },
+  {
+   "case_id": "us-v-dygdon",
+   "caption": "United States v. Dygdon",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2225226",
+   "order": "Protective order entered by consent, 3 Aug 2026",
+   "posts": [
+    5432
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5432",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. “AI tool” means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. Under no circumstances will any member of the defense team submit Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models. Such AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. With respect to any AI tool used by the defendant",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "submit Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models",
+    "DATA": "will not retain or use any Disclosure Materials for model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "With respect to any AI tool used by the defendant, defense counsel must be able to certify that"
+  },
+  {
+   "case_id": "us-v-marrow",
+   "caption": "United States v. Marrow",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2389395",
+   "order": "Protective order entered by consent, 17 Aug 2026, para. 7",
+   "posts": [
+    5432
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5432",
+     "start": "7. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials"
+  },
+  {
+   "case_id": "us-v-davis",
+   "caption": "United States v. Davis",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 1333520",
+   "order": "Protective order entered by consent, 12 Aug 2026",
+   "posts": [
+    5432
+   ],
+   "status": "not_codable",
+   "reason": "R3: the post's quotation of this order (paragraphs a and b) is word for word the first part of the Dygdon order quoted above it in the same post, so no span can point to it alone. Not identified at the source: a read-only RECAP check on 1 Nov 2026 found no S.D.N.Y. United States v. Davis protective order within 3 days of 12 Aug 2026 (the nearest, No. 1:26-cr-00299 ECF 20 of 24 Aug, has no free copy)."
+  },
+  {
+   "case_id": "us-v-spatola",
+   "caption": "United States v. Spatola",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00327; 2026 WL 2351459",
+   "order": "Protective order entered by consent, Aug 2026 (ECF 9), para. 9; read at the source: RECAP archive",
+   "posts": [
+    5432
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-spatola",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "at the conclusion of this case"
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10. The post says the order is the same as Marrow's; coded from the order's own text (PDF page 3)."
+  },
+  {
+   "case_id": "us-v-stamp",
+   "caption": "United States v. Stamp",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00316; 2026 WL 2321897",
+   "order": "Protective order entered by consent, Aug 2026 (ECF 18), para. 5; read at the source: RECAP archive",
+   "posts": [
+    5432
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-stamp",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "obligations set forth herein."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "submit Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models",
+    "DATA": "will not retain or use any Disclosure Materials for model training",
+    "CONTRACT": "based on the applicable contractual terms, provider documentation, and account settings"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "defense counsel is using an AI tool and the provider for that AI tool represents",
+   "setup_a_reason": "The only route is a certification, based on contractual terms, provider documentation and account settings, that 'the provider for that AI tool represents' three safeguards; setup A has no outside provider to make such representations, and the words do not say how a provider-less system is treated.",
+   "reading_rule": "provider_contract",
+   "note": "R10. Unlike the Mora and Dygdon orders it otherwise follows, the certification rests on what the provider represents. Its AI-tool definition excludes 'ordinary local or enterprise' routine functions such as spell-checking; that is not self-hosting of an AI tool under R4."
+  },
+  {
+   "case_id": "us-v-morell",
+   "caption": "United States v. Morell",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00362; 2026 WL 2676582",
+   "order": "Protective order, 11 Sep 2026 (ECF 13), para. 5; read at the source: RECAP archive",
+   "posts": [
+    5432
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-morell",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10. pypdf drops the first words of the AI-tool definition (para. a); no quotation uses them."
+  },
+  {
+   "case_id": "campbell-v-tidalhealth",
+   "caption": "Campbell v. TidalHealth, Inc.",
+   "court": "D. Md.",
+   "case_no": "No. 1:25-cv-04293; 2026 WL 2162749 (protective order: ECF 21, 27 Feb 2026, para. 8)",
+   "order": "Protective order, 27 Feb 2026, as described in a 28 Jul 2026 opinion",
+   "posts": [
+    5479,
+    5656
+   ],
+   "status": "not_codable",
+   "reason": "R2: a later opinion describes the order's 'prohibition on submitting discovery material to public generative artificial intelligence tools' but does not quote it. No free copy at the source: a read-only check of the RECAP archive on 2 Nov 2026 found the docket with only ECF 54 (the 28 Jul 2026 memorandum opinion); the protective order (ECF 21) is not there."
+  },
+  {
+   "case_id": "zask-v-kohls",
+   "caption": "Zask v. Kohl's Corp.",
+   "court": "E.D. Wis.",
+   "case_no": "2026 WL 2531856",
+   "order": "Protective order as modified by the court, 27 Aug 2026, para. F",
+   "posts": [
+    5479
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5479",
+     "start": "A receiving party may use AI tools in connection with discovery materials produced in this action",
+     "end": "used solely for purposes of this litigation."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "is subject to enforceable contractual terms that",
+    "DATA": "prohibit the provider from retaining, using, disclosing, selling, or using the materials to train",
+    "PUBLIC": "shall not be entered into any publicly available or consumer-based AI platform",
+    "OTHER": "the AI tool is operated in a secure environment"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "only if the AI tool is operated in a secure environment and is subject to enforceable contractual terms",
+   "setup_a_reason": "The only route is enforceable contract terms binding 'the provider'; setup A has no outside provider, and the words do not say whether a system without one is barred or outside the clause.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "us-v-thomas",
+   "caption": "United States v. Thomas",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2517653",
+   "order": "Order of 26 Aug 2026 declining to enter the government's proposed protective order with AI restrictions",
+   "posts": [
+    5499
+   ],
+   "status": "refusal",
+   "spans": [
+    {
+     "doc": "post:5499",
+     "start": "The parties and the Coordinating Discovery Attorney are encouraged to continue to meet and confer",
+     "end": "paragraph 5 of the proposed protective order."
+    }
+   ],
+   "note": "The court declined to enter the proposed order for now and sent the parties back to confer; it did not reject AI restrictions on the merits."
+  },
+  {
+   "case_id": "elgin-v-wells-fargo",
+   "caption": "Elgin v. Wells Fargo Bank, N.A.",
+   "court": "N.D. Cal.",
+   "case_no": "No. 4:25-cv-03937; 2026 WL 2664674",
+   "order": "Stipulated protective order, 22 Aug 2025 (ECF 20), applied 9 Sep 2026",
+   "posts": [
+    5519
+   ],
+   "status": "not_codable",
+   "reason": "R2: the post describes a stipulated order with an AI provision but quotes none of it. No free copy at the source: a read-only check of the RECAP archive on 2 Nov 2026 found the stipulated protective order (ECF 20) available only from PACER, and no later protective order."
+  },
+  {
+   "case_id": "us-v-paula",
+   "caption": "United States v. Paula",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00391; 2026 WL 2665024",
+   "order": "AI protective order entered by consent, 10 Sep 2026 (ECF 10), para. 7; read at the source: RECAP archive",
+   "posts": [
+    5519
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-paula",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "all Defense Materials will be removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10. Includes the government's matching duties for Defense Materials (paras. d, e), as in Lockhart and Amanuel."
+  },
+  {
+   "case_id": "skaf-v-google",
+   "caption": "Skaf v. Google LLC",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2620563",
+   "order": "Stipulated protective order, 4 Sep 2026",
+   "posts": [
+    5529
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5529",
+     "start": "Use of Generative Artificial Intelligence Tools and Large Language Models. Protected Material",
+     "end": "Section 12.9 (“Data Security”) of this Order."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "any open, publicly accessible or freely available consumer-grade Large Language Model",
+    "CONTRACT": "its contract with the AI Provider of the Confidential AI Tool",
+    "DATA": "Prohibits the AI Provider from storing or using inputs to train, refine, or improve its model",
+    "OTHER": "an AI Tool that is enterprise-grade"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "any open, publicly accessible or freely available consumer-grade Large Language Model",
+   "setup_a": "unclear",
+   "setup_a_quote": "Protected Material may only be inputted, uploaded, or submitted to an AI Tool that is enterprise-grade",
+   "setup_a_reason": "The only route is an enterprise-grade tool under a contract with an 'AI Provider', which setup A lacks; and the barred class (open, publicly accessible or freely available consumer-grade LLMs) may or may not reach an openly published model run privately.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "us-v-new-york-presbyterian",
+   "caption": "United States v. The New York and Presbyterian Hospital",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2547094",
+   "order": "Amended protective order, 28 Aug 2026",
+   "posts": [
+    5529
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5529",
+     "start": "Use of Large Language Model or Generative AI. A Party must not load",
+     "end": "not authorized to receive such materials."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "to a publicly accessible Large Language Model",
+    "DATA": "cannot and will not utilize Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information to train public models"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "a publicly accessible Large Language Model",
+   "setup_a": "unclear",
+   "setup_a_quote": "A Party must not load, upload, input, import, submit, or otherwise transfer Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information to a publicly accessible Large Language Model",
+   "setup_a_reason": "The barred class is a 'publicly accessible Large Language Model'; an openly published model is itself publicly accessible even when the copy that receives the data is not, and the words do not say which is meant.",
+   "reading_rule": "public_model"
+  },
+  {
+   "case_id": "us-v-jones-sdny",
+   "caption": "United States v. Jones",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00372; 2026 WL 2607719",
+   "order": "Protective order entered by consent, 3 Sep 2026 (ECF 11), para. 7; read at the source: RECAP archive (OCR, R11)",
+   "posts": [
+    5529
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-jones-sdny",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible ... version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains ... the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Same wording as Paula's paras. a-c, without the government's matching duties and without the sentence on the risks of publicly accessible tools. The OCR text has stray '|' marks at line ends, so two quotations skip them."
+  },
+  {
+   "case_id": "doe-v-google",
+   "caption": "Doe v. Google LLC",
+   "court": "N.D. Cal.",
+   "case_no": "2026 WL 2584519",
+   "order": "Protective order, 1 Sep 2026",
+   "posts": [
+    5529
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5529",
+     "start": "Any person in possession of Protected Material will maintain appropriate administrative",
+     "end": "equivalent or greater protections for the security and privacy of Protected Material."
+    },
+    {
+     "doc": "post:5529",
+     "start": "Such restrictions shall, at a minimum, prohibit the disclosure",
+     "end": "train what is accessible by the public."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "artificial intelligence services that are accessible to the public",
+    "DATA": "will capture entered data in order to train what is accessible by the public",
+    "OTHER": "The Safeguards will meet relevant industry standards"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "any large language models or artificial intelligence services that are accessible to the public",
+   "setup_a": "unclear",
+   "setup_a_quote": "prohibit the disclosure or use of Protected Material in any large language models or artificial intelligence services that are accessible to the public",
+   "setup_a_reason": "The barred class includes 'large language models ... that are accessible to the public'; an openly published model is itself accessible to the public even when the copy that receives the data is not, and the words do not say which is meant.",
+   "reading_rule": "public_model"
+  },
+  {
+   "case_id": "rapacon-v-abbott",
+   "caption": "Rapacon v. Abbott Laboratories",
+   "court": "N.D. Cal.",
+   "case_no": "2026 WL 2722543",
+   "order": "Stipulated protective order, 15 Sep 2026",
+   "posts": [
+    5549
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5549",
+     "start": "“CONFIDENTIAL” Information or Items shall not be submitted to any Open Generative AI tool",
+     "end": "and similar enterprise tools, are permitted."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "any substantially similar tool that is available to the public",
+    "OPENNESS": "or that allows for the underlying code and materials to be accessed by the public",
+    "DATA": "do not use customer data to train, refine, fine-tune, or improve publicly available models",
+    "OTHER": "restrict access to authorized users"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "allows for the underlying code and materials to be accessed by the public",
+   "setup_a": "forbidden",
+   "setup_a_quote": "Information or Items shall not be submitted to any Open Generative AI tool",
+   "note": "An 'Open Generative AI tool' includes a system 'that allows for the underlying code and materials to be accessed by the public'; an openly published model and its open-source server software fall within those words."
+  },
+  {
+   "case_id": "zl-technologies-v-kldiscovery",
+   "caption": "ZL Technologies, Inc. v. KLDiscovery Ontrack, LLC",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2731631",
+   "order": "Protective order, 16 Sep 2026, section 23",
+   "posts": [
+    5549
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5549",
+     "start": "(a) Scope: To protect the confidentiality and security of all information disclosed",
+     "end": "created without the use of AI tools."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "The AI tool is used pursuant to a written enterprise or professional agreement",
+    "DATA": "Discovery Information is not used to train, fine-tune, improve, develop, benchmark, or otherwise contribute to any AI model or service accessible outside the Receiving Party’s environment",
+    "OTHER": "deployed within a secure, access-controlled environment"
+   },
+   "self_hosting_named": true,
+   "self_hosting_quote": "accessible outside the Receiving Party’s environment",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "The AI tool is used pursuant to a written enterprise or professional agreement",
+   "setup_a_reason": "Use requires a written enterprise or professional agreement and contractual safeguards; an openly published model comes with a public licence and no provider contract, and the words do not say whether that counts.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "us-v-perez-feliz",
+   "caption": "United States v. Perez-Feliz",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2754823",
+   "order": "Protective order entered by consent, 17 Sep 2026",
+   "posts": [
+    5549
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5549",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. “AI tool” means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. c. The defense may submit",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials"
+  },
+  {
+   "case_id": "us-v-montes",
+   "caption": "United States v. Montes",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2824059",
+   "order": "Protective order entered by consent, 21 Sep 2026",
+   "posts": [
+    5549
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5549",
+     "start": "a. “AI tool” means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. No person",
+     "end": "receipt of acknowledgement from, the Government."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training",
+    "NOTICE": "without prior written notice to, and corresponding receipt of acknowledgement from, the Government"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "to any AI tool without prior written notice to, and corresponding receipt of acknowledgement from, the Government"
+  },
+  {
+   "case_id": "us-v-hawkins",
+   "caption": "United States v. Hawkins",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00333; 2026 WL 2825014",
+   "order": "Protective order entered by consent, Sep 2026 (ECF 13), para. 7; read at the source: RECAP archive",
+   "posts": [
+    5549
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-hawkins",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "receipt of acknowledgement from, the Government."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit ... to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training",
+    "NOTICE": "without prior written notice to, and corresponding receipt of acknowledgement from, the Government"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "to any AI tool without prior written notice to, and corresponding receipt of acknowledgement from, the Government",
+   "note": "R10. The post says '(same)' as Montes; the order's own text has the same notice paragraph (d). pypdf splits 'Disclosure' in para. b, so the PUBLIC quotation skips that word."
+  },
+  {
+   "case_id": "us-v-amanuel",
+   "caption": "United States v. Amanuel",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 2972618 (earlier order: 2026 WL 2964210)",
+   "order": "Protective order entered by consent, 2 Oct 2026 (the latest of two orders in the frame)",
+   "posts": [
+    5549,
+    5617
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5549",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. “AI tool” means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose",
+     "end": "Defense Materials will be removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "Two orders with the same caption, one day apart, are treated as one case; the later one, which adds the government's duties (d, e), is used."
+  },
+  {
+   "case_id": "hoffman-v-unmc",
+   "caption": "Hoffman v. University of Nebraska Medical Center",
+   "court": "D. Neb.",
+   "case_no": "2026 WL 2969621",
+   "order": "Protective order entered on joint request, 2 Oct 2026",
+   "posts": [
+    5617
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5617",
+     "start": "Artificial Intelligence. Qualified Recipients shall not",
+     "end": "agreed to by the parties."
+    }
+   ],
+   "tests": {
+    "OPENNESS": "to any open-source artificial intelligence platform or service",
+    "DATA": "platforms or services that use or assemble uploaded information to train or improve machine-learning models"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "any open-source artificial intelligence platform or service",
+   "setup_a": "conditional",
+   "setup_a_quote": "Qualified Recipients shall not, without the Producing Party’s express written consent, upload, submit, or otherwise provide Confidential Discovery Material",
+   "note": "Setup A runs an openly published model on open-source software, so it falls within 'open-source artificial intelligence platform or service' and needs the producing party's written consent; if it were not open-source, it would still not be a 'closed-source' platform the order expressly allows."
+  },
+  {
+   "case_id": "anr-pipeline-v-bb-metal",
+   "caption": "ANR Pipeline Co., LLC v. B&B Metal Processing Co., Inc.",
+   "court": "E.D. Wis.",
+   "case_no": "2026 WL 2970050",
+   "order": "Protective order as modified by the court, 2 Oct 2026",
+   "posts": [
+    5617
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5617",
+     "start": "A receiving party may use AI tools in connection with discovery materials produced in this action",
+     "end": "used solely for purposes of this litigation."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "is subject to enforceable contractual terms that",
+    "DATA": "prohibit the provider from retaining, using, disclosing, selling, or using the materials to train",
+    "PUBLIC": "shall not be entered into any publicly available or consumer-based AI platform",
+    "OTHER": "the AI tool is operated in a secure environment"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "only if the AI tool is operated in a secure environment and is subject to enforceable contractual terms",
+   "setup_a_reason": "The only route is enforceable contract terms binding 'the provider'; setup A has no outside provider, and the words do not say whether a system without one is barred or outside the clause.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "white-v-chime",
+   "caption": "White v. Chime Financial, Inc.",
+   "court": "W.D. Wash.",
+   "case_no": "2026 WL 3000904",
+   "order": "Stipulated protective order, 6 Oct 2026",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5656",
+     "start": "Should a Party elect to utilize artificial intelligence (“AI”) to assist in reviewing",
+     "end": "even where the Protected Material has been anonymized."
+    }
+   ],
+   "tests": {
+    "DATA": "an AI tool that does not retain the substance of a prompt or documents reviewed, share the substance of a prompt or documents reviewed for training of large language models"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "non-containerized advanced large language models (such as publicly available large language models)",
+   "setup_a": "conditional",
+   "setup_a_quote": "means an AI tool that does not retain the substance of a prompt or documents reviewed",
+   "note": "Names LLAMA among restricted non-containerized models, but allows the same technology in a 'fully containerized' environment; setup A keeps chat history, so it qualifies only with retention switched off (a changed setting)."
+  },
+  {
+   "case_id": "us-v-lockhart",
+   "caption": "United States v. Lockhart",
+   "court": "S.D.N.Y.",
+   "case_no": "2026 WL 3003727",
+   "order": "Protective order entered by consent, 6 Oct 2026",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5656",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "Defense Materials will be removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials"
+  },
+  {
+   "case_id": "us-v-santos",
+   "caption": "United States v. Santos",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00332; 2026 WL 3003653",
+   "order": "Protective order entered by consent, 6 Oct 2026 (ECF 33), para. 9; read at the source: RECAP archive (OCR, R11)",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-santos",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "all Defense Materials will be removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Template wording with the government's matching duties (paras. d, e); the sentence on the risks of publicly accessible tools appears twice in a row in para. b. The PDF's fonts have no usable character map, so the text is OCR."
+  },
+  {
+   "case_id": "us-v-robinson",
+   "caption": "United States v. Robinson",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00336; 2026 WL 3003677",
+   "order": "Protective order, 6 Oct 2026 (ECF 18), para. 9; read at the source: RECAP archive",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-robinson",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit ... to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10. The post says '(same)' as Lockhart, but the order's own text has neither the government's matching duties (Lockhart's paras. d, e) nor the sentence on the risks of publicly accessible tools. pypdf splits 'Disclosure' in para. b, so the PUBLIC quotation skips that word."
+  },
+  {
+   "case_id": "us-v-peplow",
+   "caption": "United States v. Peplow",
+   "court": "E.D. Cal.",
+   "case_no": "2026 WL 3026474",
+   "order": "Stipulated protective order, 8 Oct 2026",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5656",
+     "start": "No person or entity authorized to have access to protected material under the terms of the requested order",
+     "end": "once it has been incorporated into a model."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "is subject to a binding written agreement that",
+    "DATA": "expressly prohibits the provider from using such data for training, fine-tuning, product improvement",
+    "PUBLIC": "submit protected material to a publicly accessible AI system that retains and uses submitted data to train models",
+    "OTHER": "is an enterprise-grade platform that counsel for the defendant has licensed"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "conditional",
+   "setup_a_quote": "absent the prior written consent of the government or an order of the Court following a properly noticed motion"
+  },
+  {
+   "case_id": "us-v-sarris",
+   "caption": "United States v. Sarris",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00399; 2026 WL 2937892",
+   "order": "Protective order entered by consent, 30 Sep 2026 (ECF 13), para. 9; read at the source: RECAP archive (OCR, R11)",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-sarris",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "consistent with paragraph 14."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a consumer (i.e., non- ... version of an AI tool, meaning a version offered to individuals under consumer terms of service",
+    "DATA": "under terms or account settings that permit use of submitted data for its own model training"
+   },
+   "self_hosting_named": true,
+   "self_hosting_quote": "software that operates entirely on systems controlled by the defense, such that no Disclosure Materials are transmitted to any third party",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "\"AI tool\" does not include (i) software that operates entirely on systems controlled by the defense",
+   "reading_rule": "own_systems_exclusion",
+   "note": "R10, R11, R12. Differs from the S.D.N.Y. template the posts group it with: its AI-tool definition leaves out software that runs entirely on the defense's own systems (and routine office features), it bars 'consumer (i.e., non-commercial)' versions rather than 'publicly accessible' ones, and it lets the defense use an AI tool once counsel has taken reasonable steps to confirm four safeguards, including that the tool permits deletion. Setup A is outside the clause; it would also meet the four safeguards."
+  },
+  {
+   "case_id": "us-v-dejesus",
+   "caption": "United States v. DeJesus",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:26-cr-00392; 2026 WL 3034296",
+   "order": "Protective order entered by consent, 9 Oct 2026 (ECF 17), para. 7; read at the source: RECAP archive (OCR, R11)",
+   "posts": [
+    5617,
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:us-v-dejesus",
+     "start": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials.",
+     "end": "removed from the AI tool(s) at the conclusion of this case."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool",
+    "DATA": "uses submitted data for its own model training"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials",
+   "note": "R10, R11. Template wording with the sentence on the risks of publicly accessible tools and without the government's matching duties."
+  },
+  {
+   "case_id": "hintermaier-v-experian",
+   "caption": "Hintermaier v. Experian Information Solutions, Inc.",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:24-cv-09697 (court identified from the docket listing, not from the post)",
+   "order": "Stipulated protective order (date not given in the post)",
+   "posts": [
+    5724
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5724",
+     "start": "Restrictions on Use of Artificial Intelligence Tools. No party, non-party, or other person",
+     "end": "to the Designating Party or the Court upon request"
+    }
+   ],
+   "tests": {
+    "CONTRACT": "unless the AI provider is contractually prohibited from both",
+    "DATA": "including using them to train any model or to develop or improve any product or service"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "unless the AI provider is contractually prohibited from both",
+   "setup_a_reason": "The only route is a contract binding 'the AI provider'; setup A has no outside provider, and the words do not say whether a system without one is barred or outside the clause.",
+   "reading_rule": "provider_contract",
+   "note": "0.9.1: the quotation is in post 5724, not 5656 as 0.9.0 said; coding unchanged."
+  },
+  {
+   "case_id": "brower-v-colgate",
+   "caption": "Brower v. Colgate-Palmolive Co.",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 1:25-cv-03348 (court identified from published reports of the case, not from the post)",
+   "order": "Protective order entered by consent (date not given in the post)",
+   "posts": [
+    5724
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5724",
+     "start": "Protected Material shall not be submitted to any “Open Generative AI Tool” (e.g., ChatGPT)",
+     "end": "complies with this Protective Order."
+    }
+   ],
+   "tests": {
+    "PUBLIC": "any substantially similar tool that is available to or accessible by the public, with or without a subscription or license",
+    "CONTRACT": "where there is a contractual agreement providing that the generative AI tool does not retain information beyond any use session",
+    "DATA": "provided such information is not used for model training or product improvement purposes"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "The parties may use a closed Generative AI Tool that is private and secured, where there is a contractual agreement",
+   "setup_a_reason": "The permitted 'closed' tool needs a contractual agreement that it keeps nothing beyond a use session; setup A has no provider to contract with and keeps chat history, and the words do not say how a provider-less system is treated.",
+   "reading_rule": "provider_contract",
+   "note": "0.9.1: the quotation is in post 5724, not 5656 as 0.9.0 said; coding unchanged."
+  },
+  {
+   "case_id": "stt-webos-v-bytedance",
+   "caption": "STT Webos, Inc. v. ByteDance Ltd.",
+   "court": "N.D. Cal.",
+   "case_no": "2026 WL 2138557",
+   "order": "Protective order, 24 Jul 2026",
+   "posts": [
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5656",
+     "start": "Artificial Intelligence Use. The Parties agree that any documents",
+     "end": "including but not limited to sanctions."
+    }
+   ],
+   "tests": {
+    "DATA": "that are used to train, improve, re-train, or otherwise develop any artificial intelligence, foundation model, or large language model"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": true,
+   "openness_quote": "regardless of whether the AI Models are proprietary, open-source, or provided by a third party",
+   "setup_a": "permitted",
+   "setup_a_quote": "shall not be used, in whole or in part, for prompts (inputs), completions (outputs), or embeddings that are used to train"
+  },
+  {
+   "case_id": "corent-v-aws",
+   "caption": "Corent Technology, Inc. v. Amazon Web Services, Inc.",
+   "court": "C.D. Cal.",
+   "case_no": "2026 WL 2924482",
+   "order": "Stipulated protective order, 28 Sep 2026, section 12",
+   "posts": [
+    5656
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "post:5656",
+     "start": "No party, and no person or entity authorized to receive materials under this Order, may input",
+     "end": "remains subject to the deletion obligations set forth in Section 12.2."
+    }
+   ],
+   "tests": {
+    "DATA": "use, incorporate, or reference inputs to train, fine-tune, retrain, or otherwise improve any AI model or system",
+    "CONTRACT": "the AI vendor is contractually obligated to afford the Receiving Party the right to remove or delete",
+    "NOTICE": "must provide written notice to the Producing Party at least seven (7) business days before first use",
+    "OTHER": "only if the AI Tool is provided on an enterprise or commercial tier subscription",
+    "BAN": "no party may use any AI Tool, regardless of vendor contractual protections, to review, analyze, summarize, or otherwise process any Discovery Material designated as HIGHLY CONFIDENTIAL—SOURCE CODE"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "only if the AI Tool is provided on an enterprise or commercial tier subscription",
+   "setup_a_reason": "Use needs an enterprise or commercial tier subscription and an AI vendor contractually bound to delete on request; setup A has neither a subscription nor a vendor, and the words do not say how a provider-less system is treated. Source code may not go into any AI tool at all.",
+   "reading_rule": "provider_contract"
+  },
+  {
+   "case_id": "fischman-v-epic",
+   "caption": "Fischman v. Epic Systems Corp.",
+   "court": "N.D. Tex.",
+   "case_no": "No. 3:26-cv-00770-D; 2026 WL 3182476",
+   "order": "Protective order, 23 Oct 2026 (ECF 58), paras. 26-31; read at the source: RECAP archive (R10)",
+   "posts": [
+    5703
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:fischman-v-epic",
+     "start": "Use of Protected Material with Artificial Intelligence Platforms",
+     "end": "in order to participate in discovery."
+    }
+   ],
+   "tests": {
+    "CONTRACT": "unless the provider of the AI Platform is contractually prohibited from",
+    "DATA": "storing or using the inputs to train or improve any model",
+    "PUBLIC": "this provision prohibits entering Protected Material into the standard consumer or other publicly accessible versions of widely available generative",
+    "NOTICE": "prior to entering any Protected Material into the AI Platform, it will confer with the Designating Party(ies)",
+    "OTHER": "the provider contractually affords the ability to require deletion"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "unless the provider of the AI Platform is contractually prohibited from",
+   "setup_a_reason": "The only route to use is that 'the provider of the AI Platform' is contractually bound (no training, no disclosure beyond what the service needs, deletion on request). Setup A has no outside provider, and the words do not say whether such a system is barred or outside the clause. Para. 29's conferral covers a party unsure whether a platform satisfies para. 27, so it does not open a route outside the contract test.",
+   "reading_rule": "provider_contract",
+   "note": "R5, R10. The post quotes the court's summary of the proposed clause; the entered order's own text is used. pypdf splits a few words ('artificial -intelligence', 'o f', 'D esignating'); no quotation uses them. Para. 31 says no self-represented party must buy any enterprise AI platform to take part in discovery."
+  },
+  {
+   "case_id": "baqleh-v-altamirano",
+   "caption": "Baqleh v. Altamirano",
+   "court": "N.D. Cal.",
+   "case_no": "2026 WL 3257576",
+   "order": "Order of 28 Oct 2026 denying a motion to modify the protective order to permit AI-assisted review",
+   "posts": [
+    5724
+   ],
+   "status": "refusal",
+   "spans": [
+    {
+     "doc": "post:5724",
+     "start": "The Court finds that the balance of conflicting interests weighs in favor of Defendant’s position.",
+     "end": "review the confidential BWC evidence."
+    }
+   ]
+  },
+  {
+   "case_id": "dunn-v-lexisnexis",
+   "caption": "Dunn v. LexisNexis Risk Solutions, Inc.",
+   "court": "D. Colo.",
+   "case_no": "No. 1:26-cv-01249-GPG-MDB; 2026 WL 2568346 (order: ECF 32; protective order: ECF 33)",
+   "order": "Order of 31 Aug 2026 on an agreed AI provision (ECF 32); protective order of the same day (ECF 33)",
+   "posts": [
+    5724
+   ],
+   "status": "not_codable",
+   "reason": "R2, R10: the post quotes the court's description of the agreed AI provision, not the provision. At the source, the free order granting the motion (ECF 32, read in full) also only describes it ('no model training on inputs, no third-party disclosure beyond what is essential for service delivery, and the ability to delete information') and strikes one disputed sentence; the protective order itself (ECF 33) is available only from PACER (RECAP archive checked 2 Nov 2026)."
+  },
+  {
+   "case_id": "james-v-cerebras",
+   "caption": "James v. Cerebras Systems, Inc.",
+   "court": "N.D. Cal.",
+   "case_no": "No. 4:25-cv-09361; 2026 WL 1962840",
+   "order": "Stipulated protective order approved 7 Jul 2026 (ECF 75), section 13.4; read at the source: RECAP archive",
+   "posts": [
+    5724
+   ],
+   "status": "codable",
+   "spans": [
+    {
+     "doc": "src:james-v-cerebras",
+     "start": "13.4 Large Language Models / Generative AI Tools.",
+     "end": "do not incorporate inputs"
+    },
+    {
+     "doc": "src:james-v-cerebras",
+     "start": "into model weights, or otherwise train on Protected Material",
+     "end": "satisfy the foregoing requirements."
+    }
+   ],
+   "tests": {
+    "NOTICE": "Without notifying and obtaining permission from the Producing Party",
+    "DATA": "do not incorporate inputs into model weights, or otherwise train on Protected Material",
+    "OTHER": "adhere to industry standard cybersecurity practices"
+   },
+   "self_hosting_named": false,
+   "self_hosting_quote": "",
+   "openness_named": false,
+   "openness_quote": "",
+   "setup_a": "permitted",
+   "setup_a_quote": "without taking commercially reasonable efforts to ensure such tools (a) do not incorporate inputs",
+   "note": "R10. Use without the producing party's permission is barred only where commercially reasonable efforts to ensure the two safeguards were not taken, so a tool meeting them needs no permission. Names Meta LLAMA, an openly published model, among example tools the safeguards apply to, without making openness a test; the parties' enterprise ChatGPT and Harvey accounts are deemed to satisfy the safeguards. pypdf returns the end of section 13.4 after section 14, so the passage is two spans in reading order."
+  }
+ ]
+}

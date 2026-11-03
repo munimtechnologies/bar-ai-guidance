@@ -1,0 +1,17 @@
+Velez v. OnePlus Technology (Shenzhen) Co., Ltd., No. 1:25-cv-02432 (S.D.N.Y.), ECF 28 (Stipulated Confidentiality and Protective Order, filed 16 June 2026), PDF page 5, section C (Permitted Use of Secure or Closed AI Systems). PDF in the RECAP archive on CourtListener: https://storage.courtlistener.com/recap/gov.uscourts.nysd.639231/gov.uscourts.nysd.639231.28.0.pdf. The passage was selected and pasted from the PDF's own text layer in a browser (not retyped) on 2 November 2026 at 05:54 UTC; line breaks are as in the PDF. Nothing left out between the first and last words below.
+
+Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or
+HIPAA-compliant artificial intelligence platform, provided that:
+1. the platform does not use the submitted information or documents to train models for
+non-parties;
+2. the platform does not permit access to the information by unrelated third parties;
+3. the information remains subject to commercially reasonable administrative, technical,
+and physical safeguards;
+4. the user has a good-faith basis to believe the platform contractually prohibits use of the
+information for generalized model training or other benefit to non-parties; and
+5. use of the platform otherwise complies with this Order and all applicable privacy,
+data-security, and professional-responsibility obligations.
+Permitted systems may include private enterprise implementations of AI tools, self-hosted
+language models, secure document-review platforms incorporating AI functionality, or
+HIPAA-compliant environments configured to prevent disclosure or model training using
+Confidential Material.

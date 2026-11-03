@@ -1,0 +1,70 @@
+{
+ "from_version": "0.9.2",
+ "version": "1.0.0",
+ "status_note": "Final coding of 2 November 2026, frozen and published before any count or prediction was computed. Since 0.9.2: Fischman is coded from the protective order itself (ECF 58, read free at the source); Dunn is final as not codable (the free order granting the motion describes the agreed AI provision but does not set out its words, and the protective order is PACER-only); Velez is recoded from its five provisos, now copied in full from the PDF (R13). No case is pending.",
+ "add_rules": [
+  "R13 (rule self_hosted_contract_proviso). Where an order names self-hosted systems among those permitted but one of its provisos asks for a contract or contractual commitment, which setup A (no outside provider) has no one to give, setup A is coded unclear. The result is also reported with these cases coded permitted. Written while coding, after the frame was read."
+ ],
+ "replace": [
+  {
+   "case_id": "fischman-v-epic",
+   "caption": "Fischman v. Epic Systems Corp.",
+   "court": "N.D. Tex.",
+   "case_no": "No. 3:26-cv-00770-D; 2026 WL 3182476",
+   "order": "Protective order, 23 Oct 2026 (ECF 58), paras. 26-31; read at the source: RECAP archive (R10)",
+   "posts": [5703],
+   "status": "codable",
+   "spans": [{"doc": "src:fischman-v-epic", "start": "Use of Protected Material with Artificial Intelligence Platforms", "end": "in order to participate in discovery."}],
+   "tests": {
+    "CONTRACT": "unless the provider of the AI Platform is contractually prohibited from",
+    "DATA": "storing or using the inputs to train or improve any model",
+    "PUBLIC": "this provision prohibits entering Protected Material into the standard consumer or other publicly accessible versions of widely available generative",
+    "NOTICE": "prior to entering any Protected Material into the AI Platform, it will confer with the Designating Party(ies)",
+    "OTHER": "the provider contractually affords the ability to require deletion"
+   },
+   "self_hosting_named": false, "self_hosting_quote": "",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "unless the provider of the AI Platform is contractually prohibited from",
+   "setup_a_reason": "The only route to use is that 'the provider of the AI Platform' is contractually bound (no training, no disclosure beyond what the service needs, deletion on request). Setup A has no outside provider, and the words do not say whether such a system is barred or outside the clause. Para. 29's conferral covers a party unsure whether a platform satisfies para. 27, so it does not open a route outside the contract test.",
+   "reading_rule": "provider_contract",
+   "note": "R5, R10. The post quotes the court's summary of the proposed clause; the entered order's own text is used. pypdf splits a few words ('artificial -intelligence', 'o f', 'D esignating'); no quotation uses them. Para. 31 says no self-represented party must buy any enterprise AI platform to take part in discovery."
+  },
+  {
+   "case_id": "dunn-v-lexisnexis",
+   "caption": "Dunn v. LexisNexis Risk Solutions, Inc.",
+   "court": "D. Colo.",
+   "case_no": "No. 1:26-cv-01249-GPG-MDB; 2026 WL 2568346 (order: ECF 32; protective order: ECF 33)",
+   "order": "Order of 31 Aug 2026 on an agreed AI provision (ECF 32); protective order of the same day (ECF 33)",
+   "posts": [5724],
+   "status": "not_codable",
+   "reason": "R2, R10: the post quotes the court's description of the agreed AI provision, not the provision. At the source, the free order granting the motion (ECF 32, read in full) also only describes it ('no model training on inputs, no third-party disclosure beyond what is essential for service delivery, and the ability to delete information') and strikes one disputed sentence; the protective order itself (ECF 33) is available only from PACER (RECAP archive checked 2 Nov 2026)."
+  },
+  {
+   "case_id": "velez-v-oneplus",
+   "caption": "Velez v. OnePlus Technology (Shenzhen) Co., Ltd.",
+   "court": "S.D.N.Y.",
+   "case_no": "No. 25-cv-2432; 2026 WL 1734645",
+   "order": "Stipulated confidentiality and protective order, ECF 28, 16 Jun 2026, section C (read at the source: RECAP archive)",
+   "posts": [5266],
+   "status": "codable",
+   "spans": [
+    {"doc": "src:velez-oneplus", "start": "image-generation tool, or similar service where information submitted by users", "end": "parties to this litigation."},
+    {"doc": "src:velez-oneplus-provisos", "start": "Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or HIPAA-compliant", "end": "configured to prevent disclosure or model training using Confidential Material."}
+   ],
+   "tests": {
+    "DATA": "where information submitted by users may be retained, used for model training",
+    "CONTRACT": "the user has a good-faith basis to believe the platform contractually prohibits use of the information for generalized model training",
+    "OTHER": "secure, closed, enterprise, self-hosted, or HIPAA-compliant artificial intelligence platform"
+   },
+   "self_hosting_named": true,
+   "self_hosting_quote": "self-hosted language models",
+   "openness_named": false, "openness_quote": "",
+   "setup_a": "unclear",
+   "setup_a_quote": "the user has a good-faith basis to believe the platform contractually prohibits use of the information for generalized model training",
+   "setup_a_reason": "The order lists 'self-hosted language models' among permitted systems, but only if all five provisos hold. Setup A meets provisos 1-3 (no training for non-parties, no third-party access, safeguards), but proviso 4 asks for a good-faith basis to believe 'the platform contractually prohibits' use for model training, and setup A has no outside provider to make that promise. The words do not settle whether a self-hosted model with no such contract qualifies.",
+   "reading_rule": "self_hosted_contract_proviso",
+   "note": "R10, R13. Replaces the 0.9.0-0.9.2 coding (unclear, R9 provisos_not_copied): the five provisos and the next sentence were selected and pasted from the PDF's text layer on 2 Nov 2026 (src:velez-oneplus-provisos); the build also extracts the PDF with pypdf and reports whether the pasted passage appears in it."
+  }
+ ]
+}

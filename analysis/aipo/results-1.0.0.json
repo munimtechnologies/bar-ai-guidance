@@ -1,0 +1,2036 @@
+{
+ "main": {
+  "counts": {
+   "cases": 51,
+   "codable": 44,
+   "not_codable": 4,
+   "refusals": 3,
+   "tests": {
+    "BAN": 2,
+    "PUBLIC": 29,
+    "OPENNESS": 3,
+    "DATA": 43,
+    "CONTRACT": 15,
+    "NOTICE": 9,
+    "OTHER": 17
+   },
+   "self_hosting_named": 3,
+   "openness_named": 8,
+   "setup_a": {
+    "permitted": 18,
+    "conditional": 10,
+    "forbidden": 2,
+    "unclear": 14
+   }
+  },
+  "percent": {
+   "self_hosting_named": 6.8,
+   "DATA": 97.7,
+   "OPENNESS": 6.8,
+   "setup_a_permitted": 40.9,
+   "setup_a_forbidden": 4.5,
+   "shared_cases": 54.5
+  },
+  "reuse": {
+   "run_words": 25,
+   "pairs": [
+    {
+     "a": "anr-pipeline-v-bb-metal",
+     "b": "zask-v-kohls",
+     "words": 139,
+     "same_court": true
+    },
+    {
+     "a": "orechovesky-v-bny",
+     "b": "rudasill-v-swiss-re",
+     "words": 191,
+     "same_court": true
+    },
+    {
+     "a": "pujas-v-bdo",
+     "b": "us-v-peplow",
+     "words": 43,
+     "same_court": false
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-dejesus",
+     "words": 168,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-dygdon",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-hawkins",
+     "words": 69,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-hoskins",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-jones-sdny",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-lockhart",
+     "words": 249,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-marrow",
+     "words": 138,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-montes",
+     "words": 233,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-mora",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-morell",
+     "words": 207,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-paula",
+     "words": 100,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-perez-feliz",
+     "words": 138,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-santos",
+     "words": 186,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-sarris",
+     "words": 46,
+     "same_court": true
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-spatola",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-dygdon",
+     "words": 32,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-hawkins",
+     "words": 69,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-hoskins",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-jones-sdny",
+     "words": 125,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-lockhart",
+     "words": 168,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-marrow",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-montes",
+     "words": 168,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-mora",
+     "words": 26,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-morell",
+     "words": 168,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-paula",
+     "words": 72,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-peplow",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-perez-feliz",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-santos",
+     "words": 135,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-sarris",
+     "words": 55,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-spatola",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-hawkins",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-hoskins",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-jones-sdny",
+     "words": 30,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-lockhart",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-marrow",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-montes",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-mora",
+     "words": 70,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-morell",
+     "words": 32,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-paula",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-perez-feliz",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-robinson",
+     "words": 30,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-santos",
+     "words": 32,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-sarris",
+     "words": 33,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-spatola",
+     "words": 30,
+     "same_court": true
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-stamp",
+     "words": 39,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-hoskins",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-jones-sdny",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-lockhart",
+     "words": 69,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-marrow",
+     "words": 62,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-montes",
+     "words": 69,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-mora",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-morell",
+     "words": 69,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-paula",
+     "words": 187,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-perez-feliz",
+     "words": 62,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-robinson",
+     "words": 105,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-santos",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-sarris",
+     "words": 46,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-spatola",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-jones-sdny",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-lockhart",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-marrow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-montes",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-mora",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-paula",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-perez-feliz",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-sarris",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-stamp",
+     "words": 27,
+     "same_court": false
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-lockhart",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-marrow",
+     "words": 131,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-montes",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-mora",
+     "words": 26,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-morell",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-paula",
+     "words": 72,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-peplow",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-perez-feliz",
+     "words": 131,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-santos",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-sarris",
+     "words": 42,
+     "same_court": true
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-spatola",
+     "words": 131,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-marrow",
+     "words": 138,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-montes",
+     "words": 233,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-mora",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-morell",
+     "words": 207,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-paula",
+     "words": 100,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-perez-feliz",
+     "words": 138,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-santos",
+     "words": 124,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-sarris",
+     "words": 46,
+     "same_court": true
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-spatola",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-montes",
+     "words": 127,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-mora",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-morell",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-paula",
+     "words": 100,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-perez-feliz",
+     "words": 210,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-santos",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-sarris",
+     "words": 46,
+     "same_court": true
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-spatola",
+     "words": 174,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-mora",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-morell",
+     "words": 207,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-paula",
+     "words": 100,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-perez-feliz",
+     "words": 127,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-santos",
+     "words": 124,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-sarris",
+     "words": 42,
+     "same_court": true
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-spatola",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-paula",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-perez-feliz",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-sarris",
+     "words": 26,
+     "same_court": true
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-stamp",
+     "words": 39,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-paula",
+     "words": 83,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-perez-feliz",
+     "words": 102,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-santos",
+     "words": 124,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-sarris",
+     "words": 42,
+     "same_court": true
+    },
+    {
+     "a": "us-v-morell",
+     "b": "us-v-spatola",
+     "words": 122,
+     "same_court": true
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-perez-feliz",
+     "words": 100,
+     "same_court": true
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-robinson",
+     "words": 77,
+     "same_court": true
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-santos",
+     "words": 72,
+     "same_court": true
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-sarris",
+     "words": 42,
+     "same_court": true
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-spatola",
+     "words": 83,
+     "same_court": true
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-perez-feliz",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-sarris",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-stamp",
+     "words": 27,
+     "same_court": false
+    },
+    {
+     "a": "us-v-perez-feliz",
+     "b": "us-v-robinson",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-perez-feliz",
+     "b": "us-v-santos",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-perez-feliz",
+     "b": "us-v-sarris",
+     "words": 46,
+     "same_court": true
+    },
+    {
+     "a": "us-v-perez-feliz",
+     "b": "us-v-spatola",
+     "words": 174,
+     "same_court": true
+    },
+    {
+     "a": "us-v-robinson",
+     "b": "us-v-santos",
+     "words": 56,
+     "same_court": true
+    },
+    {
+     "a": "us-v-robinson",
+     "b": "us-v-sarris",
+     "words": 36,
+     "same_court": true
+    },
+    {
+     "a": "us-v-robinson",
+     "b": "us-v-spatola",
+     "words": 65,
+     "same_court": true
+    },
+    {
+     "a": "us-v-santos",
+     "b": "us-v-sarris",
+     "words": 42,
+     "same_court": true
+    },
+    {
+     "a": "us-v-santos",
+     "b": "us-v-spatola",
+     "words": 91,
+     "same_court": true
+    },
+    {
+     "a": "us-v-sarris",
+     "b": "us-v-spatola",
+     "words": 36,
+     "same_court": true
+    }
+   ],
+   "cross_court_pairs": [
+    {
+     "a": "pujas-v-bdo",
+     "b": "us-v-peplow",
+     "words": 43,
+     "same_court": false
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-hoskins",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-amanuel",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-hoskins",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dejesus",
+     "b": "us-v-peplow",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-hoskins",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-dygdon",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-hoskins",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hawkins",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-jones-sdny",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-lockhart",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-marrow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-montes",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-mora",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-paula",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-perez-feliz",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-sarris",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-hoskins",
+     "b": "us-v-stamp",
+     "words": 27,
+     "same_court": false
+    },
+    {
+     "a": "us-v-jones-sdny",
+     "b": "us-v-peplow",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-lockhart",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-marrow",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-montes",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-mora",
+     "b": "us-v-peplow",
+     "words": 45,
+     "same_court": false
+    },
+    {
+     "a": "us-v-paula",
+     "b": "us-v-peplow",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-perez-feliz",
+     "words": 35,
+     "same_court": false
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-sarris",
+     "words": 26,
+     "same_court": false
+    },
+    {
+     "a": "us-v-peplow",
+     "b": "us-v-stamp",
+     "words": 27,
+     "same_court": false
+    }
+   ],
+   "shared_cases": [
+    "anr-pipeline-v-bb-metal",
+    "orechovesky-v-bny",
+    "pujas-v-bdo",
+    "rudasill-v-swiss-re",
+    "us-v-amanuel",
+    "us-v-dejesus",
+    "us-v-dygdon",
+    "us-v-hawkins",
+    "us-v-hoskins",
+    "us-v-jones-sdny",
+    "us-v-lockhart",
+    "us-v-marrow",
+    "us-v-montes",
+    "us-v-mora",
+    "us-v-morell",
+    "us-v-paula",
+    "us-v-peplow",
+    "us-v-perez-feliz",
+    "us-v-robinson",
+    "us-v-santos",
+    "us-v-sarris",
+    "us-v-spatola",
+    "us-v-stamp",
+    "zask-v-kohls"
+   ],
+   "longest_run_by_case": {
+    "anr-pipeline-v-bb-metal": 139,
+    "brower-v-colgate": 12,
+    "corent-v-aws": 18,
+    "doe-v-google": 6,
+    "fischman-v-epic": 14,
+    "hintermaier-v-experian": 12,
+    "hoffman-v-unmc": 8,
+    "in-re-byheart": 7,
+    "james-v-cerebras": 7,
+    "jeffries-v-harcros": 6,
+    "morgan-v-v2x": 18,
+    "orechovesky-v-bny": 191,
+    "pujas-v-bdo": 43,
+    "rapacon-v-abbott": 12,
+    "rmme-v-majestic-steel": 9,
+    "rudasill-v-swiss-re": 191,
+    "skaf-v-google": 16,
+    "stansfield-v-ibm": 5,
+    "stt-webos-v-bytedance": 8,
+    "us-v-amanuel": 249,
+    "us-v-dejesus": 168,
+    "us-v-dygdon": 70,
+    "us-v-hawkins": 187,
+    "us-v-hoskins": 45,
+    "us-v-jones-sdny": 131,
+    "us-v-lockhart": 249,
+    "us-v-marrow": 210,
+    "us-v-montes": 233,
+    "us-v-mora": 70,
+    "us-v-morell": 207,
+    "us-v-new-york-presbyterian": 5,
+    "us-v-paula": 187,
+    "us-v-peplow": 45,
+    "us-v-perez-feliz": 210,
+    "us-v-robinson": 105,
+    "us-v-santos": 186,
+    "us-v-sarris": 55,
+    "us-v-spatola": 174,
+    "us-v-stamp": 39,
+    "velez-v-oneplus": 9,
+    "warner-v-gilbarco": 4,
+    "white-v-chime": 11,
+    "zask-v-kohls": 139,
+    "zl-technologies-v-kldiscovery": 7
+   }
+  },
+  "openness_cases_permitting_a": [],
+  "predictions": {
+   "P1": "held",
+   "P2": "held",
+   "P3": "held",
+   "P4": "failed",
+   "P5": "held",
+   "P6": "failed"
+  }
+ },
+ "alternatives": {
+  "provider_contract->forbidden": {
+   "changed": [
+    "morgan-v-v2x",
+    "us-v-stamp",
+    "zask-v-kohls",
+    "skaf-v-google",
+    "zl-technologies-v-kldiscovery",
+    "anr-pipeline-v-bb-metal",
+    "hintermaier-v-experian",
+    "brower-v-colgate",
+    "corent-v-aws",
+    "fischman-v-epic"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 18,
+     "conditional": 10,
+     "forbidden": 12,
+     "unclear": 4
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 40.9,
+    "setup_a_forbidden": 27.3,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "public_model->permitted": {
+   "changed": [
+    "us-v-new-york-presbyterian",
+    "doe-v-google"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 20,
+     "conditional": 10,
+     "forbidden": 2,
+     "unclear": 12
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 45.5,
+    "setup_a_forbidden": 4.5,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "open_use_conditions->permitted": {
+   "changed": [
+    "rmme-v-majestic-steel"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 19,
+     "conditional": 10,
+     "forbidden": 2,
+     "unclear": 13
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 43.2,
+    "setup_a_forbidden": 4.5,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "failed",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "provisos_not_copied->permitted": {
+   "changed": [],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 18,
+     "conditional": 10,
+     "forbidden": 2,
+     "unclear": 14
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 40.9,
+    "setup_a_forbidden": 4.5,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "self_hosted_contract_proviso->permitted": {
+   "changed": [
+    "velez-v-oneplus"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 19,
+     "conditional": 10,
+     "forbidden": 2,
+     "unclear": 13
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 43.2,
+    "setup_a_forbidden": 4.5,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "conditional->forbidden": {
+   "changed": [
+    "jeffries-v-harcros",
+    "rudasill-v-swiss-re",
+    "orechovesky-v-bny",
+    "pujas-v-bdo",
+    "us-v-hoskins",
+    "us-v-montes",
+    "us-v-hawkins",
+    "hoffman-v-unmc",
+    "white-v-chime",
+    "us-v-peplow"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 18,
+     "conditional": 0,
+     "forbidden": 12,
+     "unclear": 14
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 40.9,
+    "setup_a_forbidden": 27.3,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "cloud": {
+   "changed": [
+    "us-v-hoskins",
+    "us-v-mora",
+    "us-v-dygdon",
+    "us-v-marrow",
+    "us-v-spatola",
+    "us-v-stamp",
+    "us-v-morell",
+    "us-v-paula",
+    "us-v-perez-feliz",
+    "us-v-montes",
+    "us-v-hawkins",
+    "us-v-amanuel",
+    "us-v-lockhart",
+    "us-v-santos",
+    "us-v-robinson",
+    "us-v-peplow",
+    "us-v-dejesus"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 20,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 18,
+     "conditional": 10,
+     "forbidden": 2,
+     "unclear": 14
+    }
+   },
+   "percent": {
+    "self_hosting_named": 45.5,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 40.9,
+    "setup_a_forbidden": 4.5,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "failed",
+    "P2": "held",
+    "P3": "held",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  },
+  "all_reading_rules_reversed": {
+   "changed": [
+    "morgan-v-v2x",
+    "velez-v-oneplus",
+    "rmme-v-majestic-steel",
+    "us-v-stamp",
+    "zask-v-kohls",
+    "skaf-v-google",
+    "us-v-new-york-presbyterian",
+    "doe-v-google",
+    "zl-technologies-v-kldiscovery",
+    "anr-pipeline-v-bb-metal",
+    "hintermaier-v-experian",
+    "brower-v-colgate",
+    "corent-v-aws",
+    "fischman-v-epic"
+   ],
+   "counts": {
+    "cases": 51,
+    "codable": 44,
+    "not_codable": 4,
+    "refusals": 3,
+    "tests": {
+     "BAN": 2,
+     "PUBLIC": 29,
+     "OPENNESS": 3,
+     "DATA": 43,
+     "CONTRACT": 15,
+     "NOTICE": 9,
+     "OTHER": 17
+    },
+    "self_hosting_named": 3,
+    "openness_named": 8,
+    "setup_a": {
+     "permitted": 22,
+     "conditional": 10,
+     "forbidden": 12,
+     "unclear": 0
+    }
+   },
+   "percent": {
+    "self_hosting_named": 6.8,
+    "DATA": 97.7,
+    "OPENNESS": 6.8,
+    "setup_a_permitted": 50.0,
+    "setup_a_forbidden": 27.3,
+    "shared_cases": 54.5
+   },
+   "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "failed",
+    "P4": "failed",
+    "P5": "held",
+    "P6": "failed"
+   }
+  }
+ },
+ "coding": {
+  "warner-v-gilbarco": {
+   "court": "E.D. Mich.",
+   "status": "codable",
+   "setup_a": "forbidden",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "jeffries-v-harcros": {
+   "court": "D. Kan.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "morgan-v-v2x": {
+   "court": "D. Colo.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "stansfield-v-ibm": {
+   "court": "D. Nev.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "in-re-byheart": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "rudasill-v-swiss-re": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "orechovesky-v-bny": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "pujas-v-bdo": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "velez-v-oneplus": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "self_hosted_contract_proviso",
+   "self_hosting_named": true,
+   "openness_named": false
+  },
+  "litton-v-roblox": {
+   "court": "N.D. Cal.",
+   "status": "refusal",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "us-v-hoskins": {
+   "court": "N.D. Ill.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "rmme-v-majestic-steel": {
+   "court": "D. Nev.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "open_use_conditions",
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "us-v-mora": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-dygdon": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-marrow": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-davis": {
+   "court": "S.D.N.Y.",
+   "status": "not_codable",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "us-v-spatola": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-stamp": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-morell": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "campbell-v-tidalhealth": {
+   "court": "D. Md.",
+   "status": "not_codable",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "zask-v-kohls": {
+   "court": "E.D. Wis.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-thomas": {
+   "court": "S.D.N.Y.",
+   "status": "refusal",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "elgin-v-wells-fargo": {
+   "court": "N.D. Cal.",
+   "status": "not_codable",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "us-v-paula": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "skaf-v-google": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "us-v-new-york-presbyterian": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "public_model",
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "us-v-jones-sdny": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "doe-v-google": {
+   "court": "N.D. Cal.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "public_model",
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "rapacon-v-abbott": {
+   "court": "N.D. Cal.",
+   "status": "codable",
+   "setup_a": "forbidden",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "zl-technologies-v-kldiscovery": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": true,
+   "openness_named": false
+  },
+  "us-v-perez-feliz": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-montes": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-hawkins": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-amanuel": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "hoffman-v-unmc": {
+   "court": "D. Neb.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "anr-pipeline-v-bb-metal": {
+   "court": "E.D. Wis.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "white-v-chime": {
+   "court": "W.D. Wash.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "us-v-lockhart": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-santos": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-robinson": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-peplow": {
+   "court": "E.D. Cal.",
+   "status": "codable",
+   "setup_a": "conditional",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "us-v-sarris": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": "own_systems_exclusion",
+   "self_hosting_named": true,
+   "openness_named": false
+  },
+  "us-v-dejesus": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "hintermaier-v-experian": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "brower-v-colgate": {
+   "court": "S.D.N.Y.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "stt-webos-v-bytedance": {
+   "court": "N.D. Cal.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": true
+  },
+  "corent-v-aws": {
+   "court": "C.D. Cal.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "fischman-v-epic": {
+   "court": "N.D. Tex.",
+   "status": "codable",
+   "setup_a": "unclear",
+   "reading_rule": "provider_contract",
+   "self_hosting_named": false,
+   "openness_named": false
+  },
+  "baqleh-v-altamirano": {
+   "court": "N.D. Cal.",
+   "status": "refusal",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "dunn-v-lexisnexis": {
+   "court": "D. Colo.",
+   "status": "not_codable",
+   "setup_a": null,
+   "reading_rule": null,
+   "self_hosting_named": null,
+   "openness_named": null
+  },
+  "james-v-cerebras": {
+   "court": "N.D. Cal.",
+   "status": "codable",
+   "setup_a": "permitted",
+   "reading_rule": null,
+   "self_hosting_named": false,
+   "openness_named": false
+  }
+ },
+ "ai_text_by_case": {
+  "warner-v-gilbarco": "[T]he Court's March 18, 2025 Fed. R. Civ. P. 26(c) protective order ... is hereby modified to reflect that any documents marked confidential shall not be uploaded onto any AI platform.",
+  "jeffries-v-harcros": "must provide other parties with notice and an opportunity to object; ensure that the AI Tool is used in a secure environment and that Confidential Information is not used to train or improve any AI Tool except one used exclusively in this action; to the extent that an AI Tool is trained or improved using Confidential Information, that information is destroyed at the conclusion of this litigation and is not made accessible to anyone not authorized to have access to Confidential Information; and ensure that all Confidential Information is deleted at the conclusion of this action. Highly summarized, Defendants seek to prevent parties from uploading even non-confidential documents into public or \"open loop\" generative artificial intelligence tools (collectively, \"open AI Tools\"). But Defendants' proposal does not foreclose a party from using any AI Tools; it only prohibits using open AI Tools while allowing the use of closed AI Tools-for good reason.",
+  "morgan-v-v2x": "No party or authorized recipient may input, upload, or submit CONFIDENTIAL Information into any modern artificial intelligence platform, including any generative, analytical, or large language model-based tool (\"AI\"), unless the AI provider is contractually prohibited from: (1) storing or using inputs to train or improve its model; and (2) disclosing inputs to any third party except where such disclosure is essential to facilitating delivery of the service. Where disclosure to a third party is essential to service delivery, any such third party shall be bound by obligations no less protective than those required by this Order. In addition, the AI provider must contractually afford the party or authorized recipient the ability to remove or delete all CONFIDENTIAL information upon request. A party intending to use AI that it contends meets these requirements must retain written documentation of these contractual protections.",
+  "stansfield-v-ibm": "Persons receiving Confidential information under this Stipulated Protective Order shall not upload, input, or otherwise provide any documents, data, or information produced in this litigation to any publicly available generative artificial intelligence tool or platform (including, but not limited to, ChatGPT or similar services) unless those tools or platforms can be configured so that the producing Party's information will not train on, learn from, or otherwise incorporate the producing Party's data into its underlying models. Any use of generative artificial intelligence for litigation support must be limited to secure, private tools that do not use the producing Party's information to retrain or improve their systems.",
+  "in-re-byheart": "The parties agree that individuals or entities with access to Protected Materials are prohibited from inputting documents, ESI, load files, and other materials produced pursuant to this Order into generative artificial intelligence tools or similar applications unless the tools or applications provide the following protections against inadvertent disclosure of data: (1) confirmation that the tool or application will not train the model or incorporate into model weights any inputs containing those Protected Materials or otherwise inadvertently produce outputs containing identifiable parts of Protected Materials; (2) administrative controls to allow deletion of Protected Materials by the user and to prevent unauthorized access to Protected Materials; and (3) adherence to cybersecurity best practices",
+  "rudasill-v-swiss-re": "The Receiving Party shall not load, import, submit, or otherwise transfer Discovery Material (defined as any documents produced in this matter) to any Large Language Model (\"LLM\") or Artificial Intelligence (\"AI\") platform without agreement of the parties. Should the Receiving Party want to load, import, submit, or otherwise transfer Discovery Material to any LLM or AI platform, such LLM or AI platform must meet the following security requirements: (a) does not use, retain, or incorporate produced data to train, fine-tune, or otherwise improve any AI model or system; (b) operates within a closed, private, limited, secure universe including enterprise versions of web-based systems; (c) maintains appropriate data isolation at the organization, user, and workflow levels to prevent access to or commingling of data across users, matters, or organizations; (d) the technology provider for the platform must agree to maintain confidentiality, undergo regular third-party penetration testing and security audits, and the system must regularly purge data uploaded to the system based upon a known schedule or at the time of final disposition; (e) employs industry-standard encryption and security protocols (such as AES-256 encryption at rest and TLS 1.2 or higher in transit), data confidentiality protections, and system reliability standards; (f) maintains security certifications or controls consistent with industry standards for legal technology (such as SOC2 compliance and maintaining ISO / IEC 27001, 27017, 27018, 27701 certifications); (g) tracks all information in the system, including access; and (h) maintains data only on servers located in the United States. The parties agree that Relativity's aiR Platform and WestLaw's CoCounsel are acceptable industry standard tools that may be used by all parties as long as data produced by the Producing Party is not used to train AI systems or platforms and thereby do not require disclosure if there is intended use by the Receiving Party. To the extent a Receiving Party intends to use any LLM or AI platform, the Receiving Party shall disclose the specific LLM or AI platform(s) it intends to use and verify its compliance with (a) through (h) above. The Producing Party reserves the right to request additional information to confirm compliance with subsections (a)-(h). If the Producing Party has concerns regarding compliance with this provision, it may seek appropriate relief from the Court. The platform and its use must otherwise comply with this Protective Order. Any LLM or AI models, AI inputs, and AI outputs developed using Discovery Material will be deemed Confidential or Highly Confidential / AEO and will not be used for any purpose other than prosecuting or defending this litigation. Such LLM or AI models, AI inputs, and AI outputs will be deleted in accordance with Paragraph 12 of this Order.",
+  "orechovesky-v-bny": "A receiving party shall not load, import, submit, or otherwise transfer Discovery Material to any Large Language Model (\"LLM\") or Artificial Intelligence (\"AI\") platform without agreement of the Parties. Should a receiving party want to load, import, submit, or otherwise transfer Discovery Material to any LLM or AI platform, such LLM or AI platform must meet the following security requirements: a. Does not use, retain, or incorporate produced data to train, fine-tune, or otherwise improve any AI model or system; b. Operates within a closed, private, limited, secure universe including enterprise versions of web-based systems; c. Maintains appropriate data isolation at the organization, user, and workflow levels to prevent access to or commingling of data across users, matters, or organizations; d. The technology provider for the platform must agree to maintain confidentiality, undergo regular third-party penetration testing and security audits, and the system must regularly purge data uploaded to the system based upon a known schedule or at the time of final disposition; e. Employs industry-standard encryption and security protocols (such as AES-256 encryption at rest and TLS 1.2 or higher in transit), data confidentiality protections, and system reliability standards; f. Maintains security certifications or controls consistent with industry standards for legal technology (such as SOC2 compliance and maintaining ISO / IEC 27001, 27017, 27018, 27701 certifications); and g. Tracks all information in the system, including access. The Parties agree that Relativity's aiR Platform and WestLaw's CoCounsel are acceptable industry standard tools that may be used by all Parties as long as data produced by the producing party is not used to train AI systems or platforms and thereby do not require disclosure if there is intended use by the receiving party. The Parties agree that Gemini for Google Workspace (Enterprise or Business editions), as integrated within Plaintiff's counsel's email and firm communication environment, is an acceptable industry-standard tool that may be used by all Parties as long as data produced by the producing party is not used to train AI systems or platforms and thereby do not require disclosure if there is intended use by the receiving party. To the extent a receiving party intends to use any other LLM or AI platform, the receiving party shall disclose the specific LLM or AI platform(s) it intends to use and verify its compliance with subsections 15(a) through (d) above. The producing party reserves the right to request additional information to confirm compliance with subsections 15(a)-(d). If the producing party has concerns regarding compliance with this provision, it may seek appropriate relief from the Court. a. The platform and its use must otherwise comply with this Protective Order. Any LLM or AI models, AI inputs, and AI outputs developed using Confidential Material will be deemed Confidential Material and will not be used for any purpose other than prosecuting or defending this matter.",
+  "pujas-v-bdo": "Absent the prior written consent of the producing Party or an order of the Court, no receiving Party shall upload, submit, disclose, quote, feed, or otherwise provide any Confidential Material to any artificial intelligence, machine learning, language model, generative text, or similar technology or service (collectively, \"AI Tool\") unless that AI Tool: (a) is an enterprise-grade platform that the receiving Party (or its counsel) has licensed; (b) is subject to a binding written agreement that (1) requires the provider to keep all user-supplied data strictly confidential, and (2) expressly prohibits the provider from using such data for training, fine-tuning, product improvement, or any purpose other than providing the contracted-for services; and (c) employs technical and organizational security measures reasonably designed to prevent any unauthorized access, disclosure, or use of Confidential Material. The obligations and restrictions of this paragraph apply even where the data or the Confidential Material has been anonymized.",
+  "velez-v-oneplus": "image-generation tool, or similar service where information submitted by users may be retained, used for model training, ... or otherwise used for the benefit of persons or entities other than the parties to this litigation. Nothing in this Order shall prohibit the use of a secure, closed, enterprise, self-hosted, or HIPAA-compliant artificial intelligence platform, provided that: 1. the platform does not use the submitted information or documents to train models for non-parties; 2. the platform does not permit access to the information by unrelated third parties; 3. the information remains subject to commercially reasonable administrative, technical, and physical safeguards; 4. the user has a good-faith basis to believe the platform contractually prohibits use of the information for generalized model training or other benefit to non-parties; and 5. use of the platform otherwise complies with this Order and all applicable privacy, data-security, and professional-responsibility obligations. Permitted systems may include private enterprise implementations of AI tools, self-hosted language models, secure document-review platforms incorporating AI functionality, or HIPAA-compliant environments configured to prevent disclosure or model training using Confidential Material.",
+  "us-v-hoskins": "Restrictions on Use of AI to Process Materials. No person or entity authorized to have access to Materials under the terms of this Order shall input, transmit, upload, process, generate output from, or otherwise expose any Materials received pursuant to this order to any artificial intelligence (\"AI\") tool without prior written notice to, and corresponding receipt of acknowledgement from, the government. \"AI tool\" means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. When providing written notice for the otherwise prohibited use of an AI tool, defense counsel must specifically identify and describe any AI tool to be used and certify that it does not (i) retain or use any Materials for model training, nor (ii) expose any Materials to third parties not authorized under this order to receive such materials. In addition, defense counsel must certify that: (i) defense counsel has implemented reasonable measures to ensure that any AI tool used will maintain the confidentiality of any Materials, and (ii) defense counsel will ensure the deletion of all Materials from the tool at the conclusion of this case. Defense counsel will be responsible for destroying such information at that time. Under no circumstances will any member of the defense team submit Materials to a publicly accessible AI system that retains and uses submitted data to train models. Such AI tools pose unique risks to the security and integrity of Materials, given the practical inability to claw back or delete data once it has been incorporated into a model.",
+  "rmme-v-majestic-steel": "Counsel and the Parties may use artificial intelligence (\"AI\") systems-including both closed AI systems and open AI systems-to assist with tasks in this action, such as drafting documents, processing discovery, summarizing materials, organizing information, and conducting document review, provided that all such use complies with Fed. R. Civ. P. 11, the Court's Standing Order, this Order, and all applicable legal and ethical obligations. Protected Material may be used with a closed AI system only where the user has a good-faith basis to believe that (i) the system does not use submitted materials to train publicly accessible models, and (ii) access to such materials is restricted in a manner consistent with this Order. Open AI systems may be used only if such use does not result in the disclosure of Protected Material in violation of this Order and does not violate Section III(4) of Judge Couvillier's Standing Order, including its prohibition on uploading to any open AI system any document filed under seal or containing personal-data identifiers identified in LR IC 6-1(a)(1)-(6). For purposes of this section, an \"open AI system\" means an AI system for which the source code, training data, or underlying models are publicly accessible. A \"closed AI system\" means any AI system that is not an open AI system and that is subject to contractual, technical, or administrative safeguards reasonably designed to prevent unauthorized access, disclosure, or use of submitted materials, and that does not use Protected Material to train, improve, or refine its models or algorithms or otherwise incorporate Protected Material into outputs generated for other users or matters.",
+  "us-v-mora": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. Under no circumstances will any member of the defense team submit Disclosure Material to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models. Such AI tools pose unique risks to the security and integrity of Disclosure Material, given the practical inability to claw back or delete data once it has been incorporated into a model. c. With respect to any AI tool used by the defendant, defense counsel must be able to certify that (i) the AI tool will maintain the confidentiality of any Disclosure Material; (ii) the AI tool will not expose any Disclosure Material to third parties not authorized under this Protective Order to receive such materials; (iii) the AI tool will not retain or use any Disclosure Material for model training; and (iv) all Disclosure Material will be removed from the AI tool at the conclusion of this case.",
+  "us-v-dygdon": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. Under no circumstances will any member of the defense team submit Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models. Such AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. With respect to any AI tool used by the defendant, defense counsel must be able to certify that (i) the AI tool(s) will maintain the confidentiality of any Disclosure Materials; (ii) the AI tool(s) will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) the AI tool(s) will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-marrow": "7. Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-spatola": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but 2023.11.26 not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case",
+  "us-v-stamp": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limit ed to large language models, generative AI services, or AI- 2023.11.26 assisted software tools, whether cloud-based or otherwise. The term does not include ordinary local or enterprise spell-check ing, grammar checking, optical ch aracter recognition, indexing, search, deduplication, cybersecurity, or other rou tine functions that do not make the substantive content available to unauthorized persons or use it to train a public or shared model. b. Under no circumstances will any me mber of the defense team submit Disclosure Materials to a publicly accessible AI tool, or any AI tool, that retains and uses submitted data to train models. Such AI tools pose unique ri sks to the security and integrity of Disclosure Materials, given the practical inability to claw b ack or delete data once it has been incorporated into a model. c. With respect to any AI tool used by the defendant, defense counsel must be able to certify, after reasonable diligence based on the applicable contractual terms, provider documentation, and account settings, that defense counsel is using an AI tool and the provider for that AI tool represents (i) the AI tool(s) will maintain the confidentiality of any Disclosure Materials; (ii) the AI tool(s) will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; and (iii) the AI tool(s) will not retain or use any Disclosure Materials for model training. Defense counsel will make all reasonable efforts to ensure that all Disclosure Materials will be remo ved from the AI tool(s) at the conclusion of this case. d. Any translation, transcript, summary, or other output that reveals the substance of Disclosure Material shall be treated as Disc losure Material, but draft legal briefs, counsel memoranda, and other attorney work product shal l not be considered Disclosure Material irrespective of whether they were created in part through the use of an AI tool. 2023.11.26 e. Defense counsel may permit access by AI tool pr ovider personnel, affiliates, and subprocessors, to databases containing Disclo sure Material only as reasonably necessary to provide, maintain, secure, or suppor t the AI tool, subject to confid entiality obligations set forth herein.",
+  "us-v-morell": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. at uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but 2023.11.26 not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "zask-v-kohls": "A receiving party may use AI tools in connection with discovery materials produced in this action only if the AI tool is operated in a secure environment and is subject to enforceable contractual terms that (a) prohibit the provider from retaining, using, disclosing, selling, or using the materials to train, improve, or develop any AI system; (b) prohibit the materials from being made publicly available or accessible to any other customer or third party; and (c) require commercially reasonable administrative, technical, and physical safeguards to protect the confidentiality of the materials. Discovery materials, whether designated CONFIDENTIAL or ATTORNEYS' EYES ONLY, shall not be entered into any publicly available or consumer-based AI platform. Any use of AI tools must remain consistent with this Order and with the requirement that discovery materials be used solely for purposes of this litigation.",
+  "us-v-paula": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system th at uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude , Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted da ta to be publicly accessed, disc loses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not e xpose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not 2026.08.18 retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. The Government will not submit Defens e Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude , Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The Government will not submit Defense Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted da ta to be publicly accessed, disc loses submitted data to third parties, or, except as specified below, retains submitted data. e. The Government may submit Defense Materials to an AI tool (i) that maintains the confidentiality of Defense Mate rials; (ii) that will not expose any Defense Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Defense Sealed Materials for model training; and (iv) all Defense Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "skaf-v-google": "Use of Generative Artificial Intelligence Tools and Large Language Models. Protected Material, and all information derived therefrom, shall not be inputted, uploaded, or submitted to any open, publicly accessible or freely available consumer-grade Large Language Model (\"LLM\") or Artificial Intelligence (\"AI\") tool (collectively, \"AI Tools\"). Protected Material may only be inputted, uploaded, or submitted to an AI Tool that is enterprise-grade and maintains confidential information using industry standard data security safeguards (\"Confidential AI Tool\") after the Receiving Party first ensures that its contract with the AI Provider of the Confidential AI Tool: (1) Prohibits the AI Provider from storing or using inputs to train, refine, or improve its model; (2) Prohibits the AI Provider from disclosing inputs, metadata, and any information generated by the Confidential AI Tool to any third party, including integrated third party tools, except where such disclosure is essential to facilitating delivery of the service, in which case that third party shall be bound by obligations no less protective than those required by this Order; and (3) Permits the Receiving Party to remove or delete the Protected Material, and any information generated by the Confidential AI Tool upon request. A Receiving Party intending to use a Confidential AI Tool that it contends meets these requirements must retain written documentation of these contractual protections. In addition, the Protected Material, and any information generated by the Confidential AI Tool, including residual information stored in the Confidential AI Tool as a result of the submission of the Protected Material, must be deleted from the Confidential AI Tool at the close of the litigation, and in accordance with the Final Disposition section below. Any inputs, outputs, models, or other artifacts (e.g., embeddings, indexes, or logs) used in or created by a Confidential AI Tool that are derived from or contain Protected Material shall be subject to Section 7.1 and shall not be used for any purpose other than prosecuting or defending this litigation. For the avoidance of doubt, submitting Protected Material, or excerpts therefrom, to any AI Tool that does not meet the requirements of this section is considered unauthorized disclosure to a third party under Section 10 of this Order. Nothing in this provision shall alter the obligations set forth in Section 1 (\"Purposes and Limitations\") and Section 12.9 (\"Data Security\") of this Order.",
+  "us-v-new-york-presbyterian": "Use of Large Language Model or Generative AI. A Party must not load, upload, input, import, submit, or otherwise transfer Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information to a publicly accessible Large Language Model (\"LLM\") or generative artificial intelligence (\"GenAI\") platform. Before using Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information in any non-publicly accessible LLM or GenAI platform, a Party must ensure that the LLM or GenAI platform cannot and will not utilize Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information to train public models or otherwise disclose Confidential Information, Highly Confidential Information, or Restricted Highly Confidential Information to other users of the LLM or GenAI platform not authorized to receive such materials.",
+  "us-v-jones-sdny": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AJ tool\" means any automated system that uses machine learning, or similar | techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or Al-assisted software tools, whether | cloud-based or otherwise. | b. The defense team will not submit Disclosure Materials to a publicly accessible | version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, : Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool | provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. | c. The defense may submit Disclosure Materials to an AI tool (i) that maintains | the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to | third parties not authorized under this Protective Order to receive such materials; (iti) that will not | retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be | removed from the AI tool(s) at the conclusion of this case.",
+  "doe-v-google": "Any person in possession of Protected Material will maintain appropriate administrative, technical, and organizational safeguards (\"Safeguards\") that protect the security and privacy of Protected Material, including restrictions regarding the disclosure or use of Protected Material in any large language models or any artificial intelligence services. The Safeguards will meet relevant industry standards and limit the collection, storage, disclosure, use of, or access to Protected Material solely to personnel and purposes authorized by this Order. As part of these Safeguards, each person will use a secure transfer method for all transfers or communication of Protected Material, and take reasonable measures to password protect and encrypt Protected Material. Each person will ensure that anyone acting on that person's behalf is subject to the Safeguards or otherwise provides equivalent or greater protections for the security and privacy of Protected Material. Such restrictions shall, at a minimum, prohibit the disclosure or use of Protected Material in any large language models or artificial intelligence services that are accessible to the public or will capture entered data in order to train what is accessible by the public.",
+  "rapacon-v-abbott": "\"CONFIDENTIAL\" Information or Items shall not be submitted to any Open Generative AI tool (e.g., Chat GPT) or any substantially similar tool that is available to the public. Providing \"CONFIDENTIAL\" Information or Items to an Open Generative AI tool is considered disclosure to a third party. For purposes of this Protective Order, \"Open Generative AI tool\" means an artificial intelligence system that may be accessed by the public, or that allows for the underlying code and materials to be accessed by the public. The Parties may only submit \"CONFIDENTIAL\" Information or Items to a Permitted Generative AI Tool. For purposes of this Protective Order, a \"Permitted Generative AI Tool\" includes the use of enterprise AI tools that: (i) restrict access to authorized users; (ii) do not use customer data to train, refine, fine-tune, or improve publicly available models; (iii) provide reasonable retention and deletion controls; and (iv) maintain commercially reasonable security and confidentiality protections. For the avoidance of doubt, enterprise legal and productivity platforms that satisfy the foregoing requirements, including Thomson Reuters CoCounsel, Microsoft 365 Copilot, and similar enterprise tools, are permitted.",
+  "zl-technologies-v-kldiscovery": "(a) Scope: To protect the confidentiality and security of all information disclosed or produced in this proceeding (\"Discovery Information\"), any Party receiving Discovery Information from another Party (\"Receiving Party\") shall comply with the following requirements governing the use of artificial intelligence (\"AI\") tools with such information. (b) Permitted AI Use: A Receiving Party may use AI tools to process Discovery Information solely for purposes of this proceeding, provided that the AI tool and its use collectively satisfy all of the following requirements: i. Restricted, Enterprise Environment: The AI tool is used pursuant to a written enterprise or professional agreement and is deployed within a secure, access-controlled environment. ii. No Model Training or External Use: Discovery Information is not used to train, fine-tune, improve, develop, benchmark, or otherwise contribute to any AI model or service accessible outside the Receiving Party's environment, except to the limited extent necessary to provide the requested functionality for this proceeding. iii. Data Retention and Deletion: Within 30 days after final disposition of this action, Discovery Information retained by the AI tool shall be destroyed or caused to be destroyed to the extent reasonably possible. iv. Security Safeguards: The AI tool is subject to technical and contractual safeguards reasonably designed to protect Discovery Information against unauthorized access, use, or disclosure, including encryption in transit and at rest and appropriate access controls. (c) No Backdoor Access: Nothing in Section 23 permits a Party, Agent, Expert, or other person that is not able to access Confidential Discovery Information or Highly Confidential - Attorneys' Eyes Only Information under this Order to use AI tools to query, analyze, search or otherwise process such information. (d) Responsibility and Attribution: Each Receiving Party is responsible for compliance with this Order by its counsel, experts, consultants, vendors, or other agents using AI tools on its behalf. (e) Attorney Work Product: Use of an AI tool shall not waive or diminish any applicable privilege or work-product protection, and prompts, instructions, workflows, chat histories, and outputs shall be treated the same as analogous attorney work product created without the use of AI tools.",
+  "us-v-perez-feliz": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-montes": "a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. No person or entity authorized to have access to Disclosure Materials under the terms of this Order shall input, transmit, upload, process, generate output from, or otherwise expose any Disclosure Materials received pursuant to this Protective Order to any AI tool without prior written notice to, and corresponding receipt of acknowledgement from, the Government.",
+  "us-v-hawkins": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclo sure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude , Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted da ta to be publicly accessed, disc loses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not e xpose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not 2026.08.18 retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. No person or entity authorized to have access to Disclosure Materials under the terms of this Order shall input, transmit, uploa d, process, generate output from, or otherwise expose any Disclosure Materials received pursuant to this Protective Order to any AI tool without prior written notice to, and corresponding receipt of acknowledgement from, the Government.",
+  "us-v-amanuel": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. The Government will not submit Defense Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The Government will not submit Defense Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. e. The Government may submit Defense Materials to an AI tool (i) that maintains the confidentiality of Defense Materials; (ii) that will not expose any Defense Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Defense Sealed Materials for model training; and (iv) all Defense Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "hoffman-v-unmc": "Artificial Intelligence. Qualified Recipients shall not, without the Producing Party's express written consent, upload, submit, or otherwise provide Confidential Discovery Material (or any information extracted therefrom) or any deposition testimony taken in this matter to any open-source artificial intelligence platform or service including, but not limited to, platforms or services that use or assemble uploaded information to train or improve machine-learning models. This prohibition applies regardless of whether the artificial intelligence platform or service represents it will maintain the confidentiality of information submitted by the user. The parties and their counsel are not prohibited from uploading, submitting, or otherwise providing Confidential Discovery Material (or information extracted therefrom) or any deposition testimony taken in this matter to a closed-source artificial intelligence platform or service, including Harvey, Westlaw, LexisNexis, Servient's AI Canvas, or any other closed-source artificial intelligence platform or service agreed to by the parties.",
+  "anr-pipeline-v-bb-metal": "A receiving party may use AI tools in connection with discovery materials produced in this action only if the AI tool is operated in a secure environment and is subject to enforceable contractual terms that (a) prohibit the provider from retaining, using, disclosing, selling, or using the materials to train, improve, or develop any AI system; (b) prohibit the materials from being made publicly available or accessible to any other customer or third party; and (c) require commercially reasonable administrative, technical, and physical safeguards to protect the confidentiality of the materials. Discovery materials, whether designated CONFIDENTIAL or ATTORNEYS' EYES ONLY, shall not be entered into any publicly available or consumer-based AI platform. Any use of AI tools must remain consistent with this Order and with the requirement that discovery materials be used solely for purposes of this litigation.",
+  "white-v-chime": "Should a Party elect to utilize artificial intelligence (\"AI\") to assist in reviewing, analyzing, or summarizing discovery material produced or exchanged in this litigation, the Party shall take all necessary steps to ensure that the application, service, or analytical software is fully containerized. \"Fully containerized,\" as used in this Order, means an AI tool that does not retain the substance of a prompt or documents reviewed, share the substance of a prompt or documents reviewed for training of large language models, or use the substance of a prompt or documents reviewed in any other matter or inquiry other than this litigation. For the avoidance of doubt, this restriction expressly applies to the use of non-containerized advanced large language models (such as publicly available large language models), generative AI tools, and other advanced AI systems, including, but not limited to, OpenAI, Gemini, LLAMA, MidJourney, and Stable Diffusion, but this provision does not limit the use of services leveraging the technology underlying these generative AI tools in a fully containerized environment, including, but not limited to, Copilot Harvey, Relativity aiR, DISCO Cecelia, Everlaw AI, Syllo, Alchemy, Lexis+ AI, Epiq AIDA, Lighthouse AI, Westlaw AI, ChatGPT Enterprise, Microsoft 365 Copilot Enterprise, Claude Enterprise, NotebookLM Pro and Ultra, and Gemini Pro and Ultra. Before submitting any Protected Material to a fully containerized AI tool, a receiving party shall ensure that it (or its vendor) can delete all such Protected Material from the AI tool at the conclusion of this matter, including any derivative information stored within the tool. The obligations and restrictions of this paragraph apply even where the Protected Material has been anonymized.",
+  "us-v-lockhart": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. The Government will not submit any materials disclosed by the defense pursuant to Federal Rules of Criminal Procedure 26.2, 32.1 or other defense disclosure obligations (\"Defense Materials\") to a publicly accessible version of an AI tool. The Government will not submit Defense Materials to an AI tool for which the AI tool provider or vendor uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. e. The Government may submit Defense Materials to an AI tool (i) that maintains the confidentiality of Defense Materials; (ii) that will not expose any Defense Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Defense Sealed Materials for model training; and (iv) all Defense Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-santos": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but 2026.08.18 Case 1:26-cr-00332-LGS Document33 Filed 10/06/26 Page4of/7 not limited to large language models, generative AI services, or Al-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case. d. The Government will not submit Defense Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The Government will not submit Defense Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. 2026.08.18 Case 1:26-cr-00332-LGS Document 33 Filed 10/06/26 Page5of7 e. The Government may submit Defense Materials to an AI tool (i) that maintains the confidentiality of Defense Materials; (11) that will not expose any Defense Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Defense Sealed Materials for model training; and (iv) all Defense Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-robinson": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but 2023.11.26 not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclo sure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude , Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted da ta to be publicly accessed, disc loses submitted data to third parties, or, except as specified below, retains submitted data. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not e xpose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "us-v-peplow": "No person or entity authorized to have access to protected material under the terms of the requested order shall input, transmit, upload, submit, quote, feed, process, generate output from, or otherwise expose any protected material received pursuant to the requested order to any artificial intelligence (\"AI\") tool absent the prior written consent of the government or an order of the Court following a properly noticed motion to which the government has an opportunity to respond, unless that AI tool-a) is an enterprise-grade platform that counsel for the defendant has licensed; b) is subject to a binding written agreement that (i) requires the provider to keep all user-supplied data strictly confidential, and (ii) expressly prohibits the provider from using such data for training, fine-tuning, product improvement, or any purpose other than providing the contracted-for services; and c) employs technical and organizational security measures reasonably designed to prevent any unauthorized access, disclosure, or use of protected material. The obligations and restrictions of this section apply even where the data or the protected material has been anonymized. \"AI tool\" means any automated system that uses statistical modeling, machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or AI-assisted software tools, whether cloud-based or otherwise. By participating in this agreement, counsel for the defendant certifies: (i) they have implemented reasonable measures to ensure, if using any AI tool, it will maintain the protected discovery's confidentiality as required by this Agreement and (ii) they will ensure all protected discovery is deleted from the tool once this case concludes. Under no circumstances will any member of the defense team submit protected material to a publicly accessible AI system that retains and uses submitted data to train models. Such AI tools pose unique risks to the security and integrity of protected material, given the practical inability to claw back or delete data once it has been incorporated into a model.",
+  "us-v-sarris": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques, to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or Al-assisted software tools, whether cloud-based or otherwise. \"AI tool\" does not include (i) software that operates entirely on systems controlled by the defense, such that no Disclosure Materials are transmitted to any third party; or (ii) standard office, communication, legal-research, or litigation-support software by reason of embedded assistive features such as spelling or grammar correction, text completion, search, optical character recognition, or document ranking and classification, provided that no Disclosure Material is transmitted to any third party. b. The defense team will not submit Disclosure Materials to a consumer (i.e., non- commercial) version of an AI tool, meaning a version offered to individuals under consumer terms of service rather than to organizations under commercial or enterprise terms. The defense team will not submit Disclosure Materials to an AI tool (e.g., OpenAI, Anthropic, Microsoft, Google) under terms or account settings that permit use of submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Such AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool provided that defense counsel has taken reasonable steps to confirm that (i) the AI tool maintains the confidentiality of Case 1:26-cr-00399-VM Document13_ Filed 09/30/26 Page 5of7 Disclosure Materials; (ii) the AI tool will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials except as required by law; (iii) the AI tool will not retain or use any Disclosure Materials for model training; and (iv) the AI tool permits deletion of submitted data. At the conclusion of this case, the defense will delete Disclosure Materials from its accounts with any such AI tool or request their deletion, consistent with paragraph 14.",
+  "us-v-dejesus": "Restrictions on Use of Artificial Intelligence Tools to Process Disclosure Materials. a. \"AI tool\" means any automated system that uses machine learning, or similar techniques to process inputs and generate outputs, recommendations, or predictions, including but not limited to large language models, generative AI services, or Al-assisted software tools, whether cloud-based or otherwise. b. The defense team will not submit Disclosure Materials to a publicly accessible version of an AI tool (e.g., ChatGPT, Claude, Grok, Gemini, Copilot, Perplexity, Midjourney, Canva). The defense team will not submit Disclosure Materials to an AI tool for which the AI tool provider or vendor (e.g., OpenAI, Anthropic, Microsoft, Google) uses submitted data for its own model training, allows submitted data to be publicly accessed, discloses submitted data to third parties, or, except as specified below, retains submitted data. Publicly accessible AI tools pose unique risks to the security and integrity of Disclosure Materials, given the practical inability to claw back or delete data once it has been incorporated into a model. c. The defense may submit Disclosure Materials to an AI tool (i) that maintains the confidentiality of Disclosure Materials; (ii) that will not expose any Disclosure Materials to third parties not authorized under this Protective Order to receive such materials; (iii) that will not 2026.08.18 Casscli2ecceo0Sse2essD Oeecmiannti6/1 FAiaedlomease Prage bbs retain or use any Disclosure Materials for model training; and (iv) all Disclosure Materials will be removed from the AI tool(s) at the conclusion of this case.",
+  "hintermaier-v-experian": "Restrictions on Use of Artificial Intelligence Tools. No party, non-party, or other person permitted to receive information designated \"Confidential\" [or \"Confidential-Attorneys' Eyes Only\"] under Paragraph 6 of this Order may input, upload, or submit such information to any artificial intelligence tool, chatbot, generative AI system, large language model, or similar automated platform (\"AI\") unless the AI provider is contractually prohibited from both: (a) using the inputs, or information derived from them, for any purpose other than providing the specific service requested, including using them to train any model or to develop or improve any product or service; and (b) disclosing the inputs, or any information derived from them to any third party, except where such disclosure is essential to delivering the requested service. Where disclosure to a third party is essential to delivering the requested service, that third party must be bound by obligations no less protective than those required by this paragraph. Any party seeking to use AI under this paragraph must also confirm that the AI provider will, upon request, delete from its systems all information designated \"Confidential.\" The party must retain written documentation of the contractual protections required by this paragraph and provide that documentation to the Designating Party or the Court upon request",
+  "brower-v-colgate": "Protected Material shall not be submitted to any \"Open Generative AI Tool\" (e.g., ChatGPT) or any substantially similar tool that is available to or accessible by the public, with or without a subscription or license. Providing Protected Material to any \"Open Generative AI Tool\" is considered a prohibited disclosure to a third party. The parties may use a closed Generative AI Tool that is private and secured, where there is a contractual agreement providing that the generative AI tool does not retain information beyond any use session, except to the extent retention is reasonably necessary for investigation of abuse violations, system functionality or internal data security operations, provided such information is not used for model training or product improvement purposes and remains subject to the provider's confidentiality obligations. This provision is not intended to limit use of technology assisted review via qualified data storage persons (i.e., electronic discovery or litigation-support vendors). Any party receiving Protected Material must ensure that the contract, software license, terms of use, or any other agreement or terms for use of the AI tool complies with this Protective Order.",
+  "stt-webos-v-bytedance": "Artificial Intelligence Use. The Parties agree that any documents, electronically stored information (\"ESI\"), or other materials produced or exchanged in the course of this Action, including but not limited to those designated as \"CONFIDENTIAL,\" \"HIGHLY CONFIDENTIAL - ATTORNEYS' EYES ONLY,\" or \"HIGHLY CONFIDENTIAL - SOURCE CODE\" under this Order, shall not be used, in whole or in part, for prompts (inputs), completions (outputs), or embeddings that are used to train, improve, re-train, or otherwise develop any artificial intelligence, foundation model, or large language model (collectively \"AI Models\"). This prohibition applies regardless of whether the AI Models are proprietary, open-source, or provided by a third party, and regardless of whether the use is for commercial, research, or any other purpose. The Parties further agree to take reasonable steps to ensure that their employees, counsel, agents, consultants, contractors, and any other persons or entities who may have access to such materials comply with this prohibition. Any violation of this provision may be addressed by the Court through appropriate remedies, including but not limited to sanctions.",
+  "corent-v-aws": "No party, and no person or entity authorized to receive materials under this Order, may input, upload, submit, or otherwise provide any Discovery Material-whether or not designated as Protected Information-into any modern artificial intelligence platform, including any generative, analytical, or large language model-based tool (\"AI Tool\"), unless all requirements of Section 12.1 and Section 12.2 are satisfied. 12.1 A party or person subject to this Order may use an AI Tool with Discovery Material only if the AI Tool is provided on an enterprise or commercial tier subscription and the Receiving Party has not configured the AI Tool to: a) retain or store inputs (including prompts, documents, and metadata) for use beyond the session necessary to deliver the requested service, except as provided in Section 12.7.2, For clarity, this requirement does not prohibit the use of AI Tools that maintain a history of a user's prompts and/or sessions, provided that any prompts containing Protected Information shall not be disclosed to any person not authorized to receive Protected Information under this Order; b) use, incorporate, or reference inputs to train, fine-tune, retrain, or otherwise improve any AI model or system, whether that of the vendor or any third party, except as provided in Section 12.7.2, For clarity, this requirement does not prohibit the use of AI tools that incorporate or reference a user's past prompts to optimize responses to subsequent prompts by the same user, provided that such AI tools (1) do not use, reference, or incorporate prompts or other inputs received from one user to respond to prompts from any other user; and (2) otherwise comply with all of the requirements in Section 12; c) disclose inputs to any third party, except where strictly essential to facilitate delivery of the service; any such third party must be bound by confidentiality obligations no less protective than those required by this Order; d) allow any human employee, contractor, or reviewer of the AI vendor to read, access, or review input content for any purpose other than immediate technical support explicitly requested by the party; and e) make inputs or retained outputs accessible to any person not authorized to receive Protected Information under this Order. 12.2 In addition to the requirements of Section 12.1, a party or person may use an AI Tool with Discovery Material only if the AI vendor is contractually obligated to afford the Receiving Party the right to remove or delete all Discovery Material and AI-generated outputs from the vendor's systems upon request, and in any event no later than sixty (60) days following the entry of a final non-appealable judgment or order, or the complete settlement of all claims asserted against all parties in this action (the \"Conclusion of This Action\"). The Receiving Party shall: (a) within fourteen (14) days following the Conclusion of This Action, take all reasonable steps necessary to ensure deletion of all Protected Material uploaded and/or output by AI tools during this action. The Receiving Party may meet this requirement by submitting a deletion request to the vendor if the vendor accepts deletion requests during the term of its vendor agreement with the Receiving Party; or, if the AI vendor does not accept such requests, by manually deleting all uploaded information over the AI tool's user interface; and (b) within sixty (60) days following the Conclusion of This Action, provide the Producing Party with written certification and documentation demonstrating that the Receiving Party took all reasonable steps necessary to delete all Discovery Material uploaded to AI tools using the procedures and means provided by the vendor(s), as applicable. 12.3 Any party intending to use an AI Tool with Discovery Material must, prior to such use: a) retain written documentation (including the vendor's data processing agreement, terms of service, or equivalent contractual instrument) demonstrating that the vendor's commitments satisfy Sections 12.1 and 12.2; and b) make such documentation available to the Producing Party within five (5) business days of a written request. 12.4 A party that intends to use an AI Tool with Discovery Material produced by the other party must provide written notice to the Producing Party at least seven (7) business days before first use, except with respect to AI Tools pre-approved under Section 12.6. Such notice shall identify: a) the name, version, and operator of the AI Tool; b) the categories of Discovery Material the Receiving Party intends to process; and c) a representation that Sections 12.1 and 12.2 are satisfied, accompanied by the documentation required by Section 12.3(a). The Producing Party shall have five (5) business days to object in writing, stating with particularity the basis for objection. If a timely objection is served, the parties shall meet and confer within three (3) business days. If the dispute is not resolved, the Receiving Party may not proceed with such AI Tool use until the Court resolves the dispute pursuant to Local Rule 37-1 et seq. and Section 3 of Judge McCormick's Procedures. 12.5 Notwithstanding any other provision of this Section 12, no party may use any AI Tool, regardless of vendor contractual protections, to review, analyze, summarize, or otherwise process any Discovery Material designated as HIGHLY CONFIDENTIAL-SOURCE CODE. This prohibition is absolute and applies whether such Source Code material is accessed on the Source Code Computer, in printed form, in electronic excerpts, or in any other form or medium. 12.6 The parties agree that the following AI Tools, when used at the enterprise or commercial tier identified below and subject to the configuration requirements in this subsection, satisfy the requirements of Sections 12.1 and 12.2 based on each vendor's published enterprise terms of service, data processing addendum, and security certifications as of the Effective Date of this Order. Use of any AI Tool pre-approved under this Section 12.6 shall not require the pre-use notice otherwise required under Section 12.4. a) Microsoft Copilot, including Microsoft 365 Copilot and Copilot Cowork, when deployed within a Microsoft 365 Enterprise or Business tenant governed by Microsoft's enterprise Data Protection Addendum (and not the free or consumer-facing Copilot product available at copilot.microsoft.com), satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's tenant is configured to disable any consumer connectors or web-grounding features that would route Discovery Material outside the enterprise data-processing boundary; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Copilot product for use with Discovery Material. b) Lexis+ AI (LexisNexis), at the firm's standard commercial or enterprise subscription tier, satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's account is configured under LexisNexis's then-current commercial terms and its published zero-training and zero-retention commitments applicable to user-submitted content; and (ii) the Receiving Party has not enabled any consumer or free-tier LexisNexis AI product for use with Discovery Material. c) Westlaw AI and CoCounsel (Thomson Reuters), at the firm's standard commercial or enterprise subscription tier, satisfy the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's account is governed by Thomson Reuters's then-current commercial terms, including its non-retention API arrangements with underlying model providers and its contractual prohibition on third-party model providers retaining or training on customer data; and (ii) the Receiving Party has not enabled any consumer or free-tier Westlaw AI or CoCounsel product for use with Discovery Material. d) Patlytics (patlytics.ai), at the firm's standard commercial or enterprise subscription tier, satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's account is configured under Patlytics's then-current customer terms, including its published non-training commitment and its non-retention agreements with underlying third-party AI services; and (ii) the Receiving Party has not enabled any consumer or free-tier Patlytics product for use with Discovery Material. e) Perplexity Enterprise (Pro or Max tier) satisfies the requirements of Sections 12.1 and 12.2, based on Perplexity's Enterprise Terms of Service, Data Processing Addendum, and SOC 2 Type II attestation as of the Effective Date of this Order, provided that: (i) the Receiving Party's Enterprise instance has Zero Data Retention enabled or, alternatively, has configured the shortest available data retention period; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Perplexity product for use with Discovery Material. f) Claude (Anthropic), at the firm's standard commercial or enterprise subscription tier, satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's subscription is configured to disable any consumer connectors or web-grounding features that would route Discovery Material outside the enterprise data-processing boundary; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Claude product for use with Discovery Material. g) Harvey (harvey.ai) satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's subscription is configured to disable any consumer connectors or web-grounding features that would route Discovery Material outside the enterprise data-processing boundary; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Harvey product for use with Discovery Material. h) Legora aOS (Legora) satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's subscription is configured to disable any consumer connectors or web-grounding features that would route Discovery Material outside the enterprise data-processing boundary; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Legora product for use with Discovery Material. i) Crane Patents satisfies the requirements of Sections 12.1 and 12.2, provided that: (i) the Receiving Party's subscription is configured to disable any consumer connectors or web-grounding features that would route Discovery Material outside the enterprise data-processing boundary; and (ii) the Receiving Party has not enabled any consumer-tier or non-Enterprise Crane Patents product for use with Discovery Material. 12.7.1 No party or authorized recipient of Discovery Material shall use any Discovery Material, or any AI-generated output derived therefrom, within any AI Tool workspace, project, index, session, or other AI-Tool-hosted environment that is accessed, maintained, or used for any matter other than this action. Each party shall configure its use of AI Tools such that Discovery Material and any AI-generated outputs derived therefrom are logically segregated from unrelated matters, and shall not carry over, migrate, or otherwise make available such Discovery Material or derived outputs to any workspace, project, index, or session unrelated to this action. 12.7.2 For the avoidance of doubt, nothing in this Section 12 prohibits an AI Tool from retaining Discovery Material or AI-generated outputs derived therefrom within a single matter-specific workspace, project, index, or session dedicated to this action for the purpose of enabling follow-up queries, retrieval-augmented generation, context-preserved analysis, or similar within-matter functionality, provided that (i) such retention is confined to the matter-specific environment and does not train, fine-tune, or otherwise update the underlying model or any model used by any other party, matter, or user; and (ii) the matter-specific environment remains subject to the deletion obligations set forth in Section 12.2.",
+  "fischman-v-epic": "Use of Protected Material with Artificial Intelligence Platforms 26. The following provisions govern the use of Protected Material in and with artificial - intelligence platforms. Case 3:26-cv-00770-D Document 58 Filed 10/23/26 Page 16 of 25 PageID 1029 27. No person subject to this Protective Order may input, upload, submit, or otherwise transfer any Protected Material into any artificial -intelligence platform, including any generative, analytical, or large-language-model-based tool (\"AI Platform\"), unless the provider of the AI Platform is contractually prohibited from (i) storing or using the inputs to train or improve any model, and (ii) disclosing the inputs to any third party except to the limited extent essential to deliver the requested service, and the provider contractually affords the ability to require deletion o f all such inputs. This restriction applies regardless of whether the Protected Material has been anonymized, redacted, or summarized. As a practical matter, this provision prohibits entering Protected Material into the standard consumer or other publicly accessible versions of widely available generative artificial - intelligence services-such as, but not limited to, ChatGPT, Claude, Gemini, and Copilot-that retain user inputs or use them to train or improve their models. This provision does not prohibit the use of enterprise versions of generative artificial-intelligence services that comply with the restrictions in this section. 28. Nothing in this provision restricts any Party from using AI Platforms for any purpose that does not involve inputting another Party's Protected Material, or from using an AI Platform that satisfies the requirements of Paragraph 27. This provision shall not be construed to limit any Party's use of artificial intelligence for legal research, drafting, organization, or other litigation tasks that do not entail the input of Protected Material. 29. To the extent a Party is unsure whether a specific AI Platform satisfies Paragraph 27, the Party agrees that, prior to entering any Protected Material into the AI Platform, it will confer with the Designating Party(ies). If such parties are unable to agree on whether the AI Platform at issue satisfies Paragraph 27, the party opposed to its use may submit an appropriate motion to the Court. Until either the parties come to an agreement or the Court makes a determination, whichever is earlier, no Protected Material may be entered into the AI Platform at issue. Case 3:26-cv-00770-D Document 58 Filed 10/23/26 Page 17 of 25 PageID 1030 30. Any person who uses Protected Material as an input into an AI Platform in reliance on Paragraph 27 shall retain written documentation of the contractual protections relied upon, and shall, upon request by the D esignating Party, identify the AI Platform used and produce that documentation. This paragraph does not require the disclosure of any AI Platform used solely for purposes permitted by Paragraph 28. 31. Nothing in this Protective Order shall be interpreted as requiring a self -represented party to purchase, subscribe to, or maintain any particular software, platform, or technology - including any enterprise AI platform-in order to participate in discovery.",
+  "james-v-cerebras": "13.4 Large Language Models / Generative AI Tools. All Parties shall take commercially reasonable steps to prevent unauthorized access to any Protected Material, including when using generative AI tools or large language models (\"LLMs\"). Without notifying and obtaining permission from the Producing Party, individuals or entities with access to Protected Material under this Order must not use Protected Material in AI tools or similar applications (e.g., OpenAI GPT, ChatGPT, Google Bard, Meta LLAMA) without taking commercially reasonable efforts to ensure such tools (a) do not incorporate inputs into model weights, or otherwise train on Protected Material, and (b) adhere to industry standard cybersecurity practices and provide sufficient administrative controls to prevent unauthorized access. For the avoidance of doubt, the parties' enterprise ChatGPT and Harvey accounts satisfy the foregoing requirements."
+ },
+ "version": "1.0.0"
+}
