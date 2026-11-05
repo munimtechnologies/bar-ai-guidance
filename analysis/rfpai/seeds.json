@@ -1,0 +1,17 @@
+{
+ "note": "Seeds for source (e) of amendment 1: LSNTAP posting slugs and 2026 file URLs that web searches on 5 Nov 2026 returned and that collector v1 did not find. Search results are leads only; every item is fetched and its text read from the source. Collected by AI agents working in MV2's name.",
+ "searched_utc": "2026-11-05T11:20Z",
+ "slugs": [
+  {"slug": "rfi-ai-architecture-governance-and-security-consulting-services"},
+  {"slug": "request-proposal-training-copilot-agents"},
+  {"slug": "request-proposal-web-development-consultant"},
+  {"slug": "rfp-multilingual-website-translation"}
+ ],
+ "files": [
+  {"url": "https://www.lsntap.org/sites/default/files/2026-07/request-for-proposal-7.14.26.pdf"},
+  {"url": "https://www.lsntap.org/sites/default/files/2026-07/strategic-plan-rfp-2026.pdf"},
+  {"url": "https://www.lsntap.org/sites/default/files/2026-05/request-for-proposals-rfp-laci-shared-governance.pdf"},
+  {"url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-proposals-copilot-agents.pdf"},
+  {"url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-information-ai-architecture.pdf"}
+ ]
+}
