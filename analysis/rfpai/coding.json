@@ -1,0 +1,296 @@
+{
+ "study": "How 2026 legal-aid RFPs treat a vendor's own use of AI",
+ "prereg": "analysis/legal-aid-rfp-ai-prereg.md (commit 17f6f85, 2026-11-04T14:18Z)",
+ "amendment": "analysis/legal-aid-rfp-ai-prereg-amendment-1.md (commit 8d9d733, 2026-11-05T11:08Z)",
+ "frame_source": "collector v2, job rfp-ai-collect-v2, collected 2026-11-05T11:23:20Z",
+ "coding_version": "1.0.0",
+ "frozen_utc": "2026-11-05T21:30Z",
+ "frozen_note": "Coding frozen before the grader was run. Calls were made by reading the collected text, by AI agents working in MV2's name; there is no second coder. Every call below has a verbatim quotation that the grader checks mechanically against the re-fetched source file.",
+ "coder_rules_applied": [
+  "VENDOR_AI counts a sentence about what the bidder or contractor itself does with AI, or with the organisation's data in AI, while preparing the proposal or doing the work. Requirements on the AI system being delivered (for example 'the solution must not train on customer data') describe the product and are not VENDOR_AI; they are recorded as NOT_VENDOR_AI quotes and listed as borderline calls.",
+  "TECH means the vendor builds, configures, integrates or operates software, websites or systems, delivers IT services, or trains staff to build software. Work that only assesses, plans, evaluates, designs at concept level, sets governance or writes content is NON_TECH, even when the subject is a technology project.",
+  "AI_IN_SCOPE means the requested work itself includes AI the organisation wants or may want, including AI-generated outputs, AI tools to be governed, or groundwork for future AI.",
+  "Posted date: listing teaser, else the posting page, else the issue date printed in the document, else the upload-folder month (amendment 1).",
+  "Sensitivity frame (amendment 1): leaves out records found only by web_search_seed, and also does not use text that only a web_search_seed file supplied (so the LACI shared-governance posting, found by a listing capture but codable only through a seeded file, is not codable there). This reading was fixed before any count was computed."
+ ],
+ "records": [
+  {
+   "id": "R01",
+   "org": "Legal Aid Society of Cleveland",
+   "title": "LASC Housing Law AI Research Assistant RFP",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/lasc-housing-law-ai-research-assistant-rfp"],
+   "found_via": ["cdx_prefix", "snapshot:20260312173509"],
+   "posted": "2026-02-17", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-02/housing-law-ai-research-assistant-final-rfp.pdf", "sha256": "73a2e5dad70ea6c957474180d9ab92c262fdd77da1f8470ba58223bfdbfef04b"}],
+   "tech": "TECH", "vendor_ai": true, "vendor_ai_subcodes": ["data", "restrict"], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["VENDOR_AI:data", "VENDOR_AI:restrict"], "file": 0, "text": "The developer will be required to ensure that no data used to develop or train the AI Assistant is reused, repurposed, or shared with any third party (including LLM providers) without Clevelan d Legal Aid’s explicit approval."},
+    {"codes": ["AI_IN_SCOPE", "SCOPE"], "file": 0, "text": "seeks an experienced developer to design and implement a Housing Law AI Research Assistant"}
+   ],
+   "borderline": [{"field": "vendor_ai", "alt": false, "alt_subcodes": [], "why": "The sentence binds the developer and covers data used during development and sharing with LLM providers, so it was coded VENDOR_AI; it can also be read as a property of the delivered system. ('Clevelan d' is the PDF text layer's own split.)"}]
+  },
+  {
+   "id": "R02",
+   "org": "Anishinabe Legal Services",
+   "title": "Tribal Court Video Script Writing and User Testing Evaluation (RFQ)",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/tribal-court-video-script-writing-and-user-testing-evaluation"],
+   "found_via": ["cdx_prefix", "snapshot:20260514112403"],
+   "posted": "2026-05-01", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/anishinabe-legal-services-rfq.pdf", "sha256": "91f2157df1628dba2add34580f4bd622d25e2afd61cd2f9c2075736f31a971de"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "create AI-generated video tutorials helping unrepresented litigants navigate probate and guardianship cases"},
+    {"codes": ["SCOPE"], "file": 0, "text": "Tribal Court Video Script Writing and User Testing Evaluation"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R03",
+   "org": "Legal Services State Support (Minnesota)",
+   "title": "Request for Proposals: Pro Bono Website Platform Design",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/request-proposals-pro-bono-website-platform-design"],
+   "found_via": ["cdx_prefix"],
+   "posted": "2026-05-13", "posted_source": "posting_page",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/pro_bono_infrastructure_design_rfp_2026.05.13.pdf", "sha256": "4bf9c27d34fcb07af4cdc584648d169ee5141c91f90bbaed7050f05546ec8cb3"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "seeks proposals from qualified website design and development vendors to design, build, and implement a user-centered statewide pro bono platform"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R04",
+   "org": "Georgia Legal Services Program",
+   "title": "Georgia Legal Services Program RFP TIG Project Evaluation",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/georgia-legal-services-program-rfp-tig-project-evaluation"],
+   "found_via": ["cdx_prefix", "snapshot:20260607024650"],
+   "posted": "2026-05-14", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/glsp-legal-kiosk-evaluation-rfp-05-26.pdf", "sha256": "16f16989a0edd25f968da2803f7e1be9cea28a33a9b85063f32096ab7b9d2ce8"}],
+   "tech": "NON_TECH", "vendor_ai": true, "vendor_ai_subcodes": ["disclose", "human_review"], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["VENDOR_AI:disclose", "VENDOR_AI:human_review"], "file": 0, "text": "Any use of AI in processing data under this contract must be disclosed, and any deliverables assisted by AI must be reviewed by a human being before finalization."},
+    {"codes": ["VENDOR_AI:disclose"], "file": 0, "text": "this policy will require that all service providers with whom GLSP contracts will disclose their anticipated use of AI in providing services to GLSP"},
+    {"codes": ["VENDOR_AI:disclose"], "file": 0, "text": "If it is anticipated that AI will be used in providing services through this project, an explanation of the policies which will govern your use of AI."},
+    {"codes": ["SCOPE"], "file": 0, "text": "to solicit responses from vendors interested in evaluating its Technology Initiative Grant project"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R05",
+   "org": "Legal Aid Society of Mid-New York",
+   "title": "Request for Proposals AI-Powered Intake & Referral Assistant",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/request-proposals-ai-powered-intake-referral-assistant"],
+   "found_via": ["cdx_prefix", "snapshot:20260607024650"],
+   "posted": "2026-05-14", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/lasmny_ai_intake_chatbot_rfp_final.pdf", "sha256": "389c66e784970f371da7cc17654a68ede32c4bc4e55c27907f7bce057857a92b"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE", "SCOPE"], "file": 0, "text": "to design and implement a secure, internally facing AI-powered Intake & Referral Assistant (IRA) to support intake staff"},
+    {"codes": ["NOT_VENDOR_AI"], "file": 0, "text": "must exclude client personally identifiable information from training data"}
+   ],
+   "borderline": [{"field": "vendor_ai", "alt": true, "alt_subcodes": ["data"], "why": "A requirement on the delivered system (IRA must exclude client PII from training data), so not VENDOR_AI under the rule above; a reader could treat it as a limit on the vendor's handling of client data in AI."}]
+  },
+  {
+   "id": "R06",
+   "org": "Southern Minnesota Regional Legal Services",
+   "title": "SMRLS RFP Technology/AI Integration for Legal Aid Intake System",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/smrls-rfp-technologyai-integration-legal-aid-intake-system"],
+   "found_via": ["cdx_prefix", "snapshot:20260607024650"],
+   "posted": "2026-05-15", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/smrls-rfp-for-technology-ai-build.pdf", "sha256": "3933fde7d37be0d64f3dc4e69e873e29b6003442d7daa2d40f9c81a5acc35e13"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE", "SCOPE"], "file": 0, "text": "The project will enhance the statewide Legal Organizations Online Network (LOON) database with AI-powered tools to improve referral accuracy, streamline intake workflows, and expand access to justice."},
+    {"codes": ["NOT_VENDOR_AI"], "file": 0, "text": "all proposed solutions must meet strict data security and governance requirements. These include prohibitions on using customer data to train AI models"}
+   ],
+   "borderline": [{"field": "vendor_ai", "alt": true, "alt_subcodes": ["data"], "why": "The training prohibition is stated for 'all proposed solutions', i.e. the delivered system, so not VENDOR_AI under the rule above; a reader could treat it as a limit on the vendor."}]
+  },
+  {
+   "id": "R07",
+   "org": "IOLA Fund of the State of New York",
+   "title": "Justice Infrastructure Project Project Management Consultant Services",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/justice-infrastructure-project-project-management-consultant-services"],
+   "found_via": ["cdx_prefix", "snapshot:20260607024650"],
+   "posted": "2026-06-03", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-06/iola_justice-infrastructure-project_project-manager-rfp.pdf", "sha256": "e771af2c579aca6c3fab9a5e3dbf6a3e9142906f1d8a39092c8ee0b86de933f1"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "perform program-level project management consultant service to support the implementation, scaling, and governance maturation of the Justice Infrastructure Project (JIP)"}
+   ],
+   "borderline": [{"field": "tech", "alt": "TECH", "why": "Program-level project management of a justice-infrastructure initiative; coded NON_TECH because the vendor manages the programme rather than building systems."}]
+  },
+  {
+   "id": "R08",
+   "org": "Michigan Statewide Advocacy Services",
+   "title": "(RFP) Consultant Services for AI-Powered Statewide Knowledge Base Project - Phase 1",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/rfp-consultant-services-ai-powered-statewide-knowledge-base-project-phase-1"],
+   "found_via": ["cdx_prefix"],
+   "posted": "2026-06-24", "posted_source": "posting_page",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-06/request-for-proposals-ai-powered-knowledge-base-project.pdf", "sha256": "fc6ec3016b5ca240ca603d6a61d976b9c3e1e29650bf593aa7131016a4e57606"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "Develop a conceptual design for a statewide AI-powered knowledge base."},
+    {"codes": ["SCOPE"], "file": 0, "text": "Phase 1 will not include technology procurement or implementation."}
+   ],
+   "borderline": [{"field": "tech", "alt": "TECH", "why": "Needs assessment and conceptual design of a knowledge-base system with no build in this phase; coded NON_TECH."}]
+  },
+  {
+   "id": "R09",
+   "org": "Atlanta Legal Aid Society",
+   "title": "Request for Proposals (RFP) LACI TIG25 Shared Governance Development",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/request-proposals-rfp-laci-tig25-shared-governance-development"],
+   "found_via": ["snapshot:20260514112403", "file:web_search_seed"],
+   "posted": "2026-04-20", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": false,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-05/request-for-proposals-rfp-laci-shared-governance.pdf", "sha256": "733897937a70b100076a3053b755927db8a3f72fae77d5328d7710df42d22e33"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "Lead the development of initial technical policies focused on testing standards to support the parallel development of AI and Web monitoring tools."},
+    {"codes": ["SCOPE"], "file": 0, "text": "seeks proposals from qualified consulting firms to evaluate, propose, and facilitate the development of a Shared Governance Framework"}
+   ],
+   "borderline": [{"field": "tech", "alt": "TECH", "why": "Governance framework for an open-source legal-content system; coded NON_TECH (governance, no build)."}]
+  },
+  {
+   "id": "R10",
+   "org": "Community Legal Services (Arizona)",
+   "title": "Request for Proposals: Strategic Planning",
+   "posting_urls": [],
+   "found_via": ["web_search_seed"],
+   "posted": "2026-07-20", "posted_source": "document",
+   "seed_only": true, "sensitivity_codable": false,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-07/strategic-plan-rfp-2026.pdf", "sha256": "5c408dcd8fa1d1094f2c49b0154a3e3fafad4723726682c560a0a570963e1894"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "to assist CLS in creating a strategic plan for the next four (4) to five (5) years, and an implementation plan."}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R11",
+   "org": "North Mississippi Rural Legal Services",
+   "title": "Request For Proposal (RFP) Intake & Referral Modernization Project",
+   "posting_urls": [],
+   "found_via": ["web_search_seed"],
+   "posted": "2026-07-24", "posted_source": "document",
+   "seed_only": true, "sensitivity_codable": false,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-07/request-for-proposal-7.14.26.pdf", "sha256": "64db8aa058451c913e517c9259243dcd54b61ec8479b753714ba9c27e748824b"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "lay the groundwork for future AI integration and multilingual capacity"},
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "Generative AI Capabilities: Implementation of predictive or generative AI features beyond standard deterministic logic trees."},
+    {"codes": ["SCOPE"], "file": 0, "text": "developing and implementing a secure, mobile-responsive online intake system"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R12",
+   "org": "Montana Legal Services Association",
+   "title": "MLSA Rebrand",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/mlsa-rebrand"],
+   "found_via": ["live_listing"],
+   "posted": "2026-08-05", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-08/mlsa-rebrand-rfp.pdf", "sha256": "88ffc7dfac2446b98764a5ee44e8c25e655a04082ae305339204e40c76295a57"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "Montana Legal Services Association Rebranding and Website Build"}
+   ],
+   "borderline": [{"field": "tech", "alt": "TECH", "why": "Mainly a rebrand (name, brand guide, logo), which the pre-registration lists as NON_TECH, but one of five deliverable groups is a website rebuild."}]
+  },
+  {
+   "id": "R13",
+   "org": "Legal Aid Chicago",
+   "title": "Request for Information: AI Architecture, Governance, and Security Consulting Services",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/rfi-ai-architecture-governance-and-security-consulting-services"],
+   "found_via": ["web_search_seed"],
+   "posted": "2026-08", "posted_source": "upload_folder",
+   "seed_only": true, "sensitivity_codable": false,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-information-ai-architecture.pdf", "sha256": "d47845b63d4a792efc839e9002ebe4c6b374cc5c8a4d4f407ab76506a968a486"}],
+   "tech": "NON_TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE"], "file": 0, "text": "Legal Aid Chicago is exploring how AI may be used responsibly, securely, and effectively across the organization"},
+    {"codes": ["SCOPE"], "file": 0, "text": "Assess current workflows, systems, data, and organizational readiness for AI adoption."},
+    {"codes": ["NOT_VENDOR_AI"], "file": 0, "text": "public AI tools must not be used with PII, confidential information, sensitive information, highly sensitive information, or client information"}
+   ],
+   "borderline": [
+    {"field": "vendor_ai", "alt": true, "alt_subcodes": ["data"], "why": "The sentence states the organisation's internal policy as context; it is not addressed to respondents, so not VENDOR_AI. A reader could take it as binding a future contractor."},
+    {"field": "tech", "alt": "TECH", "why": "Readiness, governance, architecture and procurement planning; coded NON_TECH (planning, no build)."}
+   ]
+  },
+  {
+   "id": "R14",
+   "org": "Legal Aid Chicago",
+   "title": "Request for Proposal: Training on Copilot Agents",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/request-proposal-training-copilot-agents"],
+   "found_via": ["web_search_seed"],
+   "posted": "2026-08-18", "posted_source": "document",
+   "seed_only": true, "sensitivity_codable": false,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-proposals-copilot-agents.pdf", "sha256": "4cc6b71eed70d665991eb64ce3d42d81fbabac6eb2fccfcea10ffcd4350d0aff"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": true,
+   "quotes": [
+    {"codes": ["AI_IN_SCOPE", "SCOPE"], "file": 0, "text": "provide advanced training, mentoring, and hands-on workshops that enable a small cohort of staff to design, build, test, govern, and deploy Microsoft Copilot Agents"}
+   ],
+   "borderline": [{"field": "tech", "alt": "NON_TECH", "why": "Technical training in which staff build agent prototypes; coded TECH."}]
+  },
+  {
+   "id": "R15",
+   "org": "Navajo Nation Judicial Branch",
+   "title": "(RFP) Court and Justice Partners Case Management Software Systems Environment",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/rfp-court-and-justice-partners-case-management-software-systems-environment", "https://www.lsntap.org/jobs-rfps/judicial-branch-navajo-nation-seeks-case-management-services"],
+   "found_via": ["live_listing", "snapshot:20261005060953"],
+   "posted": "2026-09-03", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [
+    {"url": "https://www.lsntap.org/sites/default/files/2026-09/rfp-court-and-justice-partners-case-management-software-systems-environment_0.pdf", "sha256": "d3759c4dcbb1125fe80787d58c51edf12a184fa006ea585a2eafd5bc58c588a8"},
+    {"url": "https://www.lsntap.org/sites/default/files/2026-10/addendum-one-bid-26-08-4284sb-rfp-nnjb-cms_0.pdf", "sha256": "29709b2acbee0217f9d4d09be07f391a806cf5a7473f97b39b8e712560c0d986"}
+   ],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "invites qualified and well-established Contractors capable of providing software to support court, probation, prosecution, defense, and peacemaking services"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R16",
+   "org": "Colorado Legal Services",
+   "title": "(RFP) Coordinated Statewide Intake (CSI) Transformation Project - LSC Technology Initiative Grant",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/rfp-coordinated-statewide-intake-csi-transformation-project-legal-services-corporation"],
+   "found_via": ["live_listing"],
+   "posted": "2026-10-16", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-10/colorado-legal-services-csi-transformation-project-tech-consultant.pdf", "sha256": "34c1ad809879497fff53f6f53abb4969f10464a05bace41f981ffc4b28bdbdbb"}],
+   "tech": "TECH", "vendor_ai": false, "vendor_ai_subcodes": [], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["SCOPE"], "file": 0, "text": "Technology Consultant — Senior Advisor & Quality Assurance Lead"}
+   ],
+   "borderline": []
+  },
+  {
+   "id": "R17",
+   "org": "Georgia Legal Services Program",
+   "title": "(RFP) Intake System Assessment and Improvement Project",
+   "posting_urls": ["https://www.lsntap.org/jobs-rfps/rfp-intake-system-assessment-and-improvement-project"],
+   "found_via": ["live_listing"],
+   "posted": "2026-11-03", "posted_source": "listing_teaser",
+   "seed_only": false, "sensitivity_codable": true,
+   "files": [{"url": "https://www.lsntap.org/sites/default/files/2026-11/rfp-glsp-intake-bpa-final.pdf", "sha256": "b791a20efa5259fee93450f42901e08a42b797ca78dafead6fb6ae939478196e"}],
+   "tech": "NON_TECH", "vendor_ai": true, "vendor_ai_subcodes": ["disclose", "human_review"], "ai_in_scope": false,
+   "quotes": [
+    {"codes": ["VENDOR_AI:disclose", "VENDOR_AI:human_review"], "file": 0, "text": "Any use of AI in processing data under this contract must be disclosed, and any deliverables assisted by AI must be reviewed by a human being before finalization."},
+    {"codes": ["VENDOR_AI:disclose"], "file": 0, "text": "this policy will require that all service providers with whom GLSP contracts will disclose their anticipated use of AI in providing services to GLSP"},
+    {"codes": ["VENDOR_AI:disclose"], "file": 0, "text": "If it is anticipated that AI will be used in providing services through this project, an explanation of the policies which will govern your use of AI."},
+    {"codes": ["VENDOR_AI:disclose"], "file": 0, "text": "fulfill the requirements of the project, including use of Generative AI."},
+    {"codes": ["SCOPE"], "file": 0, "text": "engaging an experienced consultant to complete a business process analysis (BPA)"}
+   ],
+   "borderline": []
+  }
+ ]
+}
