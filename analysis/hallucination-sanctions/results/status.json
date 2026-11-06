@@ -1,0 +1,29 @@
+{
+ "started": "2026-11-06T14:58:05Z",
+ "prereg_commit": {
+  "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+  "date": "2026-11-06T09:01:47Z"
+ },
+ "analyze_commit": {
+  "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+  "date": "2026-11-06T09:01:47Z"
+ },
+ "analyze_sha256_committed": "c74d51a31e1b7d5657778f88793ed2d44115f431569508535abf833e561083fd",
+ "analyze_sha256_local": "c74d51a31e1b7d5657778f88793ed2d44115f431569508535abf833e561083fd",
+ "source": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-06T14:58:08Z",
+  "bytes": 2175509,
+  "sha256": "9201eecd5ea30ac3eda884062a6421f84882abf2f58415aa4391e283ef297c87",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+  "prereg_commit": {
+   "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+   "date": "2026-11-06T09:01:47Z"
+  },
+  "analyze_commit": {
+   "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+   "date": "2026-11-06T09:01:47Z"
+  }
+ },
+ "result": "graded"
+}

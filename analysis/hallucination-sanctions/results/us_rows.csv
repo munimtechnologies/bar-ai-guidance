@@ -1,0 +1,1537 @@
+case_id,date,period,parties,penalty_raw,penalty_status,amount,currency,fined,usd_amount,prof,alleged
+2905,,,Lawyer,,none,,,False,,False,False
+2916,2026-10-29,2026H2,Lawyer,,none,,,False,,False,False
+2918,2026-10-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2901,2026-10-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2917,2026-10-28,2026H2,Lawyer,250 USD,ok,250.0,USD,True,250.0,False,False
+2908,2026-10-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2915,2026-10-28,2026H2,Lawyer,,none,,,False,,False,False
+2903,2026-10-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2902,2026-10-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2910,2026-10-27,2026H2,Lawyer,,none,,,False,,False,False
+2914,2026-10-27,2026H2,Lawyer,,none,,,False,,False,False
+2718,2026-10-26,2026H2,Lawyer,,none,,,False,,True,False
+2906,2026-10-26,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2909,2026-10-26,2026H2,Lawyer,,none,,,False,,False,False
+2913,2026-10-23,2026H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+2844,2026-10-23,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2840,2026-10-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2838,2026-10-23,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2841,2026-10-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2843,2026-10-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2832,2026-10-21,2026H2,Lawyer,,none,,,False,,False,False
+2839,2026-10-21,2026H2,Pro Se Litigant,7500 USD,ok,7500.0,USD,True,7500.0,False,False
+2842,2026-10-20,2026H2,Lawyer,,none,,,False,,False,False
+2837,2026-10-20,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2835,2026-10-19,2026H2,Lawyer,,none,,,False,,False,False
+2911,2026-10-19,2026H2,Lawyer,,none,,,False,,False,False
+2834,2026-10-16,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2904,2026-10-15,2026H2,Lawyer,,none,,,False,,False,False
+2821,2026-10-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2919,2026-10-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2820,2026-10-14,2026H2,Pro Se Litigant,1,ok,1.0,,True,,False,False
+2819,2026-10-14,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2815,2026-10-13,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2818,2026-10-13,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2649,2026-10-13,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2823,2026-10-09,2026H2,Lawyer,,none,,,False,,False,False
+2817,2026-10-09,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2787,2026-10-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2762,2026-10-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2816,2026-10-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2778,2026-10-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2761,2026-10-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2791,2026-10-07,2026H2,Lawyer,,none,,,False,,False,False
+2780,2026-10-07,2026H2,Lawyer,,none,,,False,,False,False
+2822,2026-10-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2777,2026-10-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2790,2026-10-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2773,2026-10-06,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2775,2026-10-06,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2776,2026-10-05,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2769,2026-10-02,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2789,2026-10-02,2026H2,Lawyer,,none,,,False,,False,False
+2771,2026-10-02,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2772,2026-10-02,2026H2,Lawyer,,none,,,False,,False,False
+2768,2026-10-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2767,2026-10-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2711,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2699,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2766,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2723,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2703,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2702,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2713,2026-09-30,2026H2,Lawyer,,none,,,False,,False,True
+2700,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2712,2026-09-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2710,2026-09-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2720,2026-09-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2707,2026-09-29,2026H2,Lawyer,,none,,,False,,False,False
+2722,2026-09-29,2026H2,Lawyer,,none,,,False,,False,False
+2708,2026-09-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2705,2026-09-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2709,2026-09-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2706,2026-09-28,2026H2,Lawyer,,none,,,False,,False,False
+2704,2026-09-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2716,2026-09-25,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2676,2026-09-25,2026H2,Lawyer,10000,ok,10000.0,,True,10000.0,False,False
+2724,2026-09-24,2026H2,Lawyer,,none,,,False,,False,False
+2697,2026-09-24,2026H2,Lawyer,,none,,,False,,False,False
+2717,2026-09-24,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2725,2026-09-24,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2701,2026-09-24,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2677,2026-09-24,2026H2,Lawyer,,none,,,False,,False,False
+2726,2026-09-24,2026H2,Lawyer,,none,,,False,,False,False
+2719,2026-09-24,2026H2,Lawyer,500 USD,ok,500.0,USD,True,500.0,False,False
+2670,2026-09-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2715,2026-09-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2714,2026-09-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2737,2026-09-23,2026H2,Pro Se Litigant,250 USD,ok,250.0,USD,True,250.0,False,False
+2667,2026-09-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2659,2026-09-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2673,2026-09-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2671,2026-09-22,2026H2,Lawyer,,none,,,False,,False,False
+2672,2026-09-22,2026H2,Lawyer,,none,,,False,,False,False
+2695,2026-09-22,2026H2,Lawyer,,none,,,False,,False,False
+2658,2026-09-21,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2674,2026-09-18,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2654,2026-09-18,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2657,2026-09-18,2026H2,Pro Se Litigant,23222,ok,23222.0,,True,23222.0,False,False
+2644,2026-09-18,2026H2,Lawyer,,none,,,False,,False,False
+2656,2026-09-18,2026H2,Lawyer,,none,,,False,,False,False
+2653,2026-09-17,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2660,2026-09-17,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2655,2026-09-17,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2736,2026-09-16,2026H2,Lawyer,,none,,,False,,False,False
+2637,2026-09-16,2026H2,Lawyer,,none,,,False,,False,False
+2662,2026-09-15,2026H2,Lawyer,,none,,,False,,False,False
+2652,2026-09-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2668,2026-09-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2645,2026-09-14,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2651,2026-09-14,2026H2,Lawyer,,none,,,False,,True,False
+2636,2026-09-14,2026H2,Lawyer,500 USD,ok,500.0,USD,True,500.0,False,False
+2666,2026-09-14,2026H2,Pro Se Litigant,,none,,,False,,False,False
+1236,2026-09-11,2026H2,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,True,False
+2664,2026-09-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2627,2026-09-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2648,2026-09-09,2026H2,Lawyer,15000 USD,ok,15000.0,USD,True,15000.0,False,False
+2663,2026-09-09,2026H2,Lawyer,,none,,,False,,False,False
+2647,2026-09-09,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2665,2026-09-09,2026H2,Lawyer,,none,,,False,,False,False
+2624,2026-09-09,2026H2,Lawyer,3000 USD,ok,3000.0,USD,True,3000.0,False,False
+2650,2026-09-09,2026H2,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+2629,2026-09-09,2026H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+2614,2026-09-08,2026H2,Pro Se Litigant,2341 USD,ok,2341.0,USD,True,2341.0,False,False
+2621,2026-09-08,2026H2,Lawyer,1750 USD,ok,1750.0,USD,True,1750.0,False,False
+2646,2026-09-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2613,2026-09-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2615,2026-09-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2661,2026-09-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2616,2026-09-08,2026H2,Lawyer,,none,,,False,,False,False
+2610,2026-09-04,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2612,2026-09-03,2026H2,Lawyer,,none,,,False,,False,False
+2571,2026-09-03,2026H2,Lawyer,,none,,,False,,False,False
+2611,2026-09-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2608,2026-09-02,2026H2,Lawyer,,none,,,False,,False,True
+2307,2026-09-02,2026H2,Lawyer,,none,,,False,,True,False
+2619,2026-09-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2617,2026-09-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2562,2026-08-31,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2620,2026-08-31,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2561,2026-08-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2558,2026-08-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2560,2026-08-28,2026H2,Lawyer,8000 USD,ok,8000.0,USD,True,8000.0,False,False
+2537,2026-08-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2530,2026-08-27,2026H2,Lawyer,,none,,,False,,False,False
+2554,2026-08-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2556,2026-08-27,2026H2,Lawyer,,none,,,False,,False,False
+2552,2026-08-27,2026H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+2557,2026-08-27,2026H2,Lawyer,,none,,,False,,False,False
+2555,2026-08-27,2026H2,Pro Se Litigant,,none,,,False,,True,False
+2553,2026-08-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2529,2026-08-26,2026H2,Lawyer,,none,,,False,,False,False
+2559,2026-08-26,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2532,2026-08-26,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2525,2026-08-26,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2533,2026-08-26,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2526,2026-08-25,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2524,2026-08-25,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2523,2026-08-25,2026H2,Lawyer,,none,,,False,,False,False
+2568,2026-08-25,2026H2,Lawyer,,none,,,False,,False,False
+2743,2026-08-24,2026H2,Lawyer,,none,,,False,,False,False
+2536,2026-08-24,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2528,2026-08-24,2026H2,Lawyer,,none,,,False,,True,False
+2518,2026-08-21,2026H2,Pro Se Litigant,,none,,,False,,False,True
+2513,2026-08-21,2026H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+2489,2026-08-21,2026H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+2734,2026-08-21,2026H2,Lawyer,,none,,,False,,False,False
+2505,2026-08-20,2026H2,Lawyer,,none,,,False,,False,False
+2563,2026-08-20,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2522,2026-08-20,2026H2,Lawyer,14500 USD,ok,14500.0,USD,True,14500.0,False,False
+2520,2026-08-20,2026H2,Lawyer,,none,,,False,,False,False
+2502,2026-08-20,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2519,2026-08-20,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2499,2026-08-19,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2492,2026-08-19,2026H2,Lawyer,,none,,,False,,False,False
+2495,2026-08-19,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2498,2026-08-19,2026H2,Pro Se Litigant,,none,,,False,,False,True
+2506,2026-08-19,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2494,2026-08-19,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2483,2026-08-18,2026H2,Expert,,none,,,False,,False,False
+2740,2026-08-18,2026H2,Lawyer,,none,,,False,,False,False
+2501,2026-08-18,2026H2,Lawyer,,none,,,False,,False,False
+2504,2026-08-18,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2475,2026-08-18,2026H2,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+2496,2026-08-18,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2470,2026-08-17,2026H2,Pro Se Litigant,,none,,,False,,False,True
+2565,2026-08-14,2026H2,Lawyer,,none,,,False,,False,True
+2534,2026-08-14,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2481,2026-08-14,2026H2,Lawyer,,none,,,False,,False,False
+2482,2026-08-14,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2500,2026-08-14,2026H2,Pro Se Litigant,1546 USD,ok,1546.0,USD,True,1546.0,False,False
+2479,2026-08-14,2026H2,Lawyer,,none,,,False,,False,False
+2478,2026-08-12,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2432,2026-08-12,2026H2,Expert,,none,,,False,,False,True
+2416,2026-08-12,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2426,2026-08-12,2026H2,Lawyer,,none,,,False,,True,False
+2423,2026-08-12,2026H2,Lawyer,,none,,,False,,True,False
+2433,2026-08-11,2026H2,Lawyer,,none,,,False,,False,False
+2485,2026-08-11,2026H2,Lawyer,,none,,,False,,False,False
+2733,2026-08-11,2026H2,Lawyer,,none,,,False,,False,False
+2425,2026-08-11,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2897,2026-08-11,2026H2,Lawyer,,none,,,False,,False,False
+2477,2026-08-11,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2430,2026-08-11,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2420,2026-08-11,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2429,2026-08-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2419,2026-08-10,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2422,2026-08-10,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2418,2026-08-07,2026H2,Lawyer,,none,,,False,,False,False
+2622,2026-08-07,2026H2,Lawyer,,none,,,False,,False,False
+2421,2026-08-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2424,2026-08-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2428,2026-08-07,2026H2,Lawyer,,none,,,False,,False,False
+2431,2026-08-07,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2369,2026-08-06,2026H2,Lawyer,,none,,,False,,False,False
+2473,2026-08-06,2026H2,Lawyer,,none,,,False,,False,False
+2355,2026-08-06,2026H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+2365,2026-08-06,2026H2,Pro Se Litigant,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+2364,2026-08-06,2026H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2375,2026-08-05,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2749,2026-08-05,2026H2,Lawyer,4000 USD,ok,4000.0,USD,True,4000.0,True,False
+2371,2026-08-05,2026H2,Lawyer,,none,,,False,,False,False
+2361,2026-08-05,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2521,2026-08-05,2026H2,Lawyer,,none,,,False,,False,False
+2476,2026-08-04,2026H2,Lawyer,46511 USD,ok,46511.0,USD,True,46511.0,True,False
+2374,2026-08-04,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2377,2026-08-04,2026H2,Lawyer,,none,,,False,,False,False
+2370,2026-08-04,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2353,2026-08-04,2026H2,Lawyer,3500 USD,ok,3500.0,USD,True,3500.0,True,False
+2367,2026-08-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2368,2026-08-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2373,2026-08-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2362,2026-08-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2503,2026-08-03,2026H2,Lawyer,1 USD,ok,1.0,USD,True,,True,False
+2366,2026-08-03,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2474,2026-07-31,2026H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+2327,2026-07-31,2026H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+2330,2026-07-31,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2326,2026-07-31,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2348,2026-07-31,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2350,2026-07-31,2026H2,Lawyer,,none,,,False,,False,False
+2325,2026-07-31,2026H2,Lawyer,,none,,,False,,False,False
+2372,2026-07-31,2026H2,Lawyer,,none,,,False,,False,False
+2351,2026-07-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2336,2026-07-30,2026H2,Lawyer,,none,,,False,,False,False
+2329,2026-07-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2331,2026-07-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2345,2026-07-30,2026H2,Lawyer,,none,,,False,,False,False
+2332,2026-07-30,2026H2,Lawyer,,none,,,False,,False,False
+2333,2026-07-30,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2376,2026-07-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2352,2026-07-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2334,2026-07-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2343,2026-07-29,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2316,2026-07-28,2026H2,Lawyer,15000 USD,ok,15000.0,USD,True,15000.0,True,False
+2340,2026-07-28,2026H2,Lawyer,,none,,,False,,False,False
+2339,2026-07-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2732,2026-07-28,2026H2,Lawyer,,none,,,False,,False,False
+2346,2026-07-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2335,2026-07-28,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2342,2026-07-28,2026H2,Lawyer,,none,,,False,,False,False
+2310,2026-07-27,2026H2,Lawyer,,none,,,False,,False,False
+2337,2026-07-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2349,2026-07-27,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2625,2026-07-27,2026H2,Lawyer,,none,,,False,,True,False
+1206,2026-07-24,2026H2,Lawyer,3000 USD,ok,3000.0,USD,True,3000.0,False,False
+2308,2026-07-24,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2341,2026-07-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2730,2026-07-23,2026H2,Lawyer,,none,,,False,,False,False
+2305,2026-07-23,2026H2,Lawyer,,none,,,False,,False,False
+2306,2026-07-23,2026H2,Lawyer,,none,,,False,,False,False
+2304,2026-07-23,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2471,2026-07-22,2026H2,Lawyer,,none,,,False,,False,False
+2303,2026-07-22,2026H2,Pro Se Litigant,610 USD,ok,610.0,USD,True,610.0,False,False
+2309,2026-07-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2297,2026-07-22,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2279,2026-07-21,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2289,2026-07-21,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2284,2026-07-20,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2261,2026-07-17,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2257,2026-07-17,2026H2,Lawyer,,none,,,False,,False,False
+2728,2026-07-16,2026H2,Lawyer,,none,,,False,,False,False
+2293,2026-07-16,2026H2,Lawyer,,none,,,False,,False,False
+2292,2026-07-16,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2302,2026-07-16,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2260,2026-07-16,2026H2,Governement Lawyer,,none,,,False,,False,False
+2286,2026-07-16,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2285,2026-07-16,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2296,2026-07-15,2026H2,Governement Lawyer,,none,,,False,,False,False
+2242,2026-07-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2255,2026-07-15,2026H2,Pro Se Litigant,1,ok,1.0,,True,,False,False
+2253,2026-07-15,2026H2,Pro Se Litigant,100 USD,ok,100.0,USD,True,100.0,False,False
+2295,2026-07-15,2026H2,Pro Se Litigant,,none,,,False,,False,True
+2256,2026-07-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2288,2026-07-15,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2283,2026-07-15,2026H2,Lawyer,,none,,,False,,False,False
+2748,2026-07-14,2026H2,Lawyer,,none,,,False,,False,False
+2258,2026-07-14,2026H2,Lawyer,29877 USD,ok,29877.0,USD,True,29877.0,True,False
+2731,2026-07-14,2026H2,Lawyer,,none,,,False,,False,False
+2254,2026-07-14,2026H2,Lawyer,,none,,,False,,False,False
+2238,2026-07-13,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2484,2026-07-13,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2259,2026-07-13,2026H2,Lawyer,,none,,,False,,False,False
+2235,2026-07-13,2026H2,Lawyer,,none,,,False,,False,False
+2232,2026-07-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2231,2026-07-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2233,2026-07-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2222,2026-07-10,2026H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+2220,2026-07-10,2026H2,Lawyer,,none,,,False,,False,False
+2221,2026-07-10,2026H2,Lawyer,,none,,,False,,False,False
+2294,2026-07-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2227,2026-07-10,2026H2,Lawyer,,none,,,False,,False,False
+2229,2026-07-10,2026H2,Lawyer,,none,,,False,,False,False
+2290,2026-07-10,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2517,2026-07-09,2026H2,Lawyer,,none,,,False,,False,False
+2213,2026-07-09,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2237,2026-07-09,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2206,2026-07-08,2026H2,Lawyer,,none,,,False,,False,False
+2239,2026-07-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2205,2026-07-08,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2214,2026-07-08,2026H2,Lawyer,,none,,,False,,False,False
+2727,2026-07-07,2026H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+2311,2026-07-06,2026H2,Lawyer,,none,,,False,,False,False
+2211,2026-07-06,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2200,2026-07-02,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2199,2026-07-02,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2203,2026-07-02,2026H2,Lawyer,,none,,,False,,False,False
+2164,2026-07-02,2026H2,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+2210,2026-07-02,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2162,2026-07-01,2026H2,Lawyer,,none,,,False,,False,False
+2160,2026-07-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2161,2026-07-01,2026H2,Pro Se Litigant,,none,,,False,,False,False
+2166,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2138,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2148,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2153,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2143,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2140,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2165,2026-06-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2163,2026-06-29,2026H1,Lawyer,,none,,,False,,False,False
+2144,2026-06-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2151,2026-06-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2136,2026-06-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2137,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2119,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2139,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2145,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2154,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2152,2026-06-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2107,2026-06-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2131,2026-06-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2108,2026-06-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2115,2026-06-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2106,2026-06-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2114,2026-06-23,2026H1,Lawyer,,none,,,False,,False,False
+2113,2026-06-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2111,2026-06-23,2026H1,Lawyer,,none,,,False,,False,False
+2097,2026-06-23,2026H1,Lawyer,10500 USD,ok,10500.0,USD,True,10500.0,False,False
+2112,2026-06-23,2026H1,Lawyer,,none,,,False,,False,False
+2109,2026-06-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2110,2026-06-22,2026H1,Lawyer,,none,,,False,,False,False
+2105,2026-06-22,2026H1,Lawyer,,none,,,False,,False,False
+2142,2026-06-22,2026H1,Lawyer,,none,,,False,,False,False
+2132,2026-06-22,2026H1,Lawyer,,none,,,False,,True,False
+2104,2026-06-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2086,2026-06-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2156,2026-06-18,2026H1,Lawyer,,none,,,False,,False,False
+2921,2026-06-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2088,2026-06-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2089,2026-06-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2064,2026-06-17,2026H1,Lawyer,,none,,,False,,False,False
+2157,2026-06-16,2026H1,Lawyer,,none,,,False,,True,False
+2085,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+2094,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+2133,2026-06-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2147,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+1908,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+2216,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+2062,2026-06-16,2026H1,Lawyer,,none,,,False,,False,False
+2090,2026-06-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2201,2026-06-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2135,2026-06-15,2026H1,Lawyer,,none,,,False,,False,False
+2202,2026-06-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2063,2026-06-15,2026H1,Pro Se Litigant,200 USD,ok,200.0,USD,True,200.0,False,False
+2742,2026-06-12,2026H1,Lawyer,,none,,,False,,False,False
+2052,2026-06-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2117,2026-06-12,2026H1,Lawyer,,none,,,False,,False,False
+2084,2026-06-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2037,2026-06-11,2026H1,Lawyer,6000 USD,ok,6000.0,USD,True,6000.0,True,False
+2056,2026-06-11,2026H1,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2050,2026-06-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2092,2026-06-11,2026H1,Lawyer,6000 USD,ok,6000.0,USD,True,6000.0,True,False
+2042,2026-06-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2141,2026-06-10,2026H1,Lawyer,,none,,,False,,False,False
+2036,2026-06-10,2026H1,Lawyer; Judge,,none,,,False,,False,False
+2044,2026-06-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2040,2026-06-09,2026H1,Lawyer,85056 USD,ok,85056.0,USD,True,85056.0,True,False
+2051,2026-06-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2060,2026-06-09,2026H1,Lawyer,,none,,,False,,False,False
+2055,2026-06-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2053,2026-06-09,2026H1,Lawyer,,none,,,False,,False,False
+2046,2026-06-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2033,2026-06-08,2026H1,Lawyer,,none,,,False,,False,False
+2411,2026-06-08,2026H1,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+2057,2026-06-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2058,2026-06-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2034,2026-06-08,2026H1,Lawyer,8000 USD,ok,8000.0,USD,True,8000.0,True,False
+2030,2026-06-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2155,2026-06-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2031,2026-06-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1981,2026-06-04,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+2029,2026-06-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2059,2026-06-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2054,2026-06-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1965,2026-06-03,2026H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+1970,2026-06-03,2026H1,Lawyer,,none,,,False,,False,False
+1974,2026-06-03,2026H1,Lawyer,,none,,,False,,False,False
+1978,2026-06-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1962,2026-06-02,2026H1,Pro Se Litigant,120 USD,ok,120.0,USD,True,120.0,False,False
+1961,2026-06-02,2026H1,Pro Se Litigant,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+1800,2026-06-02,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1963,2026-06-02,2026H1,Lawyer,1 USD,ok,1.0,USD,True,,True,False
+1973,2026-06-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2215,2026-06-01,2026H1,Pro Se Litigant,1,ok,1.0,,True,,False,False
+1972,2026-06-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1956,2026-06-01,2026H1,Lawyer,4997 USD,ok,4997.0,USD,True,4997.0,True,False
+1977,2026-05-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1953,2026-05-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1997,2026-05-28,2026H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+1941,2026-05-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1943,2026-05-28,2026H1,Lawyer,,none,,,False,,False,False
+2217,2026-05-28,2026H1,Lawyer,,none,,,False,,False,False
+1931,2026-05-28,2026H1,Judge; Lawyer,,none,,,False,,False,False
+1951,2026-05-28,2026H1,Lawyer,,none,,,False,,False,False
+1976,2026-05-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1930,2026-05-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1950,2026-05-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1925,2026-05-27,2026H1,Lawyer,,none,,,False,,False,False
+1928,2026-05-27,2026H1,Lawyer,,none,,,False,,False,False
+1959,2026-05-27,2026H1,Pro Se Litigant,250 USD,ok,250.0,USD,True,250.0,False,False
+1940,2026-05-27,2026H1,Lawyer,,none,,,False,,False,False
+1929,2026-05-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1926,2026-05-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1923,2026-05-27,2026H1,Lawyer,,none,,,False,,False,False
+1946,2026-05-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1575,2026-05-26,2026H1,Pro Se Litigant,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+2829,2026-05-26,2026H1,Lawyer,,none,,,False,,False,False
+1942,2026-05-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1945,2026-05-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1948,2026-05-26,2026H1,Pro Se Litigant,100 USD,ok,100.0,USD,True,100.0,False,False
+1958,2026-05-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1922,2026-05-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1915,2026-05-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1888,2026-05-22,2026H1,Lawyer,,none,,,False,,False,False
+1917,2026-05-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1913,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1892,2026-05-21,2026H1,Lawyer,,none,,,False,,True,False
+1939,2026-05-21,2026H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,True,False
+1906,2026-05-21,2026H1,Lawyer,,none,,,False,,False,False
+1899,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1698,2026-05-21,2026H1,Lawyer,,none,,,False,,False,False
+1898,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2907,2026-05-21,2026H1,Pro Se Litigant,11799 USD,ok,11799.0,USD,True,11799.0,False,False
+1902,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1903,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1919,2026-05-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1901,2026-05-21,2026H1,Lawyer,,none,,,False,,False,False
+1910,2026-05-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1890,2026-05-20,2026H1,Lawyer,,none,,,False,,False,False
+1916,2026-05-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1904,2026-05-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+458,2026-05-20,2026H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+1884,2026-05-20,2026H1,Lawyer,,none,,,False,,False,False
+1900,2026-05-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1912,2026-05-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1883,2026-05-19,2026H1,Lawyer,2712 USD,ok,2712.0,USD,True,2712.0,False,False
+2043,2026-05-19,2026H1,Lawyer,,none,,,False,,False,False
+1640,2026-05-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1921,2026-05-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1905,2026-05-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1675,2026-05-18,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1882,2026-05-18,2026H1,Lawyer,,none,,,False,,False,False
+1947,2026-05-16,2026H1,Lawyer,,none,,,False,,True,False
+1907,2026-05-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1881,2026-05-15,2026H1,Lawyer,,none,,,False,,False,False
+1911,2026-05-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1875,2026-05-14,2026H1,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+1920,2026-05-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1918,2026-05-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1860,2026-05-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2507,2026-05-13,2026H1,Lawyer,2232 USD,ok,2232.0,USD,True,2232.0,False,False
+1877,2026-05-13,2026H1,Lawyer,,none,,,False,,False,False
+1865,2026-05-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1863,2026-05-13,2026H1,Lawyer,,none,,,False,,True,False
+1872,2026-05-13,2026H1,Lawyer,,none,,,False,,False,False
+1873,2026-05-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1864,2026-05-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1874,2026-05-12,2026H1,Lawyer,,none,,,False,,False,False
+2831,2026-05-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2116,2026-05-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1870,2026-05-11,2026H1,Lawyer,,none,,,False,,False,False
+1871,2026-05-11,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1866,2026-05-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1862,2026-05-11,2026H1,Lawyer,,none,,,False,,False,False
+1995,2026-05-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1853,2026-05-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1856,2026-05-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1827,2026-05-07,2026H1,Lawyer,250 USD,ok,250.0,USD,True,250.0,False,False
+1557,2026-05-07,2026H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+1854,2026-05-07,2026H1,Pro Se Litigant,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1944,2026-05-07,2026H1,Pro Se Litigant,1665 USD,ok,1665.0,USD,True,1665.0,False,False
+1851,2026-05-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1855,2026-05-07,2026H1,Lawyer,,none,,,False,,False,False
+1852,2026-05-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1781,2026-05-06,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1825,2026-05-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1838,2026-05-06,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1857,2026-05-05,2026H1,Lawyer,,none,,,False,,False,False
+1826,2026-05-05,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1819,2026-05-05,2026H1,Lawyer,,none,,,False,,False,False
+1836,2026-05-05,2026H1,Lawyer,,none,,,False,,False,False
+1837,2026-05-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1834,2026-05-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2047,2026-05-05,2026H1,Lawyer,,none,,,False,,False,False
+1909,2026-05-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1818,2026-05-05,2026H1,Judge; Prosecutor,,none,,,False,,True,False
+1842,2026-05-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1849,2026-05-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1494,2026-05-04,2026H1,Lawyer,7000 USD,ok,7000.0,USD,True,7000.0,False,False
+1830,2026-05-01,2026H1,Lawyer,,none,,,False,,True,False
+1833,2026-05-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1823,2026-05-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1835,2026-05-01,2026H1,Lawyer,,none,,,False,,False,False
+1992,2026-05-01,2026H1,Lawyer,,none,,,False,,False,False
+1824,2026-05-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1787,2026-05-01,2026H1,Lawyer,,none,,,False,,False,False
+1809,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1840,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1793,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1790,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1789,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1788,2026-04-30,2026H1,Lawyer,,none,,,False,,False,False
+1794,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1796,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1813,2026-04-30,2026H1,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+2098,2026-04-30,2026H1,Lawyer,5237 USD,ok,5237.0,USD,True,5237.0,False,False
+1839,2026-04-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1797,2026-04-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1786,2026-04-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1806,2026-04-29,2026H1,Lawyer,,none,,,False,,False,False
+1841,2026-04-29,2026H1,Lawyer,,none,,,False,,False,False
+1778,2026-04-29,2026H1,Lawyer,2500 USD,ok,2500.0,USD,True,2500.0,False,False
+1791,2026-04-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1785,2026-04-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1810,2026-04-29,2026H1,Lawyer,,none,,,False,,False,False
+1773,2026-04-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1814,2026-04-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1777,2026-04-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1795,2026-04-28,2026H1,Lawyer,,none,,,False,,False,False
+1772,2026-04-28,2026H1,Lawyer,1001 USD,ok,1001.0,USD,True,1001.0,False,False
+2516,2026-04-28,2026H1,Lawyer,,none,,,False,,False,False
+1774,2026-04-28,2026H1,Lawyer,2500 USD,ok,2500.0,USD,True,2500.0,False,False
+1805,2026-04-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1867,2026-04-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1776,2026-04-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1798,2026-04-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1799,2026-04-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1770,2026-04-24,2026H1,Lawyer,17200 USD,ok,17200.0,USD,True,17200.0,True,False
+1782,2026-04-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1804,2026-04-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1994,2026-04-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1762,2026-04-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1780,2026-04-23,2026H1,Lawyer,,none,,,False,,False,False
+1811,2026-04-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1779,2026-04-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1808,2026-04-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1812,2026-04-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1801,2026-04-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1758,2026-04-22,2026H1,Lawyer,,none,,,False,,False,False
+1784,2026-04-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1755,2026-04-22,2026H1,Lawyer,8044 USD,ok,8044.0,USD,True,8044.0,False,False
+1753,2026-04-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1754,2026-04-22,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+1752,2026-04-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1815,2026-04-22,2026H1,Lawyer,250 USD,ok,250.0,USD,True,250.0,False,False
+1783,2026-04-21,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1993,2026-04-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1726,2026-04-20,2026H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+2207,2026-04-20,2026H1,Lawyer,,none,,,False,,False,False
+1759,2026-04-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1727,2026-04-18,2026H1,Lawyer,,none,,,False,,False,False
+1807,2026-04-17,2026H1,Lawyer,,none,,,False,,False,False
+1757,2026-04-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1722,2026-04-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1751,2026-04-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1723,2026-04-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1756,2026-04-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1760,2026-04-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1720,2026-04-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1714,2026-04-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1715,2026-04-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1707,2026-04-14,2026H1,Lawyer,,none,,,False,,False,False
+1710,2026-04-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1711,2026-04-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1713,2026-04-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1705,2026-04-10,2026H1,Lawyer,,none,,,False,,False,False
+1721,2026-04-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1677,2026-04-09,2026H1,Pro Se Litigant,4999 USD,ok,4999.0,USD,True,4999.0,False,False
+1697,2026-04-09,2026H1,Pro Se Litigant,3178 USD,ok,3178.0,USD,True,3178.0,False,False
+1716,2026-04-09,2026H1,Lawyer,2750 USD,ok,2750.0,USD,True,2750.0,False,False
+1673,2026-04-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1695,2026-04-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1676,2026-04-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1666,2026-04-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1694,2026-04-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1674,2026-04-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1672,2026-04-07,2026H1,Lawyer,,none,,,False,,False,False
+1687,2026-04-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1670,2026-04-06,2026H1,Lawyer,,none,,,False,,False,False
+1669,2026-04-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1665,2026-04-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1690,2026-04-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1671,2026-04-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1692,2026-04-06,2026H1,Lawyer,,none,,,False,,False,False
+1691,2026-04-03,2026H1,Lawyer,,none,,,False,,False,False
+1636,2026-04-03,2026H1,Lawyer,,none,,,False,,True,False
+1667,2026-04-03,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1685,2026-04-03,2026H1,Lawyer,,none,,,False,,False,False
+1689,2026-04-03,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1761,2026-04-03,2026H1,Lawyer,,none,,,False,,False,False
+1668,2026-04-03,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1639,2026-04-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1660,2026-04-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1628,2026-04-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1629,2026-04-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1699,2026-04-01,2026H1,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+1623,2026-04-01,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1648,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1662,2026-03-31,2026H1,Lawyer,35603 USD,ok,35603.0,USD,True,35603.0,True,False
+1638,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1625,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1712,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1644,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1641,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1659,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1655,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1621,2026-03-31,2026H1,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+1626,2026-03-31,2026H1,Lawyer,,none,,,False,,False,False
+1643,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2134,2026-03-31,2026H1,Lawyer,1 USD,ok,1.0,USD,True,,True,False
+1603,2026-03-31,2026H1,Lawyer,,none,,,False,,False,False
+1642,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1627,2026-03-31,2026H1,Lawyer,55597,ok,55597.0,,True,55597.0,True,False
+1688,2026-03-31,2026H1,Lawyer,,none,,,False,,False,False
+1686,2026-03-31,2026H1,Lawyer,,none,,,False,,False,False
+1622,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1330,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1624,2026-03-31,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1680,2026-03-31,2026H1,Lawyer,,none,,,False,,False,False
+1611,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1614,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1613,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1619,2026-03-30,2026H1,Lawyer,,none,,,False,,False,False
+1652,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1617,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1612,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1601,2026-03-30,2026H1,Lawyer,,none,,,False,,False,False
+1650,2026-03-30,2026H1,Lawyer,,none,,,False,,False,False
+1620,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1618,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1645,2026-03-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1615,2026-03-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1654,2026-03-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1775,2026-03-27,2026H1,Lawyer,,none,,,False,,False,False
+1597,2026-03-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1592,2026-03-27,2026H1,Lawyer,,none,,,False,,True,False
+1562,2026-03-27,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1653,2026-03-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1649,2026-03-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1651,2026-03-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1646,2026-03-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1576,2026-03-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1589,2026-03-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1647,2026-03-26,2026H1,Lawyer,,none,,,False,,True,False
+1593,2026-03-26,2026H1,,,none,,,False,,False,False
+1658,2026-03-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1558,2026-03-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1568,2026-03-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1565,2026-03-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1563,2026-03-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1657,2026-03-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1566,2026-03-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1574,2026-03-24,2026H1,Lawyer,,none,,,False,,False,False
+1570,2026-03-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1709,2026-03-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1567,2026-03-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1564,2026-03-23,2026H1,Lawyer,,none,,,False,,False,False
+1571,2026-03-23,2026H1,Lawyer,1525 USD,ok,1525.0,USD,True,1525.0,False,False
+211,2026-03-23,2026H1,Lawyer,110204 USD,ok,110204.0,USD,True,110204.0,False,False
+1431,2026-03-20,2026H1,Lawyer,,none,,,False,,True,False
+1505,2026-03-20,2026H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,True,False
+1499,2026-03-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1504,2026-03-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1503,2026-03-20,2026H1,Lawyer,1250 USD,ok,1250.0,USD,True,1250.0,True,False
+1506,2026-03-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1664,2026-03-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2204,2026-03-19,2026H1,Lawyer,,none,,,False,,False,False
+1998,2026-03-19,2026H1,Lawyer,,none,,,False,,False,False
+1497,2026-03-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1569,2026-03-19,2026H1,Lawyer,,none,,,False,,False,False
+1496,2026-03-19,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1498,2026-03-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1495,2026-03-18,2026H1,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+1492,2026-03-18,2026H1,Lawyer,,none,,,False,,False,False
+1493,2026-03-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1703,2026-03-18,2026H1,Expert,,none,,,False,,False,False
+1501,2026-03-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1421,2026-03-17,2026H1,Lawyer,,none,,,False,,False,False
+1426,2026-03-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1502,2026-03-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1428,2026-03-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1423,2026-03-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1422,2026-03-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1572,2026-03-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1427,2026-03-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1610,2026-03-13,2026H1,Lawyer,,none,,,False,,False,False
+1424,2026-03-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2354,2026-03-13,2026H1,Lawyer,1200 USD,ok,1200.0,USD,True,1200.0,True,False
+1411,2026-03-13,2026H1,Lawyer,30000 USD,ok,30000.0,USD,True,30000.0,True,False
+1380,2026-03-12,2026H1,Lawyer,,none,,,False,,False,False
+1393,2026-03-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2000,2026-03-12,2026H1,Lawyer,,none,,,False,,False,False
+1384,2026-03-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1390,2026-03-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1385,2026-03-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1376,2026-03-11,2026H1,Lawyer,,none,,,False,,False,False
+1382,2026-03-11,2026H1,Lawyer,,none,,,False,,False,False
+1395,2026-03-11,2026H1,Lawyer,,none,,,False,,False,False
+1412,2026-03-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1391,2026-03-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1396,2026-03-10,2026H1,Pro Se Litigant,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+1413,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1394,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1400,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1389,2026-03-10,2026H1,Lawyer,,none,,,False,,False,False
+1416,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1392,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1381,2026-03-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1401,2026-03-10,2026H1,Lawyer,,none,,,False,,True,False
+1354,2026-03-09,2026H1,Lawyer,,none,,,False,,False,False
+1399,2026-03-09,2026H1,Lawyer,,none,,,False,,False,False
+1362,2026-03-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1360,2026-03-06,2026H1,Lawyer,,none,,,False,,False,False
+1383,2026-03-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1356,2026-03-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1386,2026-03-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1397,2026-03-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1357,2026-03-06,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1347,2026-03-05,2026H1,Pro Se Litigant,1,ok,1.0,,True,,False,False
+1192,2026-03-05,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+1353,2026-03-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1336,2026-03-05,2026H1,Lawyer; Judge,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+1348,2026-03-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1316,2026-03-04,2026H1,Lawyer,,none,,,False,,False,False
+1351,2026-03-04,2026H1,Lawyer,,none,,,False,,False,False
+1352,2026-03-03,2026H1,Lawyer,,none,,,False,,False,False
+1349,2026-03-03,2026H1,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+1338,2026-03-02,2026H1,Lawyer,,none,,,False,,False,False
+1342,2026-03-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1350,2026-03-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1345,2026-03-02,2026H1,Lawyer,,none,,,False,,False,False
+1344,2026-02-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1322,2026-02-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1325,2026-02-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1323,2026-02-26,2026H1,Lawyer,,none,,,False,,False,False
+1317,2026-02-26,2026H1,Lawyer,,none,,,False,,False,False
+1343,2026-02-26,2026H1,Lawyer,,none,,,False,,False,False
+1326,2026-02-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1319,2026-02-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1332,2026-02-26,2026H1,Lawyer,,none,,,False,,False,False
+977,2026-02-25,2026H1,Lawyer,7500 USD,ok,7500.0,USD,True,7500.0,False,False
+1318,2026-02-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1315,2026-02-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1324,2026-02-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1320,2026-02-25,2026H1,Lawyer,,none,,,False,,True,False
+1359,2026-02-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1321,2026-02-25,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1308,2026-02-24,2026H1,Pro Se Litigant,405 USD,ok,405.0,USD,True,405.0,False,False
+1310,2026-02-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1331,2026-02-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1327,2026-02-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1309,2026-02-24,2026H1,Lawyer,,none,,,False,,False,False
+2792,2026-02-24,2026H1,Lawyer,,none,,,False,,False,False
+1388,2026-02-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1361,2026-02-24,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1305,2026-02-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1358,2026-02-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1328,2026-02-23,2026H1,Lawyer,,none,,,False,,False,False
+1329,2026-02-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1303,2026-02-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1300,2026-02-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1335,2026-02-19,2026H1,Lawyer,,none,,,False,,False,False
+1302,2026-02-19,2026H1,Lawyer,,none,,,False,,False,False
+1289,2026-02-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1298,2026-02-19,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1297,2026-02-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1270,2026-02-18,2026H1,Lawyer,2500,ok,2500.0,,True,2500.0,False,False
+1292,2026-02-18,2026H1,Lawyer,900 USD,ok,900.0,USD,True,900.0,False,False
+1333,2026-02-18,2026H1,Lawyer,,none,,,False,,False,False
+1295,2026-02-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1293,2026-02-18,2026H1,Lawyer,,none,,,False,,False,False
+1288,2026-02-18,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1341,2026-02-17,2026H1,Expert,,none,,,False,,False,False
+1294,2026-02-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2287,2026-02-17,2026H1,Lawyer,,none,,,False,,False,False
+1267,2026-02-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1266,2026-02-17,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1999,2026-02-17,2026H1,Lawyer,,none,,,False,,False,False
+1419,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1420,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1304,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1257,2026-02-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1346,2026-02-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1264,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1250,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1263,2026-02-13,2026H1,Lawyer,,none,,,False,,False,False
+1272,2026-02-12,2026H1,Lawyer,,none,,,False,,False,False
+1249,2026-02-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1225,2026-02-12,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1220,2026-02-12,2026H1,Lawyer,,none,,,False,,False,False
+1233,2026-02-12,2026H1,Lawyer,,none,,,False,,False,False
+1228,2026-02-11,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1234,2026-02-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1222,2026-02-11,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1227,2026-02-10,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1214,2026-02-10,2026H1,Lawyer,,none,,,False,,False,False
+2001,2026-02-10,2026H1,Lawyer,,none,,,False,,False,False
+1552,2026-02-10,2026H1,Lawyer,,none,,,False,,True,False
+1232,2026-02-10,2026H1,Lawyer,,none,,,False,,False,False
+1209,2026-02-09,2026H1,Lawyer,,none,,,False,,False,False
+1211,2026-02-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1247,2026-02-09,2026H1,Lawyer,,none,,,False,,False,False
+1223,2026-02-09,2026H1,Lawyer,,none,,,False,,False,False
+1239,2026-02-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1231,2026-02-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+976,2026-02-09,2026H1,Lawyer,,none,,,False,,False,False
+1218,2026-02-09,2026H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+1241,2026-02-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1245,2026-02-06,2026H1,Lawyer,,none,,,False,,False,False
+1244,2026-02-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1243,2026-02-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1235,2026-02-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1208,2026-02-06,2026H1,Prosecutor,,none,,,False,,False,False
+1193,2026-02-05,2026H1,Lawyer,38878 USD,ok,38878.0,USD,True,38878.0,False,False
+1240,2026-02-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+894,2026-02-05,2026H1,Lawyer,,none,,,False,,False,False
+1204,2026-02-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1201,2026-02-04,2026H1,Lawyer,,none,,,False,,False,False
+1190,2026-02-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2363,2026-02-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1203,2026-02-04,2026H1,Lawyer,,none,,,False,,False,False
+1202,2026-02-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1205,2026-02-04,2026H1,Lawyer,,none,,,False,,False,False
+1197,2026-02-03,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1188,2026-02-03,2026H1,Lawyer,,none,,,False,,False,False
+1291,2026-02-03,2026H1,Lawyer,,none,,,False,,False,False
+1173,2026-02-02,2026H1,Lawyer,12000 USD,ok,12000.0,USD,True,12000.0,False,False
+1262,2026-02-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1177,2026-02-02,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1180,2026-01-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1182,2026-01-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1176,2026-01-30,2026H1,Lawyer,,none,,,False,,False,False
+1179,2026-01-30,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1168,2026-01-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1164,2026-01-29,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1157,2026-01-28,2026H1,Lawyer,,none,,,False,,False,False
+1159,2026-01-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1161,2026-01-28,2026H1,Lawyer,,none,,,False,,False,False
+1156,2026-01-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1166,2026-01-28,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1149,2026-01-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1155,2026-01-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1147,2026-01-27,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1181,2026-01-27,2026H1,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+1148,2026-01-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1230,2026-01-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1151,2026-01-26,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1134,2026-01-26,2026H1,Lawyer,4000,ok,4000.0,,True,4000.0,False,False
+1153,2026-01-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1146,2026-01-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1112,2026-01-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1124,2026-01-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1114,2026-01-23,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1200,2026-01-23,2026H1,Lawyer,,none,,,False,,False,False
+1131,2026-01-23,2026H1,Lawyer,,none,,,False,,False,False
+1111,2026-01-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1154,2026-01-22,2026H1,Lawyer,,none,,,False,,False,False
+1113,2026-01-22,2026H1,Lawyer,,none,,,False,,True,False
+1718,2026-01-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1107,2026-01-22,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1152,2026-01-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1217,2026-01-21,2026H1,Lawyer,,none,,,False,,False,False
+1110,2026-01-21,2026H1,Lawyer,,none,,,False,,False,False
+1103,2026-01-21,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1115,2026-01-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1105,2026-01-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1109,2026-01-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1106,2026-01-20,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1108,2026-01-20,2026H1,Lawyer,,none,,,False,,False,False
+1095,2026-01-16,2026H1,Lawyer,7000 USD,ok,7000.0,USD,True,7000.0,False,False
+1097,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1098,2026-01-16,2026H1,Lawyer,,none,,,False,,False,False
+1102,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1096,2026-01-16,2026H1,Lawyer,,none,,,False,,False,False
+1099,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1100,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1127,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2486,2026-01-16,2026H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+1118,2026-01-16,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2002,2026-01-15,2026H1,Lawyer,,none,,,False,,False,False
+1125,2026-01-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1093,2026-01-15,2026H1,Lawyer,,none,,,False,,False,False
+1116,2026-01-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1119,2026-01-15,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1045,2026-01-14,2026H1,Lawyer,,none,,,False,,False,False
+863,2026-01-14,2026H1,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+1046,2026-01-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1150,2026-01-14,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1117,2026-01-14,2026H1,Lawyer,,none,,,False,,False,False
+1210,2026-01-14,2026H1,Prosecutor,,none,,,False,,False,False
+1130,2026-01-13,2026H1,Lawyer,,none,,,False,,False,False
+1126,2026-01-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+374,2026-01-13,2026H1,Lawyer,,none,,,False,,True,False
+2006,2026-01-13,2026H1,Lawyer,,none,,,False,,False,False
+2004,2026-01-13,2026H1,Lawyer,,none,,,False,,False,False
+1719,2026-01-13,2026H1,Lawyer,,none,,,False,,False,False
+1039,2026-01-13,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1041,2026-01-12,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1122,2026-01-12,2026H1,Lawyer,,none,,,False,,False,False
+1129,2026-01-12,2026H1,Lawyer,,none,,,False,,False,False
+1040,2026-01-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1064,2026-01-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1038,2026-01-09,2026H1,Lawyer,,none,,,False,,False,False
+1037,2026-01-09,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1044,2026-01-08,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1011,2026-01-08,2026H1,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+1004,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+2007,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1042,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1035,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1005,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1030,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1034,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1029,2026-01-07,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1008,2026-01-06,2026H1,Lawyer,,none,,,False,,False,False
+984,2026-01-06,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1314,2026-01-06,2026H1,Pro Se Litigant,2632,ok,2632.0,,True,2632.0,False,False
+1128,2026-01-05,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1028,2026-01-04,2026H1,Pro Se Litigant,,none,,,False,,False,False
+1012,2026-01-02,2026H1,Lawyer,,none,,,False,,False,False
+1120,2025-12-31,2025H2,Lawyer,,none,,,False,,False,False
+1010,2025-12-31,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1031,2025-12-31,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1025,2025-12-31,2025H2,Lawyer,,none,,,False,,False,False
+971,2025-12-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+974,2025-12-30,2025H2,Lawyer,,none,,,False,,False,False
+913,2025-12-30,2025H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+1026,2025-12-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+983,2025-12-30,2025H2,Lawyer; Pro Se Litigant,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+1121,2025-12-30,2025H2,Lawyer,,none,,,False,,False,False
+973,2025-12-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+969,2025-12-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+972,2025-12-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+970,2025-12-29,2025H2,Lawyer,,none,,,False,,False,False
+967,2025-12-23,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2005,2025-12-23,2025H2,Pro Se Litigant,,none,,,False,,False,False
+989,2025-12-23,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1027,2025-12-23,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1066,2025-12-23,2025H2,Pro Se Litigant,66129 USD,ok,66129.0,USD,True,66129.0,False,False
+960,2025-12-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1002,2025-12-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+968,2025-12-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+997,2025-12-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1061,2025-12-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+996,2025-12-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+966,2025-12-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+963,2025-12-19,2025H2,Lawyer,20883 USD,ok,20883.0,USD,True,20883.0,True,False
+958,2025-12-19,2025H2,Lawyer,,none,,,False,,True,False
+922,2025-12-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2003,2025-12-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+915,2025-12-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1966,2025-12-18,2025H2,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+987,2025-12-18,2025H2,Lawyer,,none,,,False,,False,False
+918,2025-12-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+282,2025-12-18,2025H2,Pro Se Litigant,7361 USD,ok,7361.0,USD,True,7361.0,False,False
+994,2025-12-17,2025H2,Lawyer,,none,,,False,,False,False
+995,2025-12-17,2025H2,Lawyer,5070 USD,ok,5070.0,USD,True,5070.0,True,False
+991,2025-12-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+993,2025-12-17,2025H2,Lawyer,,none,,,False,,False,False
+985,2025-12-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1418,2025-12-16,2025H2,Lawyer,,none,,,False,,False,False
+914,2025-12-16,2025H2,Lawyer,,none,,,False,,False,False
+921,2025-12-16,2025H2,Lawyer,,none,,,False,,False,False
+912,2025-12-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+911,2025-12-16,2025H2,Lawyer,,none,,,False,,False,False
+986,2025-12-16,2025H2,Lawyer,9000 USD,ok,9000.0,USD,True,9000.0,False,False
+988,2025-12-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+990,2025-12-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1000,2025-12-15,2025H2,Pro Se Litigant,64235 USD,ok,64235.0,USD,True,64235.0,False,False
+999,2025-12-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+992,2025-12-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+919,2025-12-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+900,2025-12-15,2025H2,Lawyer,6000 USD,ok,6000.0,USD,True,6000.0,True,False
+978,2025-12-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+901,2025-12-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+890,2025-12-13,2025H2,Lawyer,,none,,,False,,False,False
+998,2025-12-12,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1001,2025-12-12,2025H2,Pro Se Litigant,,none,,,False,,False,False
+889,2025-12-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+885,2025-12-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+888,2025-12-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+895,2025-12-10,2025H2,Lawyer,,none,,,False,,False,False
+2013,2025-12-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+884,2025-12-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+886,2025-12-10,2025H2,Lawyer,,none,,,False,,False,False
+891,2025-12-10,2025H2,Lawyer,,none,,,False,,False,False
+898,2025-12-09,2025H2,Pro Se Litigant,,none,,,False,,False,False
+892,2025-12-09,2025H2,Lawyer,,none,,,False,,False,False
+917,2025-12-08,2025H2,Lawyer,,none,,,False,,False,False
+893,2025-12-08,2025H2,Pro Se Litigant,,none,,,False,,False,False
+897,2025-12-06,2025H2,Pro Se Litigant,,none,,,False,,False,False
+866,2025-12-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+878,2025-12-05,2025H2,Lawyer,59500 USD,ok,59500.0,USD,True,59500.0,False,False
+896,2025-12-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+858,2025-12-05,2025H2,Lawyer,,none,,,False,,False,False
+887,2025-12-05,2025H2,Lawyer,950 USD,ok,950.0,USD,True,950.0,True,False
+859,2025-12-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+975,2025-12-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+862,2025-12-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+857,2025-12-04,2025H2,Lawyer,,none,,,False,,False,False
+852,2025-12-04,2025H2,Lawyer,,none,,,False,,False,False
+843,2025-12-03,2025H2,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+861,2025-12-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1683,2025-12-03,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+876,2025-12-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+847,2025-12-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+873,2025-12-03,2025H2,Lawyer,,none,,,False,,False,False
+874,2025-12-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+871,2025-12-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+750,2025-12-02,2025H2,Pro Se Litigant,,none,,,False,,False,False
+872,2025-12-02,2025H2,Pro Se Litigant,,none,,,False,,False,False
+849,2025-12-02,2025H2,Pro Se Litigant,600,ok,600.0,,True,600.0,False,False
+844,2025-12-02,2025H2,Lawyer,,none,,,False,,False,False
+870,2025-12-02,2025H2,Pro Se Litigant,,none,,,False,,False,False
+832,2025-12-01,2025H2,Lawyer,7500 USD,ok,7500.0,USD,True,7500.0,False,False
+836,2025-12-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+841,2025-12-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+851,2025-12-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+834,2025-12-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+868,2025-12-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2011,2025-11-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+635,2025-11-28,2025H2,Pro Se Litigant,,none,,,False,,False,False
+817,2025-11-26,2025H2,Pro Se Litigant,,none,,,False,,False,False
+840,2025-11-26,2025H2,Pro Se Litigant,,none,,,False,,False,False
+819,2025-11-26,2025H2,Lawyer,6720 USD,ok,6720.0,USD,True,6720.0,True,False
+875,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+813,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+869,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+820,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+812,2025-11-25,2025H2,Pro Se Litigant,8640 USD,ok,8640.0,USD,True,8640.0,False,False
+815,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+814,2025-11-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+811,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+808,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+810,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+805,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+839,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1104,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+816,2025-11-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+838,2025-11-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+821,2025-11-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+793,2025-11-21,2025H2,Lawyer,4030 USD,ok,4030.0,USD,True,4030.0,True,False
+791,2025-11-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+822,2025-11-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1090,2025-11-21,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+1170,2025-11-21,2025H2,Lawyer,,none,,,False,,False,False
+721,2025-11-20,2025H2,Lawyer,,none,,,False,,True,False
+665,2025-11-20,2025H2,Lawyer,,none,,,False,,True,False
+737,2025-11-20,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2010,2025-11-19,2025H2,Lawyer,,none,,,False,,False,False
+2623,2025-11-19,2025H2,Judge,,none,,,False,,True,False
+792,2025-11-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+783,2025-11-19,2025H2,Lawyer,,none,,,False,,False,False
+788,2025-11-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+782,2025-11-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+785,2025-11-18,2025H2,Lawyer,,none,,,False,,False,False
+787,2025-11-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+786,2025-11-18,2025H2,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+784,2025-11-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+769,2025-11-17,2025H2,Lawyer,1750 USD,ok,1750.0,USD,True,1750.0,True,False
+790,2025-11-17,2025H2,Lawyer,,none,,,False,,False,False
+608,2025-11-17,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+789,2025-11-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+512,2025-11-17,2025H2,Lawyer,500 USD,ok,500.0,USD,True,500.0,False,False
+916,2025-11-14,2025H2,Lawyer,28000 USD,ok,28000.0,USD,True,28000.0,False,False
+766,2025-11-14,2025H2,Pro Se Litigant,,none,,,False,,False,False
+763,2025-11-13,2025H2,Lawyer,,none,,,False,,True,False
+752,2025-11-13,2025H2,Pro Se Litigant,,none,,,False,,False,False
+761,2025-11-13,2025H2,Lawyer,,none,,,False,,False,False
+762,2025-11-13,2025H2,Pro Se Litigant,100 USD,ok,100.0,USD,True,100.0,False,False
+764,2025-11-13,2025H2,Lawyer,,none,,,False,,True,False
+747,2025-11-13,2025H2,Pro Se Litigant,,none,,,False,,False,False
+760,2025-11-12,2025H2,Pro Se Litigant,,none,,,False,,False,False
+758,2025-11-12,2025H2,Pro Se Litigant,,none,,,False,,False,False
+738,2025-11-10,2025H2,Lawyer,,none,,,False,,False,False
+755,2025-11-10,2025H2,Lawyer,,none,,,False,,False,False
+753,2025-11-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+751,2025-11-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+835,2025-11-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+768,2025-11-10,2025H2,Lawyer,,none,,,False,,False,False
+2008,2025-11-10,2025H2,Lawyer,18993 USD,ok,18993.0,USD,True,18993.0,False,False
+720,2025-11-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+757,2025-11-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2012,2025-11-07,2025H2,Lawyer,,none,,,False,,False,False
+723,2025-11-07,2025H2,Lawyer,,none,,,False,,False,False
+767,2025-11-07,2025H2,Lawyer,,none,,,False,,False,False
+837,2025-11-06,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2009,2025-11-06,2025H2,Lawyer,,none,,,False,,False,False
+715,2025-11-06,2025H2,Pro Se Litigant,,none,,,False,,False,False
+713,2025-11-06,2025H2,Lawyer,,none,,,False,,False,False
+712,2025-11-06,2025H2,Lawyer,1 USD,ok,1.0,USD,True,,True,False
+724,2025-11-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+719,2025-11-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+735,2025-11-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+781,2025-11-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+727,2025-11-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+722,2025-11-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+981,2025-11-04,2025H2,Lawyer,,none,,,False,,False,False
+729,2025-11-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+745,2025-11-03,2025H2,Lawyer,,none,,,False,,True,False
+726,2025-11-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+728,2025-11-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+731,2025-10-31,2025H2,Pro Se Litigant,,none,,,False,,False,False
+733,2025-10-31,2025H2,Lawyer,,none,,,False,,False,False
+1014,2025-10-31,2025H2,Lawyer,,none,,,False,,True,False
+725,2025-10-31,2025H2,Pro Se Litigant,,none,,,False,,False,False
+732,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+707,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+734,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+703,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2087,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+637,2025-10-30,2025H2,Lawyer,7500 USD,ok,7500.0,USD,True,7500.0,False,False
+708,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+702,2025-10-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+694,2025-10-29,2025H2,Lawyer,,none,,,False,,True,False
+695,2025-10-29,2025H2,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+700,2025-10-29,2025H2,Lawyer,,none,,,False,,False,False
+701,2025-10-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+864,2025-10-28,2025H2,Pro Se Litigant,,none,,,False,,False,False
+704,2025-10-28,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2014,2025-10-28,2025H2,Lawyer,,none,,,False,,False,False
+744,2025-10-28,2025H2,Lawyer,,none,,,False,,False,False
+706,2025-10-27,2025H2,Pro Se Litigant,,none,,,False,,False,False
+662,2025-10-27,2025H2,Lawyer,,none,,,False,,False,False
+765,2025-10-27,2025H2,Pro Se Litigant,,none,,,False,,False,False
+697,2025-10-27,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2015,2025-10-27,2025H2,Lawyer,,none,,,False,,False,False
+705,2025-10-24,2025H2,Lawyer,,none,,,False,,False,False
+2016,2025-10-23,2025H2,Lawyer,,none,,,False,,False,False
+636,2025-10-23,2025H2,Lawyer,1368 USD,ok,1368.0,USD,True,1368.0,True,False
+773,2025-10-23,2025H2,Pro Se Litigant,,none,,,False,,False,False
+770,2025-10-23,2025H2,Lawyer,,none,,,False,,False,False
+649,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+646,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+627,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+647,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+639,2025-10-22,2025H2,Lawyer,,none,,,False,,False,False
+640,2025-10-22,2025H2,Lawyer,,none,,,False,,False,False
+644,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+730,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+638,2025-10-22,2025H2,Lawyer,29495 USD,ok,29495.0,USD,True,29495.0,True,False
+634,2025-10-22,2025H2,Pro Se Litigant,1,ok,1.0,,True,,False,False
+641,2025-10-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+648,2025-10-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+645,2025-10-21,2025H2,Pro Se Litigant,,none,,,False,,False,False
+716,2025-10-21,2025H2,Lawyer,,none,,,False,,False,False
+1598,2025-10-21,2025H2,Lawyer,,none,,,False,,False,False
+642,2025-10-20,2025H2,Pro Se Litigant,,none,,,False,,False,False
+601,2025-10-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+643,2025-10-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+626,2025-10-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+629,2025-10-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1663,2025-10-17,2025H2,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+632,2025-10-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+621,2025-10-16,2025H2,Lawyer,,none,,,False,,False,False
+613,2025-10-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+610,2025-10-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+614,2025-10-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+611,2025-10-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1370,2025-10-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+653,2025-10-15,2025H2,Lawyer,,none,,,False,,True,False
+612,2025-10-14,2025H2,Pro Se Litigant,,none,,,False,,False,False
+717,2025-10-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+604,2025-10-10,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+597,2025-10-10,2025H2,Lawyer,5000,ok,5000.0,,True,5000.0,True,False
+609,2025-10-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+603,2025-10-08,2025H2,Pro Se Litigant,,none,,,False,,False,False
+602,2025-10-08,2025H2,Lawyer,,none,,,False,,False,False
+593,2025-10-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+595,2025-10-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1171,2025-10-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+571,2025-10-06,2025H2,Lawyer,,none,,,False,,True,False
+591,2025-10-06,2025H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+1398,2025-10-03,2025H2,Lawyer,,none,,,False,,False,False
+615,2025-10-03,2025H2,Lawyer,,none,,,False,,False,False
+332,2025-10-03,2025H2,Lawyer,1,ok,1.0,,True,,True,False
+587,2025-10-02,2025H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+592,2025-10-02,2025H2,Pro Se Litigant,,none,,,False,,False,False
+652,2025-10-02,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+573,2025-10-01,2025H2,Lawyer,150 USD,ok,150.0,USD,True,150.0,True,False
+698,2025-10-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+600,2025-10-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+590,2025-10-01,2025H2,Lawyer,1,ok,1.0,,True,,False,False
+599,2025-09-30,2025H2,Lawyer,,none,,,False,,False,False
+578,2025-09-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+583,2025-09-30,2025H2,Expert,,none,,,False,,False,False
+598,2025-09-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+575,2025-09-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+748,2025-09-26,2025H2,Lawyer,,none,,,False,,False,False
+577,2025-09-26,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1605,2025-09-26,2025H2,Lawyer,7472 USD,ok,7472.0,USD,True,7472.0,True,False
+553,2025-09-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+554,2025-09-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+564,2025-09-25,2025H2,Lawyer,,none,,,False,,False,False
+562,2025-09-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+551,2025-09-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+579,2025-09-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+560,2025-09-24,2025H2,Lawyer,,none,,,False,,False,False
+581,2025-09-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+267,2025-09-23,2025H2,Lawyer,24492 USD,ok,24492.0,USD,True,24492.0,False,False
+549,2025-09-22,2025H2,Lawyer,,none,,,False,,False,False
+580,2025-09-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+198,2025-09-22,2025H2,Lawyer,3000 USD,ok,3000.0,USD,True,3000.0,False,False
+2017,2025-09-22,2025H2,Lawyer,,none,,,False,,False,False
+561,2025-09-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+563,2025-09-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+545,2025-09-19,2025H2,Lawyer,,none,,,False,,False,False
+548,2025-09-19,2025H2,Pro Se Litigant,600 USD,ok,600.0,USD,True,600.0,False,False
+546,2025-09-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+533,2025-09-18,2025H2,Lawyer,3000 USD,ok,3000.0,USD,True,3000.0,False,False
+2018,2025-09-18,2025H2,Lawyer,,none,,,False,,False,False
+371,2025-09-18,2025H2,Lawyer,4500 USD,ok,4500.0,USD,True,4500.0,False,False
+540,2025-09-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+541,2025-09-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+534,2025-09-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+539,2025-09-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+536,2025-09-17,2025H2,Pro Se Litigant,,none,,,False,,False,False
+547,2025-09-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+531,2025-09-16,2025H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+2643,2025-09-16,2025H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+566,2025-09-15,2025H2,Lawyer,,none,,,False,,False,False
+538,2025-09-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+537,2025-09-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+532,2025-09-12,2025H2,Lawyer,2418 USD,ok,2418.0,USD,True,2418.0,False,False
+504,2025-09-12,2025H2,Lawyer,13000 USD,ok,13000.0,USD,True,13000.0,False,False
+514,2025-09-12,2025H2,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,True,False
+526,2025-09-12,2025H2,Pro Se Litigant,,none,,,False,,False,False
+524,2025-09-11,2025H2,Lawyer,,none,,,False,,False,False
+523,2025-09-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+518,2025-09-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1949,2025-09-09,2025H2,Judge,,none,,,False,,False,True
+513,2025-09-09,2025H2,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,True,False
+522,2025-09-09,2025H2,Pro Se Litigant,,none,,,False,,False,False
+568,2025-09-09,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1924,2025-09-08,2025H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,True,False
+1003,2025-09-05,2025H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+520,2025-09-05,2025H2,Pro Se Litigant,,none,,,False,,False,False
+521,2025-09-05,2025H2,Lawyer,,none,,,False,,False,False
+710,2025-09-05,2025H2,Lawyer,,none,,,False,,True,False
+527,2025-09-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+630,2025-09-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+460,2025-09-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+525,2025-09-03,2025H2,Lawyer,,none,,,False,,True,False
+459,2025-09-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+519,2025-09-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+565,2025-09-03,2025H2,Lawyer,,none,,,False,,False,False
+855,2025-09-03,2025H2,Expert,,none,,,False,,False,False
+462,2025-09-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+457,2025-08-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+453,2025-08-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+442,2025-08-29,2025H2,Lawyer,,none,,,False,,True,False
+436,2025-08-28,2025H2,Pro Se Litigant,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+517,2025-08-28,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+440,2025-08-28,2025H2,Lawyer,6200 USD,ok,6200.0,USD,True,6200.0,True,False
+461,2025-08-28,2025H2,Pro Se Litigant,,none,,,False,,False,False
+438,2025-08-28,2025H2,Lawyer,,none,,,False,,False,False
+437,2025-08-28,2025H2,Lawyer,,none,,,False,,True,False
+441,2025-08-27,2025H2,Lawyer,,none,,,False,,True,False
+465,2025-08-27,2025H2,Pro Se Litigant,,none,,,False,,False,False
+464,2025-08-27,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2021,2025-08-27,2025H2,Lawyer,,none,,,False,,False,False
+582,2025-08-26,2025H2,Pro Se Litigant,,none,,,False,,False,False
+432,2025-08-26,2025H2,Pro Se Litigant,,none,,,False,,False,False
+447,2025-08-22,2025H2,Lawyer,,none,,,False,,False,False
+572,2025-08-22,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+446,2025-08-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+463,2025-08-20,2025H2,Lawyer,,none,,,False,,False,False
+445,2025-08-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+426,2025-08-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+444,2025-08-19,2025H2,Pro Se Litigant,,none,,,False,,False,False
+423,2025-08-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+427,2025-08-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+422,2025-08-15,2025H2,Lawyer,,none,,,False,,False,False
+411,2025-08-15,2025H2,Pro Se Litigant,,none,,,False,,False,False
+420,2025-08-14,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1187,2025-08-14,2025H2,Pro Se Litigant,,none,,,False,,False,False
+412,2025-08-13,2025H2,Pro Se Litigant,,none,,,False,,False,False
+373,2025-08-13,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+375,2025-08-13,2025H2,Pro Se Litigant,,none,,,False,,False,False
+431,2025-08-11,2025H2,Lawyer,,none,,,False,,False,False
+403,2025-08-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+402,2025-08-11,2025H2,Pro Se Litigant,,none,,,False,,False,False
+413,2025-08-08,2025H2,Pro Se Litigant,,none,,,False,,False,False
+414,2025-08-07,2025H2,Pro Se Litigant,500 USD,ok,500.0,USD,True,500.0,False,False
+854,2025-08-07,2025H2,Lawyer,1 USD,ok,1.0,USD,True,,True,False
+415,2025-08-07,2025H2,Lawyer,1000,ok,1000.0,,True,1000.0,True,False
+362,2025-08-07,2025H2,Lawyer,,none,,,False,,False,False
+416,2025-08-06,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2019,2025-08-06,2025H2,Lawyer,,none,,,False,,False,False
+2023,2025-08-06,2025H2,Lawyer,,none,,,False,,False,False
+2020,2025-08-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+417,2025-08-04,2025H2,Pro Se Litigant,,none,,,False,,False,False
+356,2025-08-04,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+301,2025-08-01,2025H2,Lawyer,85567 USD,ok,85567.0,USD,True,85567.0,True,False
+397,2025-08-01,2025H2,Pro Se Litigant,,none,,,False,,False,False
+338,2025-07-31,2025H2,Lawyer,,none,,,False,,False,False
+1847,2025-07-31,2025H2,Lawyer,,none,,,False,,False,False
+1828,2025-07-31,2025H2,Lawyer,,none,,,False,,False,False
+341,2025-07-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+339,2025-07-30,2025H2,Pro Se Litigant,,none,,,False,,False,False
+340,2025-07-30,2025H2,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+175,2025-07-29,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+511,2025-07-29,2025H2,Pro Se Litigant,,none,,,False,,False,False
+1829,2025-07-29,2025H2,Lawyer,,none,,,False,,False,False
+372,2025-07-29,2025H2,Pro Se Litigant,11200 USD,ok,11200.0,USD,True,11200.0,False,False
+343,2025-07-28,2025H2,Lawyer,1485 USD,ok,1485.0,USD,True,1485.0,False,False
+419,2025-07-28,2025H2,Lawyer,,none,,,False,,False,False
+361,2025-07-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+353,2025-07-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+344,2025-07-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+351,2025-07-25,2025H2,Pro Se Litigant,,none,,,False,,False,False
+430,2025-07-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+507,2025-07-24,2025H2,Pro Se Litigant,100 USD,ok,100.0,USD,True,100.0,False,False
+345,2025-07-24,2025H2,Pro Se Litigant,,none,,,False,,False,False
+368,2025-07-23,2025H2,Lawyer,,none,,,False,,False,False
+177,2025-07-23,2025H2,Lawyer,,none,,,False,,True,False
+346,2025-07-23,2025H2,Lawyer,2500 USD,ok,2500.0,USD,True,2500.0,True,False
+311,2025-07-23,2025H2,Judge,,none,,,False,,False,False
+406,2025-07-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+347,2025-07-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+348,2025-07-22,2025H2,Pro Se Litigant,,none,,,False,,False,False
+309,2025-07-21,2025H2,Lawyer,,none,,,False,,False,False
+310,2025-07-21,2025H2,Lawyer,7925 USD,ok,7925.0,USD,True,7925.0,True,False
+331,2025-07-20,2025H2,Judge,,none,,,False,,False,False
+2022,2025-07-18,2025H2,Lawyer,,none,,,False,,False,False
+335,2025-07-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+314,2025-07-18,2025H2,Lawyer,,none,,,False,,False,False
+334,2025-07-18,2025H2,Pro Se Litigant,,none,,,False,,False,False
+304,2025-07-18,2025H2,Lawyer,5500 USD,ok,5500.0,USD,True,5500.0,True,False
+336,2025-07-16,2025H2,Pro Se Litigant,,none,,,False,,False,False
+2128,2025-07-15,2025H2,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+298,2025-07-14,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+296,2025-07-11,2025H2,Lawyer,,none,,,False,,False,False
+352,2025-07-10,2025H2,Pro Se Litigant,,none,,,False,,False,False
+535,2025-07-09,2025H2,Lawyer,,none,,,False,,False,False
+295,2025-07-09,2025H2,Pro Se Litigant,,none,,,False,,False,False
+285,2025-07-09,2025H2,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,True,False
+1656,2025-07-08,2025H2,Pro Se Litigant,,none,,,False,,False,False
+360,2025-07-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+279,2025-07-07,2025H2,Pro Se Litigant,1 USD,ok,1.0,USD,True,,False,False
+16,2025-07-07,2025H2,Lawyer,6000 USD,ok,6000.0,USD,True,6000.0,False,False
+1516,2025-07-07,2025H2,Pro Se Litigant,,none,,,False,,False,False
+259,2025-07-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+258,2025-07-03,2025H2,Lawyer,,none,,,False,,False,False
+405,2025-07-03,2025H2,Pro Se Litigant,,none,,,False,,False,False
+260,2025-07-03,2025H2,Lawyer,,none,,,False,,False,False
+269,2025-07-02,2025H2,Pro Se Litigant,,none,,,False,,False,False
+240,2025-07-01,2025H2,Lawyer,,none,,,False,,False,False
+261,2025-06-30,2025H1,Pro Se Litigant,921 USD,ok,921.0,USD,True,921.0,False,False
+574,2025-06-30,2025H1,Pro Se Litigant,,none,,,False,,False,False
+235,2025-06-30,2025H1,Judge; Lawyer,2500 USD,ok,2500.0,USD,True,2500.0,False,False
+263,2025-06-27,2025H1,Pro Se Litigant,,none,,,False,,False,False
+359,2025-06-27,2025H1,Pro Se Litigant,,none,,,False,,False,False
+262,2025-06-27,2025H1,Pro Se Litigant,,none,,,False,,False,False
+1843,2025-06-26,2025H1,Pro Se Litigant,,none,,,False,,False,False
+510,2025-06-26,2025H1,Lawyer,500 USD,ok,500.0,USD,True,500.0,False,False
+289,2025-06-25,2025H1,Lawyer,,none,,,False,,True,False
+291,2025-06-25,2025H1,Pro Se Litigant,,none,,,False,,False,False
+264,2025-06-25,2025H1,Pro Se Litigant,,none,,,False,,False,False
+266,2025-06-23,2025H1,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+312,2025-06-23,2025H1,Lawyer,,none,,,False,,False,False
+2788,2025-06-23,2025H1,Pro Se Litigant,,none,,,False,,False,False
+399,2025-06-20,2025H1,Pro Se Litigant,,none,,,False,,False,False
+281,2025-06-16,2025H1,Pro Se Litigant,,none,,,False,,False,False
+265,2025-06-13,2025H1,Lawyer,,none,,,False,,False,False
+208,2025-06-12,2025H1,Lawyer,,none,,,False,,False,False
+268,2025-06-10,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2045,2025-06-09,2025H1,Lawyer,1 USD,ok,1.0,USD,True,,False,False
+1844,2025-06-09,2025H1,Pro Se Litigant,,none,,,False,,False,False
+197,2025-06-05,2025H1,Pro Se Litigant,,none,,,False,,False,False
+199,2025-06-02,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2358,2025-06-02,2025H1,Lawyer,800 USD,ok,800.0,USD,True,800.0,True,False
+186,2025-05-30,2025H1,Pro Se Litigant,,none,,,False,,False,False
+203,2025-05-29,2025H1,Lawyer,,none,,,False,,False,False
+190,2025-05-29,2025H1,Lawyer,,none,,,False,,True,False
+25,2025-05-28,2025H1,Lawyer,6000 USD,ok,6000.0,USD,True,6000.0,False,False
+187,2025-05-27,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2024,2025-05-27,2025H1,Lawyer,,none,,,False,,False,False
+189,2025-05-23,2025H1,Pro Se Litigant,,none,,,False,,False,False
+188,2025-05-23,2025H1,Pro Se Litigant,,none,,,False,,False,False
+173,2025-05-23,2025H1,Expert,,none,,,False,,False,False
+160,2025-05-22,2025H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+303,2025-05-22,2025H1,Pro Se Litigant,,none,,,False,,False,False
+169,2025-05-21,2025H1,Pro Se Litigant,,none,,,False,,False,False
+159,2025-05-20,2025H1,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+158,2025-05-20,2025H1,Pro Se Litigant,,none,,,False,,False,False
+401,2025-05-19,2025H1,Pro Se Litigant,,none,,,False,,False,False
+82,2025-05-15,2025H1,Lawyer,100 USD,ok,100.0,USD,True,100.0,False,False
+108,2025-05-15,2025H1,Pro Se Litigant,,none,,,False,,False,False
+170,2025-05-15,2025H1,Lawyer,,none,,,False,,False,False
+80,2025-05-13,2025H1,Paralegal,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+109,2025-05-12,2025H1,Pro Se Litigant,,none,,,False,,False,False
+156,2025-05-07,2025H1,Pro Se Litigant,,none,,,False,,False,False
+110,2025-05-06,2025H1,Pro Se Litigant,,none,,,False,,False,False
+112,2025-05-06,2025H1,Pro Se Litigant,,none,,,False,,False,False
+113,2025-05-06,2025H1,Pro Se Litigant,,none,,,False,,False,False
+78,2025-05-06,2025H1,Lawyer,31100 USD,ok,31100.0,USD,True,31100.0,False,False
+176,2025-05-05,2025H1,Lawyer,,none,,,False,,True,False
+409,2025-05-02,2025H1,Pro Se Litigant,,none,,,False,,False,False
+115,2025-04-30,2025H1,Pro Se Litigant,,none,,,False,,False,False
+116,2025-04-30,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2899,2025-04-28,2025H1,Lawyer,,none,,,False,,False,False
+76,2025-04-24,2025H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+123,2025-04-23,2025H1,Pro Se Litigant,,none,,,False,,False,False
+124,2025-04-22,2025H1,Pro Se Litigant,,none,,,False,,False,False
+125,2025-04-16,2025H1,Pro Se Litigant,,none,,,False,,False,False
+126,2025-04-15,2025H1,Pro Se Litigant,,none,,,False,,False,False
+333,2025-04-14,2025H1,Lawyer,,none,,,False,,False,False
+1339,2025-04-11,2025H1,Pro Se Litigant,,none,,,False,,False,False
+24,2025-04-10,2025H1,Lawyer,,none,,,False,,True,False
+157,2025-04-10,2025H1,Pro Se Litigant,,none,,,False,,False,False
+1417,2025-04-09,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2025,2025-04-04,2025H1,Pro Se Litigant,,none,,,False,,False,False
+313,2025-04-02,2025H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+77,2025-04-02,2025H1,Lawyer,1500 USD,ok,1500.0,USD,True,1500.0,False,False
+400,2025-04-01,2025H1,Pro Se Litigant,,none,,,False,,False,False
+129,2025-03-31,2025H1,Pro Se Litigant,,none,,,False,,False,False
+127,2025-03-31,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2564,2025-03-28,2025H1,Lawyer,,none,,,False,,False,False
+131,2025-03-25,2025H1,Pro Se Litigant,,none,,,False,,False,False
+337,2025-03-24,2025H1,Lawyer,,none,,,False,,False,False
+130,2025-03-21,2025H1,Pro Se Litigant,,none,,,False,,False,False
+404,2025-03-21,2025H1,Lawyer,,none,,,False,,True,False
+143,2025-03-18,2025H1,Pro Se Litigant,,none,,,False,,False,False
+134,2025-03-18,2025H1,Pro Se Litigant,,none,,,False,,False,False
+142,2025-03-18,2025H1,Pro Se Litigant,,none,,,False,,False,False
+1261,2025-03-12,2025H1,Pro Se Litigant,,none,,,False,,False,False
+145,2025-03-11,2025H1,Pro Se Litigant,,none,,,False,,False,False
+146,2025-03-11,2025H1,Pro Se Litigant,,none,,,False,,False,False
+144,2025-03-11,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2027,2025-03-10,2025H1,Lawyer,,none,,,False,,False,False
+105,2025-03-03,2025H1,Lawyer,1000 USD,ok,1000.0,USD,True,1000.0,False,False
+27,2025-02-27,2025H1,Lawyer,2500 USD,ok,2500.0,USD,True,2500.0,False,False
+200,2025-02-25,2025H1,Pro Se Litigant,,none,,,False,,False,False
+4,2025-02-24,2025H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+79,2025-02-18,2025H1,Pro Se Litigant,,none,,,False,,False,False
+1507,2025-02-11,2025H1,Lawyer,,none,,,False,,False,False
+576,2025-02-01,2025H1,Pro Se Litigant,,none,,,False,,False,False
+1831,2025-01-30,2025H1,Lawyer,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+280,2025-01-29,2025H1,Lawyer,3961 USD,ok,3961.0,USD,True,3961.0,False,False
+101,2025-01-24,2025H1,Lawyer,,none,,,False,,False,False
+120,2025-01-22,2025H1,Lawyer,,none,,,False,,False,False
+147,2025-01-22,2025H1,Lawyer,,none,,,False,,False,False
+14,2025-01-17,2025H1,Federal Defender,,none,,,False,,False,False
+117,2025-01-15,2025H1,Pro Se Litigant,,none,,,False,,False,False
+5,2025-01-10,2025H1,Expert,,none,,,False,,False,False
+128,2025-01-10,2025H1,Pro Se Litigant,,none,,,False,,False,False
+2028,2025-01-02,2025H1,Pro Se Litigant,,none,,,False,,False,False
+6,2024-12-26,2024H2,Pro Se Litigant,,none,,,False,,False,False
+148,2024-12-16,2024H2,Pro Se Litigant,,none,,,False,,False,False
+150,2024-12-12,2024H2,Pro Se Litigant,,none,,,False,,False,False
+71,2024-12-04,2024H2,Pro Se Litigant,,none,,,False,,False,False
+73,2024-12-03,2024H2,Pro Se Litigant,,none,,,False,,False,False
+17,2024-11-25,2024H2,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+149,2024-11-24,2024H2,Pro Se Litigant,,none,,,False,,False,False
+193,2024-11-14,2024H2,Lawyer,,none,,,False,,False,False
+2026,2024-11-14,2024H2,Pro Se Litigant,,none,,,False,,False,False
+119,2024-11-01,2024H2,Pro Se Litigant,,none,,,False,,False,False
+209,2024-10-31,2024H2,Lawyer,,none,,,False,,False,False
+26,2024-10-30,2024H2,Lawyer,,none,,,False,,False,False
+355,2024-10-23,2024H2,Paralegal; Lawyer,,none,,,False,,False,False
+18,2024-10-10,2024H2,Lawyer,,none,,,False,,False,False
+8,2024-10-10,2024H2,Expert,,none,,,False,,False,False
+151,2024-09-24,2024H2,Pro Se Litigant,,none,,,False,,False,False
+121,2024-09-06,2024H2,Pro Se Litigant,,none,,,False,,False,False
+152,2024-09-04,2024H2,Pro Se Litigant,,none,,,False,,False,False
+202,2024-08-30,2024H2,Lawyer,,none,,,False,,False,False
+171,2024-08-23,2024H2,Lawyer,,none,,,False,,False,False
+118,2024-08-20,2024H2,Pro Se Litigant,,none,,,False,,False,False
+153,2024-08-13,2024H2,Pro Se Litigant,,none,,,False,,False,False
+21,2024-07-26,2024H2,Pro Se Litigant,,none,,,False,,False,False
+72,2024-07-25,2024H2,Pro Se Litigant,,none,,,False,,False,False
+19,2024-07-18,2024H2,Pro Se Litigant,,none,,,False,,False,False
+398,2024-07-09,2024H2,Pro Se Litigant,,none,,,False,,False,False
+111,2024-05-30,2024H1,Pro Se Litigant,,none,,,False,,False,False
+106,2024-05-08,2024H1,Lawyer,,none,,,False,,True,False
+831,2024-04-26,2024H1,Pro Se Litigant,,none,,,False,,False,False
+154,2024-04-18,2024H1,Lawyer,,none,,,False,,False,False
+1846,2024-04-11,2024H1,Pro Se Litigant,,none,,,False,,False,False
+15,2024-03-22,2024H1,Lawyer,,none,,,False,,False,False
+2,2024-03-20,2024H1,Pro Se Litigant,,none,,,False,,False,False
+155,2024-03-06,2024H1,Pro Se Litigant,,none,,,False,,False,False
+23,2024-02-13,2024H1,Pro Se Litigant,10000 USD,ok,10000.0,USD,True,10000.0,False,False
+3,2024-02-12,2024H1,Lawyer,2000 USD,ok,2000.0,USD,True,2000.0,False,False
+22,2024-01-30,2024H1,Lawyer,,none,,,False,,True,False
+13,2024-01-11,2024H1,Lawyer,,none,,,False,,False,False
+7,2023-11-21,2023H2,Lawyer,,none,,,False,,True,False
+307,2023-11-16,2023H2,Pro Se Litigant,,none,,,False,,False,False
+20,2023-11-13,2023H2,Pro Se Litigant,,none,,,False,,False,False
+777,2023-11-09,2023H2,Expert,,none,,,False,,False,False
+12,2023-10-23,2023H2,Pro Se Litigant,,none,,,False,,False,False
+32,2023-10-06,2023H2,Pro Se Litigant,,none,,,False,,False,False
+1845,2023-09-15,2023H2,Lawyer,,none,,,False,,False,False
+33,2023-09-11,2023H2,Pro Se Litigant,,none,,,False,,False,False
+30,2023-07-19,2023H2,Lawyer,,none,,,False,,False,False
+1,2023-06-22,2023H1,Lawyer,5000 USD,ok,5000.0,USD,True,5000.0,False,False
+31,2023-06-14,2023H1,Pro Se Litigant,,none,,,False,,False,False

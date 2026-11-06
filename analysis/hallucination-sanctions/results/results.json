@@ -1,0 +1,966 @@
+{
+ "version": "1.0.0",
+ "source": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-06T14:58:08Z",
+  "bytes": 2175509,
+  "sha256": "9201eecd5ea30ac3eda884062a6421f84882abf2f58415aa4391e283ef297c87",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+  "prereg_commit": {
+   "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+   "date": "2026-11-06T09:01:47Z"
+  },
+  "analyze_commit": {
+   "sha": "65bd6931337409d6ce5f34c30fe0d56de1f0a159",
+   "date": "2026-11-06T09:01:47Z"
+  }
+ },
+ "header": [
+  "case_id",
+  "Case Name",
+  "Court",
+  "State(s)",
+  "Date",
+  "Party(ies)",
+  "AI Tool",
+  "Hallucination Items",
+  "Outcome",
+  "Monetary Penalty",
+  "Professional Sanction",
+  "Alleged",
+  "Vendor Disputed",
+  "Vendor Disputed Explanation",
+  "Pointer",
+  "Source",
+  "Details",
+  "Legal Field Primary",
+  "Legal Field Secondary"
+ ],
+ "n_rows_read": 2267,
+ "n_rows_skipped_malformed": 0,
+ "state_values_top": [
+  [
+   "USA",
+   1534
+  ],
+  [
+   "Canada",
+   240
+  ],
+  [
+   "Australia",
+   112
+  ],
+  [
+   "UK",
+   90
+  ],
+  [
+   "Israel",
+   58
+  ],
+  [
+   "Brazil",
+   41
+  ],
+  [
+   "India",
+   16
+  ],
+  [
+   "Italy",
+   15
+  ],
+  [
+   "France",
+   14
+  ],
+  [
+   "Germany",
+   11
+  ],
+  [
+   "Argentina",
+   10
+  ],
+  [
+   "Poland",
+   10
+  ],
+  [
+   "Belgium",
+   8
+  ],
+  [
+   "Costa Rica",
+   8
+  ],
+  [
+   "Singapore",
+   8
+  ]
+ ],
+ "party_values_top": [
+  [
+   "Pro Se Litigant",
+   1305
+  ],
+  [
+   "Lawyer",
+   899
+  ],
+  [
+   "Judge",
+   33
+  ],
+  [
+   "Expert",
+   17
+  ],
+  [
+   "Prosecutor",
+   5
+  ],
+  [
+   "Governement Lawyer",
+   3
+  ],
+  [
+   "Paralegal",
+   3
+  ],
+  [
+   "Arbitrator",
+   1
+  ],
+  [
+   "Federal Defender",
+   1
+  ]
+ ],
+ "n_us": 1536,
+ "n_us_no_date": 1,
+ "n_us_lawyer": 602,
+ "n_us_pro_se": 913,
+ "primary": {
+  "P1": {
+   "a": 0.4737,
+   "b": 0.249,
+   "diff": -0.2247,
+   "perm_p_rise": 0.9989,
+   "verdict": "held"
+  },
+  "P2": {
+   "a": 1750.0,
+   "b": 2731.0,
+   "n_a": 16,
+   "n_b": 58,
+   "diff": 981.0,
+   "perm_p_rise": 0.1241,
+   "verdict": "held"
+  },
+  "P3": {
+   "a": 0.1579,
+   "b": 0.1494,
+   "diff": -0.0085,
+   "perm_p_rise": 0.6595,
+   "verdict": "failed"
+  },
+  "P4": {
+   "by_period": [
+    {
+     "period": "2025H1",
+     "lawyer": 0.4737,
+     "pro_se": 0.0172,
+     "n_lawyer": 38,
+     "n_pro_se": 58,
+     "pro_se_lower": true
+    },
+    {
+     "period": "2025H2",
+     "lawyer": 0.3765,
+     "pro_se": 0.0632,
+     "n_lawyer": 170,
+     "n_pro_se": 253,
+     "pro_se_lower": true
+    },
+    {
+     "period": "2026H1",
+     "lawyer": 0.249,
+     "pro_se": 0.0682,
+     "n_lawyer": 241,
+     "n_pro_se": 381,
+     "pro_se_lower": true
+    }
+   ],
+   "verdict": "held"
+  },
+  "P5": {
+   "b": 0.3112,
+   "n_b": 241,
+   "verdict": "held"
+  }
+ },
+ "sensitivity": {
+  "S1_exclude_alleged": {
+   "P1": {
+    "a": 0.4737,
+    "b": 0.249,
+    "diff": -0.2247,
+    "perm_p_rise": 0.9989,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 1750.0,
+    "b": 2731.0,
+    "n_a": 16,
+    "n_b": 58,
+    "diff": 981.0,
+    "perm_p_rise": 0.1241,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.1579,
+    "b": 0.1494,
+    "diff": -0.0085,
+    "perm_p_rise": 0.6595,
+    "verdict": "failed"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.4737,
+      "pro_se": 0.0172,
+      "n_lawyer": 38,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3765,
+      "pro_se": 0.0632,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.249,
+      "pro_se": 0.0682,
+      "n_lawyer": 241,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   },
+   "P5": {
+    "b": 0.3112,
+    "n_b": 241,
+    "verdict": "held"
+   }
+  },
+  "S2_lawyer_broad": {
+   "P1": {
+    "a": 0.4737,
+    "b": 0.249,
+    "diff": -0.2247,
+    "perm_p_rise": 0.9989,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 1750.0,
+    "b": 2731.0,
+    "n_a": 16,
+    "n_b": 58,
+    "diff": 981.0,
+    "perm_p_rise": 0.1241,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.1579,
+    "b": 0.1494,
+    "diff": -0.0085,
+    "perm_p_rise": 0.6595,
+    "verdict": "failed"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.4737,
+      "pro_se": 0.0172,
+      "n_lawyer": 38,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3765,
+      "pro_se": 0.0632,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.249,
+      "pro_se": 0.0682,
+      "n_lawyer": 241,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   },
+   "P5": {
+    "b": 0.3112,
+    "n_b": 241,
+    "verdict": "held"
+   }
+  },
+  "S3_fined_strict": {
+   "P1": {
+    "a": 0.4211,
+    "b": 0.2407,
+    "diff": -0.1804,
+    "perm_p_rise": 0.9931,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 1750.0,
+    "b": 2731.0,
+    "n_a": 16,
+    "n_b": 58,
+    "diff": 981.0,
+    "perm_p_rise": 0.1241,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.1579,
+    "b": 0.1494,
+    "diff": -0.0085,
+    "perm_p_rise": 0.6595,
+    "verdict": "failed"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.4211,
+      "pro_se": 0.0172,
+      "n_lawyer": 38,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3353,
+      "pro_se": 0.0474,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.2407,
+      "pro_se": 0.0551,
+      "n_lawyer": 241,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   },
+   "P5": {
+    "b": 0.3112,
+    "n_b": 241,
+    "verdict": "held"
+   }
+  },
+  "S4_years_2025_vs_2026": {
+   "P1": {
+    "a": 0.3942,
+    "b": 0.2373,
+    "diff": -0.1569,
+    "perm_p_rise": 0.9999,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 2500.0,
+    "b": 3500.0,
+    "n_a": 73,
+    "n_b": 85,
+    "diff": 1000.0,
+    "perm_p_rise": 0.3147,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.2837,
+    "b": 0.1493,
+    "diff": -0.1343,
+    "perm_p_rise": 1.0,
+    "verdict": "failed"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025",
+      "lawyer": 0.3942,
+      "pro_se": 0.0547,
+      "n_lawyer": 208,
+      "n_pro_se": 311,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026",
+      "lawyer": 0.2373,
+      "pro_se": 0.075,
+      "n_lawyer": 375,
+      "n_pro_se": 573,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   },
+   "P5": {
+    "b": 0.296,
+    "n_b": 375,
+    "verdict": "held"
+   }
+  }
+ },
+ "table_lawyer": {
+  "2023H1": {
+   "n": 1,
+   "n_fined": 1,
+   "share_fined": 1.0,
+   "share_fined_ci95": [
+    0.2065,
+    1.0
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 1,
+   "median_usd": 5000.0,
+   "mean_usd": 5000.0,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": 5000.0,
+   "share_amounts_ge_10k": 0.0,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 1,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.7935
+   ],
+   "n_money_or_prof": 1,
+   "share_money_or_prof": 1.0
+  },
+  "2023H2": {
+   "n": 3,
+   "n_fined": 0,
+   "share_fined": 0.0,
+   "share_fined_ci95": [
+    0.0,
+    0.5615
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 0,
+   "median_usd": null,
+   "mean_usd": null,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": null,
+   "share_amounts_ge_10k": null,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 1,
+   "share_prof": 0.3333,
+   "share_prof_ci95": [
+    0.0615,
+    0.7923
+   ],
+   "n_money_or_prof": 1,
+   "share_money_or_prof": 0.3333
+  },
+  "2024H1": {
+   "n": 6,
+   "n_fined": 1,
+   "share_fined": 0.1667,
+   "share_fined_ci95": [
+    0.0301,
+    0.5635
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 1,
+   "median_usd": 2000.0,
+   "mean_usd": 2000.0,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": 2000.0,
+   "share_amounts_ge_10k": 0.0,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 1,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 2,
+   "share_prof": 0.3333,
+   "share_prof_ci95": [
+    0.0968,
+    0.7
+   ],
+   "n_money_or_prof": 3,
+   "share_money_or_prof": 0.5
+  },
+  "2024H2": {
+   "n": 8,
+   "n_fined": 1,
+   "share_fined": 0.125,
+   "share_fined_ci95": [
+    0.0224,
+    0.4709
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 1,
+   "median_usd": 2000.0,
+   "mean_usd": 2000.0,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": 2000.0,
+   "share_amounts_ge_10k": 0.0,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 1,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.3244
+   ],
+   "n_money_or_prof": 1,
+   "share_money_or_prof": 0.125
+  },
+  "2025H1": {
+   "n": 38,
+   "n_fined": 18,
+   "share_fined": 0.4737,
+   "share_fined_ci95": [
+    0.3248,
+    0.6274
+   ],
+   "n_placeholder_1": 2,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 16,
+   "median_usd": 1750.0,
+   "mean_usd": 4403.81,
+   "p25_usd": 1000.0,
+   "p75_usd": 4220.75,
+   "max_usd": 31100.0,
+   "share_amounts_ge_10k": 0.125,
+   "buckets": {
+    "<1k": 3,
+    "1k-<5k": 9,
+    "5k-<10k": 2,
+    ">=10k": 2
+   },
+   "n_prof": 6,
+   "share_prof": 0.1579,
+   "share_prof_ci95": [
+    0.0744,
+    0.3042
+   ],
+   "n_money_or_prof": 23,
+   "share_money_or_prof": 0.6053
+  },
+  "2025H2": {
+   "n": 170,
+   "n_fined": 64,
+   "share_fined": 0.3765,
+   "share_fined_ci95": [
+    0.3071,
+    0.4513
+   ],
+   "n_placeholder_1": 7,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 57,
+   "median_usd": 4030.0,
+   "mean_usd": 7929.26,
+   "p25_usd": 1000.0,
+   "p75_usd": 7472.0,
+   "max_usd": 85567.0,
+   "share_amounts_ge_10k": 0.1754,
+   "buckets": {
+    "<1k": 3,
+    "1k-<5k": 27,
+    "5k-<10k": 17,
+    ">=10k": 10
+   },
+   "n_prof": 53,
+   "share_prof": 0.3118,
+   "share_prof_ci95": [
+    0.2469,
+    0.3849
+   ],
+   "n_money_or_prof": 80,
+   "share_money_or_prof": 0.4706
+  },
+  "2026H1": {
+   "n": 241,
+   "n_fined": 60,
+   "share_fined": 0.249,
+   "share_fined_ci95": [
+    0.1986,
+    0.3072
+   ],
+   "n_placeholder_1": 2,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 58,
+   "median_usd": 2731.0,
+   "mean_usd": 9791.14,
+   "p25_usd": 1212.5,
+   "p75_usd": 7875.0,
+   "max_usd": 110204.0,
+   "share_amounts_ge_10k": 0.2241,
+   "buckets": {
+    "<1k": 3,
+    "1k-<5k": 29,
+    "5k-<10k": 13,
+    ">=10k": 13
+   },
+   "n_prof": 36,
+   "share_prof": 0.1494,
+   "share_prof_ci95": [
+    0.1099,
+    0.1999
+   ],
+   "n_money_or_prof": 75,
+   "share_money_or_prof": 0.3112
+  },
+  "2026H2": {
+   "n": 134,
+   "n_fined": 29,
+   "share_fined": 0.2164,
+   "share_fined_ci95": [
+    0.1551,
+    0.2935
+   ],
+   "n_placeholder_1": 2,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 27,
+   "median_usd": 4000.0,
+   "mean_usd": 7514.37,
+   "p25_usd": 1500.0,
+   "p75_usd": 10000.0,
+   "max_usd": 46511.0,
+   "share_amounts_ge_10k": 0.2963,
+   "buckets": {
+    "<1k": 3,
+    "1k-<5k": 11,
+    "5k-<10k": 5,
+    ">=10k": 8
+   },
+   "n_prof": 20,
+   "share_prof": 0.1493,
+   "share_prof_ci95": [
+    0.0987,
+    0.2193
+   ],
+   "n_money_or_prof": 36,
+   "share_money_or_prof": 0.2687
+  }
+ },
+ "table_pro_se": {
+  "2023H1": {
+   "n": 1,
+   "n_fined": 0,
+   "share_fined": 0.0,
+   "share_fined_ci95": [
+    0.0,
+    0.7935
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 0,
+   "median_usd": null,
+   "mean_usd": null,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": null,
+   "share_amounts_ge_10k": null,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.7935
+   ],
+   "n_money_or_prof": 0,
+   "share_money_or_prof": 0.0
+  },
+  "2023H2": {
+   "n": 5,
+   "n_fined": 0,
+   "share_fined": 0.0,
+   "share_fined_ci95": [
+    0.0,
+    0.4345
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 0,
+   "median_usd": null,
+   "mean_usd": null,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": null,
+   "share_amounts_ge_10k": null,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.4345
+   ],
+   "n_money_or_prof": 0,
+   "share_money_or_prof": 0.0
+  },
+  "2024H1": {
+   "n": 6,
+   "n_fined": 1,
+   "share_fined": 0.1667,
+   "share_fined_ci95": [
+    0.0301,
+    0.5635
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 1,
+   "median_usd": 10000.0,
+   "mean_usd": 10000.0,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": 10000.0,
+   "share_amounts_ge_10k": 1.0,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 1
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.3903
+   ],
+   "n_money_or_prof": 1,
+   "share_money_or_prof": 0.1667
+  },
+  "2024H2": {
+   "n": 17,
+   "n_fined": 0,
+   "share_fined": 0.0,
+   "share_fined_ci95": [
+    -0.0,
+    0.1843
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 0,
+   "median_usd": null,
+   "mean_usd": null,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": null,
+   "share_amounts_ge_10k": null,
+   "buckets": {
+    "<1k": 0,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    -0.0,
+    0.1843
+   ],
+   "n_money_or_prof": 0,
+   "share_money_or_prof": 0.0
+  },
+  "2025H1": {
+   "n": 58,
+   "n_fined": 1,
+   "share_fined": 0.0172,
+   "share_fined_ci95": [
+    0.0031,
+    0.0914
+   ],
+   "n_placeholder_1": 0,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 1,
+   "median_usd": 921.0,
+   "mean_usd": 921.0,
+   "p25_usd": null,
+   "p75_usd": null,
+   "max_usd": 921.0,
+   "share_amounts_ge_10k": 0.0,
+   "buckets": {
+    "<1k": 1,
+    "1k-<5k": 0,
+    "5k-<10k": 0,
+    ">=10k": 0
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    -0.0,
+    0.0621
+   ],
+   "n_money_or_prof": 1,
+   "share_money_or_prof": 0.0172
+  },
+  "2025H2": {
+   "n": 253,
+   "n_fined": 16,
+   "share_fined": 0.0632,
+   "share_fined_ci95": [
+    0.0393,
+    0.1002
+   ],
+   "n_placeholder_1": 4,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 12,
+   "median_usd": 3000.0,
+   "mean_usd": 13788.75,
+   "p25_usd": 575.0,
+   "p75_usd": 9280.0,
+   "max_usd": 66129.0,
+   "share_amounts_ge_10k": 0.25,
+   "buckets": {
+    "<1k": 5,
+    "1k-<5k": 1,
+    "5k-<10k": 3,
+    ">=10k": 3
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.015
+   ],
+   "n_money_or_prof": 16,
+   "share_money_or_prof": 0.0632
+  },
+  "2026H1": {
+   "n": 381,
+   "n_fined": 26,
+   "share_fined": 0.0682,
+   "share_fined_ci95": [
+    0.047,
+    0.0981
+   ],
+   "n_placeholder_1": 5,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 21,
+   "median_usd": 500.0,
+   "mean_usd": 2016.57,
+   "p25_usd": 500.0,
+   "p75_usd": 1665.0,
+   "max_usd": 11799.0,
+   "share_amounts_ge_10k": 0.0952,
+   "buckets": {
+    "<1k": 12,
+    "1k-<5k": 7,
+    "5k-<10k": 0,
+    ">=10k": 2
+   },
+   "n_prof": 0,
+   "share_prof": 0.0,
+   "share_prof_ci95": [
+    0.0,
+    0.01
+   ],
+   "n_money_or_prof": 26,
+   "share_money_or_prof": 0.0682
+  },
+  "2026H2": {
+   "n": 192,
+   "n_fined": 17,
+   "share_fined": 0.0885,
+   "share_fined_ci95": [
+    0.056,
+    0.1372
+   ],
+   "n_placeholder_1": 8,
+   "n_unparsed_penalty": 0,
+   "n_non_usd": 0,
+   "n_usd_amounts": 9,
+   "median_usd": 1000.0,
+   "mean_usd": 4118.78,
+   "p25_usd": 500.0,
+   "p75_usd": 2341.0,
+   "max_usd": 23222.0,
+   "share_amounts_ge_10k": 0.1111,
+   "buckets": {
+    "<1k": 4,
+    "1k-<5k": 3,
+    "5k-<10k": 1,
+    ">=10k": 1
+   },
+   "n_prof": 1,
+   "share_prof": 0.0052,
+   "share_prof_ci95": [
+    0.0009,
+    0.0289
+   ],
+   "n_money_or_prof": 18,
+   "share_money_or_prof": 0.0938
+  }
+ }
+}
