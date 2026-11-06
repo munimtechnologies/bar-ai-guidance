@@ -1,0 +1,707 @@
+{
+ "coding_sha256": "d9f8456e502ffacc039c7784dc5385ca17fc4046a5547a4a485c6ab878af5335",
+ "graded_utc": "2026-11-05T21:13:20Z",
+ "structure_problems": [],
+ "fetch": [
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-02/housing-law-ai-research-assistant-final-rfp.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "73a2e5dad70ea6c957474180d9ab92c262fdd77da1f8470ba58223bfdbfef04b",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/anishinabe-legal-services-rfq.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "91f2157df1628dba2add34580f4bd622d25e2afd61cd2f9c2075736f31a971de",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/pro_bono_infrastructure_design_rfp_2026.05.13.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "4bf9c27d34fcb07af4cdc584648d169ee5141c91f90bbaed7050f05546ec8cb3",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/glsp-legal-kiosk-evaluation-rfp-05-26.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "16f16989a0edd25f968da2803f7e1be9cea28a33a9b85063f32096ab7b9d2ce8",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/lasmny_ai_intake_chatbot_rfp_final.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "389c66e784970f371da7cc17654a68ede32c4bc4e55c27907f7bce057857a92b",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/smrls-rfp-for-technology-ai-build.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "3933fde7d37be0d64f3dc4e69e873e29b6003442d7daa2d40f9c81a5acc35e13",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-06/iola_justice-infrastructure-project_project-manager-rfp.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "e771af2c579aca6c3fab9a5e3dbf6a3e9142906f1d8a39092c8ee0b86de933f1",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-06/request-for-proposals-ai-powered-knowledge-base-project.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "fc6ec3016b5ca240ca603d6a61d976b9c3e1e29650bf593aa7131016a4e57606",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-05/request-for-proposals-rfp-laci-shared-governance.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "733897937a70b100076a3053b755927db8a3f72fae77d5328d7710df42d22e33",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-07/strategic-plan-rfp-2026.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "5c408dcd8fa1d1094f2c49b0154a3e3fafad4723726682c560a0a570963e1894",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-07/request-for-proposal-7.14.26.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "64db8aa058451c913e517c9259243dcd54b61ec8479b753714ba9c27e748824b",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-08/mlsa-rebrand-rfp.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "88ffc7dfac2446b98764a5ee44e8c25e655a04082ae305339204e40c76295a57",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-information-ai-architecture.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "d47845b63d4a792efc839e9002ebe4c6b374cc5c8a4d4f407ab76506a968a486",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-08/request-for-proposals-copilot-agents.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "4cc6b71eed70d665991eb64ce3d42d81fbabac6eb2fccfcea10ffcd4350d0aff",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-09/rfp-court-and-justice-partners-case-management-software-systems-environment_0.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "d3759c4dcbb1125fe80787d58c51edf12a184fa006ea585a2eafd5bc58c588a8",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-10/addendum-one-bid-26-08-4284sb-rfp-nnjb-cms_0.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "29709b2acbee0217f9d4d09be07f391a806cf5a7473f97b39b8e712560c0d986",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-10/colorado-legal-services-csi-transformation-project-tech-consultant.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "34c1ad809879497fff53f6f53abb4969f10464a05bace41f981ffc4b28bdbdbb",
+   "sha_ok": true
+  },
+  {
+   "url": "https://www.lsntap.org/sites/default/files/2026-11/rfp-glsp-intake-bpa-final.pdf",
+   "source": "live",
+   "error": null,
+   "sha256": "b791a20efa5259fee93450f42901e08a42b797ca78dafead6fb6ae939478196e",
+   "sha_ok": true
+  }
+ ],
+ "files_total": 18,
+ "files_ok": 18,
+ "text_checks": [
+  {
+   "record": "R01",
+   "check": "codable_chars",
+   "value": 14705,
+   "ok": true
+  },
+  {
+   "record": "R01",
+   "check": "quote_0",
+   "codes": [
+    "VENDOR_AI:data",
+    "VENDOR_AI:restrict"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R01",
+   "check": "quote_1",
+   "codes": [
+    "AI_IN_SCOPE",
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R02",
+   "check": "codable_chars",
+   "value": 11494,
+   "ok": true
+  },
+  {
+   "record": "R02",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R02",
+   "check": "quote_1",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R03",
+   "check": "codable_chars",
+   "value": 17999,
+   "ok": true
+  },
+  {
+   "record": "R03",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R04",
+   "check": "codable_chars",
+   "value": 10706,
+   "ok": true
+  },
+  {
+   "record": "R04",
+   "check": "quote_0",
+   "codes": [
+    "VENDOR_AI:disclose",
+    "VENDOR_AI:human_review"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R04",
+   "check": "quote_1",
+   "codes": [
+    "VENDOR_AI:disclose"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R04",
+   "check": "quote_2",
+   "codes": [
+    "VENDOR_AI:disclose"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R04",
+   "check": "quote_3",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R05",
+   "check": "codable_chars",
+   "value": 10472,
+   "ok": true
+  },
+  {
+   "record": "R05",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE",
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R05",
+   "check": "quote_1",
+   "codes": [
+    "NOT_VENDOR_AI"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R06",
+   "check": "codable_chars",
+   "value": 13139,
+   "ok": true
+  },
+  {
+   "record": "R06",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE",
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R06",
+   "check": "quote_1",
+   "codes": [
+    "NOT_VENDOR_AI"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R07",
+   "check": "codable_chars",
+   "value": 35454,
+   "ok": true
+  },
+  {
+   "record": "R07",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R08",
+   "check": "codable_chars",
+   "value": 8002,
+   "ok": true
+  },
+  {
+   "record": "R08",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R08",
+   "check": "quote_1",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R09",
+   "check": "codable_chars",
+   "value": 22381,
+   "ok": true
+  },
+  {
+   "record": "R09",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R09",
+   "check": "quote_1",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R10",
+   "check": "codable_chars",
+   "value": 6676,
+   "ok": true
+  },
+  {
+   "record": "R10",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R11",
+   "check": "codable_chars",
+   "value": 7744,
+   "ok": true
+  },
+  {
+   "record": "R11",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R11",
+   "check": "quote_1",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R11",
+   "check": "quote_2",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R12",
+   "check": "codable_chars",
+   "value": 12247,
+   "ok": true
+  },
+  {
+   "record": "R12",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R13",
+   "check": "codable_chars",
+   "value": 10205,
+   "ok": true
+  },
+  {
+   "record": "R13",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R13",
+   "check": "quote_1",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R13",
+   "check": "quote_2",
+   "codes": [
+    "NOT_VENDOR_AI"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R14",
+   "check": "codable_chars",
+   "value": 9718,
+   "ok": true
+  },
+  {
+   "record": "R14",
+   "check": "quote_0",
+   "codes": [
+    "AI_IN_SCOPE",
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R15",
+   "check": "codable_chars",
+   "value": 135299,
+   "ok": true
+  },
+  {
+   "record": "R15",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R16",
+   "check": "codable_chars",
+   "value": 24336,
+   "ok": true
+  },
+  {
+   "record": "R16",
+   "check": "quote_0",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "codable_chars",
+   "value": 10572,
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "quote_0",
+   "codes": [
+    "VENDOR_AI:disclose",
+    "VENDOR_AI:human_review"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "quote_1",
+   "codes": [
+    "VENDOR_AI:disclose"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "quote_2",
+   "codes": [
+    "VENDOR_AI:disclose"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "quote_3",
+   "codes": [
+    "VENDOR_AI:disclose"
+   ],
+   "ok": true
+  },
+  {
+   "record": "R17",
+   "check": "quote_4",
+   "codes": [
+    "SCOPE"
+   ],
+   "ok": true
+  }
+ ],
+ "quotes_total": 34,
+ "quotes_ok": 34,
+ "verified": true,
+ "full": {
+  "n_codable": 17,
+  "n_vendor_ai": 3,
+  "P1": {
+   "k": 3,
+   "n": 17,
+   "share": 0.17647058823529413,
+   "result": "held"
+  },
+  "P2": {
+   "H1": {
+    "n": 9,
+    "k": 2,
+    "share": 0.2222222222222222
+   },
+   "H2": {
+    "n": 8,
+    "k": 1,
+    "share": 0.125
+   },
+   "result": "failed"
+  },
+  "P3": {
+   "ban_records": [],
+   "result": "held"
+  },
+  "P4": {
+   "k": 5,
+   "n": 8,
+   "share": 0.625,
+   "result": "held"
+  },
+  "subcode_counts": {
+   "disclose": 2,
+   "human_review": 2,
+   "data": 1,
+   "restrict": 1,
+   "ban": 0
+  },
+  "vendor_ai_ids": [
+   "R01",
+   "R04",
+   "R17"
+  ],
+  "ai_in_scope_ids": [
+   "R01",
+   "R02",
+   "R05",
+   "R06",
+   "R08",
+   "R09",
+   "R11",
+   "R13",
+   "R14"
+  ]
+ },
+ "sensitivity": {
+  "n_codable": 12,
+  "n_vendor_ai": 3,
+  "P1": {
+   "k": 3,
+   "n": 12,
+   "share": 0.25,
+   "result": "held"
+  },
+  "P2": {
+   "H1": {
+    "n": 8,
+    "k": 2,
+    "share": 0.25
+   },
+   "H2": {
+    "n": 4,
+    "k": 1,
+    "share": 0.25
+   },
+   "result": "not testable"
+  },
+  "P3": {
+   "ban_records": [],
+   "result": "held"
+  },
+  "P4": {
+   "k": 3,
+   "n": 6,
+   "share": 0.5,
+   "result": "held"
+  },
+  "subcode_counts": {
+   "disclose": 2,
+   "human_review": 2,
+   "data": 1,
+   "restrict": 1,
+   "ban": 0
+  },
+  "vendor_ai_ids": [
+   "R01",
+   "R04",
+   "R17"
+  ],
+  "ai_in_scope_ids": [
+   "R01",
+   "R02",
+   "R05",
+   "R06",
+   "R08"
+  ]
+ },
+ "differs": {
+  "P2": [
+   "failed",
+   "not testable"
+  ]
+ },
+ "robustness": [
+  {
+   "record": "R01",
+   "field": "vendor_ai",
+   "alt": false,
+   "changes": {
+    "P2": [
+     "failed",
+     "held"
+    ]
+   }
+  },
+  {
+   "record": "R05",
+   "field": "vendor_ai",
+   "alt": true,
+   "changes": {}
+  },
+  {
+   "record": "R06",
+   "field": "vendor_ai",
+   "alt": true,
+   "changes": {}
+  },
+  {
+   "record": "R07",
+   "field": "tech",
+   "alt": "TECH",
+   "changes": {}
+  },
+  {
+   "record": "R08",
+   "field": "tech",
+   "alt": "TECH",
+   "changes": {}
+  },
+  {
+   "record": "R09",
+   "field": "tech",
+   "alt": "TECH",
+   "changes": {}
+  },
+  {
+   "record": "R12",
+   "field": "tech",
+   "alt": "TECH",
+   "changes": {}
+  },
+  {
+   "record": "R13",
+   "field": "vendor_ai",
+   "alt": true,
+   "changes": {
+    "P2": [
+     "failed",
+     "held"
+    ]
+   }
+  },
+  {
+   "record": "R13",
+   "field": "tech",
+   "alt": "TECH",
+   "changes": {}
+  },
+  {
+   "record": "R14",
+   "field": "tech",
+   "alt": "NON_TECH",
+   "changes": {}
+  }
+ ]
+}
