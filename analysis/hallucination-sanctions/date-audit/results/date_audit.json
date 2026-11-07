@@ -1,0 +1,254 @@
+{
+ "summary": {
+  "n_rows": 602,
+  "status_counts": {
+   "no_hosted_pdf": 69,
+   "no_text": 2,
+   "pdf_error": 4,
+   "text": 527
+  },
+  "n_text": 527,
+  "D1": {
+   "n": 526,
+   "found": 510,
+   "share": 0.9696
+  },
+  "D2": {
+   "n": 268,
+   "within_7_days": 250,
+   "share": 0.9328,
+   "far_but_recorded_date_in_text": 11
+  },
+  "D3": {
+   "n": 527,
+   "moved_c1": 10,
+   "share_c1": 0.019,
+   "moved_c2": 5,
+   "share_c2": 0.0095,
+   "flows_c1": {
+    "(none) -> 2026H1": 1,
+    "2025H1 -> 2020H2": 1,
+    "2025H1 -> 2026H1": 1,
+    "2025H2 -> 2025H1": 1,
+    "2025H2 -> 2026H1": 1,
+    "2026H1 -> 1980H2": 1,
+    "2026H1 -> 2025H1": 1,
+    "2026H1 -> 2025H2": 2,
+    "2026H1 -> 2026H2": 1
+   },
+   "flows_c2": {
+    "(none) -> 2026H1": 1,
+    "2025H2 -> 2025H1": 1,
+    "2026H1 -> 2025H1": 1,
+    "2026H1 -> 2025H2": 1,
+    "2026H1 -> 2026H2": 1
+   }
+  },
+  "filename": {
+   "n_with_filename_date": 38,
+   "n_filename_differs_gt7": 9
+  }
+ },
+ "regrade": {
+  "recorded": {
+   "P1": {
+    "a": 0.4737,
+    "b": 0.249,
+    "diff": -0.2247,
+    "perm_p_rise": 0.9989,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 1750.0,
+    "b": 2731.0,
+    "n_a": 16,
+    "n_b": 58,
+    "diff": 981.0,
+    "perm_p_rise": 0.1241,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.1579,
+    "b": 0.1494,
+    "diff": -0.0085,
+    "perm_p_rise": 0.6595,
+    "verdict": "failed"
+   },
+   "P5": {
+    "b": 0.3112,
+    "n_b": 241,
+    "verdict": "held"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.4737,
+      "pro_se": 0.0172,
+      "n_lawyer": 38,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3765,
+      "pro_se": 0.0632,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.249,
+      "pro_se": 0.0682,
+      "n_lawyer": 241,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   }
+  },
+  "c1": {
+   "P1": {
+    "a": 0.5,
+    "b": 0.2427,
+    "diff": -0.2573,
+    "perm_p_rise": 0.9996,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 2000.0,
+    "b": 2731.0,
+    "n_a": 18,
+    "n_b": 56,
+    "diff": 731.0,
+    "perm_p_rise": 0.1827,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.1842,
+    "b": 0.1423,
+    "diff": -0.042,
+    "perm_p_rise": 0.8229,
+    "verdict": "failed"
+   },
+   "P5": {
+    "b": 0.3054,
+    "n_b": 239,
+    "verdict": "held"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.5,
+      "pro_se": 0.0172,
+      "n_lawyer": 38,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3765,
+      "pro_se": 0.0632,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.2427,
+      "pro_se": 0.0682,
+      "n_lawyer": 239,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   }
+  },
+  "c2": {
+   "P1": {
+    "a": 0.5,
+    "b": 0.2427,
+    "diff": -0.2573,
+    "perm_p_rise": 0.9998,
+    "verdict": "held"
+   },
+   "P2": {
+    "a": 2000.0,
+    "b": 2731.0,
+    "n_a": 18,
+    "n_b": 56,
+    "diff": 731.0,
+    "perm_p_rise": 0.1827,
+    "verdict": "held"
+   },
+   "P3": {
+    "a": 0.175,
+    "b": 0.1464,
+    "diff": -0.0286,
+    "perm_p_rise": 0.7617,
+    "verdict": "failed"
+   },
+   "P5": {
+    "b": 0.3054,
+    "n_b": 239,
+    "verdict": "held"
+   },
+   "P4": {
+    "by_period": [
+     {
+      "period": "2025H1",
+      "lawyer": 0.5,
+      "pro_se": 0.0172,
+      "n_lawyer": 40,
+      "n_pro_se": 58,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2025H2",
+      "lawyer": 0.3765,
+      "pro_se": 0.0632,
+      "n_lawyer": 170,
+      "n_pro_se": 253,
+      "pro_se_lower": true
+     },
+     {
+      "period": "2026H1",
+      "lawyer": 0.2427,
+      "pro_se": 0.0682,
+      "n_lawyer": 239,
+      "n_pro_se": 381,
+      "pro_se_lower": true
+     }
+    ],
+    "verdict": "held"
+   }
+  }
+ },
+ "verdicts": {
+  "recorded": {
+   "P1": "held",
+   "P2": "held",
+   "P3": "failed",
+   "P4": "held",
+   "P5": "held"
+  },
+  "c1": {
+   "P1": "held",
+   "P2": "held",
+   "P3": "failed",
+   "P4": "held",
+   "P5": "held"
+  },
+  "c2": {
+   "P1": "held",
+   "P2": "held",
+   "P3": "failed",
+   "P4": "held",
+   "P5": "held"
+  }
+ }
+}

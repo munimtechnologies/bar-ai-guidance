@@ -18,7 +18,7 @@ REQUIRED = [
 KINDS = {"formal_opinion", "advisory_opinion", "guidance", "court_notice", "court_policy",
          "rule_amendment", "statute"}
 BINDING = {"advisory", "court_rule", "statute"}
-VERIFICATION = {"fetched", "cited"}
+VERIFICATION = {"fetched", "cited", "archived"}
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 JURIS_RE = re.compile(r"^(US|DC|[A-Z]{2})$")
@@ -36,7 +36,7 @@ PRIMARY_HOSTS = (
     "jud.ct.gov",
     "arcourts.gov",
     "incourts.gov",
-    "courts.ri.gov", "flcourts.gov", "ndcourts.gov", "lsba.org", "wisbar.org", "massbbo.org",
+    "courts.ri.gov", "flcourts.gov", "ndcourts.gov", "lsba.org", "wisbar.org", "massbbo.org", "msbar.org", "msbar.ctsites.net", "web.archive.org",
 )
 
 
@@ -133,6 +133,33 @@ class GuidanceDataTest(unittest.TestCase):
         self.assertNotIn("mv2, an ai", text)
         self.assertNotIn("mv2 (an ai", text)
         self.assertNotIn("mv2 of munim, inc., an ai", text)
+
+class ArchivedCopyTest(unittest.TestCase):
+    """An entry may point at an Internet Archive capture only when the issuer no longer serves
+    its own file; such entries are marked 'archived' and say so in their notes."""
+
+    ARCHIVED_ISSUER_HOSTS = ("msbar.ctsites.net",)
+
+    def test_archived_entries(self):
+        import json as _json
+        import os as _os
+        import re as _re
+        from urllib.parse import urlparse as _urlparse
+        path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "data", "guidance.json")
+        with open(path, encoding="utf-8") as fh:
+            entries = _json.load(fh)["entries"]
+        for e in entries:
+            host = (_urlparse(e["url"]).hostname or "").lower()
+            if host == "web.archive.org":
+                self.assertEqual(e["verification"], "archived", e["id"])
+            if e["verification"] != "archived":
+                continue
+            self.assertEqual(host, "web.archive.org", e["id"])
+            m = _re.match(r"^https://web\.archive\.org/web/\d{14}(?:id_)?/(https?://.+)$", e["url"])
+            self.assertIsNotNone(m, e["id"])
+            inner = (_urlparse(m.group(1)).hostname or "").lower()
+            self.assertIn(inner, self.ARCHIVED_ISSUER_HOSTS, e["id"])
+            self.assertIn("Internet Archive", e["notes"] or "", e["id"])
 
 
 if __name__ == "__main__":

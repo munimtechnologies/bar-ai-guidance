@@ -1,7 +1,7 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.15.0",
-  "updated": "2026-10-31",
+  "version": "0.16.0",
+  "updated": "2026-11-07",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
   "fields": {
@@ -15,7 +15,7 @@
     "binding": "advisory | court_rule | statute",
     "url": "primary source only: the issuing bar, court, association or legislature",
     "url_verified": "date MV2 last checked the URL",
-    "verification": "fetched = the page or file was retrieved and its title matched; cited = the URL is the issuer's own address, taken from the issuer's site or from search results for that page, and was not retrieved",
+    "verification": "fetched = the page or file was retrieved and its title matched; cited = the URL is the issuer's own address, taken from the issuer's site or from search results for that page, and was not retrieved; archived = the issuer no longer serves the document at its own address, so the URL is an Internet Archive capture of the issuer's own file, which was retrieved and its title matched",
     "confidentiality_note": "MV2's one-sentence paraphrase of the confidentiality point, not a quotation",
     "in_house_tools_note": "what, if anything, the document says about tools run inside the firm, or null",
     "notes": "anything a reader should know, or null"
@@ -534,6 +534,22 @@
       "notes": "Says the ethics rules do not themselves require disclosing AI use to the court, opposing counsel or the deponent, but other rules, orders and privacy laws may."
     },
     {
+      "id": "ms-op-267",
+      "jurisdiction": "MS",
+      "issuer": "The Mississippi Bar, Ethics Committee",
+      "title": "Ethics Opinion Number 267 of The Mississippi Bar",
+      "number": "Ethics Opinion No. 267",
+      "date": "2024-11-14",
+      "kind": "formal_opinion",
+      "binding": "advisory",
+      "url": "https://web.archive.org/web/20260710203219id_/https://msbar.ctsites.net/media/2tvbldoc/et-op-267.pdf",
+      "url_verified": "2026-11-06",
+      "verification": "archived",
+      "confidentiality_note": "A lawyer has an affirmative duty to take reasonable precautions to protect client information when using generative AI: read the tool's terms of use and its privacy and retention policies, avoid entering identifiable client information where possible, and get the client's informed consent if the information remains at risk.",
+      "in_house_tools_note": "Says nothing specific about tools run inside the firm; it notes that some generative AI tools pose no risk to confidentiality, that some train on what users enter, and that lawyers may be able to negotiate protective terms with providers.",
+      "notes": "MV2 read the text of the 8-page PDF, which says 'Rendered November 14, 2024' on its first page, from an Internet Archive capture (10 July 2026) of the bar's former document address msbar.ctsites.net/media/2tvbldoc/et-op-267.pdf. That host no longer resolved on 2026-11-06, and the bar's ethics opinions page (msbar.org/professional-regulation/ethics-opinions/) now says its formal opinions are found through the member-login vLex Fastcase library. The opinion answers four questions: confidentiality (Rule 1.6, with supervision under Rules 5.1 and 5.3), verification under a 'trust but verify' approach that adopts ABA Formal Opinion 512's analysis (Rule 1.1), fees (generative AI costs are overhead unless disclosed to the client, efficiency gains go to the client, and time spent learning the tool is not billed) and client disclosure (routine use needs no specific communication, but informed consent is needed when confidential information goes to a third-party provider, when AI costs are passed on, or when a disclosure risk remains). The bar's Law Practice Management and Technology Committee guide 'AI Tools for Lawyers - A Practical Guide' (cover dated 1 July 2025; file msbar.org/wp-content/uploads/2026/07/AI-Practical-Guide-Edited-July-2026.pdf) refers readers to this opinion; it is an overview of products and is not indexed separately."
+    },
+    {
       "id": "nc-2024-feo-1",
       "jurisdiction": "NC",
       "issuer": "North Carolina State Bar",
@@ -678,6 +694,22 @@
       "notes": "MV2 read the text of the 4-page PDF linked from the report page (nycbar.org/wp-content/uploads/2026/08/20221672-AiRecordingEthicsOpinion.pdf); the page is dated 5 August 2026. Extends Opinion 2025-6 (ny-nycbar-2025-6) to co-counsel, prospective clients, opposing counsel, witnesses and investigators. Warns that witness recordings may be discoverable and that a recording of a prospective client the firm turned down, kept inside the firm, can create Rule 1.18 conflicts. A footnote allows a different balance for a lawyer with a hearing impairment."
     },
     {
+      "id": "ny-nysba-ethics-guidelines-2026",
+      "jurisdiction": "NY",
+      "issuer": "New York State Bar Association, Committee on Artificial Intelligence and Emerging Technologies (adopted by the House of Delegates)",
+      "title": "Legal Ethics Guidelines for Lawyers' Use of Artificial Intelligence",
+      "number": null,
+      "date": "2026-10-31",
+      "kind": "guidance",
+      "binding": "advisory",
+      "url": "https://nysba.org/wp-content/uploads/2026/10/APPROVED-REPORT-AIETC-Ethics-Guidelines-2026-10-23-11AM-V7-FINAL-with-comments.pdf",
+      "url_verified": "2026-11-07",
+      "verification": "fetched",
+      "confidentiality_note": "NYSBA's announcement does not summarise the report's confidentiality guidance; it stresses supervising non-lawyers and vendors who use AI tools, conflicts of interest when a tool uses data about a party, and telling everyone on a call when AI records and summarises it.",
+      "in_house_tools_note": null,
+      "notes": "Adopted by the NYSBA House of Delegates on Saturday 31 October 2026, according to NYSBA's announcement of that date (nysba.org/nysba-releases-in-depth-guidelines-to-advise-attorneys-on-ethical-use-of-ai/), which MV2 fetched; the committee that wrote it is chaired by Vivian Wesson. The file name marks it as version 7 of 23 October 2026, with comments. Guidelines, not a formal ethics opinion. The announcement lists verifying output, reasonable fees and disclosure of specific charges to clients, bias, conflicts of interest, supervision of non-lawyers and vendors, reviewing the output of agentic AI systems, notifying all parties when AI records and summarises conversations, and disclosing AI use in court submissions. It builds on the 2024 task force report (ny-nysba-task-force-2024). The confidentiality paraphrase above rests on the announcement only; MV2 has not yet read the report's own confidentiality section. MV2's tool retrieved the 106-page PDF on 2026-11-07 and found this title on its first pages."
+    },
+    {
       "id": "ny-nysba-task-force-2024",
       "jurisdiction": "NY",
       "issuer": "New York State Bar Association, Task Force on Artificial Intelligence",
@@ -691,7 +723,7 @@
       "verification": "fetched",
       "confidentiality_note": "Treats confidentiality, with competence and supervision, as a core duty when lawyers use AI, and offers a sample engagement-letter clause for telling clients how AI will be used on their matter.",
       "in_house_tools_note": null,
-      "notes": "An 86-page report approved by the NYSBA House of Delegates (6 April 2024 per secondary sources), not a formal ethics opinion. The PDF was retrieved; its title matches the search index's text of the same file. NYSBA's later AI work sits with its Committee on Artificial Intelligence and Emerging Technologies."
+      "notes": "An 86-page report approved by the NYSBA House of Delegates (6 April 2024 per secondary sources), not a formal ethics opinion. The PDF was retrieved; its title matches the search index's text of the same file. NYSBA's later AI work sits with its Committee on Artificial Intelligence and Emerging Technologies, whose Legal Ethics Guidelines adopted on 31 October 2026 are ny-nysba-ethics-guidelines-2026."
     },
     {
       "id": "ny-ucs-part-161",
@@ -787,7 +819,7 @@
       "verification": "cited",
       "confidentiality_note": "Lawyers must safeguard client information and make sure AI systems that handle confidential data follow strict confidentiality measures; citations produced with AI must be verified.",
       "in_house_tools_note": null,
-      "notes": "Secondary sources date it to May or June 2024; MV2 recorded the month most sources give."
+      "notes": "Secondary sources date it to May or June 2024; MV2 recorded the month most sources give. On 2026-11-06 the pabar.org address returned HTTP 404 to MV2's link check; an Internet Archive capture of it dated 11 September 2026 exists. The path sits under /Members/, so the bar may now serve the file to members only; MV2 has not found a new public address."
     },
     {
       "id": "pa-ujs-interim-genai-policy-2025",
