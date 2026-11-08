@@ -1,0 +1,503 @@
+{
+ "version": "1.0.0",
+ "source": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-08T14:59:11Z",
+  "bytes": 2175509,
+  "sha256": "9201eecd5ea30ac3eda884062a6421f84882abf2f58415aa4391e283ef297c87",
+  "same_as_2026_11_07_snapshot": true,
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+  "plan_commit": {
+   "sha": "909f9a86c9bd6639fc9ca7feca2ca1924e5263dc",
+   "date": "2026-11-08T03:57:00Z"
+  },
+  "analyze_commit": {
+   "sha": "909f9a86c9bd6639fc9ca7feca2ca1924e5263dc",
+   "date": "2026-11-08T03:57:00Z"
+  }
+ },
+ "header": [
+  "case_id",
+  "Case Name",
+  "Court",
+  "State(s)",
+  "Date",
+  "Party(ies)",
+  "AI Tool",
+  "Hallucination Items",
+  "Outcome",
+  "Monetary Penalty",
+  "Professional Sanction",
+  "Alleged",
+  "Vendor Disputed",
+  "Vendor Disputed Explanation",
+  "Pointer",
+  "Source",
+  "Details",
+  "Legal Field Primary",
+  "Legal Field Secondary"
+ ],
+ "n_rows_read": 2267,
+ "n_rows_skipped_malformed": 0,
+ "n_core": 32,
+ "primary": {
+  "A1": {
+   "n": 14,
+   "threshold": 15,
+   "timm": 19,
+   "verdict": "failed"
+  },
+  "A2": {
+   "n": 15,
+   "threshold": 17,
+   "timm": 23,
+   "verdict": "failed"
+  },
+  "A3": {
+   "share_2025": 0.1333,
+   "share_2026": 0.4118,
+   "lawyer_2025": 2,
+   "n_2025": 15,
+   "lawyer_2026": 7,
+   "n_2026": 17,
+   "verdict": "held"
+  },
+  "A4": {
+   "pro_se": 17,
+   "n": 24,
+   "share": 0.7083,
+   "threshold": 0.6,
+   "lawyer": 7,
+   "verdict": "held"
+  },
+  "A5": {
+   "n_money": 0,
+   "n": 32,
+   "max_allowed": 1,
+   "verdict": "held"
+  },
+  "A6": {
+   "top_count": 2,
+   "n": 24,
+   "share": 0.0833,
+   "threshold": 0.25,
+   "top_key": "oready",
+   "n_distinct_keys": 23,
+   "verdict": "failed"
+  }
+ },
+ "sensitivity": {
+  "S1_cofc_all_rows": {
+   "A1": {
+    "n": 15,
+    "threshold": 15,
+    "timm": 19,
+    "verdict": "held"
+   },
+   "A2": {
+    "n": 17,
+    "threshold": 17,
+    "timm": 23,
+    "verdict": "held"
+   },
+   "A3": {
+    "share_2025": 0.1176,
+    "share_2026": 0.4444,
+    "lawyer_2025": 2,
+    "n_2025": 17,
+    "lawyer_2026": 8,
+    "n_2026": 18,
+    "verdict": "held"
+   },
+   "A4": {
+    "pro_se": 17,
+    "n": 24,
+    "share": 0.7083,
+    "threshold": 0.6,
+    "lawyer": 7,
+    "verdict": "held"
+   },
+   "A5": {
+    "n_money": 1,
+    "n": 35,
+    "max_allowed": 1,
+    "verdict": "held"
+   },
+   "A6": {
+    "top_count": 2,
+    "n": 24,
+    "share": 0.0833,
+    "threshold": 0.25,
+    "top_key": "oready",
+    "n_distinct_keys": 23,
+    "verdict": "failed"
+   }
+  },
+  "S2_forum_also_from_case_name_or_source": {
+   "A1": {
+    "n": 14,
+    "threshold": 15,
+    "timm": 19,
+    "verdict": "failed"
+   },
+   "A2": {
+    "n": 15,
+    "threshold": 17,
+    "timm": 23,
+    "verdict": "failed"
+   },
+   "A3": {
+    "share_2025": 0.1333,
+    "share_2026": 0.4118,
+    "lawyer_2025": 2,
+    "n_2025": 15,
+    "lawyer_2026": 7,
+    "n_2026": 17,
+    "verdict": "held"
+   },
+   "A4": {
+    "pro_se": 17,
+    "n": 24,
+    "share": 0.7083,
+    "threshold": 0.6,
+    "lawyer": 7,
+    "verdict": "held"
+   },
+   "A5": {
+    "n_money": 0,
+    "n": 32,
+    "max_allowed": 1,
+    "verdict": "held"
+   },
+   "A6": {
+    "top_count": 2,
+    "n": 24,
+    "share": 0.0833,
+    "threshold": 0.25,
+    "top_key": "oready",
+    "n_distinct_keys": 23,
+    "verdict": "failed"
+   }
+  },
+  "S3_exclude_alleged": {
+   "A1": {
+    "n": 14,
+    "threshold": 15,
+    "timm": 19,
+    "verdict": "failed"
+   },
+   "A2": {
+    "n": 15,
+    "threshold": 17,
+    "timm": 23,
+    "verdict": "failed"
+   },
+   "A3": {
+    "share_2025": 0.1333,
+    "share_2026": 0.4375,
+    "lawyer_2025": 2,
+    "n_2025": 15,
+    "lawyer_2026": 7,
+    "n_2026": 16,
+    "verdict": "held"
+   },
+   "A4": {
+    "pro_se": 16,
+    "n": 23,
+    "share": 0.6957,
+    "threshold": 0.6,
+    "lawyer": 7,
+    "verdict": "held"
+   },
+   "A5": {
+    "n_money": 0,
+    "n": 31,
+    "max_allowed": 1,
+    "verdict": "held"
+   },
+   "A6": {
+    "top_count": 2,
+    "n": 23,
+    "share": 0.087,
+    "threshold": 0.25,
+    "top_key": "oready",
+    "n_distinct_keys": 22,
+    "verdict": "failed"
+   }
+  }
+ },
+ "descriptive": {
+  "by_forum_half_year": {
+   "GAO": {
+    "2025H1": {
+     "n": 3,
+     "lawyer": 1,
+     "pro_se": 2,
+     "money": 0,
+     "prof": 0
+    },
+    "2025H2": {
+     "n": 8,
+     "lawyer": 0,
+     "pro_se": 8,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H1": {
+     "n": 9,
+     "lawyer": 5,
+     "pro_se": 4,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H2": {
+     "n": 4,
+     "lawyer": 1,
+     "pro_se": 3,
+     "money": 0,
+     "prof": 0
+    },
+    "before_2025": 0,
+    "no_date": 0
+   },
+   "ASBCA": {
+    "2025H1": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "2025H2": {
+     "n": 1,
+     "lawyer": 1,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H1": {
+     "n": 2,
+     "lawyer": 1,
+     "pro_se": 1,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H2": {
+     "n": 1,
+     "lawyer": 0,
+     "pro_se": 1,
+     "money": 0,
+     "prof": 0
+    },
+    "before_2025": 0,
+    "no_date": 0
+   },
+   "CBCA": {
+    "2025H1": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "2025H2": {
+     "n": 1,
+     "lawyer": 0,
+     "pro_se": 1,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H1": {
+     "n": 1,
+     "lawyer": 0,
+     "pro_se": 1,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H2": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "before_2025": 0,
+    "no_date": 0
+   },
+   "COFC": {
+    "2025H1": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "2025H2": {
+     "n": 2,
+     "lawyer": 0,
+     "pro_se": 2,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H1": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "2026H2": {
+     "n": 0,
+     "lawyer": 0,
+     "pro_se": 0,
+     "money": 0,
+     "prof": 0
+    },
+    "before_2025": 0,
+    "no_date": 0
+   }
+  },
+  "timm_comparison": {
+   "GAO": {
+    "timm_2026_jan_jul": 12,
+    "database_2026_jan_jul": 10
+   },
+   "ASBCA": {
+    "timm_2026_jan_jul": 4,
+    "database_2026_jan_jul": 3
+   },
+   "CBCA": {
+    "timm_2026_jan_jul": 1,
+    "database_2026_jan_jul": 1
+   },
+   "COFC": {
+    "timm_2026_jan_jul": 2,
+    "database_2026_jan_jul": 0
+   },
+   "FEDCIR": {
+    "timm_2026_jan_jul": 1,
+    "database_2026_jan_jul": 0
+   }
+  },
+  "matched_court_strings": [
+   {
+    "forum": "ASBCA",
+    "court": "ASBCA",
+    "rows": 4
+   },
+   {
+    "forum": "CBCA",
+    "court": "CBCA",
+    "rows": 2
+   },
+   {
+    "forum": "COFC",
+    "court": "Court of Federal Claims",
+    "rows": 5
+   },
+   {
+    "forum": "FEDCIR",
+    "court": "CA Federal Circuit",
+    "rows": 1
+   },
+   {
+    "forum": "FEDCIR",
+    "court": "Fed. Cir.",
+    "rows": 2
+   },
+   {
+    "forum": "FEDCIR",
+    "court": "Federal Circuit and Family Court",
+    "rows": 9
+   },
+   {
+    "forum": "FEDCIR",
+    "court": "Federal Circuit and Family Court of Australia",
+    "rows": 1
+   },
+   {
+    "forum": "FEDCIR",
+    "court": "Federal Circuit and Family Court of Australia (Division 2)",
+    "rows": 1
+   },
+   {
+    "forum": "GAO",
+    "court": "GAO",
+    "rows": 23
+   },
+   {
+    "forum": "GAO",
+    "court": "GAO (Comptroller General of the United States)",
+    "rows": 1
+   }
+  ],
+  "near_miss_court_strings": [
+   {
+    "court": "Trademarks Opposition Board",
+    "rows": 4
+   },
+   {
+    "court": "Ontario Landlord and Tenant Board",
+    "rows": 2
+   },
+   {
+    "court": "Small Claims Court",
+    "rows": 2
+   },
+   {
+    "court": "Nova Scotia Labour Board",
+    "rows": 1
+   },
+   {
+    "court": "Child and Family Services Review Board",
+    "rows": 1
+   },
+   {
+    "court": "Ashdod Small Claims Court",
+    "rows": 1
+   },
+   {
+    "court": "Veterans Review and Appeal Board",
+    "rows": 1
+   },
+   {
+    "court": "Rehovot Small Claims Court",
+    "rows": 1
+   },
+   {
+    "court": "Iowa SC Attorney Disciplinary Board",
+    "rows": 1
+   },
+   {
+    "court": "BC Property Assessment Appeal Board",
+    "rows": 1
+   },
+   {
+    "court": "Ontario Labour Relations Board",
+    "rows": 1
+   },
+   {
+    "court": "Iowa Attorney Disciplinary Board",
+    "rows": 1
+   },
+   {
+    "court": "Copyright Claims Board",
+    "rows": 1
+   },
+   {
+    "court": "Ontario's Animal Care Review Board",
+    "rows": 1
+   },
+   {
+    "court": "Fed. claims court",
+    "rows": 1
+   }
+  ],
+  "cofc_rows_excluded_as_non_procurement": 3,
+  "fedcir_rows": 14,
+  "fedcir_rows_procurement_text": 0,
+  "core_2025_2026_ai_tool_named": 32,
+  "core_2025_2026": 32,
+  "core_2025_2026_prof_sanction": 0
+ }
+}

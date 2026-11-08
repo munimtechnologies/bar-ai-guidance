@@ -1,0 +1,33 @@
+case_id,forum,date,half,parties,lawyer,pro_se,penalty_raw,money,prof,alleged,ai_tool_named
+2645,GAO,2026-09-14,2026H2,Pro Se Litigant,False,True,,False,False,False,True
+2470,GAO,2026-08-17,2026H2,Pro Se Litigant,False,True,,False,False,True,True
+2897,GAO,2026-08-11,2026H2,Lawyer,True,False,,False,False,False,True
+2326,GAO,2026-07-31,2026H2,Pro Se Litigant,False,True,,False,False,False,True
+2484,ASBCA,2026-07-13,2026H2,Pro Se Litigant,False,True,,False,False,False,True
+2094,GAO,2026-06-16,2026H1,Lawyer,True,False,,False,False,False,True
+2831,GAO,2026-05-12,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1756,GAO,2026-04-15,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1589,GAO,2026-03-26,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1709,ASBCA,2026-03-23,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1610,ASBCA,2026-03-13,2026H1,Lawyer,True,False,,False,False,False,True
+1310,CBCA,2026-02-24,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1333,GAO,2026-02-18,2026H1,Lawyer,True,False,,False,False,False,True
+1420,GAO,2026-02-13,2026H1,Lawyer,True,False,,False,False,False,True
+1272,GAO,2026-02-12,2026H1,Lawyer,True,False,,False,False,False,True
+1159,GAO,2026-01-28,2026H1,Pro Se Litigant,False,True,,False,False,False,True
+1161,GAO,2026-01-28,2026H1,Lawyer,True,False,,False,False,False,True
+960,GAO,2025-12-22,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+805,GAO,2025-11-24,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+747,COFC,2025-11-13,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+770,ASBCA,2025-10-23,2025H2,Lawyer,True,False,,False,False,False,True
+610,COFC,2025-10-15,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+1171,CBCA,2025-10-07,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+553,GAO,2025-09-25,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+453,GAO,2025-08-29,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+432,GAO,2025-08-26,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+375,GAO,2025-08-13,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+361,GAO,2025-07-25,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+360,GAO,2025-07-07,2025H2,Pro Se Litigant,False,True,,False,False,False,True
+359,GAO,2025-06-27,2025H1,Pro Se Litigant,False,True,,False,False,False,True
+156,GAO,2025-05-07,2025H1,Pro Se Litigant,False,True,,False,False,False,True
+2899,GAO,2025-04-28,2025H1,Lawyer,True,False,,False,False,False,True
