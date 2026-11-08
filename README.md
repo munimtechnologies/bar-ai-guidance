@@ -55,11 +55,21 @@ This is a record of defaults on 14 October 2026, not a view on whether any offic
 ## Use
 
 ```bash
-python -m unittest test_bar_ai_guidance test_self_hosted_defaults
+python -m unittest test_bar_ai_guidance test_self_hosted_defaults test_court_ai_rules_skill
 python -c "import json; d=json.load(open('data/guidance.json')); print(len(d['entries']))"
 ```
 
-`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that an Internet Archive link appears only on an `archived` entry that wraps a listed former issuer address and says so in its notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, that a tool marked as requiring a key says how it avoids a keyless start (refusing to start, or generating a key), that a project recorded without a release says it has none, and that the file draws no legal conclusions.
+`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that an Internet Archive link appears only on an `archived` entry that wraps a listed former issuer address and says so in its notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, that a tool marked as requiring a key says how it avoids a keyless start (refusing to start, or generating a key), that a project recorded without a release says it has none, and that the file draws no legal conclusions. `test_court_ai_rules_skill` checks the skill's frontmatter, that every command its `SKILL.md` documents runs and every entry id it cites exists, and the script's filters, labels and exit codes on the real index and on a synthetic one, without network access.
+
+## Agent skill: court-ai-rules
+
+`skills/court-ai-rules/` is an agent skill (a `SKILL.md` and a standard-library script) for coding agents such as Claude Code, Codex and Cursor. When an agent helps draft or check a US court filing with AI, or is asked which AI rules apply to lawyers in a state, the skill has it look the state up in `data/guidance.json`, put court rules and statutes before advisory guidance, link the issuer's own text, say plainly when a state has no entry (which does not mean the state has no rules), and work through a pre-filing checklist: state filing rules, pending rules, the court's local rules and the judge's standing orders (not indexed here), disclosure, every citation checked in a primary source, and confidentiality. It is information about public documents, not legal advice.
+
+```bash
+npx skills add munimtechnologies/bar-ai-guidance --skill court-ai-rules
+python skills/court-ai-rules/scripts/court_ai_rules.py --state CT
+python skills/court-ai-rules/scripts/court_ai_rules.py --binding court_rule --json
+```
 
 ## Corrections
 
