@@ -55,11 +55,11 @@ This is a record of defaults on 14 October 2026, not a view on whether any offic
 ## Use
 
 ```bash
-python -m unittest test_bar_ai_guidance test_self_hosted_defaults test_court_ai_rules_skill
+python -m unittest test_bar_ai_guidance test_self_hosted_defaults test_court_ai_rules_skill test_ai_protective_orders_skill
 python -c "import json; d=json.load(open('data/guidance.json')); print(len(d['entries']))"
 ```
 
-`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that an Internet Archive link appears only on an `archived` entry that wraps a listed former issuer address and says so in its notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, that a tool marked as requiring a key says how it avoids a keyless start (refusing to start, or generating a key), that a project recorded without a release says it has none, and that the file draws no legal conclusions. `test_court_ai_rules_skill` checks the skill's frontmatter, that every command its `SKILL.md` documents runs and every entry id it cites exists, and the script's filters, labels and exit codes on the real index and on a synthetic one, without network access.
+`test_bar_ai_guidance` checks that every URL is HTTPS on a listed primary host, that dates and codes are well formed, that a year-only date always has a note, that rule amendments are marked as court rules and statutes as statutes, that unretrieved links carry notes, that an Internet Archive link appears only on an `archived` entry that wraps a listed former issuer address and says so in its notes, that entries are sorted by jurisdiction, and that notes are paraphrases rather than quotations. `test_self_hosted_defaults` checks the defaults file's fields and enums, that every source is the project's own repository or documentation, that a tool marked as requiring a key says how it avoids a keyless start (refusing to start, or generating a key), that a project recorded without a release says it has none, and that the file draws no legal conclusions. `test_court_ai_rules_skill` checks the skill's frontmatter, that every command its `SKILL.md` documents runs and every entry id it cites exists, and the script's filters, labels and exit codes on the real index and on a synthetic one, without network access. `test_ai_protective_orders_skill` does the same for the protective-order skill: frontmatter, documented commands and cited case ids, every clause-test code documented, and filters, counts, labels and exit codes on the real dataset and a synthetic one.
 
 ## Agent skill: court-ai-rules
 
@@ -69,6 +69,16 @@ python -c "import json; d=json.load(open('data/guidance.json')); print(len(d['en
 npx skills add munimtechnologies/bar-ai-guidance --skill court-ai-rules
 python skills/court-ai-rules/scripts/court_ai_rules.py --state CT
 python skills/court-ai-rules/scripts/court_ai_rules.py --binding court_rule --json
+```
+
+## Agent skill: ai-protective-orders
+
+`skills/ai-protective-orders/` is a second agent skill. Before discovery or disclosure material covered by a protective order goes into an AI tool, or when an AI clause for a stipulated protective order is being drafted, it has the agent look up `data/ai_protective_orders.json`: the AI clauses of 44 US federal protective and confidentiality orders (2025-2026), each with the order's own words, the tests it uses (no training on inputs, no public or consumer tools, a contract with the AI provider, notice to the other side, an outright ban) and whether its literal words allow an openly published model run on the party's own server. The skill starts from the order in the user's own case, quotes words rather than labels, and never says a use complies. It is information about public court orders, not legal advice.
+
+```bash
+npx skills add munimtechnologies/bar-ai-guidance --skill ai-protective-orders
+python skills/ai-protective-orders/scripts/ai_protective_orders.py --court SDNY --setup permitted
+python skills/ai-protective-orders/scripts/ai_protective_orders.py --test CONTRACT --quotes
 ```
 
 ## Corrections
@@ -87,3 +97,5 @@ The index and the defaults record (this repository's data and text) are released
 - Do federal judges' AI orders say anything about what lawyers put into AI? A pre-registered count of 62 orders: [pre-registration](analysis/federal-ai-orders-inputs-prereg.md), [result](analysis/federal-ai-orders-inputs.md), [coded data](data/federal_orders_inputs.json).
 - Eight court texts, five ways to define a safe AI system (who controls it, what it does with entered data, the provider's contract, whether its code and model are public, an approved list), applied word for word to a self-hosted, a business-cloud and a consumer setup, with an addendum on three more texts (the DC Courts' policy, Iowa's Chapter 27 and a District of Nevada protective order): [comparison](analysis/safe-ai-system-definitions.md).
 - Are US courts "ratcheting up" sanctions for AI-hallucinated filings? A pre-registered count of 2,267 decisions from Damien Charlotin's database ([result](analysis/hallucination-sanctions.md)), and a pre-registered audit of the decision dates it rests on ([date audit](analysis/hallucination-sanctions-date-audit.md)).
+- What do the AI clauses in US federal protective orders allow, and does their wording let a party run an openly published model on its own server? A pre-registered coding of 44 orders: [result](analysis/ai-protective-orders.md), [coded data](data/ai_protective_orders.json).
+- AI-invented citations at US procurement tribunals (GAO, the Boards of Contract Appeals and the Court of Federal Claims): a pre-registered count of 32 decisions from the same database ([result](analysis/procurement-ai.md)), and an open, pre-registered census of new GAO bid-protest decisions running to January 2027 ([plan](analysis/gao-ai-census/PLAN.md)).
