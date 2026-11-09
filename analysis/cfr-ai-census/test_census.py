@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name.
-"""Tests for census.py (standard library only, no network)."""
+"""Tests for census.py 1.0.1 (standard library only, no network)."""
 import csv
 import io
 import unittest
@@ -75,7 +75,7 @@ class BuildTest(unittest.TestCase):
         ai, ml = "artificial intelligence", "machine learning"
         undated = {ai: [EXPORT, EXPORT_OLD, CCL, ENV, PRACTICE], ml: [DEVICE]}
         dated = {
-            (ai, "2017-01-01"): [ENV],
+            (ai, census.FIRST_DATE): [ENV],
             (ai, "2026-01-01"): [EXPORT, ENV, CCL],          # CCL here is an anomaly (starts 2026-08-18)
             (ai, census.CENSUS_DATE): [EXPORT, CCL, ENV, PRACTICE],
             (ml, census.CENSUS_DATE): [DEVICE],
@@ -97,7 +97,7 @@ class BuildTest(unittest.TestCase):
         row = {r["date"]: r for r in self.timeline}
         self.assertEqual(row["2026-01-01"]["any_term"], 2)
         self.assertEqual(row["2026-01-01"]["artificial intelligence"], 2)
-        self.assertEqual(row["2017-01-01"]["any_term"], 1)
+        self.assertEqual(row[census.FIRST_DATE]["any_term"], 1)
         self.assertEqual(row["2018-01-01"]["any_term"], 0)
         self.assertEqual(row[census.CENSUS_DATE]["any_term"], 5)
         self.assertEqual(row[census.CENSUS_DATE]["machine learning"], 1)
@@ -126,14 +126,24 @@ class BuildTest(unittest.TestCase):
         md = census.results_md(census.summarize(self.prov, self.timeline, self.anomalies), rows, True)
         self.assertIn("| %s | 5 |" % census.CENSUS_DATE, md)
         self.assertIn("15 CFR 740.27", md)
+        self.assertIn("census 1.0.1 results", md)
 
 
 class ConfigTest(unittest.TestCase):
     def test_dates_sorted_and_end_at_census(self):
         self.assertEqual(census.DATES, sorted(census.DATES))
         self.assertEqual(census.DATES[-1], census.CENSUS_DATE)
-        self.assertEqual(census.DATES[0], "2017-01-01")
+        self.assertEqual(len(set(census.DATES)), len(census.DATES))
+        self.assertEqual(len(census.DATES), 12)
         self.assertEqual(len(set(census.TERMS)), len(census.TERMS))
+
+    def test_amendment_1_dates(self):
+        # The eCFR search API answered HTTP 400 at 2017-01-01 and 2026-11-06 (census 1.0.0).
+        self.assertEqual(census.DATES[0], "2017-01-03")
+        self.assertEqual(census.CENSUS_DATE, "2026-11-05")
+        self.assertNotIn("2017-01-01", census.DATES)
+        self.assertNotIn("2026-11-06", census.DATES)
+        self.assertEqual(census.VERSION, "1.0.1")
 
 
 if __name__ == "__main__":

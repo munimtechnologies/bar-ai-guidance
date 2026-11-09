@@ -87,3 +87,33 @@ expectation only so that it can be checked in public: question 3 will find no pr
   differently named part are missed; the write-up lists the headings it saw.
 - Guidance documents, policy statements and Federal Register preambles are not in the CFR and
   are out of scope.
+
+## Amendment 1 (2026-11-09, census 1.0.1), written after the 1.0.0 run failed
+
+**What happened.** The 1.0.0 run (sealed job cfrai-v1, 2026-11-09 17:59 to 18:40 UTC) completed
+every undated query and every query at 10 of the 12 dates. At the other two dates the eCFR search
+API answered HTTP 400 for all nine terms, after three tries each:
+
+- **2017-01-01**: earlier than the first point-in-time date the eCFR holds (its versions begin on
+  3 January 2017; a query at 2017-01-03 works).
+- **2026-11-06**: later than the date the eCFR was up to date as of. On 2026-11-09 the eCFR
+  versioner API (`/api/versioner/v1/titles.json`) gave `up_to_date_as_of` 2026-11-05 for every
+  title, and a query at 2026-11-05 works.
+
+As this plan requires, run_job.py marked the result incomplete and nothing was filled in by hand.
+Its status, query log and generated table are kept unchanged in `run-1.0.0/`.
+
+**What changes in 1.0.1, and nothing else.** The first date becomes 2017-01-03 and the census date
+becomes 2026-11-05, so the twelve dates are 3 January 2017, 1 January 2018 to 2026, 1 July 2026 and
+5 November 2026. run_job.py now waits until the newest committed census.py is identical to its own
+copy (so the re-run cannot start before this amendment is public), and records the eCFR's
+`up_to_date_as_of` date beside the results. The terms, the method, the categories, the checks and the
+one stated expectation (question 3 finds no provision) are unchanged. Questions 1 and 5 now read
+"in force on 2026-11-05".
+
+**What the agents saw before writing this amendment, disclosed.** Everything in `run-1.0.0/`: the
+counts at the ten dates that worked (for example 29 provisions on 1 July 2026, 10 on 1 January
+2020) and the list of the 35 provisions that ever used a term. Also three live checks on
+2026-11-09: "neural network" at 2017-01-03 (6 version hits), "neural network" at 2026-11-05
+(11 version hits) and "machine learning" at 2026-11-01 (9 version hits). The two new dates were
+chosen only because they are the nearest dates the eCFR serves, not because of any count.

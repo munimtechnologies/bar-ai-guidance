@@ -1,0 +1,187 @@
+[
+ {
+  "court": "App. Div. 1st Dept (NY)",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "App. NY (2d)",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "CA Florida",
+  "classified": "state court",
+  "rows": 3
+ },
+ {
+  "court": "CA Florida (2d)",
+  "classified": "state court",
+  "rows": 4
+ },
+ {
+  "court": "CA Florida (3d)",
+  "classified": "state court",
+  "rows": 3
+ },
+ {
+  "court": "CA Florida (4d)",
+  "classified": "state court",
+  "rows": 8
+ },
+ {
+  "court": "CA Florida (4th)",
+  "classified": "state court",
+  "rows": 2
+ },
+ {
+  "court": "CA Florida (6d)",
+  "classified": "state court",
+  "rows": 5
+ },
+ {
+  "court": "CA Indiana",
+  "classified": "state court",
+  "rows": 18
+ },
+ {
+  "court": "CA NY (2d)",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "CA New York",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "CA New York (1d)",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "CC New York",
+  "classified": "state court",
+  "rows": 4
+ },
+ {
+  "court": "D. Connecticut",
+  "classified": "federal",
+  "rows": 14
+ },
+ {
+  "court": "D. Connecticut (Bankruptcy)",
+  "classified": "federal",
+  "rows": 1
+ },
+ {
+  "court": "DCA Florida",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "E.D. New York",
+  "classified": "federal",
+  "rows": 15
+ },
+ {
+  "court": "E.D. New York (Bankruptcy)",
+  "classified": "federal",
+  "rows": 1
+ },
+ {
+  "court": "Family Court New York",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "Florida (1d)",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "Florida CA",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "Indiana Tax Court",
+  "classified": "state court",
+  "rows": 2
+ },
+ {
+  "court": "M.D. Florida",
+  "classified": "federal",
+  "rows": 22
+ },
+ {
+  "court": "N.D. Florida",
+  "classified": "federal",
+  "rows": 1
+ },
+ {
+  "court": "N.D. Indiana",
+  "classified": "federal",
+  "rows": 3
+ },
+ {
+  "court": "N.D. Indiana (Bankruptcy)",
+  "classified": "federal",
+  "rows": 1
+ },
+ {
+  "court": "N.D. New York",
+  "classified": "federal",
+  "rows": 8
+ },
+ {
+  "court": "N.Y. Civil Court",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "S.D. Florida",
+  "classified": "federal",
+  "rows": 24
+ },
+ {
+  "court": "S.D. Indiana",
+  "classified": "federal",
+  "rows": 15
+ },
+ {
+  "court": "S.D. New York",
+  "classified": "federal",
+  "rows": 55
+ },
+ {
+  "court": "S.D. New York (Bankruptcy)",
+  "classified": "federal",
+  "rows": 2
+ },
+ {
+  "court": "SC Connecticut",
+  "classified": "state court",
+  "rows": 7
+ },
+ {
+  "court": "SC New York",
+  "classified": "state court",
+  "rows": 44
+ },
+ {
+  "court": "Supreme Court, NY",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "Tax Court Indiana",
+  "classified": "state court",
+  "rows": 1
+ },
+ {
+  "court": "W.D. New York",
+  "classified": "federal",
+  "rows": 2
+ }
+]

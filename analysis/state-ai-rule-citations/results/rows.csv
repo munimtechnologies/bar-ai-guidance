@@ -1,0 +1,88 @@
+case_id,state,court,date,period,party,doc_status,chars,readable,cites_new_rule,ai_words,ny_part_130,fl_2515_d2,fl_57105,ct_85_2_or_62_6,in_11_1_or_11_2,doc_sha256
+1335,CT,SC Connecticut,2026-02-19,pre,lawyer,no_document,,,,,,,,,,
+1654,CT,SC Connecticut,2026-03-27,pre,pro_se,no_document,,,,,,,,,,
+1688,CT,SC Connecticut,2026-03-31,pre,lawyer,ok,43771,True,False,True,False,False,False,False,False,ab51dbb893f504b4edc5e9cc7bbaa45ee711b6a22fba53a3ee230fe4caaee98a
+1995,CT,SC Connecticut,2026-05-08,pre,pro_se,ok,20053,True,False,True,False,False,False,False,False,53b07f82ee775bce4d1d1a46b6768a4adf50b3ee19804b23734551b2129a18ce
+2327,CT,SC Connecticut,2026-07-31,post,lawyer,ok,16012,True,True,True,False,False,False,True,False,de80b40e1719d6d42477ab81b5e3dbac6bdea27a53ea7b324f8d6e30d4143586
+2822,CT,SC Connecticut,2026-10-07,post,pro_se,ok,20633,True,True,True,False,False,False,False,False,ab757391bc998464fcf35b9583be09f0de5add5e363d38d21a92ac70cd1b309f
+886,FL,CA Florida,2025-12-10,pre,lawyer,ok,7735,True,False,True,False,False,False,False,False,15eb266d409635b44e19d7d5867e233fa631c43ca14ab100de8523e3032bbad6
+985,FL,CA Florida,2025-12-17,pre,pro_se,ok,1750,True,False,True,False,False,False,False,False,4b5db90234b1bf03516933290c2600c57ecfb3321c2eda914fcb4a6fcc52f3df
+1321,FL,DCA Florida,2026-02-25,pre,pro_se,ok,2186,True,False,True,False,False,False,False,False,615b005f0e7e51b8419e2d45e0233ba596e72c12ea68c79add53259ab7396da6
+1390,FL,CA Florida,2026-03-11,pre,pro_se,ok,2222,True,False,True,False,False,False,False,False,7b9f68fe83b791fbad3a6ddd193512cdce09c1d9edf114b09aee5eea68aed385
+1493,FL,CA Florida (4th),2026-03-18,pre,pro_se,ok,2999,True,False,True,False,False,False,False,False,39c5d706a56ab9177c4d6b15bd8b8c8b70fb6668a1c2c86f2b7c65d93e20256e
+1499,FL,CA Florida (6d),2026-03-20,pre,pro_se,ok,11657,True,True,True,False,True,False,False,False,57df6fbcb258b5fb401c5818d4b74332a81fe865e33c5509b396a291523a36ba
+1558,FL,CA Florida (4th),2026-03-25,pre,pro_se,ok,11086,True,False,True,False,False,True,False,False,cc5720e8e018eaa4187f142fc60a1889477d01969799bd55dc35b869821f232b
+1705,FL,CA Florida (6d),2026-04-10,pre,lawyer,ok,7768,True,False,True,False,False,False,False,False,cba1c154dba28a6853284ee79aee89ee61d2e18781f7c68a4734eb4e1fae08d5
+1865,FL,CA Florida (2d),2026-05-13,pre,pro_se,ok,3134,True,True,True,False,True,False,False,False,32b6a655b4ef14f6f9c8c83102fd2104c63dd513d4a41398f91c67ff9b9723e1
+1888,FL,CA Florida (6d),2026-05-22,pre,lawyer,ok,2211,True,False,True,False,False,False,False,False,16f11d8459e3156c23138ba529cb893a0867a30fc99a7d9e05f33a217607c390
+1923,FL,CA Florida (4d),2026-05-27,pre,lawyer,ok,1920,True,False,False,False,False,False,False,False,3baeb345213257c862b168d83a85ca924a8205652e5a0f1345a83cb62550ecc1
+1925,FL,CA Florida (4d),2026-05-27,pre,lawyer,ok,11025,True,False,True,False,False,False,False,False,1e83ea60430f8b1b2e22f0fe82efa76b9b9354d34d5b066e76de68afd59dba57
+1926,FL,CA Florida (4d),2026-05-27,pre,pro_se,ok,14149,True,False,True,False,False,False,False,False,ab40c0f25517f8619fd5b7097022cdb6eb218238c98f979c00ad2d0b8e18692d
+2119,FL,CA Florida (6d),2026-06-26,post,pro_se,ok,9686,True,True,True,False,True,False,False,False,93de67f7e6333c15d9f8313578a1fd7acb3eae650ea25a46b4c1d9f95fbc5749
+2205,FL,CA Florida (2d),2026-07-08,post,pro_se,ok,1902,True,True,True,False,True,False,False,False,e1032a3cb8e9a5b2d8c80b1aaa96f13ae0384ec274bdb94e680bb4839d8e28e8
+2297,FL,CA Florida (4d),2026-07-22,post,pro_se,ok,6389,True,False,True,False,False,False,False,False,cd0ad13fbed55974bccbec8a4da5565ac6c1258f96660e0139b6a463cd69e0a3
+2426,FL,CA Florida (4d),2026-08-12,post,lawyer,ok,5345,True,True,True,False,True,False,False,False,8ae7ec98c7005eaeae7e4a16003f0b4125a0c85f9a0b3c71a4b8bfbd36a4b73f
+2489,FL,CA Florida (2d),2026-08-21,post,lawyer,ok,29098,True,True,True,False,True,False,False,False,451c16e37b8b74842a3d32bf456016a4e3e6979e4d23860f1f80de605193b7b0
+2627,FL,CA Florida (6d),2026-09-10,post,pro_se,ok,2283,True,False,False,False,False,False,False,False,60db89bddb24b9468d187bd9707470f1e0940c7de13bb2729fa9c64c4a80de69
+2666,FL,Florida (1d),2026-09-14,post,pro_se,ok,1531,True,True,False,False,True,False,False,False,c6a9a543135a11e304de4c6a1f870081550ba971bf7aae871bae0216b5edffb2
+2637,FL,CA Florida (4d),2026-09-16,post,lawyer,ok,35397,True,True,True,False,True,False,False,False,36963e2dcad67b8aeab2982e584ff4b13dabd9c1deaa2446d10936321beb686f
+2670,FL,CA Florida (3d),2026-09-23,post,pro_se,ok,4165,True,False,True,False,False,False,False,False,8e5b7542751601ec3c73c0e66259658e328f21debe9bb19d4686c7c8ed7fea20
+2761,FL,CA Florida (2d),2026-10-07,post,pro_se,ok,7475,True,True,True,False,True,False,False,False,c94b2f7017c2b400cf9c9704faf261d3c6cd36bf5f2776084848ad723abce021
+2780,FL,CA Florida (4d),2026-10-07,post,lawyer,ok,9835,True,True,True,False,True,False,False,False,a6f6cd5b41161b313b86adb04dd4bd090bf301f8ddb30367ceb30bfd2c797d2b
+726,IN,CA Indiana,2025-11-03,pre,pro_se,ok,8072,True,False,True,False,False,False,False,False,d45242cebeb9928303f33c07426c9b2b7dbb910bd5e171a30fd56eacaf002335
+808,IN,CA Indiana,2025-11-24,pre,pro_se,ok,13218,True,False,True,False,False,False,False,False,17c9755105f3aa5c9650ea5b97baf3caf65eba25d405cd951feb107293aff8d9
+1002,IN,Indiana Tax Court,2025-12-22,pre,pro_se,ok,36427,True,False,True,False,False,False,False,False,518c15db58c0facdae2a98acce0f6cfd7d79e23795169450d8961ca9358e62d4
+1180,IN,CA Indiana,2026-01-30,pre,pro_se,ok,29442,True,False,True,False,False,False,False,False,f390cb20660ef0dfee5d962082963455a93fc51a42794cdd974bb28a5e313c13
+1241,IN,CA Indiana,2026-02-06,pre,pro_se,ok,12778,True,False,True,False,False,False,False,False,9ca004f8c970fa731dccd8a1b16aa3ed02aaf394954d2a7318e29225d9298508
+1416,IN,CA Indiana,2026-03-10,pre,pro_se,ok,22595,True,False,True,False,False,False,False,False,2d71829adb488bab10ef056417dbb45d57c1abded569ff31bc3263f9e3d940cc
+1613,IN,CA Indiana,2026-03-30,pre,pro_se,ok,51856,True,False,True,False,False,False,False,False,1bf7162a5e0303945dc805de1cfed8389ed38d9f962b7851770f1bd65dbb81c6
+1946,IN,CA Indiana,2026-05-26,pre,pro_se,ok,35620,True,False,True,False,False,False,False,False,3b0e44fe7519c8897f96ef29f2caca64aa67f8d16dc69501ffe3fb7680643012
+2147,IN,CA Indiana,2026-06-16,pre,lawyer,ok,25712,True,True,True,False,False,False,False,False,4171a3c6ab86483fb40be71f15ca070eddf79196e95f56d758e315074265a8a8
+2110,IN,CA Indiana,2026-06-22,pre,lawyer,ok,97666,True,False,True,False,False,False,False,False,fdb25af619774946b9a9a66359062042efa40a213790b2e1fa820649bf1fd424
+2288,IN,CA Indiana,2026-07-15,pre,pro_se,ok,45307,True,False,True,False,False,False,False,False,abbd78c73ecadde77ac874a6d5ba9758e90e26fec11f9d98be5b1fa353830a41
+2292,IN,Tax Court Indiana,2026-07-16,pre,pro_se,ok,8227,True,False,True,False,False,False,False,False,76eb432ae5590bee616dce2c237b239183e72086205fb9da02c31407c026350b
+2500,IN,CA Indiana,2026-08-14,post,pro_se,ok,15920,True,True,True,False,False,False,False,False,0f98b2251291e09c3d463d74d7a69c4016d33c01dd0208becf04a3bd45da9830
+2657,IN,CA Indiana,2026-09-18,post,pro_se,ok,42389,True,False,True,False,False,False,False,False,6731a090d78b8a751b4ea2210a8b981d2c9ead6daf9f5e2fddda2bedc8693b80
+2820,IN,CA Indiana,2026-10-14,post,pro_se,ok,32775,True,False,False,False,False,False,False,False,f20529a297bb15cd393884387c4e1e1eb65843aa79e4cb5d70116c2ff38de287
+2918,IN,CA Indiana,2026-10-29,post,pro_se,ok,24697,True,False,True,False,False,False,False,False,313f87fb39f10424bccdecfb399aec36518fc0155c987297033661a476cdd45c
+728,NY,SC New York,2025-11-03,pre,pro_se,ok,22970,True,False,True,False,False,False,False,False,f05c3c4291923f56f8d1a07e27dbb90dd7878f6e5ff20f1a72f0e1e8e4cd0c6a
+2008,NY,SC New York,2025-11-10,pre,lawyer,ok,22000,True,False,True,True,False,False,False,False,292f44cab6e66b4ce8ab82e7a70d99b6f8d300eeb908a3ba215ab3aa71bdd210
+764,NY,SC New York,2025-11-13,pre,lawyer,ok,8208,True,False,True,False,False,False,False,False,61908e0e7f66c4f4cb3e5512df82af7dbbfb8c6dc1d57a58eb1838947336d8fa
+821,NY,SC New York,2025-11-21,pre,pro_se,ok,37051,True,False,True,True,False,False,False,False,129644eb9926b07d5c86661ea30670b4d2502c1958421cee5c64b6d0c2330c55
+975,NY,SC New York,2025-12-04,pre,pro_se,ok,34891,True,False,False,True,False,False,False,False,ba440a6cbbd8eec0139e9e29c0526f85fdef8df8cb2600a7f3ee3d12026fc46e
+1121,NY,SC New York,2025-12-30,pre,lawyer,ok,18133,True,False,True,False,False,False,False,False,bf4bd0f63dd2fd81ea63608b115c9d8f152ff97d01dcc9f2d61c2ec05b06c8fb
+1120,NY,SC New York,2025-12-31,pre,lawyer,ok,8147,True,False,False,False,False,False,False,False,faef61cf8ca179c7de8defcf46c1d175a76fc9e34e4afa2c51b01f784921b8e4
+1011,NY,SC New York,2026-01-08,pre,lawyer,ok,26182,True,False,True,True,False,False,False,False,5cd003dc8d5b51c0d77b278bbae121ab2a38ee7100508b742a57da42a1d48248
+1122,NY,SC New York,2026-01-12,pre,lawyer,ok,4361,True,False,True,False,False,False,False,False,28bdc57707288e001a7a4995e2649396ae05f63a3ccb08e30c363d6e7cbfdca8
+2002,NY,CC New York,2026-01-15,pre,lawyer,ok,15347,True,False,True,False,False,False,False,False,7fc434654e1f9bfbf8f3d8f8fcd31f79763bbacaee4145571bec085b1828f8c3
+1181,NY,SC New York,2026-01-27,pre,lawyer,ok,65532,True,False,True,True,False,False,False,False,50ed3d3e86482da6e69cdca19ad093bd4ff949ba3d6d56c51f762da4f81355d2
+1247,NY,SC New York,2026-02-09,pre,lawyer,ok,7004,True,False,True,False,False,False,False,False,c41b63c8d5c077a3ecc9503b6504160003cb079c9eedd39f74e112bbd758d4cd
+1552,NY,SC New York,2026-02-10,pre,lawyer,ok,10480,True,False,True,False,False,False,False,False,c052b11797b347a9c81ec29e7968157ae16d0053eae45201cd279efe85b246d3
+2001,NY,CC New York,2026-02-10,pre,lawyer,ok,8925,True,False,True,True,False,False,False,False,be4e072d47a2f0c408a06e59f15edaecf4d448dcc4bf08b0aa1fdcbac978fd01
+1998,NY,SC New York,2026-03-19,pre,lawyer,ok,12037,True,False,True,False,False,False,False,False,c193cf1b6aebc50ed9c09ce17c45e168a766c2e4eb9d88f1be726ad8807c9a85
+1689,NY,SC New York,2026-04-03,pre,pro_se,ok,14014,True,False,True,False,False,False,False,False,e3cdfa8dc77aacde32db2beb9655570edbb4794cee7fb31e3a5809cff5a7e299
+1761,NY,SC New York,2026-04-03,pre,lawyer,ok,80986,True,False,True,True,False,False,False,False,143d353bd945c46cb2e0254fd2c3f40d00a16a0afa8b0be2e6b3d2e1f4bb48ad
+1994,NY,SC New York,2026-04-24,pre,pro_se,ok,10312,True,False,True,True,False,False,False,False,4783df36eff92f2f4dc1b200cb06f1f0069b4c501554a1fa7ea68337ad08d462
+1867,NY,SC New York,2026-04-27,pre,pro_se,ok,20623,True,False,True,False,False,False,False,False,bbbef92bdbba7488c55d725e96fc7ee1073709ed4fecc83cd9ef2859a3ea7aa2
+1992,NY,SC New York,2026-05-01,pre,lawyer,ok,8620,True,False,True,False,False,False,False,False,250806cd4429c07c0e84c30fc2a31728fe0292903cba5f1b54c0dd5b0ebbb628
+2047,NY,SC New York,2026-05-05,pre,lawyer,ok,6790,True,False,True,False,False,False,False,False,92f096f4b5e0365ff87ed5820eae654e2a7fcb9d4ad3a3d0e8265f4df17e1b26
+2116,NY,SC New York,2026-05-12,pre,pro_se,ok,35289,True,False,True,True,False,False,False,False,6b3c60b34800fff195bb0531cf5521805e5b570c942dc7240e7f413ece20011a
+1875,NY,App. Div. 1st Dept (NY),2026-05-14,pre,lawyer,ok,9013,True,False,True,False,False,False,False,False,401eae427b9e6cba95c51235eab4e077e18d2dacd3ca4a967a12d0bb986fe081
+1890,NY,App. NY (2d),2026-05-20,pre,lawyer,ok,1344,False,False,False,True,False,False,False,False,83ed040dce936564f08f81e30cb9dfc4c61c3983d42615212301f493fc980d5c
+1959,NY,CA New York,2026-05-27,pre,pro_se,ok,28796,True,False,True,True,False,False,False,False,2a51681b984ecf741803b1913977bfc1ca87373de85b90dc216ed3f8bfb097a2
+1997,NY,SC New York,2026-05-28,pre,lawyer,ok,8275,True,False,True,True,False,False,False,False,c72342baf1e992acb08dfb10ed8fd1b5b9b4f6a83f5cda90e47763cdc42495a7
+2215,NY,SC New York,2026-06-01,post,pro_se,ok,54188,True,False,True,True,False,False,False,False,9f79d2478aadae4b77c63b94b26c2dab6efc7ee61b319c1c9b0e52274c1c5188
+2117,NY,SC New York,2026-06-12,post,lawyer,ok,10126,True,False,False,False,False,False,False,False,2565c5f6353367d9a319107a93c596f943e33bffb42263ae28a1529e01281417
+2216,NY,SC New York,2026-06-16,post,lawyer,ok,7909,True,False,True,False,False,False,False,False,7f36a83b8e352744c491ec181060a06f2525903e65735f93a4f63861431c3be0
+2097,NY,CA NY (2d),2026-06-23,post,lawyer,ok,26482,True,False,True,True,False,False,False,False,c668ab628ec4812c16233ea309426a44dbffaa6d72b287ac7123c44ba4ca1583
+2211,NY,SC New York,2026-07-06,post,pro_se,ok,14469,True,False,True,True,False,False,False,False,f60ddae2742813e9fb3b71cf364e611f1ee7b462985b062546c836cd35f94d20
+2471,NY,SC New York,2026-07-22,post,lawyer,ok,15952,True,False,False,False,False,False,False,False,e6a908ae6ffb9127095366738b2c355768c43bac3a44733e3b62f7e3bea74eed
+2474,NY,Family Court New York,2026-07-31,post,lawyer,ok,18011,True,False,True,True,False,False,False,False,7ad68d7aad9ff521d6465d259b9f767e220ec7cc6ef65fa969d92a1b0f2b5da0
+2476,NY,SC New York,2026-08-04,post,lawyer,ok,25501,True,False,True,True,False,False,False,False,1881f7c30516c3609dc1386bc9bef4158a2cef7a20b3aa96120db85189c9fd7b
+2428,NY,SC New York,2026-08-07,post,lawyer,ok,15068,True,False,True,True,False,False,False,False,d3d1ae0e8d392d2980e29557fab3b22f519b30100ce0c7aeb750e9742edc3790
+2648,NY,SC New York,2026-09-09,post,lawyer,ok,31245,True,False,True,True,False,False,False,False,bc829824db15bafa12a33c5c7e39a174e4dc833e86e35a3069fa8e33ff137c8d
+2663,NY,SC New York,2026-09-09,post,lawyer,ok,14918,True,False,True,False,False,False,False,False,13cfb39592e1e268b3326b52bebf20e52b68923a2776e4eed070a5c9d64af04e
+2904,NY,SC New York,2026-10-15,post,lawyer,ok,9847,True,False,True,False,False,False,False,False,eeaa4c7f259d87d951083158b4965e51a45aa287eb2c642b86301639891f5b65
+2902,NY,CA New York (1d),2026-10-27,post,pro_se,ok,9348,True,False,True,False,False,False,False,False,6f57f50e9c83201aea5f5237152a915b926c883c00c3b8c839da4a7b7aaf0e48
+2917,NY,SC New York,2026-10-28,post,lawyer,ok,6248,True,False,True,True,False,False,False,False,0faa5f2a2e254d15c758af41337da35cc7fbfb34802bb79d467d303b2068461c
+2937,NY,SC New York,2026-11-02,post,pro_se,ok,31316,True,False,True,True,False,False,False,False,bc800e3c845786c4c9b954a6080a3e5be31267fa49db6f04d7b5ab72fbc9e540

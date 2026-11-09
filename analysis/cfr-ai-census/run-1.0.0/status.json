@@ -1,0 +1,22 @@
+{
+ "started": "2026-11-09T17:59:09Z",
+ "census_version": "1.0.0",
+ "plan_commit": {
+  "sha": "4d1ac4f1f0fce5c0f651fead03454ba3380d08a2",
+  "date": "2026-11-09T10:50:25Z"
+ },
+ "census_commit": {
+  "sha": "4d1ac4f1f0fce5c0f651fead03454ba3380d08a2",
+  "date": "2026-11-09T10:50:25Z"
+ },
+ "census_sha256_committed": "258cf47cbdeb2f102b9e58610b4b638a115e2f352e021b228d368cac6422fe89",
+ "census_sha256_local": "258cf47cbdeb2f102b9e58610b4b638a115e2f352e021b228d368cac6422fe89",
+ "queries_started": "2026-11-09T17:59:09Z",
+ "queries_finished": "2026-11-09T18:40:47Z",
+ "provisions_in_force": 0,
+ "provisions_ever": 35,
+ "rules_of_practice_in_force": [],
+ "queries_complete": false,
+ "result": "incomplete: some queries failed or returned fewer hits than total_count",
+ "finished": "2026-11-09T18:40:47Z"
+}

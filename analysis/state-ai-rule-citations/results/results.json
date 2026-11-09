@@ -1,0 +1,202 @@
+{
+ "version": "1.0.0",
+ "cutoff": "2026-11-08",
+ "pre_start": "2025-11-01",
+ "rules": {
+  "NY": {
+   "rule": "22 NYCRR Part 161",
+   "effective": "2026-06-01",
+   "entry": "ny-ucs-part-161"
+  },
+  "FL": {
+   "rule": "Fla. R. Gen. Prac. & Jud. Admin. 2.515",
+   "effective": "2026-06-15",
+   "entry": "fl-sc2026-0673-rule-2-515"
+  },
+  "CT": {
+   "rule": "Connecticut Practice Book Section 4-9",
+   "effective": "2026-06-23",
+   "entry": "ct-practice-book-4-9-2026"
+  },
+  "IN": {
+   "rule": "Indiana Trial Rule 11 (and 11.1, 11.2)",
+   "effective": "2026-08-01",
+   "entry": "in-trial-rule-11-2026"
+  }
+ },
+ "counts": {
+  "rows_in_scope": 87,
+  "by_doc_status": {
+   "no_document": 2,
+   "ok": 85
+  },
+  "unreadable": 1,
+  "readable": 84
+ },
+ "by_state": {
+  "NY": {
+   "post": {
+    "n": 15,
+    "cites": 0,
+    "share": 0.0
+   },
+   "pre": {
+    "n": 25,
+    "cites": 0,
+    "share": 0.0
+   }
+  },
+  "FL": {
+   "post": {
+    "n": 11,
+    "cites": 8,
+    "share": 0.727
+   },
+   "pre": {
+    "n": 13,
+    "cites": 2,
+    "share": 0.154
+   }
+  },
+  "CT": {
+   "post": {
+    "n": 2,
+    "cites": 2,
+    "share": 1.0
+   },
+   "pre": {
+    "n": 2,
+    "cites": 0,
+    "share": 0.0
+   }
+  },
+  "IN": {
+   "post": {
+    "n": 4,
+    "cites": 1,
+    "share": 0.25
+   },
+   "pre": {
+    "n": 12,
+    "cites": 1,
+    "share": 0.083
+   }
+  }
+ },
+ "post_by_party": {
+  "lawyer": {
+   "n": 16,
+   "cites": 5,
+   "share": 0.312
+  },
+  "pro_se": {
+   "n": 16,
+   "cites": 6,
+   "share": 0.375
+  },
+  "other": {
+   "n": 0,
+   "cites": 0,
+   "share": null
+  }
+ },
+ "secondary_post": {
+  "ny_part_130": 9,
+  "fl_2515_d2": 8,
+  "fl_57105": 0,
+  "ct_85_2_or_62_6": 1,
+  "in_11_1_or_11_2": 0
+ },
+ "secondary_pre": {
+  "ny_part_130": 11,
+  "fl_2515_d2": 2,
+  "fl_57105": 1,
+  "ct_85_2_or_62_6": 0,
+  "in_11_1_or_11_2": 0
+ },
+ "predictions": {
+  "H1": {
+   "verdict": "held",
+   "detail": {
+    "n": 32,
+    "cites": 11,
+    "share": 0.344
+   }
+  },
+  "H2": {
+   "verdict": "held",
+   "detail": {
+    "n": 15,
+    "part_130": 9,
+    "part_161": 0
+   }
+  },
+  "H3": {
+   "verdict": "held",
+   "detail": {
+    "post": {
+     "n": 11,
+     "cites": 8,
+     "share": 0.727
+    },
+    "pre": {
+     "n": 13,
+     "cites": 2,
+     "share": 0.154
+    }
+   }
+  },
+  "H4": {
+   "verdict": "held",
+   "detail": {
+    "post": {
+     "n": 4,
+     "cites": 1,
+     "share": 0.25
+    },
+    "pre": {
+     "n": 12,
+     "cites": 1,
+     "share": 0.083
+    }
+   }
+  },
+  "H5": {
+   "verdict": "failed",
+   "detail": {
+    "lawyer": {
+     "n": 16,
+     "cites": 5,
+     "share": 0.312
+    },
+    "pro_se": {
+     "n": 16,
+     "cites": 6,
+     "share": 0.375
+    }
+   }
+  },
+  "H6": {
+   "verdict": "held",
+   "detail": {
+    "n": 15,
+    "matches": 0
+   }
+  }
+ },
+ "source": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-09T15:25:28Z",
+  "bytes": 2192398,
+  "sha256": "bcd49cf6e3cb05f4ade4ac51aabcebe9a6aa731fc0a61bfa0291329aa2f92d20",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+  "plan_commit": {
+   "sha": "61ffda727387a0f65500c6bb6f0df16444e90caf",
+   "date": "2026-11-09T04:23:16Z"
+  },
+  "census_commit": {
+   "sha": "61ffda727387a0f65500c6bb6f0df16444e90caf",
+   "date": "2026-11-09T04:23:16Z"
+  }
+ }
+}

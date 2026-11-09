@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name.
-"""Job wrapper for the pre-registered CFR AI-terms census (census 1.0.0).
+"""Job wrapper for the pre-registered CFR AI-terms census (census 1.0.1).
 
 Order enforced here:
 1. wait until analysis/cfr-ai-census/PLAN.md and census.py are public in
-   munimtechnologies/bar-ai-guidance, and check that the census.py next to this file is
-   identical (line endings aside) to the newest committed one;
+   munimtechnologies/bar-ai-guidance AND the newest committed census.py is identical (line
+   endings aside) to the census.py next to this file (1.0.1 waits for its own commit);
 2. only then query the eCFR search API: every term without a date (all versions since
    2017) and at every census date, every page, DELAY_S seconds apart;
 3. build the provision list, the timeline and the summaries.
@@ -48,19 +48,27 @@ def commits_for(path):
     return [{"sha": c["sha"], "date": c["commit"]["committer"]["date"]} for c in data]
 
 
-def wait_for_plan(max_minutes, step_minutes=5):
+def wait_for_plan(local_sha, max_minutes, step_minutes=5):
+    """Return (oldest PLAN commit, newest census.py commit, sha of that committed census.py)."""
     deadline = time.time() + max_minutes * 60
+    last = (None, None, None)
     while True:
         try:
             plan = commits_for(DIR + "/PLAN.md")
             code = commits_for(DIR + "/census.py")
             if plan and code:
-                return plan[-1], code[0]
-            print(census.now(), "plan not public yet", flush=True)
+                committed = get("https://raw.githubusercontent.com/%s/%s/%s/census.py"
+                                % (REPO, code[0]["sha"], DIR))
+                last = (plan[-1], code[0], norm_sha(committed))
+                if last[2] == local_sha:
+                    return last
+                print(census.now(), "newest committed census.py differs from local; waiting", flush=True)
+            else:
+                print(census.now(), "plan not public yet", flush=True)
         except Exception as exc:
             print(census.now(), "github check failed:", exc, flush=True)
         if time.time() > deadline:
-            return None, None
+            return last
         time.sleep(step_minutes * 60)
 
 
@@ -115,18 +123,24 @@ def main(argv=None):
     os.makedirs(args.out_dir, exist_ok=True)
     status = {"started": census.now(), "census_version": census.VERSION}
 
-    plan, code = wait_for_plan(args.wait_minutes)
+    with open(os.path.join(HERE, "census.py"), "rb") as fh:
+        local_sha = norm_sha(fh.read())
+    plan, code, committed_sha = wait_for_plan(local_sha, args.wait_minutes)
     if not plan:
         status["result"] = "stopped: PLAN.md not public; nothing queried"
         return finish(args.out_dir, status, 3)
-    committed = get("https://raw.githubusercontent.com/%s/%s/%s/census.py" % (REPO, code["sha"], DIR))
-    with open(os.path.join(HERE, "census.py"), "rb") as fh:
-        local = fh.read()
     status.update({"plan_commit": plan, "census_commit": code,
-                   "census_sha256_committed": norm_sha(committed), "census_sha256_local": norm_sha(local)})
-    if norm_sha(committed) != norm_sha(local):
+                   "census_sha256_committed": committed_sha, "census_sha256_local": local_sha})
+    if committed_sha != local_sha:
         status["result"] = "stopped: local census.py differs from the committed one; nothing queried"
         return finish(args.out_dir, status, 4)
+
+    # The census date must be one the eCFR covers for every title.
+    try:
+        titles = json.loads(get("https://www.ecfr.gov/api/versioner/v1/titles.json").decode("utf-8"))
+        status["ecfr_up_to_date_as_of"] = (titles.get("meta") or {}).get("date")
+    except Exception as exc:
+        status["ecfr_up_to_date_as_of"] = "check failed: %s" % exc
 
     status["queries_started"] = census.now()
     dated, undated, logs, raw = {}, {}, [], []
@@ -156,6 +170,7 @@ def main(argv=None):
     summary["queries_complete"] = queries_ok
     summary["source"] = {"api": census.API, "queried_from": status["queries_started"],
                          "queried_to": status["queries_finished"],
+                         "ecfr_up_to_date_as_of": status.get("ecfr_up_to_date_as_of"),
                          "plan_commit": plan, "census_commit": code}
     with open(os.path.join(args.out_dir, "provisions.csv"), "w", encoding="utf-8", newline="") as fh:
         fh.write(census.to_csv(rows, census.ROW_FIELDS))
