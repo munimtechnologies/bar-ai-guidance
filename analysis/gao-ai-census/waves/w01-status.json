@@ -1,0 +1,27 @@
+{
+ "started": "2026-11-08T20:18:48Z",
+ "census_version": "1.0.0",
+ "wave": "w01",
+ "plan_commit": {
+  "sha": "7738804c3402ef4a9637fbc99daa2dfd6264426f",
+  "date": "2026-11-08T16:31:47Z"
+ },
+ "census_commit": {
+  "sha": "7738804c3402ef4a9637fbc99daa2dfd6264426f",
+  "date": "2026-11-08T16:31:47Z"
+ },
+ "census_sha256_committed": "24c65e25f0bf98495f156d86b50cbda7a87b0bfd5b225417b0df91a306fd75fd",
+ "census_sha256_local": "24c65e25f0bf98495f156d86b50cbda7a87b0bfd5b225417b0df91a306fd75fd",
+ "ledger": "absent (first wave)",
+ "ledger_rows": 0,
+ "result": "wave done",
+ "new_rows": 19,
+ "new_by_category": {
+  "none": 17,
+  "cite_only": 1,
+  "ai_citation": 1
+ },
+ "gap_possible": false,
+ "errors": 0,
+ "finished": "2026-11-08T22:33:28Z"
+}
