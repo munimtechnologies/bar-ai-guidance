@@ -1,0 +1,21 @@
+{
+ "started": "2026-11-10T13:36:44Z",
+ "census_version": "1.0.0",
+ "log": [
+  "listing page 6: no rows parsed",
+  "7 listing pages, 0 in frame, 58 undated listing rows"
+ ],
+ "plan_commit": {
+  "sha": "012f7707b96948d60685c8e1ac342bb0cb29b24a",
+  "date": "2026-11-10T11:44:11Z"
+ },
+ "census_commit": {
+  "sha": "012f7707b96948d60685c8e1ac342bb0cb29b24a",
+  "date": "2026-11-10T11:44:11Z"
+ },
+ "census_sha256_committed": "39451ad65c6bdbbbe52b644e3e0e4c1fb068690421619646837d8206ffc7dadc",
+ "census_sha256_local": "39451ad65c6bdbbbe52b644e3e0e4c1fb068690421619646837d8206ffc7dadc",
+ "db_flra_rows": 1,
+ "result": "stopped: frame holds 0 decisions (listing parser); no decision text fetched",
+ "finished": "2026-11-10T13:37:17Z"
+}

@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name.
-"""FLRA archive AI-citation census 1.0.0 (pre-registered; see PLAN.md next to this file).
+"""FLRA archive AI-citation census 1.0.1 (pre-registered; see PLAN.md and AMENDMENT-1.md next to this file).
 
 Pure functions only: listing parser, text classification, coverage matching and grading.
 Fetching lives in run_job.py. Standard library only. Information about public decisions,
 not legal advice.
+
+1.0.1 (AMENDMENT-1.md) changes the listing parser only: the FLRA's list shows each decision
+as two table rows (citation and date in the first, links in the second), and older decisions
+link to pages ending in .html. Classification, frame, definitions and grading are unchanged.
 """
 from __future__ import annotations
 
@@ -16,7 +20,7 @@ import io
 import json
 import re
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 UA = "MV2-Munim-research/1.0 (mv2@munimtech.com)"
 START = "2022-01-01"          # first issuance date in the frame
 END = "2026-11-10"            # last issuance date in the frame
@@ -35,7 +39,10 @@ DATE_RE = re.compile(
     r"|\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),\s*(20\d\d)\b"
     r"|\b(20\d\d)-(\d\d)-(\d\d)\b")
 
-FLRA_HREF = re.compile(r"""href=["']((?:https?://www\.flra\.gov)?/decisions/v(\d+)/(\d+)-(\d+)[a-z0-9_-]*)["']""", re.I)
+# 1.0.1: the link may end in ".html" (decisions before about 2025 do).
+FLRA_HREF = re.compile(r"""href=["']((?:https?://www\.flra\.gov)?/decisions/v(\d+)/(\d+)-(\d+)[a-z0-9_.-]*)["']""", re.I)
+# 1.0.1: a decision listed with a PDF but no HTML link is kept in the frame (unreadable), not dropped.
+FLRA_PDF = re.compile(r"""href=["']((?:https?://www\.flra\.gov)?/system/files/decisions/v(\d+)_(\d+)(?:_\d+)?\.pdf)["']""", re.I)
 FLRA_CITE = re.compile(r"\b(\d{2})\s+FLRA\s+(?:No\.\s*)?(\d+)\b")
 
 # --- text classification (frozen) ---------------------------------------------------------
@@ -101,24 +108,36 @@ def main_text(page_html):
 
 
 def parse_flra_listing(page_html):
-    """Rows of one page of the FLRA's Authority-decisions list."""
+    """Rows of one page of the FLRA's Authority-decisions list.
+
+    The live list renders each decision as two <tr> rows: the first holds citation, issuance
+    number and date, the second the PDF/HTML links and the parties. A row without decision
+    links is carried forward and read together with the next row that has them (1.0.1).
+    A decision with a PDF but no HTML link is kept with url None (it cannot be read).
+    """
     parts = re.split(r"(?i)<tr\b", page_html)
     chunks = parts[1:] if len(parts) > 2 else []
     if not chunks:  # fallback: each HTML-version link with the text since the previous one
         ms = list(FLRA_HREF.finditer(page_html))
         chunks = [page_html[(ms[i - 1].end() if i else 0):m.end()] for i, m in enumerate(ms)]
-    out, seen = [], set()
+    out, seen, carry = [], set(), ""
     for ch in chunks:
         m = FLRA_HREF.search(ch)
-        if not m or m.group(2) != m.group(3):
-            continue
-        key = (int(m.group(2)), int(m.group(4)))
+        if m and m.group(2) == m.group(3):
+            key = (int(m.group(2)), int(m.group(4)))
+            url = m.group(1) if m.group(1).startswith("http") else FLRA_BASE + m.group(1)
+        else:
+            p = FLRA_PDF.search(ch)
+            if not p:
+                carry = ch  # header, or the dated half of a two-row entry
+                continue
+            key, url = (int(p.group(2)), int(p.group(3))), None
+        text = strip_tags(carry + " " + ch)
+        carry = ""
         if key in seen:
             continue
         seen.add(key)
-        text = strip_tags(ch)
         c = FLRA_CITE.search(text)
-        url = m.group(1) if m.group(1).startswith("http") else FLRA_BASE + m.group(1)
         out.append({"forum": FORUM, "volume": key[0], "number": key[1],
                     "citation": "%d FLRA No. %d" % key,
                     "reporter_cite": ("%s FLRA %s" % (c.group(1), c.group(2))) if c else "",

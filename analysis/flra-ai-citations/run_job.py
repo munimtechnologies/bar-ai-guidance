@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name.
-"""Job wrapper for the pre-registered FLRA archive AI-citation census (census 1.0.0).
+"""Job wrapper for the pre-registered FLRA archive AI-citation census (census 1.0.1).
 
 Order enforced here:
-1. wait until analysis/flra-ai-citations/PLAN.md and census.py are public in
-   munimtechnologies/bar-ai-guidance and check that the local census.py is identical
-   (line endings aside) to the newest committed one;
+1. wait until analysis/flra-ai-citations/PLAN.md, AMENDMENT-1.md and census.py are public in
+   munimtechnologies/bar-ai-guidance and the newest committed census.py is identical
+   (line endings aside) to the local one;
 2. download the AI Hallucination Cases Database CSV (for the coverage check only);
-3. build the frame from the FLRA's own decision list; if it holds fewer than 20 decisions,
-   stop before any decision text is fetched;
+3. build the frame from the FLRA's own decision list; stop before any decision text is
+   fetched if it holds fewer than 20 decisions or if the list never reached the frame's
+   start date (AMENDMENT-1);
 4. fetch each decision page, DELAY_S seconds apart, extract its main text, classify, grade.
 
 Texts and excerpts stay in out/private/ and are never published.
@@ -33,6 +34,7 @@ REPO = "munimtechnologies/bar-ai-guidance"
 DIR = "analysis/flra-ai-citations"
 CSV_URL = "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv"
 DELAY_S = 3
+EMPTY_RETRY_S = 60
 MAX_BYTES = 20 * 1024 * 1024
 MAX_PAGES = 150
 
@@ -68,19 +70,25 @@ def commits_for(path):
     return [{"sha": c["sha"], "date": c["commit"]["committer"]["date"]} for c in data]
 
 
-def wait_for_plan(max_minutes, step_minutes=5):
+def wait_for_plan(max_minutes, local_sha, step_minutes=5):
+    """(plan, amendment, code, committed_sha) once all are public and census.py matches; else Nones."""
     deadline = time.time() + max_minutes * 60
     while True:
         try:
             plan = commits_for(DIR + "/PLAN.md")
+            amend = commits_for(DIR + "/AMENDMENT-1.md")
             code = commits_for(DIR + "/census.py")
-            if plan and code:
-                return plan[-1], code[0]
-            print(census.now(), "plan not public yet", flush=True)
+            if plan and amend and code:
+                committed = get("https://raw.githubusercontent.com/%s/%s/%s/census.py" % (REPO, code[0]["sha"], DIR))[0]
+                if norm_sha(committed) == local_sha:
+                    return plan[-1], amend[-1], code[0], norm_sha(committed)
+                print(census.now(), "newest committed census.py differs from local; waiting", flush=True)
+            else:
+                print(census.now(), "plan or amendment not public yet", flush=True)
         except Exception as exc:
             print(census.now(), "github check failed:", exc, flush=True)
         if time.time() > deadline:
-            return None, None
+            return None, None, None, None
         time.sleep(step_minutes * 60)
 
 
@@ -92,37 +100,62 @@ def finish(out_dir, status, rc):
     return rc
 
 
-def build_frame(priv, log):
-    frame, seen, pages, undated = [], set(), 0, 0
-    for page in range(MAX_PAGES):
-        if page:
-            time.sleep(DELAY_S)
+def listing_page(page):
+    """(rows, body) for one listing page; an empty or failed page is tried once more."""
+    body, rows, err = b"", [], None
+    for attempt in range(2):
+        if attempt:
+            time.sleep(EMPTY_RETRY_S)
         try:
             body = get_retry(census.FLRA_LIST % page)[0]
+            err = None
         except Exception as exc:
-            log.append("listing page %d failed: %s" % (page, exc))
+            body, err = b"", exc
+            continue
+        rows = census.parse_flra_listing(body.decode("utf-8", "replace"))
+        if rows:
             break
+    return rows, body, err
+
+
+def build_frame(priv, log, max_pages=MAX_PAGES):
+    """(frame, pages, undated, reached_start). Two empty pages in a row end the listing."""
+    frame, seen, pages, undated, empty_run, reached = [], set(), 0, 0, 0, False
+    for page in range(max_pages):
+        if page:
+            time.sleep(DELAY_S)
+        rows, body, err = listing_page(page)
         pages += 1
-        if page == 0:
+        if page == 0 and body:
             with open(os.path.join(priv, "listing_page0.html"), "wb") as fh:
                 fh.write(body)
-        rows = census.parse_flra_listing(body.decode("utf-8", "replace"))
         if not rows:
-            log.append("listing page %d: no rows parsed" % page)
-            break
+            empty_run += 1
+            log.append("listing page %d: no rows parsed%s" % (page, (" (%s)" % err) if err else ""))
+            if body:
+                with open(os.path.join(priv, "listing_empty_%d.html" % page), "wb") as fh:
+                    fh.write(body)
+            if empty_run >= 2:
+                log.append("two empty listing pages in a row; listing stopped")
+                break
+            continue
+        empty_run = 0
         dated = [r for r in rows if r["date"]]
         undated += len(rows) - len(dated)
         for r in rows:
-            if r["url"] in seen:
+            if r["citation"] in seen:
                 continue
-            seen.add(r["url"])
+            seen.add(r["citation"])
             if census.in_window(r["date"]):
                 frame.append(r)
         if dated and all(r["date"] < census.START for r in dated):
+            reached = True
             log.append("reached %s on page %d" % (census.START, page))
             break
-    log.append("%d listing pages, %d in frame, %d undated listing rows" % (pages, len(frame), undated))
-    return frame, pages, undated
+    no_html = sum(1 for r in frame if not r["url"])
+    log.append("%d listing pages, %d in frame (%d without an HTML link), %d undated listing rows"
+               % (pages, len(frame), no_html, undated))
+    return frame, pages, undated, reached
 
 
 def main(argv=None):
@@ -134,20 +167,17 @@ def main(argv=None):
     os.makedirs(os.path.join(priv, "texts"), exist_ok=True)
     status = {"started": census.now(), "census_version": census.VERSION, "log": []}
 
-    plan, code = wait_for_plan(args.wait_minutes)
-    if not plan:
-        status["result"] = "stopped: PLAN.md not public; nothing downloaded"
-        return finish(args.out_dir, status, 3)
-    committed = get("https://raw.githubusercontent.com/%s/%s/%s/census.py" % (REPO, code["sha"], DIR))[0]
     with open(os.path.join(HERE, "census.py"), "rb") as fh:
-        local = fh.read()
-    status.update({"plan_commit": plan, "census_commit": code,
-                   "census_sha256_committed": norm_sha(committed), "census_sha256_local": norm_sha(local)})
-    if norm_sha(committed) != norm_sha(local):
-        status["result"] = "stopped: local census.py differs from the committed one; nothing downloaded"
-        return finish(args.out_dir, status, 4)
+        local_sha = norm_sha(fh.read())
+    plan, amend, code, committed_sha = wait_for_plan(args.wait_minutes, local_sha)
+    status["census_sha256_local"] = local_sha
+    if not plan:
+        status["result"] = "stopped: PLAN.md, AMENDMENT-1.md and a matching census.py not public; nothing downloaded"
+        return finish(args.out_dir, status, 3)
+    status.update({"plan_commit": plan, "amendment_commit": amend, "census_commit": code,
+                   "census_sha256_committed": committed_sha})
 
-    sources = {"plan_commit": plan, "census_commit": code}
+    sources = {"plan_commit": plan, "amendment_commit": amend, "census_commit": code}
     dbrows = None
     try:
         data = get_retry(CSV_URL, timeout=300)[0]
@@ -162,20 +192,27 @@ def main(argv=None):
         status["log"].append("database CSV failed: %s" % exc)
         sources["database"] = {"url": CSV_URL, "error": str(exc)}
 
-    rows, pages, undated = build_frame(priv, status["log"])
+    rows, pages, undated, reached = build_frame(priv, status["log"])
     sources["flra"] = {"listing": census.FLRA_LIST % 0, "listing_pages": pages, "in_frame": len(rows),
-                       "undated_listing_rows": undated, "built_at": census.now()}
+                       "without_html_link": sum(1 for r in rows if not r["url"]),
+                       "undated_listing_rows": undated, "reached_start": reached, "built_at": census.now()}
     with open(os.path.join(args.out_dir, "sources.json"), "w", encoding="utf-8") as fh:
         json.dump(sources, fh, indent=1)
     if len(rows) < 20:
         status["result"] = "stopped: frame holds %d decisions (listing parser); no decision text fetched" % len(rows)
         return finish(args.out_dir, status, 6)
+    if not reached:
+        status["result"] = "stopped: listing never reached %s, frame incomplete; no decision text fetched" % census.START
+        return finish(args.out_dir, status, 7)
     status["in_frame"] = len(rows)
     print(census.now(), "frame:", len(rows), flush=True)
 
     excerpts = []
     prog = open(os.path.join(priv, "progress.jsonl"), "w", encoding="utf-8")
     for i, r in enumerate(rows):
+        if not r["url"]:
+            r["doc_status"], r["readable"] = "no_html_link", False
+            continue
         time.sleep(DELAY_S)
         try:
             body, _ = get_retry(r["url"], timeout=120)

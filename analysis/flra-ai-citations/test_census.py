@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name.
-"""Offline tests for census.py (FLRA archive AI-citation census 1.0.0)."""
+"""Offline tests for census.py (FLRA archive AI-citation census 1.0.1)."""
 import os
 import sys
 import unittest
@@ -13,6 +13,22 @@ FLRA_HTML = """<table><tr><th>Citation</th><th>Date</th></tr>
 <td><a href="/system/files/decisions/v74_89.pdf">PDF</a> <a href="/decisions/v74/74-89">HTML</a></td></tr>
 <tr><td>74 FLRA 640</td><td>87</td><td>10/21/2026</td><td><a href="/decisions/v74/74-87">HTML</a></td></tr>
 </table>"""
+
+# The live list's layout (seen 2026-11-10): two <tr> per decision, date in the first, links in the second.
+DRUPAL_HTML = """<table><thead><tr><th>Citation #</th><th>Issuance Date</th></tr></thead><tbody>
+<tr class="group-one first"><td><div class="label">Citation #</div>74 FLRA 660 </td>
+<td><div class="label">Issuance #</div>89 </td><td><div class="label">Issuance Date</div>Oct. 30, 2026 </td>
+<td><div class="label">Case #</div>0-AR-6112 </td></tr>
+<tr class="group-one last"><td><a class="c-icon-link c-file__link" href="/system/files/decisions/v74_89.pdf">PDF</a> |
+<a href="https://www.flra.gov/decisions/v74/74-89" class="html-link">HTML</a></td>
+<td colspan="4">AFGE Local 421 (Union) and FERC (Agency)</td></tr>
+<tr class="group-two first"><td><div class="label">Citation #</div>74 FLRA 181 </td><td>29</td>
+<td><div class="label">Issuance Date</div>Jan. 08, 2025 </td></tr>
+<tr class="group-two last"><td><a href="/system/files/decisions/v74_29_0.pdf">PDF</a> |
+<a href="https://www.flra.gov/decisions/v74/74-29.html" class="html-link">HTML</a></td></tr>
+<tr class="group-one first"><td>72 FLRA 414</td><td>78</td><td>Jul. 01, 2021</td></tr>
+<tr class="group-one last"><td><a href="/system/files/decisions/v72_78.pdf">PDF</a></td></tr>
+</tbody></table>"""
 
 BORROW = ("Background. " + "x " * 100 + "it appears that the Agency may have used a generative "
           "artificial-intelligence (Al) tool in drafting its brief. Nine citations are entirely fictitious. "
@@ -28,6 +44,7 @@ class TestDates(unittest.TestCase):
         self.assertEqual(census.parse_date("10/30/2026"), "2026-10-30")
         self.assertEqual(census.parse_date("Issued Oct. 30, 2026"), "2026-10-30")
         self.assertEqual(census.parse_date("September 8, 2026"), "2026-09-08")
+        self.assertEqual(census.parse_date("Jan. 08, 2025"), "2025-01-08")
         self.assertEqual(census.parse_date("2026-11-06"), "2026-11-06")
         self.assertIsNone(census.parse_date("no date here"))
 
@@ -38,6 +55,9 @@ class TestDates(unittest.TestCase):
 
 
 class TestListing(unittest.TestCase):
+    def test_version(self):
+        self.assertEqual(census.VERSION, "1.0.1")
+
     def test_flra(self):
         rows = census.parse_flra_listing(FLRA_HTML)
         self.assertEqual([r["citation"] for r in rows], ["74 FLRA No. 89", "74 FLRA No. 87"])
@@ -45,6 +65,18 @@ class TestListing(unittest.TestCase):
         self.assertEqual(rows[0]["reporter_cite"], "74 FLRA 660")
         self.assertEqual(rows[0]["url"], "https://www.flra.gov/decisions/v74/74-89")
         self.assertEqual(rows[1]["date"], "2026-10-21")
+
+    def test_two_row_layout(self):
+        rows = census.parse_flra_listing(DRUPAL_HTML)
+        self.assertEqual([r["citation"] for r in rows], ["74 FLRA No. 89", "74 FLRA No. 29", "72 FLRA No. 78"])
+        self.assertEqual([r["date"] for r in rows], ["2026-10-30", "2025-01-08", "2021-07-01"])
+        self.assertEqual([r["reporter_cite"] for r in rows], ["74 FLRA 660", "74 FLRA 181", "72 FLRA 414"])
+        self.assertEqual(rows[0]["url"], "https://www.flra.gov/decisions/v74/74-89")
+        self.assertEqual(rows[1]["url"], "https://www.flra.gov/decisions/v74/74-29.html")
+        self.assertIsNone(rows[2]["url"])
+
+    def test_header_only_page(self):
+        self.assertEqual(census.parse_flra_listing("<table><tr><th>Citation #</th></tr><tr><td>none</td></tr></table>"), [])
 
     def test_fallback_without_table(self):
         page = ('<div>74 FLRA 640 Oct. 21, 2026 <a href="/decisions/v74/74-87">HTML</a></div>'
