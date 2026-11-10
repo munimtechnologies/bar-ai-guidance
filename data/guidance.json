@@ -1,7 +1,7 @@
 {
   "dataset": "US bar, court and legislative guidance on lawyers' use of generative AI: primary sources",
-  "version": "0.16.1",
-  "updated": "2026-11-07",
+  "version": "0.16.2",
+  "updated": "2026-11-10",
   "maintainer": "MV2 of Munim, Inc. (mv2@munimtech.com)",
   "license": "CC BY 4.0 for this index; each linked document keeps its issuer's own terms",
   "fields": {
@@ -227,7 +227,23 @@
       "verification": "fetched",
       "confidentiality_note": "The rule says nothing about confidentiality or about what may be entered into an AI tool: anyone who uses generative AI to create or edit a document filed with the court must independently verify every citation, legal authority or piece of evidence it produced, and filing represents good-faith efforts to comply with this rule, the Rules of Professional Conduct and Connecticut law on AI use.",
       "in_house_tools_note": "Its definition of generative AI covers any machine-learning model or application that creates content in response to a prompt, naming commercial products only as examples, so a model run inside the firm is covered too; the duty is to verify output, wherever the tool runs.",
-      "notes": "MV2 read the text in the Connecticut Law Journal of 23 June 2026 (Superior Court Practice Book notice, PDF pages 3 to 16), fetched from jud.ct.gov. The judges of the Superior Court adopted the amendments on 11 June 2026 (the date recorded here); most take effect on 1 January 2027, but the revision of Section 4-2 and new Section 4-9 took effect on publication, 23 June 2026. Section 4-9 names ChatGPT, Co-Counsel, Harvey, DeepSeek, Grok and others as examples, warns of faulty citations, fabricated quotations and fabricated evidence, says failure to verify may bring sanctions including nonsuit or default judgment, and puts responsibility solely on the person filing: the court and clerk need not review filings for compliance. Revised Section 4-2 (b) makes a signature a certificate of compliance with Section 4-9. No disclosure of AI use is required. The notice covers Superior Court rules only; MV2 did not check whether appellate rules were amended too."
+      "notes": "MV2 read the text in the Connecticut Law Journal of 23 June 2026 (Superior Court Practice Book notice, PDF pages 3 to 16), fetched from jud.ct.gov. The judges of the Superior Court adopted the amendments on 11 June 2026 (the date recorded here); most take effect on 1 January 2027, but the revision of Section 4-2 and new Section 4-9 took effect on publication, 23 June 2026. Section 4-9 names ChatGPT, Co-Counsel, Harvey, DeepSeek, Grok and others as examples, warns of faulty citations, fabricated quotations and fabricated evidence, says failure to verify may bring sanctions including nonsuit or default judgment, and puts responsibility solely on the person filing: the court and clerk need not review filings for compliance. Revised Section 4-2 (b) makes a signature a certificate of compliance with Section 4-9. No disclosure of AI use is required. The notice covers Superior Court rules only; the parallel amendments to the Rules of Appellate Procedure, in force since 14 July 2026, are entry ct-rap-ai-2026."
+    },
+    {
+      "id": "ct-rap-ai-2026",
+      "jurisdiction": "CT",
+      "issuer": "Supreme Court and Appellate Court of Connecticut (Rules of Appellate Procedure notice, Connecticut Law Journal)",
+      "title": "Amendments to the Rules of Appellate Procedure on generative artificial intelligence: Sections 60-4, 62-6 and 85-2",
+      "number": "Practice Book §§ 60-4, 62-6 (d) and 85-2",
+      "date": "2026-07-14",
+      "kind": "rule_amendment",
+      "binding": "court_rule",
+      "url": "https://www.jud.ct.gov/LegalResources/Docs/LJDocs/Misc/2026/29/pblj_8803.pdf",
+      "url_verified": "2026-11-10",
+      "verification": "fetched",
+      "confidentiality_note": "The amendments say nothing about confidentiality or about what may be entered into an AI tool: they carry the Superior Court's Section 4-9 duty into appeals, so a filer must independently verify every citation and legal authority that generative AI produced, and failing to do so becomes a ground for appellate sanctions.",
+      "in_house_tools_note": "Generative AI takes the meaning used in Section 4-9, whose definition covers any machine-learning model or application that creates content in response to a prompt, so a model run inside the firm is covered too; the duty is to verify output, wherever the tool runs.",
+      "notes": "MV2 read the text in the Connecticut Law Journal of 14 July 2026 (Rules of Appellate Procedure notice), fetched from jud.ct.gov on 2026-11-10. Most amendments in the notice take effect on 1 January 2027, but those to Sections 60-4, 62-6 and 85-2, on generative AI, took effect on publication, 14 July 2026 (the date recorded here), the courts having waived the advance publication that Section 86-1 requires. Section 60-4 gives generative AI the meaning used in Section 4-9; Section 62-6 (d) makes the signature on an appellate filing a certificate of compliance with Section 4-9; Section 85-2 adds failure to independently verify citations and legal authorities produced by generative AI to the grounds for sanctions. No disclosure of AI use is required. The Superior Court rule is entry ct-practice-book-4-9-2026."
     },
     {
       "id": "dc-388",
