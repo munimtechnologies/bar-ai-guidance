@@ -1,0 +1,80 @@
+[
+ {
+  "court": "AAA Tribunal",
+  "forum": "",
+  "classified": "near miss",
+  "rows": 1
+ },
+ {
+  "court": "ASBCA",
+  "forum": "",
+  "classified": "procurement (other study)",
+  "rows": 4
+ },
+ {
+  "court": "CBCA",
+  "forum": "",
+  "classified": "procurement (other study)",
+  "rows": 2
+ },
+ {
+  "court": "Copyright Claims Board",
+  "forum": "OTHER_FED",
+  "classified": "matched",
+  "rows": 1
+ },
+ {
+  "court": "Federal Labor Relations Authority",
+  "forum": "OTHER_FED",
+  "classified": "matched",
+  "rows": 1
+ },
+ {
+  "court": "GAO",
+  "forum": "",
+  "classified": "procurement (other study)",
+  "rows": 23
+ },
+ {
+  "court": "GAO (Comptroller General of the United States)",
+  "forum": "",
+  "classified": "procurement (other study)",
+  "rows": 1
+ },
+ {
+  "court": "Iowa Attorney Disciplinary Board",
+  "forum": "",
+  "classified": "near miss",
+  "rows": 1
+ },
+ {
+  "court": "Iowa SC Attorney Disciplinary Board",
+  "forum": "",
+  "classified": "near miss",
+  "rows": 1
+ },
+ {
+  "court": "Tax Court",
+  "forum": "TAXCT",
+  "classified": "matched",
+  "rows": 2
+ },
+ {
+  "court": "Tax Court Indiana",
+  "forum": "",
+  "classified": "state tax court",
+  "rows": 1
+ },
+ {
+  "court": "US Tax Court",
+  "forum": "TAXCT",
+  "classified": "matched",
+  "rows": 3
+ },
+ {
+  "court": "USPTO",
+  "forum": "USPTO",
+  "classified": "matched",
+  "rows": 1
+ }
+]

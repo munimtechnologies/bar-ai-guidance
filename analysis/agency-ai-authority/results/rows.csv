@@ -1,0 +1,9 @@
+case_id,stratum,forum,court,date,party,doc_status,chars,readable,ai_instrument,uspto_ai_guidance_2024,eoir_pm_25_40,forum_rule,uspto_11_18,tax_6673,frcp_11,inherent,model_rules,usc_1001,mata,ai_words,doc_sha256
+1656,agency,OTHER_FED,Copyright Claims Board,2025-07-08,pro_se,ok,30780,True,False,False,False,False,False,False,True,True,False,False,False,False,7a4428f1baa56bbeb3891718dbd7f419bd9fc05cf1dcf2472488b5f5b456d1a5
+2832,agency,OTHER_FED,Federal Labor Relations Authority,2026-10-21,lawyer,ok,48079,True,True,True,False,False,False,False,False,False,False,False,False,True,af4b0b91807c083ebb333bf450b068f7931d8f8c36ded6083df062fa9cff5e5b
+2625,agency,USPTO,USPTO,2026-07-27,lawyer,ok,14216,True,False,False,False,True,True,False,False,False,False,False,False,True,6f3801b5c2818f54cc2e4c8c5b95bc1691ee91adcd7acade1090a56198027d02
+355,article_i,TAXCT,US Tax Court,2024-10-23,lawyer,ok,13890,True,False,False,False,True,False,False,False,False,False,False,False,True,bade6377102752089a2d817730766513b621947baeac694093b821816871d446
+158,article_i,TAXCT,US Tax Court,2025-05-20,pro_se,no_document,,,,,,,,,,,,,,,
+1209,article_i,TAXCT,US Tax Court,2026-02-09,lawyer,ok,22473,True,False,False,False,True,False,False,True,False,True,False,False,True,44f9afa2d1cf9ac153ee7b4ac290e3b8dd1e8ecc6d0518719a0034a40c2200e2
+1703,article_i,TAXCT,Tax Court,2026-03-18,other,ok,253897,True,False,False,False,False,False,False,False,False,False,False,False,True,5000808f86d8cda7a107080267bbf0378483a1af63042f83826738f4322edbba
+2668,article_i,TAXCT,Tax Court,2026-09-15,pro_se,ok,34728,True,False,False,False,False,False,False,False,False,False,False,False,True,16e06438875aacfd7d1c4c2072af46431cc0b1a4fe5494554a297da460117ba4

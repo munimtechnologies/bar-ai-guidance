@@ -1,0 +1,438 @@
+{
+ "version": "1.0.0",
+ "cutoff": "2026-11-09",
+ "counts": {
+  "rows_in_scope": 8,
+  "by_forum": {
+   "OTHER_FED": 2,
+   "USPTO": 1,
+   "TAXCT": 5
+  },
+  "by_doc_status": {
+   "ok": 7,
+   "no_document": 1
+  },
+  "unreadable": 0,
+  "readable": 7,
+  "readable_by_forum": {
+   "OTHER_FED": 2,
+   "USPTO": 1,
+   "TAXCT": 4
+  },
+  "readable_by_year": {
+   "2025": 1,
+   "2026": 5,
+   "2024": 1
+  },
+  "readable_by_party": {
+   "pro_se": 2,
+   "lawyer": 4,
+   "other": 1
+  }
+ },
+ "flags_by_forum": {
+  "OTHER_FED": {
+   "ai_instrument": {
+    "n": 2,
+    "k": 1,
+    "share": 0.5
+   },
+   "uspto_ai_guidance_2024": {
+    "n": 2,
+    "k": 1,
+    "share": 0.5
+   },
+   "eoir_pm_25_40": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "forum_rule": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "uspto_11_18": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "tax_6673": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "frcp_11": {
+    "n": 2,
+    "k": 1,
+    "share": 0.5
+   },
+   "inherent": {
+    "n": 2,
+    "k": 1,
+    "share": 0.5
+   },
+   "model_rules": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "usc_1001": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "mata": {
+    "n": 2,
+    "k": 0,
+    "share": 0.0
+   },
+   "ai_words": {
+    "n": 2,
+    "k": 1,
+    "share": 0.5
+   }
+  },
+  "TAXCT": {
+   "ai_instrument": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "uspto_ai_guidance_2024": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "eoir_pm_25_40": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "forum_rule": {
+    "n": 4,
+    "k": 2,
+    "share": 0.5
+   },
+   "uspto_11_18": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "tax_6673": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "frcp_11": {
+    "n": 4,
+    "k": 1,
+    "share": 0.25
+   },
+   "inherent": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "model_rules": {
+    "n": 4,
+    "k": 1,
+    "share": 0.25
+   },
+   "usc_1001": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "mata": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "ai_words": {
+    "n": 4,
+    "k": 4,
+    "share": 1.0
+   }
+  },
+  "USPTO": {
+   "ai_instrument": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "uspto_ai_guidance_2024": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "eoir_pm_25_40": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "forum_rule": {
+    "n": 1,
+    "k": 1,
+    "share": 1.0
+   },
+   "uspto_11_18": {
+    "n": 1,
+    "k": 1,
+    "share": 1.0
+   },
+   "tax_6673": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "frcp_11": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "inherent": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "model_rules": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "usc_1001": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "mata": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   },
+   "ai_words": {
+    "n": 1,
+    "k": 1,
+    "share": 1.0
+   }
+  }
+ },
+ "flags_by_stratum": {
+  "agency": {
+   "ai_instrument": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "uspto_ai_guidance_2024": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "eoir_pm_25_40": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "forum_rule": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "uspto_11_18": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "tax_6673": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "frcp_11": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "inherent": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "model_rules": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "usc_1001": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "mata": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "ai_words": {
+    "n": 3,
+    "k": 2,
+    "share": 0.667
+   }
+  },
+  "article_i": {
+   "ai_instrument": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "uspto_ai_guidance_2024": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "eoir_pm_25_40": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "forum_rule": {
+    "n": 4,
+    "k": 2,
+    "share": 0.5
+   },
+   "uspto_11_18": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "tax_6673": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "frcp_11": {
+    "n": 4,
+    "k": 1,
+    "share": 0.25
+   },
+   "inherent": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "model_rules": {
+    "n": 4,
+    "k": 1,
+    "share": 0.25
+   },
+   "usc_1001": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "mata": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   },
+   "ai_words": {
+    "n": 4,
+    "k": 4,
+    "share": 1.0
+   }
+  }
+ },
+ "no_listed_authority": {
+  "n": 2,
+  "of": 7
+ },
+ "predictions": {
+  "Q1": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   }
+  },
+  "Q2": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   }
+  },
+  "Q3": {
+   "verdict": "not testable",
+   "detail": {
+    "forum_rule": {
+     "n": 3,
+     "k": 1,
+     "share": 0.333
+    },
+    "frcp_11": {
+     "n": 3,
+     "k": 1,
+     "share": 0.333
+    }
+   }
+  },
+  "Q4": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 1,
+    "k": 1,
+    "share": 1.0
+   }
+  },
+  "Q5": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 1,
+    "k": 0,
+    "share": 0.0
+   }
+  },
+  "Q6": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 4,
+    "k": 0,
+    "share": 0.0
+   }
+  },
+  "Q7": {
+   "verdict": "held",
+   "detail": {
+    "n": 0,
+    "matches": 0
+   }
+  },
+  "Q8": {
+   "verdict": "not testable",
+   "detail": {
+    "n": 7,
+    "k": 0,
+    "share": 0.0
+   }
+  }
+ },
+ "source": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-10T06:15:25Z",
+  "bytes": 2192398,
+  "sha256": "bcd49cf6e3cb05f4ade4ac51aabcebe9a6aa731fc0a61bfa0291329aa2f92d20",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+  "plan_commit": {
+   "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+   "date": "2026-11-10T05:01:38Z"
+  },
+  "census_commit": {
+   "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+   "date": "2026-11-10T05:01:38Z"
+  }
+ }
+}

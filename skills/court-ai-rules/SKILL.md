@@ -11,7 +11,7 @@ it reads, `data/guidance.json` in https://github.com/munimtechnologies/bar-ai-gu
 CC BY 4.0; every linked document keeps its issuer's own terms.
 
 The index holds one entry per document that a US bar, court or legislature issued on lawyers'
-use of generative AI (61 entries from the ABA, 39 states and DC in version 0.16.1; the script
+use of generative AI (62 entries from the ABA, 39 states and DC in version 0.16.2; the script
 prints the current count). Each entry links the issuer's own page or PDF, says whether it is a
 **court rule**, a **state statute** or **advisory guidance**, records when the link was last
 checked, and carries a one-sentence paraphrase of its confidentiality point.

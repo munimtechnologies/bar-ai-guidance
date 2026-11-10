@@ -1,0 +1,15 @@
+{
+ "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+ "fetched_at": "2026-11-10T06:15:25Z",
+ "bytes": 2192398,
+ "sha256": "bcd49cf6e3cb05f4ade4ac51aabcebe9a6aa731fc0a61bfa0291329aa2f92d20",
+ "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin",
+ "plan_commit": {
+  "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+  "date": "2026-11-10T05:01:38Z"
+ },
+ "census_commit": {
+  "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+  "date": "2026-11-10T05:01:38Z"
+ }
+}

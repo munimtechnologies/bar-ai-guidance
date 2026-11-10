@@ -1,0 +1,27 @@
+{
+ "started": "2026-11-10T06:15:23Z",
+ "census_version": "1.0.0",
+ "plan_commit": {
+  "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+  "date": "2026-11-10T05:01:38Z"
+ },
+ "census_commit": {
+  "sha": "4dde9705729d2b9d79c421678f91f7efd89d2d3b",
+  "date": "2026-11-10T05:01:38Z"
+ },
+ "census_sha256_committed": "0173ccc7e8cec9c8a6e459b05501d51970b9349c43b268fe8391217e2089edca",
+ "census_sha256_local": "0173ccc7e8cec9c8a6e459b05501d51970b9349c43b268fe8391217e2089edca",
+ "rows_in_scope": 8,
+ "result": "graded",
+ "predictions": {
+  "Q1": "not testable",
+  "Q2": "not testable",
+  "Q3": "not testable",
+  "Q4": "not testable",
+  "Q5": "not testable",
+  "Q6": "not testable",
+  "Q7": "held",
+  "Q8": "not testable"
+ },
+ "finished": "2026-11-10T06:16:03Z"
+}
