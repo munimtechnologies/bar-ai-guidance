@@ -1,0 +1,241 @@
+{
+ "census_version": "1.0.1",
+ "census_date": "2026-11-05",
+ "terms": [
+  "artificial intelligence",
+  "machine learning",
+  "deep learning",
+  "neural network",
+  "large language model",
+  "generative artificial intelligence",
+  "generative AI",
+  "chatbot",
+  "natural language processing"
+ ],
+ "provisions_ever": 35,
+ "provisions_in_force_on_census_date": 32,
+ "in_force_first_effective_2025_or_later": 19,
+ "by_category": {
+  "other": 10,
+  "export controls (BIS)": 8,
+  "medical devices (FDA)": 6,
+  "bulk sensitive data (DOJ)": 4,
+  "ICT supply chain (Commerce)": 1,
+  "Medicare and Medicaid (CMS)": 1,
+  "federal procurement (FAR and supplements)": 1,
+  "outbound investment (Treasury)": 1
+ },
+ "by_title": {
+  "15": 10,
+  "40": 7,
+  "21": 6,
+  "28": 4,
+  "16": 1,
+  "26": 1,
+  "31": 1,
+  "42": 1,
+  "48": 1
+ },
+ "by_agency": {
+  "Bureau of Industry and Security, Department of Commerce": 9,
+  "Environmental Protection Agency": 7,
+  "Food and Drug Administration, Department of Health and Human Services": 6,
+  "Department of Justice": 4,
+  "Centers for Medicare & Medicaid Services, Department of Health and Human Services": 1,
+  "Defense Acquisition Regulations System, Department of Defense": 1,
+  "Federal Trade Commission": 1,
+  "Internal Revenue Service, Department of the Treasury": 1,
+  "National Oceanic and Atmospheric Administration, Department of Commerce": 1,
+  "Office of Investment Security, Department of the Treasury": 1
+ },
+ "rules_of_practice_in_force": [],
+ "rules_of_practice_ever": [],
+ "terms_never_matched": [
+  "deep learning",
+  "large language model",
+  "generative artificial intelligence",
+  "generative AI",
+  "natural language processing"
+ ],
+ "terms_not_in_force_on_census_date": [
+  "deep learning",
+  "large language model",
+  "generative artificial intelligence",
+  "generative AI",
+  "natural language processing"
+ ],
+ "timeline": [
+  {
+   "date": "2017-01-03",
+   "any_term": 8,
+   "artificial intelligence": 2,
+   "machine learning": 0,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2018-01-01",
+   "any_term": 8,
+   "artificial intelligence": 2,
+   "machine learning": 0,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2019-01-01",
+   "any_term": 8,
+   "artificial intelligence": 2,
+   "machine learning": 0,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2020-01-01",
+   "any_term": 10,
+   "artificial intelligence": 2,
+   "machine learning": 0,
+   "deep learning": 0,
+   "neural network": 8,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2021-01-01",
+   "any_term": 11,
+   "artificial intelligence": 2,
+   "machine learning": 0,
+   "deep learning": 0,
+   "neural network": 9,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2022-01-01",
+   "any_term": 12,
+   "artificial intelligence": 3,
+   "machine learning": 1,
+   "deep learning": 0,
+   "neural network": 9,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2023-01-01",
+   "any_term": 12,
+   "artificial intelligence": 3,
+   "machine learning": 1,
+   "deep learning": 0,
+   "neural network": 9,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2024-01-01",
+   "any_term": 13,
+   "artificial intelligence": 4,
+   "machine learning": 1,
+   "deep learning": 0,
+   "neural network": 9,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2025-01-01",
+   "any_term": 13,
+   "artificial intelligence": 6,
+   "machine learning": 2,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 0,
+   "natural language processing": 0
+  },
+  {
+   "date": "2026-01-01",
+   "any_term": 25,
+   "artificial intelligence": 17,
+   "machine learning": 3,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 2,
+   "natural language processing": 0
+  },
+  {
+   "date": "2026-07-01",
+   "any_term": 29,
+   "artificial intelligence": 18,
+   "machine learning": 6,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 2,
+   "natural language processing": 0
+  },
+  {
+   "date": "2026-11-05",
+   "any_term": 32,
+   "artificial intelligence": 19,
+   "machine learning": 9,
+   "deep learning": 0,
+   "neural network": 6,
+   "large language model": 0,
+   "generative artificial intelligence": 0,
+   "generative AI": 0,
+   "chatbot": 2,
+   "natural language processing": 0
+  }
+ ],
+ "date_filter_anomalies": 0,
+ "queries_complete": true,
+ "source": {
+  "api": "https://www.ecfr.gov/api/search/v1/results",
+  "queried_from": "2026-11-09T22:03:12Z",
+  "queried_to": "2026-11-09T22:07:39Z",
+  "ecfr_up_to_date_as_of": "2026-11-05",
+  "plan_commit": {
+   "sha": "4d1ac4f1f0fce5c0f651fead03454ba3380d08a2",
+   "date": "2026-11-09T10:50:25Z"
+  },
+  "census_commit": {
+   "sha": "2ec6fd8dd21caf10c8bf19e65450174212462a36",
+   "date": "2026-11-09T19:40:19Z"
+  }
+ }
+}
