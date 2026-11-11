@@ -1,0 +1,49 @@
+{
+ "started": "2026-11-11T02:19:34Z",
+ "census_version": "1.0.0",
+ "log": [
+  "6 manifests, 0 main failed, 3567 decisions in frame"
+ ],
+ "census_sha256_local": "79655cf2f8f28e400aaea5accaef344ffa789e0a50433769992aa67b09281db7",
+ "plan_commit": {
+  "sha": "306535b192545537fb2776406e752e9ceecc1361",
+  "date": "2026-11-10T20:37:17Z"
+ },
+ "census_commit": {
+  "sha": "306535b192545537fb2776406e752e9ceecc1361",
+  "date": "2026-11-10T20:37:17Z"
+ },
+ "census_sha256_committed": "79655cf2f8f28e400aaea5accaef344ffa789e0a50433769992aa67b09281db7",
+ "db_court_rows": 0,
+ "in_frame": 3567,
+ "result": "graded",
+ "predictions": {
+  "P1": "failed",
+  "P2": "not testable",
+  "P3": "not testable",
+  "P4": "not testable",
+  "P5": "not testable",
+  "P6": "not testable",
+  "P7": "not testable",
+  "P8": "held"
+ },
+ "counts": {
+  "in_frame": 3567,
+  "readable": 3567,
+  "fake_cite": 1,
+  "ai_mention": 1,
+  "ai_citation": 0,
+  "pro_se_readable": 2076,
+  "precedential_readable": 35,
+  "fetch_status": {
+   "ok": 3567
+  },
+  "by_kind": {
+   "final": 2796,
+   "opinion": 35,
+   "other_order": 290,
+   "remand": 446
+  }
+ },
+ "finished": "2026-11-11T06:18:09Z"
+}

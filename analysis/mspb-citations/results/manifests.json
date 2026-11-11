@@ -1,0 +1,80 @@
+[
+ {
+  "manifest": "nonprecedential/NonPrecedentialDecisions_Manifest.json",
+  "main": true,
+  "bytes": 8139315,
+  "sha256": "9a1051531b43739f77b0df427e330a036727ac3f9b0e90f31bc24b9792015102",
+  "document_type": "NON-PRECEDENTIAL",
+  "rows": 10805,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "2007-12-27",
+  "latest": "2026-11-09",
+  "in_window": 3521
+ },
+ {
+  "manifest": "precedential/PrecedentialDecisions_Manifest.json",
+  "main": true,
+  "bytes": 86703,
+  "sha256": "4c5fb6e279aff2f7d987764d481c07816126579478ce25acd9f79750644284ee",
+  "document_type": "PRECEDENTIAL",
+  "rows": 108,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "2022-03-24",
+  "latest": "2026-10-22",
+  "in_window": 35
+ },
+ {
+  "manifest": "nonprecedential/NonPrecedentialDecisions_Manifest_Table.json",
+  "main": false,
+  "bytes": 4348253,
+  "sha256": "5c52874b3cbff4396efc51d4f00e84fb09565dd43c6b7c92e5b69fb9f5184aa1",
+  "document_type": "NON-PRECEDENTIAL",
+  "rows": 5385,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "2018-11-30",
+  "latest": "2026-09-17",
+  "in_window": 3425
+ },
+ {
+  "manifest": "nonprecedential/NonPrecedentialDecisions_Manifest-updmar2025.json",
+  "main": false,
+  "bytes": 8260612,
+  "sha256": "2d56e8520263103d88b90f57df03322d6c07fc000f369dbf92e219209898264d",
+  "document_type": "NON-PRECEDENTIAL",
+  "rows": 10691,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "2007-12-27",
+  "latest": "2026-09-17",
+  "in_window": 3407
+ },
+ {
+  "manifest": "precedential/PrecedentialDecisions_Manifest_Table.json",
+  "main": false,
+  "bytes": 84571,
+  "sha256": "d559e65056f6c5b84cfc0f508302233a4cb8df48a94dfc154c4753b9f8b9b070",
+  "document_type": "PRECEDENTIAL",
+  "rows": 106,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "2022-03-24",
+  "latest": "2026-09-01",
+  "in_window": 33
+ },
+ {
+  "manifest": "precedential/PrecedentialDecisions_Manifest_updMar2025.json",
+  "main": false,
+  "bytes": 13375480,
+  "sha256": "0c8926708411977dcac3bc3fd328b0d518cfd9b9e42c89a6e3a6948afac2d6d2",
+  "document_type": "PRECEDENTIAL",
+  "rows": 16816,
+  "no_file_name": 0,
+  "bad_date": 0,
+  "earliest": "0891-01-01",
+  "latest": "2026-09-01",
+  "in_window": 33
+ }
+]
