@@ -1,0 +1,41 @@
+{
+ "started": "2026-11-10T20:38:25Z",
+ "census_version": "1.0.1",
+ "log": [
+  "reached 2022-01-01 on page 31",
+  "32 listing pages, 310 in frame (0 without an HTML link), 0 undated listing rows"
+ ],
+ "census_sha256_local": "74e2582522f0813fa56a87a7da8465e4482e927690a912aef970f8ed4f7aa9c9",
+ "plan_commit": {
+  "sha": "012f7707b96948d60685c8e1ac342bb0cb29b24a",
+  "date": "2026-11-10T11:44:11Z"
+ },
+ "amendment_commit": {
+  "sha": "fddf8cb4ac6ac595d54ee2ac473b76056221f66e",
+  "date": "2026-11-10T14:54:43Z"
+ },
+ "census_commit": {
+  "sha": "fddf8cb4ac6ac595d54ee2ac473b76056221f66e",
+  "date": "2026-11-10T14:54:43Z"
+ },
+ "census_sha256_committed": "74e2582522f0813fa56a87a7da8465e4482e927690a912aef970f8ed4f7aa9c9",
+ "db_flra_rows": 1,
+ "in_frame": 310,
+ "result": "graded",
+ "predictions": {
+  "P1": "failed",
+  "P2": "not testable",
+  "P3": "not testable",
+  "P4": "not testable",
+  "P5": "held",
+  "P6": "not testable",
+  "P7": "not testable"
+ },
+ "counts": {
+  "in_frame": 310,
+  "readable": 310,
+  "ai_mention": 1,
+  "ai_citation": 1
+ },
+ "finished": "2026-11-10T21:00:18Z"
+}

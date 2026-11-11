@@ -1,0 +1,39 @@
+{
+ "started": "2026-11-10T23:51:05Z",
+ "census_version": "1.0.0",
+ "log": [
+  "54 searches, 0 failed, 78 documents in frame"
+ ],
+ "census_sha256_local": "72a50e242e28f9439f86d7759a60fcf304c94f93231eef232b005200914e834b",
+ "plan_commit": {
+  "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+  "date": "2026-11-10T16:39:54Z"
+ },
+ "census_commit": {
+  "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+  "date": "2026-11-10T16:39:54Z"
+ },
+ "census_sha256_committed": "72a50e242e28f9439f86d7759a60fcf304c94f93231eef232b005200914e834b",
+ "db_us_tax_court_rows": 5,
+ "in_frame": 78,
+ "result": "graded",
+ "predictions": {
+  "P1": "failed",
+  "P2": "failed",
+  "P3": "failed",
+  "P4": "failed",
+  "P5": "held",
+  "P6": "held",
+  "P7": "failed",
+  "P8": "held"
+ },
+ "counts": {
+  "in_frame": 78,
+  "readable": 78,
+  "fake_cite": 3,
+  "fake_cite_orders": 1,
+  "ai_mention": 8,
+  "ai_citation": 2
+ },
+ "finished": "2026-11-11T00:00:15Z"
+}

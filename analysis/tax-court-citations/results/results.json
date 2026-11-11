@@ -1,0 +1,643 @@
+{
+ "census_version": "1.0.0",
+ "window": [
+  "2023-01-01",
+  "2026-11-10"
+ ],
+ "counts": {
+  "in_frame": 78,
+  "readable": 78,
+  "fake_cite": 3,
+  "fake_cite_orders": 1,
+  "ai_mention": 8,
+  "ai_citation": 2,
+  "by_year": {
+   "2023": {
+    "readable": 19,
+    "fake_cite": 0,
+    "ai_citation": 0
+   },
+   "2024": {
+    "readable": 23,
+    "fake_cite": 1,
+    "ai_citation": 1
+   },
+   "2025": {
+    "readable": 18,
+    "fake_cite": 1,
+    "ai_citation": 0
+   },
+   "2026": {
+    "readable": 18,
+    "fake_cite": 1,
+    "ai_citation": 1
+   }
+  }
+ },
+ "queries": [
+  {
+   "kind": "order",
+   "query": "\"artificial intelligence\"",
+   "results": 3,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "\"artificial intelligence\"",
+   "results": 8,
+   "capped": false,
+   "in_window": 4
+  },
+  {
+   "kind": "order",
+   "query": "artificial intelligence",
+   "results": 3,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "artificial intelligence",
+   "results": 10,
+   "capped": false,
+   "in_window": 6
+  },
+  {
+   "kind": "order",
+   "query": "ChatGPT",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "ChatGPT",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "order",
+   "query": "generative",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "generative",
+   "results": 2,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "\"large language model\"",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "\"large language model\"",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "hallucinated",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "hallucinated",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "hallucination",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "hallucination",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "hallucinations",
+   "results": 1,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "hallucinations",
+   "results": 2,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "hallucinate",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "hallucinate",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "order",
+   "query": "nonexistent",
+   "results": 32,
+   "capped": false,
+   "in_window": 7
+  },
+  {
+   "kind": "opinion",
+   "query": "nonexistent",
+   "results": 357,
+   "capped": false,
+   "in_window": 57
+  },
+  {
+   "kind": "order",
+   "query": "non-existent",
+   "results": 37,
+   "capped": false,
+   "in_window": 5
+  },
+  {
+   "kind": "opinion",
+   "query": "non-existent",
+   "results": 51,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "nonexistent cases",
+   "results": 20,
+   "capped": false,
+   "in_window": 7
+  },
+  {
+   "kind": "opinion",
+   "query": "nonexistent cases",
+   "results": 316,
+   "capped": false,
+   "in_window": 54
+  },
+  {
+   "kind": "order",
+   "query": "nonexistent case",
+   "results": 28,
+   "capped": false,
+   "in_window": 4
+  },
+  {
+   "kind": "opinion",
+   "query": "nonexistent case",
+   "results": 336,
+   "capped": false,
+   "in_window": 49
+  },
+  {
+   "kind": "order",
+   "query": "nonexistent citations",
+   "results": 1,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "nonexistent citations",
+   "results": 58,
+   "capped": false,
+   "in_window": 11
+  },
+  {
+   "kind": "order",
+   "query": "fictitious",
+   "results": 42,
+   "capped": false,
+   "in_window": 6
+  },
+  {
+   "kind": "opinion",
+   "query": "fictitious",
+   "results": 417,
+   "capped": false,
+   "in_window": 15
+  },
+  {
+   "kind": "order",
+   "query": "fictitious cases",
+   "results": 15,
+   "capped": false,
+   "in_window": 3
+  },
+  {
+   "kind": "opinion",
+   "query": "fictitious cases",
+   "results": 335,
+   "capped": false,
+   "in_window": 12
+  },
+  {
+   "kind": "order",
+   "query": "fictitious case",
+   "results": 41,
+   "capped": false,
+   "in_window": 6
+  },
+  {
+   "kind": "opinion",
+   "query": "fictitious case",
+   "results": 401,
+   "capped": false,
+   "in_window": 15
+  },
+  {
+   "kind": "order",
+   "query": "fictitious citations",
+   "results": 6,
+   "capped": false,
+   "in_window": 2
+  },
+  {
+   "kind": "opinion",
+   "query": "fictitious citations",
+   "results": 96,
+   "capped": false,
+   "in_window": 4
+  },
+  {
+   "kind": "order",
+   "query": "fake",
+   "results": 12,
+   "capped": false,
+   "in_window": 3
+  },
+  {
+   "kind": "opinion",
+   "query": "fake",
+   "results": 38,
+   "capped": false,
+   "in_window": 8
+  },
+  {
+   "kind": "order",
+   "query": "fake cases",
+   "results": 2,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "fake cases",
+   "results": 27,
+   "capped": false,
+   "in_window": 6
+  },
+  {
+   "kind": "order",
+   "query": "fake citations",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "fake citations",
+   "results": 7,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "fabricated",
+   "results": 18,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "fabricated",
+   "results": 167,
+   "capped": false,
+   "in_window": 21
+  },
+  {
+   "kind": "order",
+   "query": "fabricated citations",
+   "results": 3,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "fabricated citations",
+   "results": 19,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "order",
+   "query": "fabricated cases",
+   "results": 7,
+   "capped": false,
+   "in_window": 1
+  },
+  {
+   "kind": "opinion",
+   "query": "fabricated cases",
+   "results": 117,
+   "capped": false,
+   "in_window": 21
+  },
+  {
+   "kind": "order",
+   "query": "fabricated quotations",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "fabricated quotations",
+   "results": 5,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "order",
+   "query": "bogus",
+   "results": 29,
+   "capped": false,
+   "in_window": 2
+  },
+  {
+   "kind": "opinion",
+   "query": "bogus",
+   "results": 98,
+   "capped": false,
+   "in_window": 10
+  },
+  {
+   "kind": "order",
+   "query": "Avianca",
+   "results": 1,
+   "capped": false,
+   "in_window": 0
+  },
+  {
+   "kind": "opinion",
+   "query": "Avianca",
+   "results": 0,
+   "capped": false,
+   "in_window": 0
+  }
+ ],
+ "db_rows_in_window": [
+  {
+   "case_id": "2668",
+   "date": "2026-09-15",
+   "matched": [
+    "01d58cd9-d782-4a68-a44b-83304627caad"
+   ],
+   "matched_fake_cite": []
+  },
+  {
+   "case_id": "1703",
+   "date": "2026-03-18",
+   "matched": [],
+   "matched_fake_cite": []
+  },
+  {
+   "case_id": "1209",
+   "date": "2026-02-09",
+   "matched": [
+    "723ad324-f176-4a2b-a6a8-27e7a75cdfaa"
+   ],
+   "matched_fake_cite": [
+    "723ad324-f176-4a2b-a6a8-27e7a75cdfaa"
+   ]
+  },
+  {
+   "case_id": "158",
+   "date": "2025-05-20",
+   "matched": [
+    "8ad8d4f4-2c43-4250-8470-c40433e22a1b"
+   ],
+   "matched_fake_cite": [
+    "8ad8d4f4-2c43-4250-8470-c40433e22a1b"
+   ]
+  },
+  {
+   "case_id": "355",
+   "date": "2024-10-23",
+   "matched": [
+    "243294e3-e4f8-445b-bf9d-f05b74a43a67"
+   ],
+   "matched_fake_cite": [
+    "243294e3-e4f8-445b-bf9d-f05b74a43a67"
+   ]
+  }
+ ],
+ "fake_cite_documents": [
+  {
+   "docket_entry_id": "243294e3-e4f8-445b-bf9d-f05b74a43a67",
+   "dockets": "10795-22",
+   "date": "2024-10-23",
+   "kind": "order",
+   "event_code": "O",
+   "document_type": "Order",
+   "judge": "Ronald L. Buch",
+   "pages": 5,
+   "stricken": false,
+   "link": "https://dawson.ustaxcourt.gov/case-detail/10795-22",
+   "doc_status": "ok",
+   "chars": 13890,
+   "readable": true,
+   "doc_sha256": "bade6377102752089a2d817730766513b621947baeac694093b821816871d446",
+   "in_db": true,
+   "db_case_id": "355",
+   "queries": "order:\"artificial intelligence\"|order:artificial intelligence|order:\"large language model\"|order:hallucination|order:hallucinations|order:non-existent",
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "ai_phrase": true,
+   "rule_33": true,
+   "sec_6673": false,
+   "mata": false,
+   "action": true
+  },
+  {
+   "docket_entry_id": "8ad8d4f4-2c43-4250-8470-c40433e22a1b",
+   "dockets": "12241-20",
+   "date": "2025-05-20",
+   "kind": "opinion",
+   "event_code": "MOP",
+   "document_type": "Memorandum Opinion",
+   "judge": "Marvel",
+   "pages": 39,
+   "stricken": false,
+   "link": "https://dawson.ustaxcourt.gov/case-detail/12241-20",
+   "doc_status": "ok",
+   "chars": 95403,
+   "readable": true,
+   "doc_sha256": "ecc69467b737c39cfc65dee5b285d3f39ecb22a45c7f7427adc3924e8c723e0c",
+   "in_db": true,
+   "db_case_id": "158",
+   "queries": "opinion:nonexistent|opinion:non-existent|opinion:nonexistent cases|opinion:nonexistent case",
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "ai_phrase": false,
+   "rule_33": false,
+   "sec_6673": false,
+   "mata": false,
+   "action": true
+  },
+  {
+   "docket_entry_id": "723ad324-f176-4a2b-a6a8-27e7a75cdfaa",
+   "dockets": "8077-23",
+   "date": "2026-02-09",
+   "kind": "opinion",
+   "event_code": "MOP",
+   "document_type": "Memorandum Opinion",
+   "judge": "Holmes",
+   "pages": 11,
+   "stricken": false,
+   "link": "https://dawson.ustaxcourt.gov/case-detail/8077-23",
+   "doc_status": "ok",
+   "chars": 22470,
+   "readable": true,
+   "doc_sha256": "44f9afa2d1cf9ac153ee7b4ac290e3b8dd1e8ecc6d0518719a0034a40c2200e2",
+   "in_db": true,
+   "db_case_id": "1209",
+   "queries": "opinion:\"artificial intelligence\"|opinion:artificial intelligence|opinion:generative|opinion:\"large language model\"|opinion:hallucinated|opinion:hallucination|opinion:hallucinations|opinion:nonexistent|opinion:nonexistent cases|opinion:nonexistent case|opinion:nonexistent citations|opinion:fictitious|opinion:fictitious cases|opinion:fictitious case|opinion:fictitious citations|opinion:fake|opinion:fake cases|opinion:fake citations|opinion:fabricated|opinion:fabricated citations|opinion:fabricated cases",
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "ai_phrase": true,
+   "rule_33": true,
+   "sec_6673": false,
+   "mata": false,
+   "action": true
+  }
+ ],
+ "predictions": {
+  "P1": {
+   "text": "the frame holds at least 10 readable documents with a fabricated-citation phrase",
+   "detail": {
+    "n": 3
+   },
+   "verdict": "failed"
+  },
+  "P2": {
+   "text": "fewer than half of the fabricated-citation documents are in the AI Hallucination Cases Database",
+   "detail": {
+    "n": 3,
+    "k": 3,
+    "share": 1.0
+   },
+   "verdict": "failed"
+  },
+  "P3": {
+   "text": "fewer than half of the fabricated-citation documents mention an AI term",
+   "detail": {
+    "n": 3,
+    "k": 2,
+    "share": 0.667
+   },
+   "verdict": "failed"
+  },
+  "P4": {
+   "text": "at least half of the fabricated-citation documents are orders, not opinions",
+   "detail": {
+    "n": 3,
+    "k": 1,
+    "share": 0.333
+   },
+   "verdict": "failed"
+  },
+  "P5": {
+   "text": "at least half of the fabricated-citation documents cite Tax Court Rule 33(b)",
+   "detail": {
+    "n": 3,
+    "k": 2,
+    "share": 0.667
+   },
+   "verdict": "held"
+  },
+  "P6": {
+   "text": "fewer than half of the fabricated-citation documents cite section 6673",
+   "detail": {
+    "n": 3,
+    "k": 0,
+    "share": 0.0
+   },
+   "verdict": "held"
+  },
+  "P7": {
+   "text": "every US Tax Court row of the database dated in the window matches a document in the frame",
+   "detail": {
+    "n": 5,
+    "missed_case_ids": [
+     "1703"
+    ]
+   },
+   "verdict": "failed"
+  },
+  "P8": {
+   "text": "search check: at least 90% of readable frame documents whose text contains 'artificial intelligence' were returned by the exact-phrase search for it",
+   "detail": {
+    "n": 5,
+    "k": 5,
+    "share": 1.0
+   },
+   "verdict": "held"
+  }
+ },
+ "sources": {
+  "plan_commit": {
+   "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+   "date": "2026-11-10T16:39:54Z"
+  },
+  "census_commit": {
+   "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+   "date": "2026-11-10T16:39:54Z"
+  },
+  "database": {
+   "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+   "fetched_at": "2026-11-10T23:51:06Z",
+   "bytes": 2197049,
+   "sha256": "cac050d540f21e708436491720383f019184eaa9babf3e452a0c8e542ebc77b1",
+   "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+  },
+  "dawson": {
+   "api": "https://public-api-green.dawson.ustaxcourt.gov/public-api",
+   "searches": 54,
+   "failed": 0,
+   "in_frame": 78,
+   "built_at": "2026-11-10T23:54:12Z"
+  }
+ }
+}

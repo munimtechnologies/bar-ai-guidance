@@ -1,0 +1,24 @@
+{
+ "plan_commit": {
+  "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+  "date": "2026-11-10T16:39:54Z"
+ },
+ "census_commit": {
+  "sha": "5e75b67d0bae5cf74dc0fc4beba2a88143485ff4",
+  "date": "2026-11-10T16:39:54Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-10T23:51:06Z",
+  "bytes": 2197049,
+  "sha256": "cac050d540f21e708436491720383f019184eaa9babf3e452a0c8e542ebc77b1",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "dawson": {
+  "api": "https://public-api-green.dawson.ustaxcourt.gov/public-api",
+  "searches": 54,
+  "failed": 0,
+  "in_frame": 78,
+  "built_at": "2026-11-10T23:54:12Z"
+ }
+}

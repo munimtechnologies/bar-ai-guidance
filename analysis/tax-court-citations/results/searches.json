@@ -1,0 +1,380 @@
+[
+ {
+  "kind": "order",
+  "query": "\"artificial intelligence\"",
+  "results": 3,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "\"artificial intelligence\"",
+  "results": 8,
+  "capped": false,
+  "in_window": 4
+ },
+ {
+  "kind": "order",
+  "query": "artificial intelligence",
+  "results": 3,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "artificial intelligence",
+  "results": 10,
+  "capped": false,
+  "in_window": 6
+ },
+ {
+  "kind": "order",
+  "query": "ChatGPT",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "ChatGPT",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "order",
+  "query": "generative",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "generative",
+  "results": 2,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "\"large language model\"",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "\"large language model\"",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "hallucinated",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "hallucinated",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "hallucination",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "hallucination",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "hallucinations",
+  "results": 1,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "hallucinations",
+  "results": 2,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "hallucinate",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "hallucinate",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "order",
+  "query": "nonexistent",
+  "results": 32,
+  "capped": false,
+  "in_window": 7
+ },
+ {
+  "kind": "opinion",
+  "query": "nonexistent",
+  "results": 357,
+  "capped": false,
+  "in_window": 57
+ },
+ {
+  "kind": "order",
+  "query": "non-existent",
+  "results": 37,
+  "capped": false,
+  "in_window": 5
+ },
+ {
+  "kind": "opinion",
+  "query": "non-existent",
+  "results": 51,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "nonexistent cases",
+  "results": 20,
+  "capped": false,
+  "in_window": 7
+ },
+ {
+  "kind": "opinion",
+  "query": "nonexistent cases",
+  "results": 316,
+  "capped": false,
+  "in_window": 54
+ },
+ {
+  "kind": "order",
+  "query": "nonexistent case",
+  "results": 28,
+  "capped": false,
+  "in_window": 4
+ },
+ {
+  "kind": "opinion",
+  "query": "nonexistent case",
+  "results": 336,
+  "capped": false,
+  "in_window": 49
+ },
+ {
+  "kind": "order",
+  "query": "nonexistent citations",
+  "results": 1,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "nonexistent citations",
+  "results": 58,
+  "capped": false,
+  "in_window": 11
+ },
+ {
+  "kind": "order",
+  "query": "fictitious",
+  "results": 42,
+  "capped": false,
+  "in_window": 6
+ },
+ {
+  "kind": "opinion",
+  "query": "fictitious",
+  "results": 417,
+  "capped": false,
+  "in_window": 15
+ },
+ {
+  "kind": "order",
+  "query": "fictitious cases",
+  "results": 15,
+  "capped": false,
+  "in_window": 3
+ },
+ {
+  "kind": "opinion",
+  "query": "fictitious cases",
+  "results": 335,
+  "capped": false,
+  "in_window": 12
+ },
+ {
+  "kind": "order",
+  "query": "fictitious case",
+  "results": 41,
+  "capped": false,
+  "in_window": 6
+ },
+ {
+  "kind": "opinion",
+  "query": "fictitious case",
+  "results": 401,
+  "capped": false,
+  "in_window": 15
+ },
+ {
+  "kind": "order",
+  "query": "fictitious citations",
+  "results": 6,
+  "capped": false,
+  "in_window": 2
+ },
+ {
+  "kind": "opinion",
+  "query": "fictitious citations",
+  "results": 96,
+  "capped": false,
+  "in_window": 4
+ },
+ {
+  "kind": "order",
+  "query": "fake",
+  "results": 12,
+  "capped": false,
+  "in_window": 3
+ },
+ {
+  "kind": "opinion",
+  "query": "fake",
+  "results": 38,
+  "capped": false,
+  "in_window": 8
+ },
+ {
+  "kind": "order",
+  "query": "fake cases",
+  "results": 2,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "fake cases",
+  "results": 27,
+  "capped": false,
+  "in_window": 6
+ },
+ {
+  "kind": "order",
+  "query": "fake citations",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "fake citations",
+  "results": 7,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "fabricated",
+  "results": 18,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "fabricated",
+  "results": 167,
+  "capped": false,
+  "in_window": 21
+ },
+ {
+  "kind": "order",
+  "query": "fabricated citations",
+  "results": 3,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "fabricated citations",
+  "results": 19,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "order",
+  "query": "fabricated cases",
+  "results": 7,
+  "capped": false,
+  "in_window": 1
+ },
+ {
+  "kind": "opinion",
+  "query": "fabricated cases",
+  "results": 117,
+  "capped": false,
+  "in_window": 21
+ },
+ {
+  "kind": "order",
+  "query": "fabricated quotations",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "fabricated quotations",
+  "results": 5,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "order",
+  "query": "bogus",
+  "results": 29,
+  "capped": false,
+  "in_window": 2
+ },
+ {
+  "kind": "opinion",
+  "query": "bogus",
+  "results": 98,
+  "capped": false,
+  "in_window": 10
+ },
+ {
+  "kind": "order",
+  "query": "Avianca",
+  "results": 1,
+  "capped": false,
+  "in_window": 0
+ },
+ {
+  "kind": "opinion",
+  "query": "Avianca",
+  "results": 0,
+  "capped": false,
+  "in_window": 0
+ }
+]
