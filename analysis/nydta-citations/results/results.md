@@ -1,0 +1,31 @@
+# New York Division of Tax Appeals and Tax Appeals Tribunal fabricated-citation census 1.0.0: results
+
+Frame: every document listed on the four listing pages of www.dta.ny.gov (ALJ determinations, ALJ orders, Tribunal decisions, Tribunal orders) when the job ran. Information about public documents of a state tax tribunal, not legal or tax advice. Made with AI agents working in MV2's name.
+
+Sources: `{"plan_commit": {"sha": "460b47e736eb4095cf01654241e54628f2da7957", "date": "2026-11-11T13:26:52Z"}, "census_commit": {"sha": "460b47e736eb4095cf01654241e54628f2da7957", "date": "2026-11-11T13:26:52Z"}, "database": {"url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv", "fetched_at": "2026-11-12T08:39:44Z", "bytes": 2194006, "sha256": "86fd21016a21a8a6300caab0390f4db6533a9a55d18bd3bce9665dabb8e0afe6", "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"}, "dta": {"pages": ["https://www.dta.ny.gov/determinations/", "https://www.dta.ny.gov/determinations/orders.htm", "https://www.dta.ny.gov/decisions/", "https://www.dta.ny.gov/decisions/orders.htm"], "failed": 0, "in_frame": 917, "built_at": "2026-11-12T08:39:55Z"}}`
+
+Listing: `{"pages": [{"url": "https://www.dta.ny.gov/determinations/", "page": "det", "table_rows": 583, "entries": 582, "header_found": true, "no_number": 0, "no_year": 1, "no_month": 0, "no_link": 0, "bytes": 90532, "sha256": "32e06ac554201b89b0aeb1f5f334ddb5006794b3fbc65531ff5253d816f26305"}, {"url": "https://www.dta.ny.gov/determinations/orders.htm", "page": "detord", "table_rows": 95, "entries": 94, "header_found": true, "no_number": 0, "no_year": 0, "no_month": 0, "no_link": 0, "bytes": 22604, "sha256": "e7c2f0691e4c63d1cc4f9b70692eaf35c568a1b6b5e0d913decce1f2d198073c"}, {"url": "https://www.dta.ny.gov/decisions/", "page": "dec", "table_rows": 231, "entries": 230, "header_found": true, "no_number": 0, "no_year": 0, "no_month": 0, "no_link": 0, "bytes": 40863, "sha256": "3dc85c5acc8080abdecbc545157d9dbdea43679686b3db2ea7b7b9ba4d93de48"}, {"url": "https://www.dta.ny.gov/decisions/orders.htm", "page": "decord", "table_rows": 13, "entries": 12, "header_found": true, "no_number": 0, "no_year": 0, "no_month": 0, "no_link": 0, "bytes": 10992, "sha256": "fc6144c7f919d8ab009de0186771f6bf4180d791ff9069316661a018e76f0f17"}], "entries": 918, "in_frame": 917, "same_link_skipped": 1, "no_number": 0, "no_year": 1, "no_link_in_frame": 0, "duplicate_numbers": 134, "headers_missing": 0}`
+
+Counts: `{"in_frame": 917, "readable": 916, "fake_cite": 0, "ai_mention": 1, "ai_citation": 0, "hallucination": 0, "fetch_status": {"http_404": 1, "ok": 916}, "by_page": {"dec": {"readable": 229, "fake_cite": 0, "ai_mention": 0}, "decord": {"readable": 12, "fake_cite": 0, "ai_mention": 0}, "det": {"readable": 582, "fake_cite": 0, "ai_mention": 1}, "detord": {"readable": 93, "fake_cite": 0, "ai_mention": 0}}, "by_year": {"2013": {"readable": 1, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2014": {"readable": 1, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2015": {"readable": 1, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2018": {"readable": 34, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2019": {"readable": 35, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2020": {"readable": 25, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2021": {"readable": 54, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2022": {"readable": 155, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2023": {"readable": 193, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2024": {"readable": 155, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2025": {"readable": 158, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}, "2026": {"readable": 103, "fake_cite": 0, "ai_mention": 1, "hallucination": 0}, "????": {"readable": 1, "fake_cite": 0, "ai_mention": 0, "hallucination": 0}}}`
+
+| prediction | text | verdict | detail |
+|---|---|---|---|
+| P1 | 0 to 3 documents in the frame have a fabricated-citation phrase | held | `{"n": 0}` |
+| P2 | no document dated before 2025 has a fabricated-citation phrase | held | `{"n_before_2025": 0, "n_year_unknown": 0}` |
+| P3 | at most one document has an AI term within 2,000 characters of a fabricated-citation phrase | held | `{"n": 0}` |
+| P4 | fewer than 10 readable documents mention an AI term at all | held | `{"n": 1}` |
+| P5 | no Tax Appeals Tribunal decision or order has a fabricated-citation phrase | held | `{"n": 0}` |
+| P6 | the database has no New York tax-tribunal row, and no fabricated-citation document is in it (not blind: no such row on 11 Nov 2026) | not testable | `{"ny_tax_rows": 0, "n": 0, "in_db": []}` |
+| P7 | method check: at least 98% of the documents in the frame are readable | held | `{"readable": 916, "in_frame": 917, "share": 0.9989}` |
+| P8 | listing check (not blind: typos seen in summaries): at most 2% of documents in the frame have no readable year | held | `{"no_year": 1, "in_frame": 917}` |
+
+## Documents with a fabricated-citation phrase
+
+| row | page | DTA number | year | month | in database | flags |
+|---|---|---|---|---|---|---|
+
+## Other documents with an AI term or 'hallucinat...'
+
+| row | page | DTA number | year | flags |
+|---|---|---|---|---|
+| 7864f4450d6c | det | 850502 | 2026 | ai_mention |

@@ -1,0 +1,28 @@
+{
+ "plan_commit": {
+  "sha": "460b47e736eb4095cf01654241e54628f2da7957",
+  "date": "2026-11-11T13:26:52Z"
+ },
+ "census_commit": {
+  "sha": "460b47e736eb4095cf01654241e54628f2da7957",
+  "date": "2026-11-11T13:26:52Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-12T08:39:44Z",
+  "bytes": 2194006,
+  "sha256": "86fd21016a21a8a6300caab0390f4db6533a9a55d18bd3bce9665dabb8e0afe6",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "dta": {
+  "pages": [
+   "https://www.dta.ny.gov/determinations/",
+   "https://www.dta.ny.gov/determinations/orders.htm",
+   "https://www.dta.ny.gov/decisions/",
+   "https://www.dta.ny.gov/decisions/orders.htm"
+  ],
+  "failed": 0,
+  "in_frame": 917,
+  "built_at": "2026-11-12T08:39:55Z"
+ }
+}
