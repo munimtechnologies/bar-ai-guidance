@@ -1,19 +1,19 @@
 {
   "name": "agency-ai-rules",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "as_of": "2026-11-12",
   "license": "CC-BY-4.0",
   "made_by": "MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name; every entry links the issuer's own copy.",
-  "description": "AI rules, orders, advisories and policies that U.S. administrative tribunals (federal and state agency adjudicators, not courts) and agencies' practitioner regulators apply to the people who file with or practise before them. Information only, not legal advice. Court AI rules are tracked elsewhere; this file covers the agency side, which court trackers mostly leave out.",
+  "description": "AI rules, orders, notices, advisories and policies that U.S. administrative tribunals (federal and state agency adjudicators, not courts) and agencies' practitioner regulators apply to the people who file with, appear before or practise before them. Information only, not legal advice. Court AI rules are tracked elsewhere; this file covers the agency side, which court trackers mostly leave out.",
   "fields": {
     "level": "federal or state",
     "state": "two-letter state code, or null for federal",
-    "kind": "order_general (tribunal-wide order) | order_per_case (repeated in individual case orders) | rule (codified procedural rule) | policy | advisory | guidance | decision | web_page",
+    "kind": "order_general (tribunal-wide order) | order_per_case (repeated in individual case orders) | notice (tribunal-wide notice to the bar and parties) | rule (codified procedural rule) | policy | advisory | guidance | decision | web_page",
     "issued": "YYYY-MM-DD or YYYY-MM as published; null if the issuer gives no date",
     "status": "in_force | rejected | unknown",
-    "disclosure": "required_every_filing | required_if_used | on_request | encouraged | not_required | unverified (disclosure of AI use to the tribunal or agency)",
-    "certification": "required_every_filing | required_if_used | on_request | none | unverified",
-    "verification_duty": "yes | not_explicit | unverified (whether the instrument tells filers to check AI output)",
+    "disclosure": "required_every_filing | required_if_used | on_request | encouraged | not_required | not_addressed (the instrument governs something else, such as AI use during a live hearing) | unverified (disclosure of AI use to the tribunal or agency)",
+    "certification": "required_every_filing | required_if_used | on_request | none | not_addressed | unverified",
+    "verification_duty": "yes | not_explicit | not_addressed | unverified (whether the instrument tells filers to check AI output)",
     "ai_term": "artificial intelligence | super intelligence (the federal executive-branch term since Executive Order 14434, 2 Oct 2026)",
     "source_check": "issuer_page (the fields were read on the issuer's own web page) | issuer_listing (the issuer's own page lists the title and date; the document's wording comes from secondary sources until a text check) | secondary (only secondary sources and search-index text of the issuer's file so far)",
     "in_lag_tracker": "yes | partial | no: whether legalaigovernance.com's court-order tracker (251 instruments, read 2026-11-12) lists it"
@@ -150,12 +150,12 @@
       "verification_duty": "yes",
       "ai_term": "artificial intelligence",
       "authority_cited": [],
-      "sanctions": "Undisclosed AI-generated evidence may bring civil penalties and/or referral to the Board's Criminal Investigation Division.",
+      "sanctions": "As reported by practitioners: civil penalties of $100 to $1,000 per violation; undisclosed AI-generated evidence may also bring referral to the Board's Criminal Investigation Division; mistake, lack of expertise and time constraints are not accepted as good-faith excuses.",
       "url": "https://sbwc.georgia.gov/sbwc-ai-standing-order",
       "other_urls": ["https://sbwc.georgia.gov/document/publication/standing-order-ai-policy-procedure/download"],
       "source_check": "issuer_listing",
       "in_lag_tracker": "no",
-      "notes": "As reported by practitioners: every filing carries either an AI-assistance statement or a no-AI certification; citations that do not exist violate the order; evidence created or modified by AI must be disclosed when submitted. Not a ban on AI."
+      "notes": "As reported by practitioners: every filing carries either an AI-assistance statement, with a certification under penalty of perjury that the filer reviewed the whole document and verified every citation, or a certification under penalty of perjury that no AI tool was used; built-in spelling and grammar tools do not count. Citations that do not exist, or cannot reasonably support the point, violate the order; evidence created or modified by AI must be disclosed when submitted. Not a ban on AI. The Board's page (read 2026-11-12) gives the title and a download link but not the text; the reports do not say which statute the penalty amounts rest on."
     },
     {
       "id": "us-id-idapa-62-0101-2501-ai-sections",
@@ -201,7 +201,30 @@
       "other_urls": [],
       "source_check": "secondary",
       "in_lag_tracker": "yes",
-      "notes": "Mainly binds the OAH's own judges (no AI for drafting decisions, legal research or analysing evidence). Secondary sources say judges may ask parties for an AI disclosure and that the policy offers sample certification wording; legalaigovernance.com's entry instead says it imposes no duty on parties or counsel. The pending text check decides the disclosure and certification fields. After the Legislature rejected the AI sections of Docket 62-0101-2501, this policy is the OAH's only AI instrument found."
+      "notes": "Mainly binds the OAH's own judges (no AI for drafting decisions, legal research or analysing evidence). Secondary sources say judges may ask parties for an AI disclosure and that the policy offers sample certification wording; legalaigovernance.com's entry instead says it imposes no duty on parties or counsel. The pending text check decides the disclosure and certification fields. After the Legislature rejected the AI sections of Docket 62-0101-2501, this policy is the OAH's only AI instrument found that reaches parties; a January 2023 policy that bars its hearing officers from drafting orders with AI chatbots binds only the judges."
+    },
+    {
+      "id": "us-il-iwcc-ai-recording-notice-2025",
+      "level": "state",
+      "state": "IL",
+      "tribunal": "Illinois Workers' Compensation Commission (IWCC)",
+      "instrument": "Notice to Bar and All Self-Represented Litigants: Use of AI and Recording Devices Prohibited",
+      "kind": "notice",
+      "issued": "2025-04-16",
+      "effective": null,
+      "status": "in_force",
+      "applies_to": ["attorneys", "self_represented_parties"],
+      "disclosure": "not_addressed",
+      "certification": "not_addressed",
+      "verification_duty": "not_addressed",
+      "ai_term": "artificial intelligence",
+      "authority_cited": [],
+      "sanctions": "A participant found using an AI device or program during these proceedings will be immediately removed from the proceeding.",
+      "url": "https://iwcc.illinois.gov/content/dam/soi/en/web/iwcc/documents/public-notices/USE%20of%20AI%20and%20Recording%20Devices%20Prohibited.pdf",
+      "other_urls": [],
+      "source_check": "secondary",
+      "in_lag_tracker": "no",
+      "notes": "Strictly prohibits the use of any AI device or software during arbitration status calls, pre-trials, trials, review conferences and hearings on review or oral arguments, and also bans recording devices. It governs the live proceeding, not written filings: as reported, it says nothing about disclosing AI use, certifying filings or checking AI output in documents. The Commission's one-page PDF (file created 16 April 2025) was still served on 12 November 2026, but our tool could not extract its text, so the wording comes from the search-index text of that file and two trade reports (17 and 21 April 2025). The only instrument in this list that bans AI use outright; Texas SOAH's guidance for self-represented parties likewise says witnesses may not use AI to answer questions at a hearing."
     },
     {
       "id": "us-irs-opr-alert-2026-19",
@@ -336,10 +359,10 @@
       "authority_cited": [],
       "sanctions": null,
       "url": "https://www.wcc.sc.gov/sites/wcc/files/Documents/Update.News/FC%20Business%20Meetings/SCWCC%20AI%20Bench%20Order%20Advisory%206.17.2026.pdf",
-      "other_urls": [],
+      "other_urls": ["https://www.wcc.sc.gov/news/2026-06/commission-issues-bench-order-regulating-ai-use"],
       "source_check": "secondary",
       "in_lag_tracker": "no",
-      "notes": "Per the search-index text of the Commission's advisory and a July 2026 trade report: covers Commission employees, lawyers and parties; from 17 June 2026 all litigants must ensure the accuracy of work product produced with generative AI; memorandums of law submitted at a Commissioner's request must include a signed statement disclosing whether AI was used. 'on_request' here means only those requested memoranda carry the statement. The file is a typed advisory page plus scanned pages, so the order's own wording needs a text (OCR) check. Interim; no sanction found."
+      "notes": "Per the search-index text of the Commission's advisory and a July 2026 trade report: covers Commission employees, lawyers and parties; from 17 June 2026 all litigants must ensure the accuracy of work product produced with generative AI; memorandums of law submitted at a Commissioner's request must include a signed statement disclosing whether AI was used. 'on_request' here means only those requested memoranda carry the statement. The Commission's news post linking the advisory and order is dated 17 July 2026; the file name and the reports give 17 June 2026. The file is a typed advisory page plus scanned pages, so the order's own wording needs a text (OCR) check. Interim; no sanction found."
     },
     {
       "id": "us-tx-soah-calj-advisory-2025",

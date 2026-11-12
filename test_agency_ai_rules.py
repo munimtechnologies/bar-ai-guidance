@@ -15,12 +15,14 @@ KEYS = ["id", "level", "state", "tribunal", "instrument", "kind", "issued", "eff
         "sanctions", "url", "other_urls", "source_check", "in_lag_tracker", "notes"]
 ENUMS = {
     "level": {"federal", "state"},
-    "kind": {"order_general", "order_per_case", "rule", "policy", "advisory", "guidance", "decision", "web_page"},
+    "kind": {"order_general", "order_per_case", "notice", "rule", "policy", "advisory", "guidance", "decision",
+             "web_page"},
     "status": {"in_force", "rejected", "unknown"},
     "disclosure": {"required_every_filing", "required_if_used", "on_request", "encouraged", "not_required",
-                   "unverified"},
-    "certification": {"required_every_filing", "required_if_used", "on_request", "none", "unverified"},
-    "verification_duty": {"yes", "not_explicit", "unverified"},
+                   "not_addressed", "unverified"},
+    "certification": {"required_every_filing", "required_if_used", "on_request", "none", "not_addressed",
+                      "unverified"},
+    "verification_duty": {"yes", "not_explicit", "not_addressed", "unverified"},
     "ai_term": {"artificial intelligence", "super intelligence"},
     "source_check": {"issuer_page", "issuer_listing", "secondary"},
     "in_lag_tracker": {"yes", "partial", "no"},
@@ -28,7 +30,7 @@ ENUMS = {
 # Issuers' own hosts. content.govdelivery.com/accounts/USIRS is the IRS's own e-mail bulletin service.
 ISSUER_HOSTS = ("dol.gov", "justice.gov", "ftc.gov", "federalregister.gov", "georgia.gov", "idaho.gov",
                 "proddfmmainsa.blob.core.windows.net", "mass.gov", "mn.gov", "mt.gov", "texas.gov",
-                "irs.gov", "govdelivery.com", "sc.gov", "ca.gov")
+                "irs.gov", "govdelivery.com", "sc.gov", "ca.gov", "illinois.gov")
 STATES = {"AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS",
           "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC",
           "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"}
@@ -62,7 +64,7 @@ class AgencyAiRulesTest(unittest.TestCase):
         self.assertIn("AI agents", self.doc["made_by"])
 
     def test_count_and_order(self):
-        self.assertGreaterEqual(len(self.entries), 16)
+        self.assertGreaterEqual(len(self.entries), 17)
         ids = [e["id"] for e in self.entries]
         self.assertEqual(ids, sorted(ids))
         self.assertEqual(len(ids), len(set(ids)))
@@ -77,6 +79,18 @@ class AgencyAiRulesTest(unittest.TestCase):
         for e in self.entries:
             for k, allowed in ENUMS.items():
                 self.assertIn(e[k], allowed, "%s %s=%r" % (e["id"], k, e[k]))
+
+    def test_enum_values_documented(self):
+        fields = self.doc["fields"]
+        for k in ("kind", "disclosure", "certification", "verification_duty"):
+            for value in ENUMS[k]:
+                self.assertIn(value, fields[k], "%s value %r not documented in fields" % (k, value))
+
+    def test_not_addressed_is_all_or_nothing(self):
+        # An instrument that does not deal with filings leaves all three filing fields 'not_addressed'.
+        for e in self.entries:
+            flags = [e[k] == "not_addressed" for k in ("disclosure", "certification", "verification_duty")]
+            self.assertIn(sum(flags), (0, 3), e["id"])
 
     def test_level_and_state(self):
         for e in self.entries:
@@ -128,6 +142,7 @@ class AgencyAiRulesTest(unittest.TestCase):
         self.assertEqual(by_id["us-id-idapa-62-0101-2501-ai-sections"]["status"], "rejected")
         self.assertEqual(by_id["us-dol-arb-si-note"]["ai_term"], "super intelligence")
         self.assertEqual(by_id["us-ga-sbwc-ai-standing-order-2026"]["disclosure"], "required_every_filing")
+        self.assertIn("$100 to $1,000", by_id["us-ga-sbwc-ai-standing-order-2026"]["sanctions"])
         self.assertEqual(by_id["us-dol-oalj-order-2026-mis-00004"]["issued"], "2026-07-08")
         self.assertEqual(by_id["us-sc-wcc-ai-bench-order-2026"]["issued"], "2026-06-17")
         self.assertEqual(by_id["us-sc-wcc-ai-bench-order-2026"]["state"], "SC")
@@ -141,6 +156,13 @@ class AgencyAiRulesTest(unittest.TestCase):
         self.assertEqual(perb["source_check"], "issuer_page")
         self.assertIn("PERB Regulation 32635(a)", perb["authority_cited"])
         self.assertTrue(perb["url"].startswith("https://perb.ca.gov/"))
+        iwcc = by_id["us-il-iwcc-ai-recording-notice-2025"]
+        self.assertEqual(iwcc["state"], "IL")
+        self.assertEqual(iwcc["kind"], "notice")
+        self.assertEqual(iwcc["issued"], "2025-04-16")
+        self.assertEqual(iwcc["disclosure"], "not_addressed")
+        self.assertIn("removed", iwcc["sanctions"])
+        self.assertTrue(iwcc["url"].startswith("https://iwcc.illinois.gov/"))
 
     def test_disclaimer_and_no_ai_label_for_mv2(self):
         text = json.dumps(self.doc).lower()
