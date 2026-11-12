@@ -1,0 +1,27 @@
+{
+ "plan_commit": {
+  "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+  "date": "2026-11-11T03:47:48Z"
+ },
+ "census_commit": {
+  "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+  "date": "2026-11-11T03:47:48Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-12T12:51:07Z",
+  "bytes": 2200099,
+  "sha256": "f828f95f0698eb881e7d5f23566333424446f462c280b095da72681a621f999f",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "eoir": {
+  "pages": [
+   "https://www.justice.gov/eoir/volume-28",
+   "https://www.justice.gov/eoir/volume-29",
+   "https://www.justice.gov/eoir/volume-30"
+  ],
+  "failed": 0,
+  "in_frame": 288,
+  "built_at": "2026-11-12T12:51:28Z"
+ }
+}

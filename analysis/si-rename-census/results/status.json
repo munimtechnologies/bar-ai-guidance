@@ -1,0 +1,41 @@
+{
+ "started": "2026-11-12T15:02:25Z",
+ "census_version": "1.0.0",
+ "wave": "w01",
+ "log": [],
+ "census_sha256_local": "5c5655248d18277a4626bddb0117100a49771cae319fae519d481e9e379c8c29",
+ "plan_commit": {
+  "sha": "bc92c929f5a18af9d53bac74593868d7b0dd08b7",
+  "date": "2026-11-11T21:37:20Z"
+ },
+ "census_commit": {
+  "sha": "bc92c929f5a18af9d53bac74593868d7b0dd08b7",
+  "date": "2026-11-11T21:37:20Z"
+ },
+ "census_sha256_committed": "5c5655248d18277a4626bddb0117100a49771cae319fae519d481e9e379c8c29",
+ "frame": 92,
+ "frame_w1": 46,
+ "result": "graded",
+ "predictions": {
+  "P1": "held",
+  "P2": "held",
+  "P3": "held",
+  "P4": "held",
+  "P5": "held",
+  "P6": "held",
+  "P7": "held",
+  "P8": "pending wave w02",
+  "P9": "pending wave w02"
+ },
+ "shares": {
+  "W0": [
+   0.0,
+   0.0
+  ],
+  "W1": [
+   0.3571,
+   0.4118
+  ]
+ },
+ "finished": "2026-11-12T15:04:31Z"
+}

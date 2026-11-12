@@ -1,0 +1,56 @@
+{
+ "started": "2026-11-12T12:51:07Z",
+ "census_version": "1.0.0",
+ "log": [
+  "3 pages, 0 failed, 288 decisions in frame"
+ ],
+ "census_sha256_local": "67b2cd4ae0f66ba721e203bf52fd35c4282bad77be955ad5dcf9c38b08650e53",
+ "plan_commit": {
+  "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+  "date": "2026-11-11T03:47:48Z"
+ },
+ "census_commit": {
+  "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+  "date": "2026-11-11T03:47:48Z"
+ },
+ "census_sha256_committed": "67b2cd4ae0f66ba721e203bf52fd35c4282bad77be955ad5dcf9c38b08650e53",
+ "db_court_rows": 0,
+ "in_frame": 288,
+ "unparsed": 0,
+ "result": "graded",
+ "predictions": {
+  "P1": "held",
+  "P2": "held",
+  "P3": "held",
+  "P4": "held",
+  "P5": "held",
+  "P6": "held",
+  "P7": "held",
+  "P8": "held"
+ },
+ "counts": {
+  "in_frame": 288,
+  "readable": 288,
+  "fake_cite": 1,
+  "ai_mention": 1,
+  "ai_citation": 1,
+  "pm2540": 0,
+  "discipline": 7,
+  "fetch_status": {
+   "ok": 288
+  },
+  "by_issuer": {
+   "AAO": 1,
+   "AG": 19,
+   "BIA": 267,
+   "DIR": 1
+  },
+  "same_pdf_for_several_ids": {
+   "de5acaeda7eb": [
+    4037,
+    4038
+   ]
+  }
+ },
+ "finished": "2026-11-12T13:40:41Z"
+}

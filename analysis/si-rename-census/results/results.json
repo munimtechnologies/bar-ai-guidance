@@ -1,0 +1,421 @@
+{
+ "census_version": "1.0.0",
+ "wave": "w01",
+ "windows": {
+  "W0": [
+   "2026-08-17",
+   "2026-10-01"
+  ],
+  "W1": [
+   "2026-10-02",
+   "2026-11-11"
+  ]
+ },
+ "predictions": {
+  "P1": {
+   "verdict": "held",
+   "value": "9 of 15",
+   "text": "At least half of the W1 non-presidential documents that say 'Super Intelligence' also say 'artificial intelligence'."
+  },
+  "P2": {
+   "verdict": "held",
+   "value": "6 of 9",
+   "text": "At least half of the W1 non-presidential documents with both terms cite EO 14434 (its number or its title)."
+  },
+  "P3": {
+   "verdict": "held",
+   "value": "20 of 27",
+   "text": "At least half of the W1 non-presidential documents that say 'artificial intelligence' and never 'Super Intelligence' come from agencies not on the 44 U.S.C. 3502(5) list."
+  },
+  "P4": {
+   "text": "At most 1 W0 document (before 2 Oct 2026, any type) says 'Super Intelligence'.",
+   "verdict": "held",
+   "value": "0"
+  },
+  "P5": {
+   "verdict": "held",
+   "value": "median 1",
+   "text": "In those 'artificial intelligence'-only W1 documents, the median count of lower-case 'artificial intelligence' (ordinary use, not a capitalised name) is at least 1."
+  },
+  "P6": {
+   "verdict": "held",
+   "value": "commodity futures trading commission; federal energy regulatory commission; nuclear regulatory commission; securities and exchange commission",
+   "text": "At least one listed independent regulatory agency other than the OCC has a W1 document that says 'artificial intelligence' and never 'Super Intelligence'."
+  },
+  "P7": {
+   "text": "At least 98% of the documents in the frame are readable (500+ characters of text).",
+   "verdict": "held",
+   "value": "92 of 92"
+  },
+  "P8": {
+   "verdict": "pending wave w02",
+   "value": "",
+   "text": "Among matched non-presidential documents of agencies not on the 3502(5) list, the share that says 'Super Intelligence' is higher in W2 than in W1."
+  },
+  "P9": {
+   "verdict": "pending wave w02",
+   "value": "",
+   "text": "At least one listed independent regulatory agency other than the OCC has a W2 document that says 'Super Intelligence'."
+  }
+ },
+ "counts": {
+  "W0": {
+   "documents": 46,
+   "readable": 46,
+   "by_category": {
+    "ai_only": 46
+   },
+   "by_class": {
+    "other": {
+     "ai_only": 29
+    },
+    "listed_independent": {
+     "ai_only": 15
+    },
+    "presidential": {
+     "ai_only": 2
+    }
+   },
+   "weekly_nonpresidential": {
+    "2026-08-17": {
+     "matched": 12,
+     "super_intelligence": 0
+    },
+    "2026-08-24": {
+     "matched": 2,
+     "super_intelligence": 0
+    },
+    "2026-08-31": {
+     "matched": 5,
+     "super_intelligence": 0
+    },
+    "2026-09-07": {
+     "matched": 7,
+     "super_intelligence": 0
+    },
+    "2026-09-14": {
+     "matched": 8,
+     "super_intelligence": 0
+    },
+    "2026-09-21": {
+     "matched": 4,
+     "super_intelligence": 0
+    },
+    "2026-09-28": {
+     "matched": 6,
+     "super_intelligence": 0
+    }
+   },
+   "agencies": {
+    "Securities and Exchange Commission": {
+     "matched": 8,
+     "super_intelligence": 0,
+     "ai_only": 8
+    },
+    "Commerce Department": {
+     "matched": 7,
+     "super_intelligence": 0,
+     "ai_only": 7
+    },
+    "Federal Communications Commission": {
+     "matched": 4,
+     "super_intelligence": 0,
+     "ai_only": 4
+    },
+    "Health and Human Services Department": {
+     "matched": 4,
+     "super_intelligence": 0,
+     "ai_only": 4
+    },
+    "Energy Department": {
+     "matched": 3,
+     "super_intelligence": 0,
+     "ai_only": 3
+    },
+    "Labor Department": {
+     "matched": 3,
+     "super_intelligence": 0,
+     "ai_only": 3
+    },
+    "Environmental Protection Agency": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Justice Department": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Transportation Department": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Civil Rights Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Commodity Futures Trading Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Education Department": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Federal Reserve System": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Federal Trade Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Homeland Security Department": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Housing and Urban Development Department": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Merit Systems Protection Board": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Personnel Management Office": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    }
+   },
+   "si_share_nonpresidential": 0.0,
+   "si_share_other_agencies": 0.0
+  },
+  "W1": {
+   "documents": 46,
+   "readable": 46,
+   "by_category": {
+    "si_only": 9,
+    "both": 10,
+    "ai_only": 27
+   },
+   "by_class": {
+    "presidential": {
+     "si_only": 3,
+     "both": 1
+    },
+    "listed_independent": {
+     "ai_only": 7,
+     "si_only": 1
+    },
+    "other": {
+     "ai_only": 20,
+     "si_only": 5,
+     "both": 9
+    }
+   },
+   "weekly_nonpresidential": {
+    "2026-10-05": {
+     "matched": 5,
+     "super_intelligence": 0
+    },
+    "2026-10-12": {
+     "matched": 5,
+     "super_intelligence": 0
+    },
+    "2026-10-19": {
+     "matched": 10,
+     "super_intelligence": 2
+    },
+    "2026-10-26": {
+     "matched": 11,
+     "super_intelligence": 6
+    },
+    "2026-11-02": {
+     "matched": 7,
+     "super_intelligence": 4
+    },
+    "2026-11-09": {
+     "matched": 4,
+     "super_intelligence": 3
+    }
+   },
+   "agencies": {
+    "Health and Human Services Department": {
+     "matched": 8,
+     "super_intelligence": 4,
+     "ai_only": 4
+    },
+    "Energy Department": {
+     "matched": 4,
+     "super_intelligence": 2,
+     "ai_only": 2
+    },
+    "Securities and Exchange Commission": {
+     "matched": 4,
+     "super_intelligence": 0,
+     "ai_only": 4
+    },
+    "Treasury Department": {
+     "matched": 4,
+     "super_intelligence": 2,
+     "ai_only": 2
+    },
+    "Education Department": {
+     "matched": 3,
+     "super_intelligence": 3,
+     "ai_only": 0
+    },
+    "Agriculture Department": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Civil Rights Commission": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Homeland Security Department": {
+     "matched": 2,
+     "super_intelligence": 1,
+     "ai_only": 1
+    },
+    "Library of Congress": {
+     "matched": 2,
+     "super_intelligence": 0,
+     "ai_only": 2
+    },
+    "Commerce Department": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Commodity Futures Trading Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Housing and Urban Development Department": {
+     "matched": 1,
+     "super_intelligence": 1,
+     "ai_only": 0
+    },
+    "International Trade Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Labor Department": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Legal Services Corporation": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "National Credit Union Administration": {
+     "matched": 1,
+     "super_intelligence": 1,
+     "ai_only": 0
+    },
+    "Nuclear Regulatory Commission": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Postal Service": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "State Justice Institute": {
+     "matched": 1,
+     "super_intelligence": 0,
+     "ai_only": 1
+    },
+    "Transportation Department": {
+     "matched": 1,
+     "super_intelligence": 1,
+     "ai_only": 0
+    }
+   },
+   "si_share_nonpresidential": 0.3571,
+   "si_share_other_agencies": 0.4118
+  }
+ },
+ "ecfr": {
+  "fetched_at": "2026-11-12T15:04:24Z",
+  "note": "eCFR search hits, all section versions since 2017",
+  "\"super intelligence\"": 0,
+  "superintelligence": 0,
+  "\"artificial intelligence\"": 98
+ },
+ "sources": {
+  "plan_commit": {
+   "sha": "bc92c929f5a18af9d53bac74593868d7b0dd08b7",
+   "date": "2026-11-11T21:37:20Z"
+  },
+  "census_commit": {
+   "sha": "bc92c929f5a18af9d53bac74593868d7b0dd08b7",
+   "date": "2026-11-11T21:37:20Z"
+  },
+  "api": "https://www.federalregister.gov/api/v1/documents.json",
+  "queries": [
+   {
+    "window": "W0",
+    "term": "\"artificial intelligence\"",
+    "count": 46,
+    "rows": 46,
+    "pages": 1
+   },
+   {
+    "window": "W0",
+    "term": "\"super intelligence\"",
+    "count": 0,
+    "rows": 0,
+    "pages": 0
+   },
+   {
+    "window": "W0",
+    "term": "superintelligence",
+    "count": 0,
+    "rows": 0,
+    "pages": 0
+   },
+   {
+    "window": "W1",
+    "term": "\"artificial intelligence\"",
+    "count": 37,
+    "rows": 37,
+    "pages": 1
+   },
+   {
+    "window": "W1",
+    "term": "\"super intelligence\"",
+    "count": 19,
+    "rows": 19,
+    "pages": 1
+   },
+   {
+    "window": "W1",
+    "term": "superintelligence",
+    "count": 2,
+    "rows": 2,
+    "pages": 1
+   }
+  ]
+ }
+}

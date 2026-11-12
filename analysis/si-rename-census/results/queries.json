@@ -1,0 +1,44 @@
+[
+ {
+  "window": "W0",
+  "term": "\"artificial intelligence\"",
+  "count": 46,
+  "rows": 46,
+  "pages": 1
+ },
+ {
+  "window": "W0",
+  "term": "\"super intelligence\"",
+  "count": 0,
+  "rows": 0,
+  "pages": 0
+ },
+ {
+  "window": "W0",
+  "term": "superintelligence",
+  "count": 0,
+  "rows": 0,
+  "pages": 0
+ },
+ {
+  "window": "W1",
+  "term": "\"artificial intelligence\"",
+  "count": 37,
+  "rows": 37,
+  "pages": 1
+ },
+ {
+  "window": "W1",
+  "term": "\"super intelligence\"",
+  "count": 19,
+  "rows": 19,
+  "pages": 1
+ },
+ {
+  "window": "W1",
+  "term": "superintelligence",
+  "count": 2,
+  "rows": 2,
+  "pages": 1
+ }
+]

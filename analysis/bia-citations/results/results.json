@@ -1,0 +1,248 @@
+{
+ "census_version": "1.0.0",
+ "volumes": [
+  28,
+  29,
+  30
+ ],
+ "counts": {
+  "in_frame": 288,
+  "readable": 288,
+  "fake_cite": 1,
+  "ai_mention": 1,
+  "ai_citation": 1,
+  "pm2540": 0,
+  "discipline": 7,
+  "fetch_status": {
+   "ok": 288
+  },
+  "by_issuer": {
+   "AAO": 1,
+   "AG": 19,
+   "BIA": 267,
+   "DIR": 1
+  },
+  "by_year": {
+   "2020": {
+    "readable": 20,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 1
+   },
+   "2021": {
+    "readable": 29,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 0
+   },
+   "2022": {
+    "readable": 23,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 1
+   },
+   "2023": {
+    "readable": 13,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 0
+   },
+   "2024": {
+    "readable": 14,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 0
+   },
+   "2025": {
+    "readable": 70,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "discipline": 1
+   },
+   "2026": {
+    "readable": 119,
+    "fake_cite": 1,
+    "ai_mention": 1,
+    "discipline": 4
+   }
+  },
+  "same_pdf_for_several_ids": {
+   "de5acaeda7eb": [
+    4037,
+    4038
+   ]
+  }
+ },
+ "listing": [
+  {
+   "volume": 28,
+   "url": "https://www.justice.gov/eoir/volume-28",
+   "bytes": 175198,
+   "sha256": "7dbc5895b54f8ed7478703ec9dcdc81f4e0361fbbed4e77f6f065750d16e39d2",
+   "entries": 100,
+   "no_cite": 0,
+   "no_link": 0,
+   "gaps": []
+  },
+  {
+   "volume": 29,
+   "url": "https://www.justice.gov/eoir/volume-29",
+   "bytes": 227868,
+   "sha256": "dccb970c1fc1c457671adc1420277609a1404323b1b753b2bb255988bc6e47fd",
+   "entries": 155,
+   "no_cite": 0,
+   "no_link": 0,
+   "gaps": []
+  },
+  {
+   "volume": 30,
+   "url": "https://www.justice.gov/eoir/volume-30",
+   "bytes": 117128,
+   "sha256": "f5a363ff1fb89f689cc7b27d803b264263f02b4d6b42e2bde0f31b994a550ba3",
+   "entries": 33,
+   "no_cite": 0,
+   "no_link": 0,
+   "gaps": [
+    4248
+   ]
+  }
+ ],
+ "database": {
+  "court_rows": [],
+  "pfr_rows": 3,
+  "rows": 2292
+ },
+ "fake_cite_decisions": [
+  {
+   "id": 4254,
+   "cite": "30 I&N Dec. 112",
+   "volume": 30,
+   "page": 112,
+   "issuer": "BIA",
+   "year": 2026,
+   "doc_status": "ok",
+   "chars": 22483,
+   "readable": true,
+   "pdf_sha256": "5ea4e54edf4584c31cece71663ebc4fdc48e051dfd3cd51d8ad598098a914523",
+   "url": "https://www.justice.gov/eoir/media/1463666/dl?inline",
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "pm2540": false,
+   "disc_reg": true,
+   "discipline": true
+  }
+ ],
+ "ai_mention_decisions": [
+  {
+   "id": 4254,
+   "cite": "30 I&N Dec. 112",
+   "volume": 30,
+   "page": 112,
+   "issuer": "BIA",
+   "year": 2026,
+   "doc_status": "ok",
+   "chars": 22483,
+   "readable": true,
+   "pdf_sha256": "5ea4e54edf4584c31cece71663ebc4fdc48e051dfd3cd51d8ad598098a914523",
+   "url": "https://www.justice.gov/eoir/media/1463666/dl?inline",
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "pm2540": false,
+   "disc_reg": true,
+   "discipline": true
+  }
+ ],
+ "predictions": {
+  "P1": {
+   "text": "Matter of Sethi, 30 I&N Dec. 112, is readable and has a fabricated-citation phrase (not blind)",
+   "detail": {
+    "found": true,
+    "readable": true
+   },
+   "verdict": "held"
+  },
+  "P2": {
+   "text": "1 to 3 readable decisions in the frame have a fabricated-citation phrase",
+   "detail": {
+    "n": 1
+   },
+   "verdict": "held"
+  },
+  "P3": {
+   "text": "no readable decision cites EOIR Policy Memorandum 25-40",
+   "detail": {
+    "n": 0
+   },
+   "verdict": "held"
+  },
+  "P4": {
+   "text": "every fabricated-citation decision cites the EOIR practitioner-discipline rules (8 C.F.R. 1003.101-1003.109 or 1292.3)",
+   "detail": {
+    "n": 1,
+    "k": 1
+   },
+   "verdict": "held"
+  },
+  "P5": {
+   "text": "every fabricated-citation decision is a practitioner-discipline decision",
+   "detail": {
+    "n": 1,
+    "k": 1
+   },
+   "verdict": "held"
+  },
+  "P6": {
+   "text": "fewer than 5 readable decisions mention an AI term",
+   "detail": {
+    "n": 1
+   },
+   "verdict": "held"
+  },
+  "P7": {
+   "text": "the AI Hallucination Cases Database has no row whose court is an EOIR body (not blind)",
+   "detail": {
+    "court_rows": 0,
+    "pfr_rows": 3
+   },
+   "verdict": "held"
+  },
+  "P8": {
+   "text": "no fabricated-citation decision in the frame is in the database (not blind for Sethi)",
+   "detail": {
+    "n": 1,
+    "cited_in_db": [],
+    "eoir_court_rows": 0
+   },
+   "verdict": "held"
+  }
+ },
+ "sources": {
+  "plan_commit": {
+   "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+   "date": "2026-11-11T03:47:48Z"
+  },
+  "census_commit": {
+   "sha": "837f7e19b582d1350bb91ac16b33eabddb886629",
+   "date": "2026-11-11T03:47:48Z"
+  },
+  "database": {
+   "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+   "fetched_at": "2026-11-12T12:51:07Z",
+   "bytes": 2200099,
+   "sha256": "f828f95f0698eb881e7d5f23566333424446f462c280b095da72681a621f999f",
+   "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+  },
+  "eoir": {
+   "pages": [
+    "https://www.justice.gov/eoir/volume-28",
+    "https://www.justice.gov/eoir/volume-29",
+    "https://www.justice.gov/eoir/volume-30"
+   ],
+   "failed": 0,
+   "in_frame": 288,
+   "built_at": "2026-11-12T12:51:28Z"
+  }
+ }
+}
