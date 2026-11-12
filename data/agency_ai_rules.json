@@ -1,6 +1,6 @@
 {
   "name": "agency-ai-rules",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "as_of": "2026-11-12",
   "license": "CC-BY-4.0",
   "made_by": "MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name; every entry links the issuer's own copy.",
@@ -19,6 +19,29 @@
     "in_lag_tracker": "yes | partial | no: whether legalaigovernance.com's court-order tracker (251 instruments, read 2026-11-12) lists it"
   },
   "entries": [
+    {
+      "id": "us-ca-perb-atwater-2995e",
+      "level": "state",
+      "state": "CA",
+      "tribunal": "California Public Employment Relations Board (PERB)",
+      "instrument": "Atwater Elementary Teachers Association, CTA/NEA (2025) PERB Decision No. 2995-E (precedential), with PERB's site-wide notice on generative AI and its FAQ answer on AI in filings",
+      "kind": "decision",
+      "issued": "2025-12-15",
+      "effective": null,
+      "status": "in_force",
+      "applies_to": ["attorneys", "representatives", "self_represented_parties"],
+      "disclosure": "not_required",
+      "certification": "none",
+      "verification_duty": "yes",
+      "ai_term": "artificial intelligence",
+      "authority_cited": ["PERB Regulation 32635(a)"],
+      "sanctions": "Fabricated cases or statements of law before any division of PERB will warrant serious consequences, such as striking the filing, dismissal of the charge, or monetary sanctions (including against self-represented parties); PERB's FAQ adds that attorneys may be reported to the State Bar.",
+      "url": "https://perb.ca.gov/decision/2995e/",
+      "other_urls": ["https://perb.ca.gov/about/faq-about-perb/", "https://perb.ca.gov/news/use-of-ai-in-perb-proceedings", "https://perb.ca.gov/decision/3041h/"],
+      "source_check": "issuer_page",
+      "in_lag_tracker": "no",
+      "notes": "Made precedential because a self-represented charging party's appeal cited three nonexistent PERB decisions produced by generative AI; the Board called it a matter of first impression and imposed no sanction in that case. Headnotes: failing to verify AI-generated citations is bad-faith conduct, and extensive reliance on nonexistent PERB case law violates PERB Regulation 32635(a) and can justify striking an appeal. Neither the decision nor the FAQ asks filers to disclose AI use. Every Board-decisions page now carries a banner pointing to this decision and the FAQ. Applied in PERB Decision No. 3041-H (16 July 2026, precedential), which imposed non-monetary litigation sanctions for an abuse of process that included documents containing fictitious legal authority."
+    },
     {
       "id": "us-dol-arb-si-note",
       "level": "federal",
