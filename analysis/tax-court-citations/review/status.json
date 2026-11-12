@@ -1,0 +1,11 @@
+{
+ "started": "2026-11-12T11:27:44Z",
+ "log": [],
+ "rows_sha256": "8bbc7697245ad89877c021a27612f0e4b353b88fee8ed048120d306e836cca0e",
+ "targets": 78,
+ "extra": 1,
+ "result": "done",
+ "read": 79,
+ "with_hits": 77,
+ "finished": "2026-11-12T11:34:00Z"
+}
