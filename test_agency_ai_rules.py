@@ -25,8 +25,10 @@ ENUMS = {
     "source_check": {"issuer_page", "issuer_listing", "secondary"},
     "in_lag_tracker": {"yes", "partial", "no"},
 }
+# Issuers' own hosts. content.govdelivery.com/accounts/USIRS is the IRS's own e-mail bulletin service.
 ISSUER_HOSTS = ("dol.gov", "justice.gov", "ftc.gov", "federalregister.gov", "georgia.gov", "idaho.gov",
-                "proddfmmainsa.blob.core.windows.net", "mass.gov", "mn.gov", "mt.gov", "texas.gov")
+                "proddfmmainsa.blob.core.windows.net", "mass.gov", "mn.gov", "mt.gov", "texas.gov",
+                "irs.gov", "govdelivery.com", "sc.gov")
 STATES = {"AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS",
           "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC",
           "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"}
@@ -60,7 +62,7 @@ class AgencyAiRulesTest(unittest.TestCase):
         self.assertIn("AI agents", self.doc["made_by"])
 
     def test_count_and_order(self):
-        self.assertGreaterEqual(len(self.entries), 13)
+        self.assertGreaterEqual(len(self.entries), 15)
         ids = [e["id"] for e in self.entries]
         self.assertEqual(ids, sorted(ids))
         self.assertEqual(len(ids), len(set(ids)))
@@ -127,6 +129,11 @@ class AgencyAiRulesTest(unittest.TestCase):
         self.assertEqual(by_id["us-dol-arb-si-note"]["ai_term"], "super intelligence")
         self.assertEqual(by_id["us-ga-sbwc-ai-standing-order-2026"]["disclosure"], "required_every_filing")
         self.assertEqual(by_id["us-dol-oalj-order-2026-mis-00004"]["issued"], "2026-07-08")
+        self.assertEqual(by_id["us-sc-wcc-ai-bench-order-2026"]["issued"], "2026-06-17")
+        self.assertEqual(by_id["us-sc-wcc-ai-bench-order-2026"]["state"], "SC")
+        self.assertEqual(by_id["us-irs-opr-alert-2026-19"]["issued"], "2026-06-24")
+        self.assertEqual(by_id["us-irs-opr-alert-2026-19"]["verification_duty"], "yes")
+        self.assertIn("31 CFR 10.22", by_id["us-irs-opr-alert-2026-19"]["authority_cited"])
 
     def test_disclaimer_and_no_ai_label_for_mv2(self):
         text = json.dumps(self.doc).lower()

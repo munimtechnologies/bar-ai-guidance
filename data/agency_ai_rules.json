@@ -1,17 +1,17 @@
 {
   "name": "agency-ai-rules",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "as_of": "2026-11-12",
   "license": "CC-BY-4.0",
   "made_by": "MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name; every entry links the issuer's own copy.",
-  "description": "AI rules, orders, advisories and policies that U.S. administrative tribunals (federal and state agency adjudicators, not courts) apply to the people who file with them. Information only, not legal advice. Court AI rules are tracked elsewhere; this file covers the agency side, which court trackers mostly leave out.",
+  "description": "AI rules, orders, advisories and policies that U.S. administrative tribunals (federal and state agency adjudicators, not courts) and agencies' practitioner regulators apply to the people who file with or practise before them. Information only, not legal advice. Court AI rules are tracked elsewhere; this file covers the agency side, which court trackers mostly leave out.",
   "fields": {
     "level": "federal or state",
     "state": "two-letter state code, or null for federal",
     "kind": "order_general (tribunal-wide order) | order_per_case (repeated in individual case orders) | rule (codified procedural rule) | policy | advisory | guidance | decision | web_page",
     "issued": "YYYY-MM-DD or YYYY-MM as published; null if the issuer gives no date",
     "status": "in_force | rejected | unknown",
-    "disclosure": "required_every_filing | required_if_used | on_request | encouraged | not_required | unverified",
+    "disclosure": "required_every_filing | required_if_used | on_request | encouraged | not_required | unverified (disclosure of AI use to the tribunal or agency)",
     "certification": "required_every_filing | required_if_used | on_request | none | unverified",
     "verification_duty": "yes | not_explicit | unverified (whether the instrument tells filers to check AI output)",
     "ai_term": "artificial intelligence | super intelligence (the federal executive-branch term since Executive Order 14434, 2 Oct 2026)",
@@ -63,7 +63,7 @@
       "other_urls": ["https://www.dol.gov/agencies/oalj"],
       "source_check": "issuer_listing",
       "in_lag_tracker": "no",
-      "notes": "Listed on OALJ's Notices page (read 2026-11-12) with its docket number and date. A secondary report says it makes attorneys and self-represented parties responsible for what they file and warns of sanctions; the order's own wording is still to be checked. OALJ's home page now calls it the 'July 8 Order on Super Intelligence', a later relabel; the Notices page and the file name keep 'Artificial Intelligence'."
+      "notes": "Listed on OALJ's Notices page (read 2026-11-12) with its docket number and date. Secondary reports say it makes attorneys and self-represented parties responsible for what they file, warns of sanctions, and rests on the existing signature and sanctions rules (29 CFR 18.35(b) and (c)); the order's own wording is still to be checked. OALJ's home page now calls it the 'July 8 Order on Super Intelligence', a later relabel; the Notices page and the file name keep 'Artificial Intelligence'."
     },
     {
       "id": "us-eoir-pm-25-40",
@@ -178,7 +178,30 @@
       "other_urls": [],
       "source_check": "secondary",
       "in_lag_tracker": "yes",
-      "notes": "Mainly binds the OAH's own judges (no AI for drafting decisions, legal research or analysing evidence). Judges may ask parties for an AI disclosure and the policy offers sample certification wording. After the Legislature rejected the AI sections of Docket 62-0101-2501, this policy is the OAH's only AI instrument found."
+      "notes": "Mainly binds the OAH's own judges (no AI for drafting decisions, legal research or analysing evidence). Secondary sources say judges may ask parties for an AI disclosure and that the policy offers sample certification wording; legalaigovernance.com's entry instead says it imposes no duty on parties or counsel. The pending text check decides the disclosure and certification fields. After the Legislature rejected the AI sections of Docket 62-0101-2501, this policy is the OAH's only AI instrument found."
+    },
+    {
+      "id": "us-irs-opr-alert-2026-19",
+      "level": "federal",
+      "state": null,
+      "tribunal": "U.S. Internal Revenue Service, Office of Professional Responsibility (practice before the IRS under Circular 230)",
+      "instrument": "Alert Issue 2026-19: Introductory Guidelines for Responsible AI Use in Federal Tax Practice",
+      "kind": "guidance",
+      "issued": "2026-06-24",
+      "effective": null,
+      "status": "in_force",
+      "applies_to": ["practitioners"],
+      "disclosure": "not_required",
+      "certification": "none",
+      "verification_duty": "yes",
+      "ai_term": "artificial intelligence",
+      "authority_cited": ["31 CFR 10.22", "31 CFR 10.27(a)", "31 CFR 10.35", "31 CFR 10.36", "31 CFR 10.37", "31 CFR 10.51(a)(15)", "26 U.S.C. 6713", "26 U.S.C. 7216(a)"],
+      "sanctions": "No AI-specific sanction; it points to existing Circular 230 duties, including 31 CFR 10.51(a)(15) on willful unauthorized disclosure or use of tax return information.",
+      "url": "https://www.irs.gov/pub/opr-taxpros/issue-number-2026-19-introductory-guidelines-for-responsible-ai-use-in-federal-tax-practice.pdf",
+      "other_urls": ["https://www.irs.gov/tax-professionals/guidance-and-resources", "https://content.govdelivery.com/accounts/USIRS/bulletins/41d6e70"],
+      "source_check": "issuer_page",
+      "in_lag_tracker": "no",
+      "notes": "Read on the IRS's own e-mail bulletin page (24 June 2026) and listed on IRS.gov's Guidance and resources page. Due diligence 'requires verifying the accuracy of facts, citations, and calculations produced by AI'; for legal documents 'citations must be checked and cases read'. It asks for no disclosure to the IRS, but under the fees section (10.27) it says practitioners should disclose AI activities to clients and pass on cost savings. Written before Executive Order 14434; it uses 'artificial intelligence' and 'generative artificial intelligence (GAI)'."
     },
     {
       "id": "us-ma-cerb-ai-statement-2026",
@@ -271,6 +294,29 @@
       "source_check": "issuer_page",
       "in_lag_tracker": "partial",
       "notes": "Practice Manual 2.9(d) 'Use of Generative Artificial Intelligence by Parties Appearing Before OCAHO': no prohibition, no disclosure; parties 'should be mindful of the ethical and professional responsibility implications'; the presiding ALJ may give further direction. Set by a Notice of Case Assignment and repeated in later OCAHO notices. The tracker mentions it only inside its EOIR PM 25-40 entry."
+    },
+    {
+      "id": "us-sc-wcc-ai-bench-order-2026",
+      "level": "state",
+      "state": "SC",
+      "tribunal": "South Carolina Workers' Compensation Commission",
+      "instrument": "Bench order: Interim Policy on the Use of Generative Artificial Intelligence (with the Commission's advisory)",
+      "kind": "order_general",
+      "issued": "2026-06-17",
+      "effective": "2026-06-17",
+      "status": "in_force",
+      "applies_to": ["staff", "attorneys", "parties"],
+      "disclosure": "on_request",
+      "certification": "on_request",
+      "verification_duty": "yes",
+      "ai_term": "artificial intelligence",
+      "authority_cited": [],
+      "sanctions": null,
+      "url": "https://www.wcc.sc.gov/sites/wcc/files/Documents/Update.News/FC%20Business%20Meetings/SCWCC%20AI%20Bench%20Order%20Advisory%206.17.2026.pdf",
+      "other_urls": [],
+      "source_check": "secondary",
+      "in_lag_tracker": "no",
+      "notes": "Per the search-index text of the Commission's advisory and a July 2026 trade report: covers Commission employees, lawyers and parties; from 17 June 2026 all litigants must ensure the accuracy of work product produced with generative AI; memorandums of law submitted at a Commissioner's request must include a signed statement disclosing whether AI was used. 'on_request' here means only those requested memoranda carry the statement. The file is a typed advisory page plus scanned pages, so the order's own wording needs a text (OCR) check. Interim; no sanction found."
     },
     {
       "id": "us-tx-soah-calj-advisory-2025",
