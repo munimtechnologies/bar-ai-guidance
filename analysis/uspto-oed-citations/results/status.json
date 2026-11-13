@@ -1,0 +1,51 @@
+{
+ "started": "2026-11-13T09:45:54Z",
+ "census_version": "1.0.0",
+ "log": [
+  "listing: 942 rows, 941 entries, 160 in window"
+ ],
+ "census_sha256_local": "dfdf5dc3d74db5f6ea9b65fb2534e0a1fe12eb97b2a58883a86cecc6ab386053",
+ "plan_commit": {
+  "sha": "200007c20495c85f66c938e9b023e784953c9b0f",
+  "date": "2026-11-11T07:04:27Z"
+ },
+ "census_commit": {
+  "sha": "200007c20495c85f66c938e9b023e784953c9b0f",
+  "date": "2026-11-11T07:04:27Z"
+ },
+ "census_sha256_committed": "dfdf5dc3d74db5f6ea9b65fb2534e0a1fe12eb97b2a58883a86cecc6ab386053",
+ "db_uspto_rows": 1,
+ "in_frame": 160,
+ "result": "graded",
+ "predictions": {
+  "P1": "not testable",
+  "P2": "held",
+  "P3": "failed",
+  "P4": "held",
+  "P5": "failed",
+  "P6": "failed",
+  "P7": "held",
+  "P8": "failed",
+  "P9": "held"
+ },
+ "counts": {
+  "in_frame": 160,
+  "readable": 133,
+  "fake_cite": 1,
+  "fake_cite_proceedings": 1,
+  "ai_mention": 1,
+  "ai_mention_proceedings": 1,
+  "ai_citation": 1,
+  "guidance": 0,
+  "fetch_status": {
+   "ok": 160
+  },
+  "by_type": {
+   "Discipline": 140,
+   "Moral": 1,
+   "Reinstatement": 18,
+   "Technical": 1
+  }
+ },
+ "finished": "2026-11-13T09:55:14Z"
+}

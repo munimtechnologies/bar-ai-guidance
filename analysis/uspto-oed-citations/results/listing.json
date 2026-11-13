@@ -1,0 +1,13 @@
+{
+ "url": "https://foiadocuments.uspto.gov/oed/",
+ "bytes": 207826,
+ "sha256": "e27afc1c9862dfa7cfc6c19e15144bd39f9bd0fb561824ca4f69c2214905d3cb",
+ "table_rows": 942,
+ "entries": 941,
+ "header_found": true,
+ "bad_date": 0,
+ "bad_date_new": 0,
+ "in_window": 160,
+ "same_link_skipped": 0,
+ "no_link_in_window": 0
+}

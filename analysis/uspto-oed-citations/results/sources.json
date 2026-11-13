@@ -1,0 +1,23 @@
+{
+ "plan_commit": {
+  "sha": "200007c20495c85f66c938e9b023e784953c9b0f",
+  "date": "2026-11-11T07:04:27Z"
+ },
+ "census_commit": {
+  "sha": "200007c20495c85f66c938e9b023e784953c9b0f",
+  "date": "2026-11-11T07:04:27Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-13T09:45:55Z",
+  "bytes": 2200099,
+  "sha256": "f828f95f0698eb881e7d5f23566333424446f462c280b095da72681a621f999f",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "oed": {
+  "page": "https://foiadocuments.uspto.gov/oed/",
+  "failed": 0,
+  "in_frame": 160,
+  "built_at": "2026-11-13T09:45:56Z"
+ }
+}

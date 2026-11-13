@@ -1,0 +1,161 @@
+row_id,proceeding,decision_text,decision_type,date,doc_status,chars,readable,pdf_sha256,in_db,fake_cite,ai_mention,ai_citation,guidance,r11_18,r11_101,r11_804
+2f3fe5599753,D2022-23,Final Order,Discipline,2023-01-06,ok,34690,True,63563898c89d052019930c1f83e7bd1d1d9e4cf4a9b90412e9e5ee79a4a6a579,False,False,False,False,False,True,True,True
+d9ded32753f0,D2022-26,Final Order,Discipline,2023-01-06,ok,4551,True,b8fe8317ad18d00055de90a11edf9ad69bde9a3a225af4215c9e30bdadea3839,False,False,False,False,False,False,False,True
+a6d10fcc6726,D2023-08,Final Order,Discipline,2023-01-20,ok,10736,True,ec2cd8aaf1c59109b0d4e07bdda6378d90d8a3c4baac93ca819e9cba47fbbd43,False,False,False,False,False,True,True,True
+51ca8ad3b27d,D2022-27,Final Decision,Discipline,2023-01-27,ok,31283,True,1af3baadb1c5744819c72dd52b47279d3ae810b6a31d6d2f717557de5de7144b,False,False,False,False,False,False,False,False
+35c12228df70,D2023-05,Final Order,Discipline,2023-02-24,ok,27519,True,9637c90d7178a7c9906b817b4cdd04b1d697138b5d69e829b5143f5f6caa9d26,False,False,False,False,False,False,True,False
+f9ec6515909f,R_61,Decision on Petition,Reinstatement,2023-03-06,ok,1034,True,a5be2c1bfab7ad6f699a6a1752a2039a801859702ea84b394a79d28e30213526,False,False,False,False,False,False,False,False
+8d90e34d3d79,D2023-04,Final Order,Discipline,2023-03-16,ok,5476,True,1d54db6be91394fc8ee128bc36a73728ced4808f1c494a714cfa0291aedfd633,False,False,False,False,False,False,False,True
+59b457502233,R_62,Decision on Petition,Reinstatement,2023-03-21,ok,2127,True,459fbc8b275dd5acc503d8af7158cf46a7ab60b640b375dc2d5697cc591edac7,False,False,False,False,False,False,False,False
+ff5c878034fc,D2023-03,Final Order,Discipline,2023-03-29,ok,1,False,a3fca6aed1d4bb3f99aaa11a305a44c698a7c02fcceecf2ea14a67062c9de34f,False,False,False,False,False,False,False,False
+e6b14da10c88,D2023-22,Final Order,Discipline,2023-04-07,ok,15474,True,f3d3da1d2bde75926b02b4c96138e806526789d108c1188e7e77adf4792de409,False,False,False,False,False,True,True,False
+a288f571c55e,D2023-24,Final Order,Discipline,2023-04-07,ok,19308,True,bb6240118914b70a23c5ba2ac65eb4c77f19271b7d541f76f420bb66a827e891,False,False,False,False,False,True,True,True
+26035e73d3e4,D2020-17,Final Order,Discipline,2023-04-11,ok,1,False,fe19c9840f9d6733f6c115395e4e36724a71eeb249f8156eaaa36d5bd5c766ce,False,False,False,False,False,False,False,False
+e1a913747f35,D2022-24,Final Order,Discipline,2023-04-11,ok,55925,True,7d7c6a33e039eb6336333bf9d4360cb6684dbe68e5f3afbd86afdda7ff79dde8,False,False,False,False,False,False,True,True
+3b0d1743d778,D2023-19,Amended Final Order,Discipline,2023-04-19,ok,17394,True,cc6adf565310d7d34033f1b99ed9a3133e0d7f4fe225a66e7448dc0ce9f42d7a,False,False,False,False,False,True,False,True
+0da88403bc6b,D2022-22,Final Decision,Discipline,2023-04-23,ok,32829,True,9b68d4966f2599069475eb5d0bb82be9f8629940efa710c79169429c19752b31,False,False,False,False,False,False,True,True
+a965a9b9f94d,D2023-10,Final Order,Discipline,2023-05-01,ok,1,False,018c07aa2f84e60ab5d562764ea63b4238ea6084be4993ffcc5d02c104842b0c,False,False,False,False,False,False,False,False
+a8bd88e09deb,D2023-14,Final Order,Discipline,2023-05-03,ok,1,False,7bee81247c202504e3dfad2d26e12681a0adf24aab6c0fe4bedb7e18b49d2631,False,False,False,False,False,False,False,False
+77e982f7439b,D2023-25,Final Order,Discipline,2023-05-08,ok,39369,True,9a4bde4cc2af6aba94f2252a2bd0a8cb9242b4b5a3b281d3c5c6f24894018eaf,False,False,False,False,False,True,True,True
+22c8d8978700,D2023-09,Final Order,Discipline,2023-05-15,ok,1,False,1e05a33f5a71b12f205e2f9192b0f0cad9f47e792d52e130ba8d811ee1acdb33,False,False,False,False,False,False,False,False
+84d3b9a1284d,D2023-12,Final Order,Discipline,2023-06-01,ok,5900,True,ee16b51abfcf6f3eb4be85e844ad3bad89dc7b6fffb83d1b569ddbeb3b62aa77,False,False,False,False,False,False,False,True
+0289093d9158,D2023-06,Final Order,Discipline,2023-06-02,ok,5673,True,a4a8f55ec33cc92bbfdd74ce2b9edc3de48748a1b8d351311f3c23ab36819c02,False,False,False,False,False,False,False,False
+eb441936c65f,D2022-25,Final Order,Discipline,2023-06-12,ok,46721,True,1b77c468125a735742834294b56a5e18f27402f0346336a3df9f938424901357,False,False,False,False,False,False,True,False
+b659f7c244d3,R_63,Decision on Petition,Reinstatement,2023-06-16,ok,993,True,953e43d5cc33e1d1f0537b7da8f806b38287833fd92880cf56801400a7bb657a,False,False,False,False,False,False,False,False
+397d8bcb096f,D2022-24,Order on Reconsideration,Discipline,2023-06-23,ok,5283,True,0cb4fa2a7121451dd5a43337e7c0ff121c0a89e74a27dcc874a97e6aa3455407,False,False,False,False,False,False,False,True
+bd5674591ab6,D2023-28,Final Order,Discipline,2023-06-23,ok,1,False,fd0a0aa890034a6811dc4eac52dc2a953cc92d73082158fefc05078a5c43ac68,False,False,False,False,False,False,False,False
+2cea7f66cd6d,D2023-01,Final Order (Disability Inactive),Discipline,2023-07-19,ok,5157,True,037add4519f6135494573898188a5d4b2579f8c76484439745c4708e094843d3,False,False,False,False,False,False,False,False
+2498675950fc,D2019-44,Final Decision,Discipline,2023-08-24,ok,85100,True,3db0ae19f16ac7fa90305fdc5f6b56a8f0ba42ce60d7720718b496c2f2e4a4d5,False,False,False,False,False,False,True,True
+1f6fc5d3e61a,D2023-16,Final Order,Discipline,2023-08-24,ok,37010,True,b9ea7c0558c26097d29f168e2153e52363477a1bcdeeb76d58f1bbb00cee94f5,False,False,False,False,False,False,False,True
+6a124a0e4ab3,D2023-33,Final Order,Discipline,2023-09-06,ok,20910,True,7a24e5b819be1523f275903d4daa4201f7c26036b59d84bca785bbfff2b1a904,False,False,False,False,False,False,True,True
+55ebc7494bbc,D2023-07,Final Order,Discipline,2023-09-13,ok,6953,True,987b5779b6a3eef4a0bbdb599f5061eb462ba17a0498b8363d6b6879dde0642a,False,False,False,False,False,False,False,True
+6169ae472d77,D2023-13,Final Order,Discipline,2023-09-13,ok,6088,True,648904551ba18b508b5e6d8a0abae6ba416a460884cc68066c3c03ecfbb45ed9,False,False,False,False,False,False,False,True
+935d17470c71,D2023-16,Order on Reconsideration,Discipline,2023-09-15,ok,3000,True,3654d52c8adde9d458b13b1b11ac6908f0a379c59b35d19a82761afbc3caa3d7,False,False,False,False,False,False,False,False
+223096437d10,D2023-30,Final Order,Discipline,2023-09-18,ok,5708,True,ad28b0e3e399b8d73b814fceeaf4a1d0ccbe3f96c53aa4597551e3d4309decf8,False,False,False,False,False,False,False,True
+712a6b57230d,D2023-23,Final Order (Disability Inactive),Discipline,2023-10-03,ok,5564,True,f4aee169e8f48cef65b46a2751048973515173f72024b5b2cee01686b68353db,False,False,False,False,False,False,False,False
+b407261f4c9d,D2023-36,Final Order,Discipline,2023-10-16,ok,6842,True,90b706518095a3da33a5cdf1d65bed42634910c367f8de40f433eb2a167b50f8,False,False,False,False,False,False,True,True
+b2ce1394bf00,D2022-21,Final Decision,Discipline,2023-10-31,ok,47102,True,1dfd40a7c618e1a425432bfd6e4e1fc0500109ff9486530592b1bfa87300eded,False,False,False,False,False,False,True,True
+4fa490fd2065,D2023-26,Final Order,Discipline,2023-11-02,ok,22563,True,1a12a6cd6cec36035568016678fbd14998fbac7e245bef4af0377037bf117e86,False,False,False,False,False,True,True,True
+dbba2748a58d,R_64,Decision on Petition,Reinstatement,2023-11-14,ok,1139,True,fbf15b70c4f118841589caf745bfbe3c65526bf8c18d472ef3bc7bf14203549f,False,False,False,False,False,False,False,False
+1d69875e10b0,D2019-42,Initial Decision,Discipline,2023-11-20,ok,59612,True,2f2d257a0a164e6542c46a3b3f42b0f2db0acef47b25d08b97acd2f20cc84d1c,False,False,False,False,False,False,True,True
+751f1ad36ff2,D2023-38,Final Order,Discipline,2023-11-21,ok,35654,True,d1b0863bbde8783e46641cc7869d94aa870044fcd60d4ac76c5118f87c4c317b,False,False,False,False,False,True,True,True
+db9533bb919f,R_65,Decision on Petition,Reinstatement,2023-12-01,ok,1113,True,a005a905a8524b839b2a81b7b45f9742062f2a87aa4edd743b6e280aad513aaa,False,False,False,False,False,False,False,False
+a509526f49f1,D2019-43,Final Order,Discipline,2023-12-05,ok,58952,True,57f4df3d7790b5e8d7365d40d0d6c8dfc11cb397371b90647f11719b4f7c6b00,False,False,False,False,False,False,False,True
+00bbdf9de407,D2023-34,Final Order,Discipline,2023-12-11,ok,7366,True,d2acde240179b0fc91ca7bd9ab4bdb44f8a6988441fb4957aeeb44f6c7295676,False,False,False,False,False,False,False,True
+2dee627c08da,D2018-22,Final Decision,Discipline,2023-12-21,ok,89805,True,be4a5bc56c25b2db402d31c10b32c00144ea4c0cb8408999d7bfbb0f363f6fee,False,False,False,False,False,False,True,True
+e623d265d9f8,D2023-27,Final Order,Discipline,2024-01-03,ok,35749,True,a94da2f4d940b686dac78b9bccca0a7cb28c74cf596a34fb680bec46d8f25258,False,False,False,False,False,False,False,True
+d7370269fcb0,D2023-32,Final Order,Discipline,2024-01-03,ok,48564,True,8d159ff04d013d7d9142d372a9eb17426ee4de79e5d5a2e7b19206565e3b2128,False,False,False,False,False,True,True,True
+57df52053898,D2019-43,Order on Motion for Leave to File a Reply,Discipline,2024-01-08,ok,6780,True,0a993526bce6a34980615dc0cd0fb36597e4c634a1ff176c97aaf65ce490fb0d,False,False,False,False,False,False,False,False
+38b3ec5db1bc,D2023-37,Final Order,Discipline,2024-01-08,ok,35510,True,9888f2df9b7cf666e8bd01dfd7850eb4b8f44b766caf46ce8bd22cc580eb5a96,False,False,False,False,False,True,True,False
+21300bc772b9,D2023-21,Final Order,Discipline,2024-01-16,ok,5413,True,f81a71f0f0947aa2cf9427c394c986c3dcd476b499c29e6d8849178a0c0835a6,False,False,False,False,False,False,False,False
+a96f0de1bd21,D2019-43,Order on Renewed Motion,Discipline,2024-01-18,ok,6489,True,319b6672ec7809f7f10485e569c71d367853b788191e6acd28788f98db837ce2,False,False,False,False,False,False,False,False
+ade112e28cee,D2019-43,Final Order on Reconsideration,Discipline,2024-01-18,ok,22698,True,b6aa78d716d6d8c8d22152558313a6a6fd41c81cfec6c26a976c3bb6698c3959,False,False,False,False,False,False,False,False
+fb3e75741b67,D2019-42,Final Order,Discipline,2024-01-27,ok,12138,True,e75c5b346d407a34aa6e2c7dd4ff0ab43d9516e79d704ba8057834b8217562ad,False,False,False,False,False,False,True,True
+b7c5bbd98473,D2024-04,Final Order,Discipline,2024-02-02,ok,28052,True,90139596ea18f5fb9c0a6504a1525e1f12614194fffd94cd6ae951f02a0f450c,False,False,False,False,False,True,True,True
+3336354d41b3,D2024-07,Final Order,Discipline,2024-02-07,ok,31434,True,97f28473c1e799656bcbace8615320fc95835ac2f27d3f32dfaf336f4fa1d594,False,False,False,False,False,True,True,True
+a5c563faa040,D2024-05,Final Order,Discipline,2024-02-21,ok,12202,True,3bd651473ce853542b2b9c803fa4ae2a0e8645d226756ba0d5608b1f7b1df740,False,False,False,False,False,False,True,True
+2413c137803c,D2024-01,Final Order,Discipline,2024-03-20,ok,57312,True,3a3ea410e220dec3ede0017d05f5d9bd6ae91d6deb63a5af36dfb87a13c82550,False,False,False,False,False,True,True,True
+a6000472a7be,R_66,Decision on Petition,Reinstatement,2024-04-22,ok,1003,True,6a8e257e54d49716694fa195f2ef98d40766b6edbf44797837259f7b55be4654,False,False,False,False,False,False,False,False
+a362c8fb8352,R_67,Decision on Petition,Reinstatement,2024-04-23,ok,1215,True,5f443c11e786bd52e43e43399ceda923d75755c94e33d5c16a46d50d4efefc1c,False,False,False,False,False,False,False,False
+5828dca1f3a8,D2021-15,Final Decision,Discipline,2024-04-29,ok,117298,True,5369bf83852cae77f679548fff28eb75927bbac0162832b8859817249cd2efab,False,False,False,False,False,False,True,True
+f24cdf9ee8e3,D2023-35,Final Order,Discipline,2024-05-21,ok,40831,True,4684b2fe6afc26ad132f71f382baee1e211e910f97e81c426619c059f5bd91c0,False,False,False,False,False,True,True,True
+810ccf701cc7,D2024-11,Final Order,Discipline,2024-05-29,ok,28744,True,d7c8c43e034abebe0651fd014e7f7ed267d5b2bc53947c01d202fc01225151fb,False,False,False,False,False,True,True,True
+2225469b1869,R_68,Decision on Petition,Reinstatement,2024-05-31,ok,1138,True,327743f0ba11b7c73c3e81aed4fcf2bf5f8e3b94f8c59b81ad1ec07086e9c198,False,False,False,False,False,False,False,False
+a7852781a3b8,D2023-20,Final Order,Discipline,2024-06-03,ok,6828,True,f883fcba87c217215029a9d22bc261eb394804bb4b9a308a57d44db315b275ab,False,False,False,False,False,False,False,False
+848402936a18,D2024-03,Final Order,Discipline,2024-06-03,ok,7684,True,6b9db8969e9268c19576be1c335ea5796304c694287d03ebbd3459cf5dae13c0,False,False,False,False,False,False,False,False
+259f268cfec9,D2024-10,Final Order,Discipline,2024-07-30,ok,11727,True,51d10caf0dce74517cb5d55d0ce7cad8c54145910cfd0aeb6e065f8761d740a8,False,False,False,False,False,False,True,False
+2bf2f2976c3a,R_69,Decision on Petition,Reinstatement,2024-08-05,ok,968,True,70d093fffa509cb5ffd22b871a85ef93b7f20a01a970f446aa0587378d9ad6cf,False,False,False,False,False,False,False,False
+30dcfe050838,"D2020-10, D2024-15",Final Order,Discipline,2024-08-13,ok,1,False,9d150968a937e9cddd55bf11b463eefdd8aef44f8d6d78edc0b7257629cf7427,False,False,False,False,False,False,False,False
+856061b57333,D2024-24,Final Order,Discipline,2024-08-20,ok,18834,True,3f11981059ed78483c1342ab1faddcbc88d1487c3703302bd7b30a703763929d,False,False,False,False,False,False,False,True
+c066e34d1a9d,D2019-38,Final Order,Discipline,2024-09-05,ok,1,False,e14c23968892e9fdc604210f9b9d15a0c7201ff18620c0a7ce30640536602756,False,False,False,False,False,False,False,False
+6f49f8202ebf,D2024-21,Final Order,Discipline,2024-09-11,ok,50786,True,d2aad180f3868e8059797e3e0e875a9b817180f4dc7b0e2efeff11592fb95f61,False,False,False,False,False,True,False,True
+f407e8499149,D2024-26,Final Order,Discipline,2024-09-30,ok,7139,True,5ee6d1d281eecc229d190b7d061d1b717b20c6536a0da360845996ce0d2775c0,False,False,False,False,False,False,True,True
+f45652f62f82,D2019-41,Final Decision,Discipline,2024-10-10,ok,58633,True,c9c1fdbb83bce2011e73acfe3e2ad3470f156ce6c7c4e7d100866762d89bbb60,False,False,False,False,False,False,True,True
+8bbdc5df91b8,D2024-12,Final Order,Discipline,2024-10-16,ok,8167,True,0d1e0285a8e5a2ca42c989ad7fe19c5a27ff51b04e1d8ce00b1e710ede1c7b49,False,False,False,False,False,False,False,False
+3f6a8d18330d,D2024-02,Final Order,Discipline,2024-10-25,ok,24501,True,8f0279b31f659743b60121bd4f95d4ea6314f2fe72fe3ac8e2e8a1ea9242954e,False,False,False,False,False,False,False,False
+11713ee70783,R_70,Decision on Petition,Reinstatement,2024-10-30,ok,1130,True,6e55aa13c27ac20f5eae8ee82e8c44949defc0096d8b7e2ee2b1ddd2d107479b,False,False,False,False,False,False,False,False
+849d5b5ccc2e,D2023-39,Final Order,Discipline,2024-11-21,ok,59984,True,9855dfd96d222a0483116b2c5827cacb1874ea8a086ce1adf480c433a975352a,False,False,False,False,False,True,True,True
+b6a6f1ff7216,D2025-02,Final Order,Discipline,2024-11-28,ok,9558,True,ca3f71a9c039d73811dfe436effa96e94ed9bac769e639fc05f664faa8370a5f,False,False,False,False,False,False,False,False
+1d2547946c2f,D2024-16,Final Order,Discipline,2024-12-10,ok,6748,True,4c0c824d72d6e38c0ee2bf68c6a583a26925f7239f7418030f0aca8ad1480d97,False,False,False,False,False,False,False,False
+cc63c6926512,D2025-09,Final Order,Discipline,2024-12-18,ok,6635,True,57d830c63adb14c39430b3b46ceaaba18d56e79db15e4ffb110cea64a3bd881d,False,False,False,False,False,False,True,False
+65921e85bdb9,D2024-20,Final Order,Discipline,2024-12-19,ok,39687,True,7dc23debc839f3f51025dc9a27f04124d6b79efc04e5916ef284f507df3b646c,False,False,False,False,False,True,True,True
+7ef5e637b1c0,D2025-01,Final Order,Discipline,2024-12-20,ok,32329,True,31a95a3abd2ab8467d61c27a9c4411ec3497655accc181a49200f49f3334aaf2,False,False,False,False,False,True,True,True
+2544753c7e95,D2024-18,Final Order,Discipline,2025-01-06,ok,45138,True,5ee8927e4d4611f924fdb2f7d29f85bd7a3fb2eb9c864e3f1a6c4a5e18f1dbd0,False,False,False,False,False,True,True,True
+2c06eb37348c,D2021-12,Final Order,Discipline,2025-02-05,ok,9390,True,3bd4b476f0bce1fc2d1e6fbe1d6515d644b65d609d760a73cdf6f5bf0d6d6822,False,False,False,False,False,False,False,False
+9ed49a2082ad,D2024-06,Final Order,Discipline,2025-02-07,ok,2370,True,b9eb117f906d0dae8dc8bf6aeca6f8c70f9a023b1711aae82a1b19b5a3442a04,False,False,False,False,False,False,True,False
+45291db202d3,D2025-04,Final Order,Discipline,2025-02-14,ok,11108,True,7a06dd0896be94a4d63500d543fca7dd92cec2aede176b9da5916e7754eb8705,False,False,False,False,False,False,True,True
+69e6ae9bb4c3,Moral_22,--,Moral,2025-02-26,ok,14622,True,e755bc86f7fdc176842d1333085fbec183930fe89b08e13fc8ad6878a6f799d0,False,False,False,False,False,False,False,False
+dfb2d3986490,D2025-13,Final Order,Discipline,2025-03-06,ok,15043,True,7ede10e370af686f135f01c65c8d11217200637327005e181fb5982469cd59dd,False,True,True,True,False,True,False,True
+8149146a757d,D2025-12,Final Order,Discipline,2025-03-10,ok,35567,True,456563f753521f3eccd60709d642e453f355ee62589ede4d0980541bb45228d4,False,False,False,False,False,True,True,False
+eb03e1d808d5,D2024-23,Amended Final Order,Discipline,2025-03-13,ok,10639,True,3dd8c29fee0fc77c1297bd0d7815166fa49974aec1b6ef842d64b2605d097f5f,False,False,False,False,False,False,False,False
+cf07ab1b1bfd,D2024-19,Final Order,Discipline,2025-03-18,ok,51642,True,3be211803ebaa9ac910390fe77018b6f20dd7dfa7d152ee1d3b026bbbd88df33,False,False,False,False,False,True,True,False
+78bf00c5425b,D2025-15,Final Order,Discipline,2025-03-20,ok,15324,True,eccdaac7ffecbfd1ecf1df8a37cf40b6cbe66d55938f97daf9c62254f618dc9b,False,False,False,False,False,False,True,True
+cca830028f65,D2025-16,Final Order,Discipline,2025-03-20,ok,15795,True,07e935fe9f4ca1475e21adab51e81b7db5c442f9cd3eb78c9cd11185fc8ec4bd,False,False,False,False,False,False,True,False
+e72f81f26890,D2025-08,Final Order,Discipline,2025-03-24,ok,15899,True,136eb824a22ea2910f64a2ffd8d71429dfe727cd32c1eaf5c7df909a1ee42247,False,False,False,False,False,False,True,False
+d3934bc59fb5,D2025-14,Final Order,Discipline,2025-03-31,ok,36617,True,695a815ccfac1a1f785d3074134967c3e7c25d83753600f44b6f3638725d32aa,False,False,False,False,False,True,True,True
+e6e7503e5f22,R_71,Decision on Petition,Reinstatement,2025-04-02,ok,1038,True,e5dfe7b52beea115f857f8c980f3b725706ba1c52d509d002c96b24bcd9878ff,False,False,False,False,False,False,False,False
+980feb996917,D2024-17,Final Order,Discipline,2025-04-08,ok,8098,True,e78e5069aec4f180c27b3590cd22bf21b699306723eb6ad1121a6c894ccdc415,False,False,False,False,False,False,False,False
+864948e7f70f,D2024-25,Final Order,Discipline,2025-04-17,ok,7816,True,19fe0cf9fd57bda51f38834af03cb626b84c9dff77c87b0777a89b14047fa1aa,False,False,False,False,False,False,False,True
+c5ee92667928,D2025-03,Final Order,Discipline,2025-05-02,ok,8922,True,f0ab686c299d631b49a48aa09f38f592ce680701f96193ac78c4a24cd354b709,False,False,False,False,False,False,False,False
+720d419d0d7b,D2025-19,Final Order,Discipline,2025-05-14,ok,1,False,c07e3a1c6703462645853bcf27793bcf0bd325cd0127bd1465e5aba2e786c62e,False,False,False,False,False,False,False,False
+ebe51b81051a,D2025-18,Final Order,Discipline,2025-05-21,ok,56855,True,1f3bd2b3e2cedd486d0edc91f480c197abefdde4a10f0d7bfa8b15f0dfb935e1,False,False,False,False,False,True,True,True
+24a3e6baa16c,Tech_18,--,Technical,2025-06-13,ok,1,False,3c7fdbca21dc99e86e1cb8db45f08fb300b68c4dbe82f54925a30060898bd1b0,False,False,False,False,False,False,False,False
+7e5d15d00c6b,D2024-13,Final Order,Discipline,2025-06-17,ok,7359,True,74fa7a4e1a1e161eba43fe1b0228536b5c80e4fd9aec6dc160e982547fa81a45,False,False,False,False,False,False,False,False
+115a4e79fd20,D2020-16,Final Decision,Discipline,2025-06-25,ok,43838,True,ba0d2267d02f2c9bb6c9fc91b274e94db5fa1b452f31be9b064d01e4712437e0,False,False,False,False,False,False,True,False
+5d85c6d84e4f,D2025-20,Final Order,Discipline,2025-06-25,ok,35830,True,e15b6622f44ae3e8fd95e1e0030365670e51af50648606b2000d88181809e114,False,False,False,False,False,True,True,False
+0d518b6975ec,D2025-23,Final Order,Discipline,2025-07-07,ok,1,False,dbb5bbd5a460f9f0530d321b7b8daf13ff944485a1558d19167e9b2612dc4962,False,False,False,False,False,False,False,False
+580f2685f366,D2024-09,Final Decision,Discipline,2025-07-23,ok,49895,True,478ed69b16b9b4dc87766aaba4cfb033c4106d76c96673e9d9a663a9c0aff9e2,False,False,False,False,False,False,False,True
+478cfd04c947,D2021-01,Final Decision,Discipline,2025-07-24,ok,167393,True,f03baf678fbf546230cf56ebfd8d863268c77b62ea1aa09cc3ff59cb9519e801,False,False,False,False,False,False,True,True
+b159fb998e96,D2025-11,Final Order,Discipline,2025-08-14,ok,35310,True,56526f64db4296a98c7e69edc7178fdf39e56a1f0d644a1209febccf9e1a07c4,False,False,False,False,False,True,True,False
+bfd7d9770d1a,D2025-21,Final Order,Discipline,2025-08-22,ok,44679,True,4b99084c2156e48bf89f3ab57cf07ed4c35d0e62b3e885f69041e875e282db38,False,False,False,False,False,True,True,False
+625045a68c02,D2025-07,Final Order,Discipline,2025-09-03,ok,52286,True,fdf5186c8716fa252f5fd34e54e86869371eb64df4f6215026007c5cb15cc6d3,False,False,False,False,False,True,True,True
+82828fd9df69,R_72,Decision on Petition,Reinstatement,2025-09-10,ok,1032,True,652bc845d0b83d7d4d2fdfea4a83da2f6c3cce8bb6a434b54e20468471eebac9,False,False,False,False,False,False,False,False
+4e6154c51849,D2025-05,Final Decision,Discipline,2025-09-29,ok,101969,True,9636377429e53ca20251a71d6b8aa160961ae8f71eee8382f186fa5e8ca5d2af,False,False,False,False,False,True,True,True
+41442cdf54f6,D2025-17,Final Order,Discipline,2025-09-30,ok,8479,True,b6a919ed7bf7064db5264e70185f7607bbf53ae15797099c8af0db7a2056b96c,False,False,False,False,False,False,False,False
+a220fcd5a0ec,R_73,Decision on Petition,Reinstatement,2025-10-01,ok,991,True,7aba5ca646a3acb1ee6449b21a00c8833469e81121012a8a11e7564402023b95,False,False,False,False,False,False,False,False
+6eba4d1b1919,R_74,Decision on Petition,Reinstatement,2025-10-29,ok,1079,True,8968c49cb4e51632470303708445245fbd4acf0e153974fd175653f2c144dcb2,False,False,False,False,False,False,False,False
+054b1a35f720,R_75,Decision on Petition,Reinstatement,2025-10-29,ok,1083,True,a83c7a780b8b07ba4c7960587047d95e45d748f9a646d8bae8b6b98296993943,False,False,False,False,False,False,False,False
+ad656fc77931,D2024-14,Final Order,Discipline,2025-11-20,ok,7262,True,c13013ed6133214313138d5a18b6eae2e4355b8f9d7774a5280f528548d761e8,False,False,False,False,False,False,False,True
+c0aacde5b6a3,D2026-03,Final Order,Discipline,2025-11-20,ok,44105,True,02132c59b6695f270b4afdb9dc6ac68b5a8921b75b2e691acf0f29c89659bbf0,False,False,False,False,False,True,True,False
+9fc0fec05c96,R_76,Decision on Petition,Reinstatement,2025-11-24,ok,1076,True,62d023e2085cc9df5fb99f86a701bd02afd854c154c3d2902cfec30139560bbc,False,False,False,False,False,False,False,False
+609b2bd737cd,D2025-06,Final Order,Discipline,2025-12-08,ok,44904,True,1f9fca7f7c106fc023f6da24c6856a0e22554a37e0086972923469d5254c1138,False,False,False,False,False,False,False,False
+fadfe0c993ca,D2026-01,Final Order,Discipline,2025-12-09,ok,13976,True,9c167052fec9b89fcd6cdfd14aa204c5b6f7878b117f6ce48e20052ffb156731,False,False,False,False,False,False,False,False
+5072b8b05c21,D2026-02,Final Order,Discipline,2025-12-10,ok,14011,True,613a3bf335824eeba3a3174ed8d22b2229d5ce4ef0a7252b42f2751554587119,False,False,False,False,False,False,True,False
+5ecb0f3af02c,D2026-05,Final Order,Discipline,2025-12-16,ok,20601,True,adec554f8504a81d84cb94f56c9d42b0d178b37b4dcb83d3def8ccfd7d90ec55,False,False,False,False,False,True,False,True
+2bc16dbdb9d8,D2025-24,Final Order,Discipline,2025-12-19,ok,32261,True,23ffe6b7ad9a713d8af7f49749efa4ad3feb460ef573987ce654dcbe4deb06c3,False,False,False,False,False,False,True,True
+cf88aa64e241,D2025-30,Final Order,Discipline,2025-12-19,ok,16923,True,2cc1c63be1133de03787f3f62c85834b2e945545ca13106fc3b48903898a5408,False,False,False,False,False,False,True,True
+933eb4dbc7b6,D2025-33,Final Order,Discipline,2026-01-06,ok,1,False,60eaf1bfdee4a2f257140ddb2bc0000f813c0a78743c7b83a02cd655ddb1f331,False,False,False,False,False,False,False,False
+661558f2d245,D2026-07,Final Order,Discipline,2026-01-29,ok,1,False,fc1b1461f6b16308783348c1d7e37322e559f9eb2f85d518093f845c532d07e0,False,False,False,False,False,False,False,False
+04dac0c50d4a,D2026-12,Final Order,Discipline,2026-01-29,ok,14391,True,239b01a5c6ab948ca0636c770ab392153849185baf432964d3226d65d1eee724,False,False,False,False,False,False,True,True
+75389a4ec864,D2026-06,Final Order,Discipline,2026-02-03,ok,1,False,87dff268bf86610ad6b2ab3799d9c1197736f79d1e4f31bdf02ca2857719140e,False,False,False,False,False,False,False,False
+9881712b626a,R_77,Decision on Petition,Reinstatement,2026-02-05,ok,1082,True,8f42d285e1499405a8d78bf585e54064c7152edd628438ef83ce7481fbfb8f27,False,False,False,False,False,False,False,False
+c5a537937df0,D2026-09,Final Order,Discipline,2026-02-11,ok,1,False,555b2deb743aa9be2eeaeef668636ffbe0cf98a46a907ca299ed9877f8fbf51e,False,False,False,False,False,False,False,False
+16ea120fe085,D2025-31,Final Order,Discipline,2026-03-09,ok,1,False,509275d4bb64daa0da55b6824c39dbf33b132ae6d5f4bb8641d7eddbc8cd2959,False,False,False,False,False,False,False,False
+1e4e655ab136,D2026-13,Final Order,Discipline,2026-03-13,ok,1,False,71551102d920b436b82a04d32a307b51c777ffb7d3d1916f14c5e48de7ac36c5,False,False,False,False,False,False,False,False
+25d94c0d7c91,D2026-17,Final Order,Discipline,2026-03-19,ok,45934,True,280262260de8d4ef000fbd512787c96a81b5c7933c761b4a74273a1da389eb66,False,False,False,False,False,True,True,False
+32ed1f246f00,D2025-22,Final Order,Discipline,2026-04-08,ok,1,False,4f02342ab42f9919ccfa0c3ee9e0b7a6908621320bf2479363b25a35274b0d50,False,False,False,False,False,False,False,False
+38d86e11f2e4,D2024-25,Final Decision,Discipline,2026-04-13,ok,23768,True,078995b75086ac9174afb23413a0490bbb2c7fa1a7dce7c7ac4fee9c23f3865d,False,False,False,False,False,False,False,True
+8d364e1057a1,D2026-11,Final Order,Discipline,2026-04-14,ok,25618,True,953d3763346adad0b296ecb5f59df6d9a1a3d1031c703163a785469a911d837d,False,False,False,False,False,False,True,True
+75be47fbbc6d,D2026-23,Final Order,Discipline,2026-04-14,ok,1,False,35f9ef7546fdd68ca5d94a59909e1d8c9a21ae01006927c2f2fbdb5cc74f9bd1,False,False,False,False,False,False,False,False
+a23c30a2616c,D2026-25,Final Order,Discipline,2026-05-04,ok,23185,True,c6f718b62aa47afd2479358a387f2d7c8cc9123a48760b630b7f985dfdabce6a,False,False,False,False,False,True,False,False
+d215dc2869ef,D2025-29,Final Order,Discipline,2026-05-07,ok,1,False,907299e4ea2d9d5e10b31b81edd6672963e4b5c87db18f7c0cbd19f52068ac19,False,False,False,False,False,False,False,False
+c41f0769bf5c,D2026-20,Final Order,Discipline,2026-05-07,ok,1,False,2e4c769e0d3dcdb124fd517622d17389710e25e04eb8139bb4a8ba84f85b04ae,False,False,False,False,False,False,False,False
+6c336b3cf58d,D2025-32,Final Order,Discipline,2026-05-20,ok,1,False,f76f75553848267df359aafd3d753eed958a88242080703ff3e63e3281814a8e,False,False,False,False,False,False,False,False
+f031cc4e570e,D2026-8,Final Order,Discipline,2026-05-26,ok,1,False,57311c3db0f20159c76897ef5884eec7735dba9c30c8440a57f5760732e65329,False,False,False,False,False,False,False,False
+2f0c638e3a44,D2026-21,Final Order,Discipline,2026-06-05,ok,1,False,935c18fe44f8d0d1d32ecc76f521e97d2287b9a831962ac4d54baceb70231787,False,False,False,False,False,False,False,False
+0c22fb2353a0,D2026-33,Final Order,Discipline,2026-06-16,ok,1,False,73f763cfeccb765d9f294f271cbd792280bb5a1d84b5c2433db92cf13ff71d1a,False,False,False,False,False,False,False,False
+6c762934324b,D2026-18,Final Order,Discipline,2026-07-07,ok,6846,True,e537b206e22fcf9ee34f8b97fbb7892d6de4a37134eb058e8943cdbdaa887318,False,False,False,False,False,False,False,True
+dc6c22c679be,D2026-26,Final Order,Discipline,2026-07-07,ok,22104,True,7bc2cb30c153427d98c6fb1bed7d2bb063cec49c743850647d45e642c192ecc1,False,False,False,False,False,False,False,True
+e3c6130e4aa4,D2026-32,Final Order,Discipline,2026-07-07,ok,1,False,6ee8b40e237fe1121be73f280c0620f7fdb4825986937714528bc75d6b9c67eb,False,False,False,False,False,False,False,False
+85e35d612922,D2026-19,Final Order,Discipline,2026-07-10,ok,10363,True,25446d35047ef28619d5e6da85fa523eafb9e355e43a71712b9e8b0f2c9311d4,False,False,False,False,False,False,False,False
+6fa61db14e2e,D2025-28,Final Order,Discipline,2026-07-13,ok,27792,True,eca05873996112f5635aada3801b8439e2e43f0259fe9c6648d952942a56db03,False,False,False,False,False,False,False,False
+8c111c0c061e,D2026-22,Final Order,Discipline,2026-07-15,ok,5306,True,25d92c14ec27caf379530a89fb14468e6a96ac4eb9943366cf81d7344b49d077,False,False,False,False,False,False,False,False
+d12c4685bf68,D2026-24,Final Order,Discipline,2026-07-15,ok,7850,True,1cd6306b662a661a471bb4e4858d58e1926d3df0e82110da6177339c170a03de,False,False,False,False,False,False,False,False
+a59a48fc6cb2,D2026-39,Final Order,Discipline,2026-07-21,ok,10485,True,bb5687551c3a2d15fc4e88b9f269dfbb609e1898af62790df1071979ff4bdb0f,False,False,False,False,False,False,True,False
+d2be0a280703,D2026-16,Final Order,Discipline,2026-07-27,ok,1,False,a7f252b12617328d2158c63f4ec0c29a22004c9356d5504daddf92928850f724,True,False,False,False,False,False,False,False
+791ae5814334,D2026-15,Final Order,Discipline,2026-08-04,ok,9253,True,03fee49e7141bc0bfad3af9d8128c70bb639580014f528dda6a0304cc81146c4,False,False,False,False,False,False,False,False
+44bc419524b1,D2024-8,Final Order,Discipline,2026-08-26,ok,11884,True,c29c6dafd34a80b2cbf9858e6001e6c441821f87eeffc29dd97ae45a8941e367,False,False,False,False,False,False,True,False
+4e23e7267383,D2026-40,Final Order,Discipline,2026-09-01,ok,21894,True,f913036f69c2c064e95d30c2e795f55dec9f4d85d74328eafb1381b21a21c8f5,False,False,False,False,False,True,False,True
+008b0ba0a5f3,R_78,Decision on Petition,Reinstatement,2026-09-14,ok,1076,True,027b0e0a16841b15237e3104c496c20980aa992589154c172f7a699d69da3ed6,False,False,False,False,False,False,False,False
+2b6e0de43709,D2026-44,Final Order,Discipline,2026-09-24,ok,21296,True,5e94d6593e05eb4b24dd4fdf949dfdae6cbf327303033081ddb5676ed921c2c7,False,False,False,False,False,True,False,True
+4c65422a8996,D2026-04,Initial Decision,Discipline,2026-10-06,ok,50555,True,8daef807457e9e414a863380e6a418b88236b45f678fe2d96e8fb756ac9721b5,False,False,False,False,False,False,False,True
