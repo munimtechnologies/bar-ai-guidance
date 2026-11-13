@@ -1,0 +1,78 @@
+[
+ {
+  "id": "rivas-374-30",
+  "status": "ok",
+  "bytes": 149339,
+  "sha256": "9e880ba7f9efba4c1ecf5d950c6298becb7c8166bdd62d389126d62c80e07325",
+  "pages": 1,
+  "chars": 1332,
+  "counts": {
+   "not_exist": 1,
+   "fabricat": 0,
+   "fictitious": 0,
+   "hallucinat": 0,
+   "ghost": 0,
+   "cannot_locate": 0,
+   "ai_term": 0,
+   "referral": 0,
+   "footnote1": 0
+  }
+ },
+ {
+  "id": "sample-375-68",
+  "status": "ok",
+  "bytes": 85862,
+  "sha256": "dae28d02e7dd918faadadc4328f1d445a57416913bd62c4006c525dbb8b267dc",
+  "pages": 4,
+  "chars": 19258,
+  "counts": {
+   "not_exist": 0,
+   "fabricat": 0,
+   "fictitious": 0,
+   "hallucinat": 0,
+   "ghost": 0,
+   "cannot_locate": 0,
+   "ai_term": 0,
+   "referral": 0,
+   "footnote1": 3
+  }
+ },
+ {
+  "id": "sample-375-67",
+  "status": "ok",
+  "bytes": 501195,
+  "sha256": "9d1fc43b398ff811068befe273145560903e0887769c7472bc4f923e43725351",
+  "pages": 51,
+  "chars": 303611,
+  "counts": {
+   "not_exist": 0,
+   "fabricat": 0,
+   "fictitious": 0,
+   "hallucinat": 0,
+   "ghost": 0,
+   "cannot_locate": 0,
+   "ai_term": 0,
+   "referral": 0,
+   "footnote1": 1
+  }
+ },
+ {
+  "id": "sample-375-65",
+  "status": "ok",
+  "bytes": 144280,
+  "sha256": "839ca9f59e6147699859791e4fa7e4fc906402e07f99a6f731b557be35254448",
+  "pages": 10,
+  "chars": 57868,
+  "counts": {
+   "not_exist": 2,
+   "fabricat": 0,
+   "fictitious": 0,
+   "hallucinat": 0,
+   "ghost": 0,
+   "cannot_locate": 0,
+   "ai_term": 0,
+   "referral": 0,
+   "footnote1": 1
+  }
+ }
+]
