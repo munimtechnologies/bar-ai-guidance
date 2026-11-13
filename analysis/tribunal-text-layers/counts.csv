@@ -1,0 +1,14 @@
+archive,group,pdfs_fetched,readable,no_text_layer,source
+us-tax-court,all,78,78,0,analysis/tax-court-citations.md
+mspb,all,3567,3567,0,analysis/mspb-citations.md
+bia-ag,all,288,288,0,analysis/bia-citations.md
+ny-dta-tat,all,916,916,0,analysis/nydta-citations.md
+uspto-oed,all,160,133,27,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,type=Final Order,117,91,26,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,type=technical notice,1,0,1,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,type=all other kinds,42,42,0,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,year=2023,44,38,6,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,year=2024,37,35,2,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,year=2025,44,41,3,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,2026-01..2026-07,29,13,16,analysis/uspto-oed-citations/results/rows.csv
+uspto-oed,2026-08..2026-11-10,6,6,0,analysis/uspto-oed-citations/results/rows.csv

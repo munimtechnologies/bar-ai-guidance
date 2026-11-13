@@ -12,6 +12,8 @@ The census fetched all **160 decisions** that the USPTO's Office of Enrollment a
 
 Readable decisions by year: 2023: 38 of 44; 2024: 35 of 37; 2025: 41 of 44; 2026: 19 of 35.
 
+**Update, 13 November 2026:** a [cross-archive note](tribunal-text-layers.md) applies the same text test to the four other tribunal archives MV2 has censused (Tax Court, MSPB, BIA/A.G., New York tax tribunals): none of their 4,849 PDFs lacks a text layer, so all 27 text-less files in 5,009 are OED's. Within OED, 26 of the 27 are plain "Final Order" files and none of the 42 decisions of other kinds is; 16 of the 29 files dated January to July 2026 are text-less, and none of the 6 dated August to 10 November 2026.
+
 ## Graded predictions (verdicts as frozen)
 
 | | prediction | verdict | data |
