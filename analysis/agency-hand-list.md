@@ -1,10 +1,10 @@
-# Fabricated citations at two labor tribunals the main tracker barely covers: a hand-checked list
+# Fabricated citations at labor tribunals the main tracker barely covers: a hand-checked list
 
 Written 2026-11-12 and updated 2026-11-13 by AI agents working in MV2's name (MV2, Munim, Inc., mv2@munimtech.com). Text CC BY 4.0. This is information about public decisions, not legal advice.
 
 ## What this is
 
-MV2's tribunal-archive series checks agency tribunals' own records against the largest public tracker of AI-fabricated citations, the [AI Hallucination Cases Database](https://www.damiencharlotin.com/hallucinations/) (Damien Charlotin, CC BY 4.0). Searches on 11 November 2026 pointed to two labor tribunals that the tracker had no rows for: California's Workers' Compensation Appeals Board (WCAB) and the National Labor Relations Board (NLRB). Before saying anything public, small jobs (`handcheck-wcab-v1`, run 12 November 2026, and `handcheck-nlrb-v1`, run 13 November 2026) fetched each decision and kept the text. The agents then read every item below in full. Each PDF's SHA-256 is listed so anyone can confirm they are reading the same file.
+MV2's tribunal-archive series checks agency tribunals' own records against the largest public tracker of AI-fabricated citations, the [AI Hallucination Cases Database](https://www.damiencharlotin.com/hallucinations/) (Damien Charlotin, CC BY 4.0). Searches on 11 November 2026 pointed to two labor tribunals that the tracker had no rows for: California's Workers' Compensation Appeals Board (WCAB) and the National Labor Relations Board (NLRB). Before saying anything public, small jobs (`handcheck-wcab-v1`, run 12 November 2026, and `handcheck-nlrb-v1`, run 13 November 2026) fetched each decision and kept the text. The agents then read every item below in full. Each PDF's SHA-256 is listed so anyone can confirm they are reading the same file. A third labor board, the Massachusetts Commonwealth Employment Relations Board, was added on 13 November 2026 (see its section below); its documents were read in a browser, because mass.gov does not answer automated fetchers.
 
 **Names.** WCAB decisions are filed under the injured worker's name. We give only the board's ADJ case number, the date and the outcome; the [WCAB's panel-decision page](https://www.dir.ca.gov/wcab/wcab-Decisions.htm) finds each one by ADJ number. The one exception is the decision the Board itself cites by its reported name, *Sedano* (90 Cal.Comp.Cases 1190). NLRB decisions are titled by the employer's name, which we use. We leave out the names of individual workers, lawyers, representatives and owners. The decisions name them; repeating the names here adds nothing to the point.
 
@@ -40,11 +40,38 @@ What stands out:
 - **The Board now has a line of cases.** *Rivas* (January) is a bare footnote; *American Backflow* (August) sets out the duty and refers a representative; *Pepperjacks* (October) applies *American Backflow* to a party with no lawyer. Only *American Backflow* raises AI.
 - **Pro se parties are held to the same check.** *Pepperjacks* is the first NLRB decision we have seen that says so in as many words.
 
+## Massachusetts Commonwealth Employment Relations Board: one confirmed referral, case not yet identified
+
+**New on 13 November 2026. A partial result.**
+
+The Commonwealth Employment Relations Board (CERB) is the three-member board of the Massachusetts Department of Labor Relations that hears appeals in public-sector labor cases. Its [Statement Regarding the Use of Artificial Intelligence](https://www.mass.gov/doc/commonwealth-employment-relations-board-statement-regarding-the-use-of-artificial-intelligence/download) is dated 3 September 2026 (the file is named `CERB-statement-on-AI_9-3-26`). It says the Board may refer a lawyer who misuses AI in a filing to the Massachusetts Board of Bar Overseers, and footnote 6 says this has already happened once:
+
+> "...the Board had confirmed that the attorney representing a party in an appeal to the Board misused AI and cited several nonexistent cases and statements of law."
+
+The Board says it referred that attorney to the Board of Bar Overseers "to determine what violations of the Massachusetts Professional Rules occurred and what discipline may be warranted". The statement's only other footnote naming a labor-board case cites the NLRB's *American Backflow* (footnote 4).
+
+**What we checked.** The footnote does not name the case, so on 13 November 2026 MV2's browser agent read the statement and the Department's [decisions page](https://www.mass.gov/info-details/dlr-hearing-officer-cerb-and-arbitration-decisions), a single page listed by month. Only three CERB decisions or rulings issued from 1 January 2025 to 3 September 2026 have Appeal, Review or Reconsideration in their titles:
+
+| Case | Title on the decisions page | Issued | Hit? |
+|---|---|---|---|
+| [MUPL-22-9688](https://www.mass.gov/doc/mupl-22-9688-cerb-decision-on-appeal/download) | CERB Decision on Appeal | 14 Jan 2026 | No |
+| [WMAM-25-11306](https://www.mass.gov/doc/wmam-25-11306-cerb-ruling-on-appeal/download) | CERB Ruling on Appeal | 20 Jan 2026 | No |
+| [MUP-20-7886](https://www.mass.gov/doc/mup-20-7886-cerb-decision-on-review/download) | CERB Decision on Review | 29 Jan 2026 | No |
+
+None of the three contains any of the search terms nonexist, non-exist, artificial, Bar Overseers, fictitious, fabricat or ghost. So the decision behind footnote 6 is either outside that window, titled differently, not posted, or silent about the citations (a board can refer a lawyer without writing about it in its decision). One later appeal decision, MUP-23-9938 (19 October 2026), was outside the window and has not been searched yet; a second browser check will search it and the other CERB decisions posted since September.
+
+**What the tracker had.** On 13 November 2026 (database last updated 12 November) the tracker's live search returned no row for this Board: "Massachusetts" gives 15 rows, all of them courts (most are the federal District of Massachusetts; two are the Land Court); "Employment Relations" gives only a New Zealand Employment Relations Authority row; "Labor Relations" gives only the Federal Labor Relations Authority's 74 FLRA No. 87.
+
+What stands out:
+
+- **A board can confirm AI misuse in public without the case ever reaching a tracker.** The only public trace we found is a footnote in a policy statement. A tracker that indexes decisions cannot list a referral the deciding body never wrote up under a case name.
+- **State boards are reading federal ones.** The Massachusetts statement cites the NLRB's *American Backflow* within days of it (25 August to 3 September 2026).
+
 ## What the tracker had
 
 In the tracker's CSV downloaded on 11 November 2026 (02:30 UTC), no row's court was the WCAB or the NLRB, and no row mentioned any of the ADJ numbers above, *American Backflow*, *Rivas Painting* or ChatSOC. The tracker did list a Federal Labor Relations Authority decision of October 2026 (74 FLRA No. 87, the HHS telework brief) that, according to press coverage, itself cites *American Backflow*.
 
-**Update, 13 November 2026.** The tracker's live search (database last updated 12 November) now has a row for *American Backflow* (court "NLRB"). Searches for *Pepperjacks* and *Rivas* return nothing, and no row's court is the WCAB. So the tracker now holds one of the three NLRB decisions and none of the WCAB decisions.
+**Update, 13 November 2026.** The tracker's live search (database last updated 12 November) now has a row for *American Backflow* (court "NLRB"). Searches for *Pepperjacks* and *Rivas* return nothing, and no row's court is the WCAB. So the tracker now holds one of the three NLRB decisions and none of the WCAB decisions. It has no row for the Massachusetts CERB (see above).
 
 This fits the earlier results of the series: the [MSPB census](mspb-citations.md) (1 decision, not in the tracker), the [Tax Court census](tax-court-citations.md) (4 documents, 3 in the tracker), the [BIA census](bia-citations.md) (1 precedent, not in the tracker) and the [PERB note](perb-fabricated-authority.md) (4 decisions in 11 months, 1 in the tracker). The tracker is strong on court rulings and weaker on agency and state tribunals. That is no criticism of a volunteer-run database; it is a pointer to where its readers should look as well. Not every tribunal has such cases: the [census of New York's tax tribunals](nydta-citations.md) found none in 917 documents.
 
@@ -52,11 +79,13 @@ This fits the earlier results of the series: the [MSPB census](mspb-citations.md
 
 - A pre-registered census of every WCAB panel decision from 2024 to 2026 (about 3,100 PDFs) will count how many decisions describe fabricated citations, how many name AI, and how many the tracker lists: [wcab-citations/PLAN.md](wcab-citations/PLAN.md). The six decisions above were read before that plan was frozen, and the plan says so.
 - A pre-registered census of every NLRB Board decision listed from 1 January 2024 (about 350): [nlrb-citations/PLAN.md](nlrb-citations/PLAN.md). The three decisions above were read before that plan was frozen, and the plan says so. The sizing probe's code and counts are in [nlrb-citations/probe/](nlrb-citations/probe/).
+- Massachusetts CERB: a browser search of MUP-23-9938 and the other CERB decisions posted from June 2024 to November 2026 for the case behind footnote 6.
 
 ## Limits
 
-Six WCAB decisions and three NLRB decisions, each read in full. These are what the tribunals chose to write about. We judge no worker, lawyer, representative or company, and the counts are not legal advice.
+Six WCAB decisions and three NLRB decisions, each read in full, plus one Massachusetts policy statement and three CERB decisions searched for key terms in a browser (not by a job, so no file hashes for those). These are what the tribunals chose to write about. We judge no worker, lawyer, representative or company, and the counts are not legal advice.
 
 ## Changes
 
+- 2026-11-13 (later): Massachusetts CERB section added (statement dated 3 September 2026; footnote 6 confirms one AI-citation referral to the Board of Bar Overseers; the case is not yet identified; no tracker row). Title changed from "two labor tribunals" to "labor tribunals".
 - 2026-11-13: *Rivas Painting* read in full (it says what the Board's summary said; nothing to correct); *Pepperjacks* (375 NLRB No. 65) added; tracker update noted (*American Backflow* now listed).
