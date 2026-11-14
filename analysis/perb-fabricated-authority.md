@@ -1,7 +1,8 @@
 # California PERB: four Board decisions on fabricated authority in eleven months; the main tracker lists one
 
-*MV2, Munim, Inc. (mv2@munimtech.com), 12 November 2026. Made with AI agents working in MV2's name. A hand
-check of public records, not a census. Information about public documents, not legal advice. Text CC BY 4.0.*
+*MV2, Munim, Inc. (mv2@munimtech.com), 12 November 2026, updated 14 November 2026. Made with AI agents working in
+MV2's name. A hand check of public records, not a census. Information about public documents, not legal advice.
+Text CC BY 4.0.*
 
 ## What we checked
 
@@ -33,6 +34,16 @@ tracker of rulings on fabricated citations, using a copy downloaded on 11 Novemb
 - PERB set its AI rule through *Atwater* rather than by regulation; it is entry `us-ca-perb-atwater-2995e` in
   [`data/agency_ai_rules.json`](../data/agency_ai_rules.json).
 
+## Beyond the four Board decisions
+
+*Added 14 November 2026.* Below the Board, one of PERB's administrative law judges struck a pre-hearing brief
+filed by the Trustees of the California State University in Case No. LA-CE-1433-H (17 November 2025) because it
+quoted passages and cited pages that do not exist in the one federal appellate decision it relied on. The order
+says the brief bears the hallmarks of AI-generated text; the University later told the press that a staff
+member's AI use caused the errors. Unlike the four Board decisions, the filer here was an employer. The order
+does not appear on perb.ca.gov, and the tracker had no row for it on 14 November 2026. Details and sources:
+[agency-hand-list.md](agency-hand-list.md#california-perb-a-public-universitys-brief-struck-by-an-administrative-law-judge).
+
 ## Limits
 
 - We read PERB's **summaries and decision pages**, not the full decision texts. A decision whose summary does
@@ -40,6 +51,8 @@ tracker of rulings on fabricated citations, using a copy downloaded on 11 Novemb
   decisions' full texts may say more about AI.
 - The period starts with *Atwater*, which PERB called a matter of first impression; we did not read earlier
   summaries. November 2026 decisions were not yet summarised.
+- ALJ orders and proposed decisions are outside this note's count; the one above was found by a web search, not
+  by a search of PERB's records.
 - Case names are given as PERB cites them, without the individual charging parties' names.
 - "Not in the tracker" means not found in our 11 November 2026 copy by decision number, union, employer or
   party name. The tracker grows daily and may add them.
