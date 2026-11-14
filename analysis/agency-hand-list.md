@@ -96,7 +96,14 @@ In the tracker's CSV downloaded on 11 November 2026 (02:30 UTC), no row's court 
 
 **Update, 14 November 2026.** No row for the California PERB order in LA-CE-1433-H (see above).
 
-This fits the earlier results of the series: the [MSPB census](mspb-citations.md) (1 decision, not in the tracker), the [Tax Court census](tax-court-citations.md) (4 documents, 3 in the tracker), the [BIA census](bia-citations.md) (1 precedent, not in the tracker) and the [PERB note](perb-fabricated-authority.md) (4 decisions in 11 months, 1 in the tracker, plus the ALJ order above). The tracker is strong on court rulings and weaker on agency and state tribunals, and weakest on orders below the board level. That is no criticism of a volunteer-run database; it is a pointer to where its readers should look as well. Not every tribunal has such cases: the [census of New York's tax tribunals](nydta-citations.md) found none in 917 documents.
+**Update, 14 November 2026 (later): a search check, and where the tracker is strong.** The tracker's live search matches the words stored in its rows, and many rows store a tribunal only by its short name. On 14 November 2026 "Armed Services" and "Contract Appeals" returned no rows, but "ASBCA" returned four: *Huffman Construction* (23 Oct 2025), *DSME Construction* (13 Mar 2026), *Endure Industries* (23 Mar 2026) and *PDO Ahuska Joint Venture* (13 Jul 2026). "CBCA" returned two: *In the Matter of Stephen C.* (7 Oct 2025) and *Blazy v. Department of State* (24 Feb 2026). A full-name search alone can therefore make a tribunal look missing when it is listed. So we re-ran this series' "not listed" checks with the short names. "MSPB" and "WCAB" return no rows. "PERB" returns only *Atwater*. "USPTO" returns only the July 2026 discipline reprimand that is image-only in the USPTO's reading room. "BIA" returns 31 rows that match on words such as "Columbia", none of them a Board of Immigration Appeals decision. The earlier findings stand.
+
+Two points follow:
+
+- **The federal boards of contract appeals are covered.** Both boards have rows from October 2025 on. We have not run a census of their archives, so we cannot say how completely they are covered.
+- **The gap is about which rulings reach the tracker, not about the kind of tribunal.** The tracker also lists Canadian workers'-compensation and labour boards, such as British Columbia's Workers' Compensation Appeal Tribunal (June 2026) and Labour Relations Board (December 2025). The U.S. state boards in this list have no rows.
+
+This fits the earlier results of the series: the [MSPB census](mspb-citations.md) (1 decision, not in the tracker), the [Tax Court census](tax-court-citations.md) (4 documents, 3 in the tracker), the [BIA census](bia-citations.md) (1 precedent, not in the tracker) and the [PERB note](perb-fabricated-authority.md) (4 decisions in 11 months, 1 in the tracker, plus the ALJ order above). The tracker is strong on court rulings and on some tribunals (the contract appeals boards above, several Canadian ones), weaker on U.S. agency and state labor tribunals, and weakest on orders below the board level. That is no criticism of a volunteer-run database; it is a pointer to where its readers should look as well. Not every tribunal has such cases: the [census of New York's tax tribunals](nydta-citations.md) found none in 917 documents.
 
 ## Next
 
@@ -107,10 +114,11 @@ This fits the earlier results of the series: the [MSPB census](mspb-citations.md
 
 ## Limits
 
-Six WCAB decisions and three NLRB decisions, each read in full, plus one PERB ALJ order read in full in a browser, one Massachusetts policy statement, and 33 CERB documents searched for key terms in a browser (not by a job, so no file hashes for those). These are what the tribunals chose to write about. We judge no worker, lawyer, representative, university or company, and the counts are not legal advice.
+Six WCAB decisions and three NLRB decisions, each read in full, plus one PERB ALJ order read in full in a browser, one Massachusetts policy statement, and 33 CERB documents searched for key terms in a browser (not by a job, so no file hashes for those). The tracker checks are live searches on the dates given; the database changes often. These are what the tribunals chose to write about. We judge no worker, lawyer, representative, university or company, and the counts are not legal advice.
 
 ## Changes
 
+- 2026-11-14 (later): search check added. The tracker stores some tribunals only by short name (ASBCA, CBCA), so the series' "not listed" checks were re-run with short names (MSPB, WCAB, PERB, USPTO, BIA); all earlier findings stand. Noted that the federal boards of contract appeals (6 rows) and some Canadian labour and workers'-compensation boards are covered.
 - 2026-11-14: California PERB ALJ order in LA-CE-1433-H added (brief of the CSU Trustees struck on 17 November 2025 for nonexistent quotations and pages; no tracker row). Massachusetts CERB: the statement's disclosure, certification and verification terms added; second search pass (MUP-23-9938 and 29 more CERB documents from June 2024) found no matching decision.
 - 2026-11-13 (later): Massachusetts CERB section added (statement dated 3 September 2026; footnote 6 confirms one AI-citation referral to the Board of Bar Overseers; the case is not yet identified; no tracker row). Title changed from "two labor tribunals" to "labor tribunals".
 - 2026-11-13: *Rivas Painting* read in full (it says what the Board's summary said; nothing to correct); *Pepperjacks* (375 NLRB No. 65) added; tracker update noted (*American Backflow* now listed).
