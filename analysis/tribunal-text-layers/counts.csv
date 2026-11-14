@@ -12,3 +12,7 @@ uspto-oed,year=2024,37,35,2,analysis/uspto-oed-citations/results/rows.csv
 uspto-oed,year=2025,44,41,3,analysis/uspto-oed-citations/results/rows.csv
 uspto-oed,2026-01..2026-07,29,13,16,analysis/uspto-oed-citations/results/rows.csv
 uspto-oed,2026-08..2026-11-10,6,6,0,analysis/uspto-oed-citations/results/rows.csv
+ca-ota,all,1849,1832,17,analysis/ota-citations/results/progress.jsonl
+ca-ota,year=2024,656,639,17,analysis/ota-citations/results/progress.jsonl
+ca-ota,year=2025,637,637,0,analysis/ota-citations/results/progress.jsonl
+ca-ota,year=2026,556,556,0,analysis/ota-citations/results/progress.jsonl

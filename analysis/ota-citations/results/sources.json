@@ -1,0 +1,30 @@
+{
+ "plan_commit": {
+  "sha": "ea72c3deefae4208df2d84c8b22810a06b768c67",
+  "date": "2026-11-11T12:13:56Z"
+ },
+ "census_commit": {
+  "sha": "ea72c3deefae4208df2d84c8b22810a06b768c67",
+  "date": "2026-11-11T12:13:56Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-14T02:41:51Z",
+  "bytes": 2199239,
+  "sha256": "cd3ae69657eb2e7a0f6efbd3dfb5bed8a7c07055a01b9061faa915fd7dd27f20",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "ota": {
+  "pages": [
+   "https://ota.ca.gov/2026-franchise-income-tax-opinions/",
+   "https://ota.ca.gov/2025-franchise-income-tax-opinions/",
+   "https://ota.ca.gov/2024-franchise-income-tax-opinions/",
+   "https://ota.ca.gov/2026-business-tax-opinions/",
+   "https://ota.ca.gov/2025-business-tax-opinions/",
+   "https://ota.ca.gov/2024-business-tax-opinions/"
+  ],
+  "failed": 0,
+  "in_frame": 1876,
+  "built_at": "2026-11-14T02:42:46Z"
+ }
+}
