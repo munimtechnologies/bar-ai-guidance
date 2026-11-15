@@ -1,0 +1,25 @@
+{
+ "url": "https://www.dir.ca.gov/wcab/wcab-Decisions.htm",
+ "table_rows": 5891,
+ "entries": 5885,
+ "headers": 6,
+ "no_date": 22,
+ "no_link": 8,
+ "no_folder_year": 0,
+ "no_adj": 25,
+ "date_folder_mismatch": 0,
+ "bytes": 1935377,
+ "sha256": "a2edd167b8be6f52ebc20077efd09350275aab5314e8719f70fd10dba425ced5",
+ "fetched_at": "2026-11-15T00:12:34Z",
+ "in_frame": 3123,
+ "same_link_skipped": 4,
+ "outside_years": 2758,
+ "no_date_in_frame": 0,
+ "no_link_in_frame": 0,
+ "known_in_frame": 6,
+ "in_frame_by_year": {
+  "2024": 1089,
+  "2025": 1119,
+  "2026": 915
+ }
+}

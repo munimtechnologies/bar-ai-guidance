@@ -1,0 +1,23 @@
+{
+ "plan_commit": {
+  "sha": "e50471046c1328e5e74318d2e14e1edaa9a9ed99",
+  "date": "2026-11-12T08:58:24Z"
+ },
+ "census_commit": {
+  "sha": "e50471046c1328e5e74318d2e14e1edaa9a9ed99",
+  "date": "2026-11-12T08:58:24Z"
+ },
+ "database": {
+  "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+  "fetched_at": "2026-11-15T00:12:29Z",
+  "bytes": 2199394,
+  "sha256": "74aa53afdb861f4e90fae6a2742d5a14d1bd5ea42b289d9972f25b37dea49e99",
+  "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+ },
+ "wcab": {
+  "listing": "https://www.dir.ca.gov/wcab/wcab-Decisions.htm",
+  "failed": 0,
+  "in_frame": 3123,
+  "built_at": "2026-11-15T00:12:34Z"
+ }
+}

@@ -1,0 +1,540 @@
+{
+ "census_version": "1.0.0",
+ "years": [
+  2024,
+  2026
+ ],
+ "counts": {
+  "in_frame": 3123,
+  "readable": 3121,
+  "fake_cite": 12,
+  "fake_cite_cases": 9,
+  "ai_mention": 5,
+  "ai_citation": 3,
+  "hallucination": 6,
+  "noland": 3,
+  "sedano": 3,
+  "lc5813": 238,
+  "nit": 60,
+  "fetch_status": {
+   "extract_error": 1,
+   "http_404": 1,
+   "ok": 3121
+  },
+  "by_year": {
+   "2024": {
+    "readable": 1089,
+    "fake_cite": 0,
+    "ai_mention": 0,
+    "hallucination": 1,
+    "lc5813": 71,
+    "nit": 20
+   },
+   "2025": {
+    "readable": 1117,
+    "fake_cite": 7,
+    "ai_mention": 2,
+    "hallucination": 2,
+    "lc5813": 95,
+    "nit": 21
+   },
+   "2026": {
+    "readable": 915,
+    "fake_cite": 5,
+    "ai_mention": 3,
+    "hallucination": 3,
+    "lc5813": 72,
+    "nit": 19
+   }
+  }
+ },
+ "listing": {
+  "url": "https://www.dir.ca.gov/wcab/wcab-Decisions.htm",
+  "table_rows": 5891,
+  "entries": 5885,
+  "headers": 6,
+  "no_date": 22,
+  "no_link": 8,
+  "no_folder_year": 0,
+  "no_adj": 25,
+  "date_folder_mismatch": 0,
+  "bytes": 1935377,
+  "sha256": "a2edd167b8be6f52ebc20077efd09350275aab5314e8719f70fd10dba425ced5",
+  "fetched_at": "2026-11-15T00:12:34Z",
+  "in_frame": 3123,
+  "same_link_skipped": 4,
+  "outside_years": 2758,
+  "no_date_in_frame": 0,
+  "no_link_in_frame": 0,
+  "known_in_frame": 6,
+  "in_frame_by_year": {
+   "2024": 1089,
+   "2025": 1119,
+   "2026": 915
+  }
+ },
+ "database": {
+  "wcab_rows": [],
+  "rows": 2293
+ },
+ "fake_cite_decisions": [
+  {
+   "row_id": "7c8cb284c732",
+   "folder_year": 2026,
+   "date": "2026-09-24",
+   "adj": "ADJ17817958+ADJ17817957",
+   "doc_status": "ok",
+   "chars": 18277,
+   "readable": true,
+   "pdf_sha256": "51d34f50e93b4e14db357ade3c387455c0b58604bd79dd3a49a3e73298d08668",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "hallucination": true,
+   "noland": true,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "3ea6e0d458bf",
+   "folder_year": 2026,
+   "date": "2026-07-28",
+   "adj": "ADJ8963138",
+   "doc_status": "ok",
+   "chars": 33473,
+   "readable": true,
+   "pdf_sha256": "cac4a0f5b1a3259677a9accaf592313cea0703035bdf57961cba6df3f6cb7a87",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "590bec41f942",
+   "folder_year": 2026,
+   "date": "2026-06-26",
+   "adj": "ADJ17889413",
+   "doc_status": "ok",
+   "chars": 28988,
+   "readable": true,
+   "pdf_sha256": "e19e8e183bddf5750a5127bad107bdba9a61c7c3a9b3c2ff4d95a84551383682",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "hallucination": true,
+   "noland": true,
+   "sedano": true,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "f49373b74505",
+   "folder_year": 2026,
+   "date": "2026-04-16",
+   "adj": "ADJ16902178",
+   "doc_status": "ok",
+   "chars": 14284,
+   "readable": true,
+   "pdf_sha256": "b6aa689b4f9831f67f2bf0fbe1344f311e6fd4174c6b1c5c1e86cb955e5b56f2",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "d8a369bbe378",
+   "folder_year": 2026,
+   "date": "2026-04-13",
+   "adj": "ADJ14015513",
+   "doc_status": "ok",
+   "chars": 33625,
+   "readable": true,
+   "pdf_sha256": "728174666dd458771c42ef4969e32fd5ba3fb812ca32a74bd1bb6071637f31ed",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "2c4ba1b28017",
+   "folder_year": 2025,
+   "date": "2025-12-23",
+   "adj": "ADJ16902178",
+   "doc_status": "ok",
+   "chars": 14992,
+   "readable": true,
+   "pdf_sha256": "e359d369d29e4e1ed4071763fa8e877a48d27eca37a6bf44a850c9637a6941ee",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "13865e0f8cdc",
+   "folder_year": 2025,
+   "date": "2025-12-04",
+   "adj": "ADJ10934327",
+   "doc_status": "ok",
+   "chars": 9042,
+   "readable": true,
+   "pdf_sha256": "582446aaeb3fb7b5f59617ba5f20527d0b0c2b44a173f038387e3ff529a5261e",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "3d6cddb32fbf",
+   "folder_year": 2025,
+   "date": "2025-12-01",
+   "adj": "ADJ17889413",
+   "doc_status": "ok",
+   "chars": 30521,
+   "readable": true,
+   "pdf_sha256": "fbdb92e14445c21faf04ca937f8f21f26404704164167ac794b46e6ddf802264",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": true,
+   "hallucination": true,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "f8e8e07903f1",
+   "folder_year": 2025,
+   "date": "2025-10-13",
+   "adj": "ADJ17817958+ADJ17817957",
+   "doc_status": "ok",
+   "chars": 12569,
+   "readable": true,
+   "pdf_sha256": "4d0c2abc9d4fc45f84c25c4bfa0ad447b62cb94a185f304067cac1be64cb6ccd",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "df3d85cd6f5b",
+   "folder_year": 2025,
+   "date": "2025-09-22",
+   "adj": "ADJ12865802",
+   "doc_status": "ok",
+   "chars": 18302,
+   "readable": true,
+   "pdf_sha256": "f8be3b0ce72dfb06d560c8073c2c12a0b2648f3a7a99c71004a65357733cd2ac",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": true,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "3610a4cb752f",
+   "folder_year": 2025,
+   "date": "2025-08-18",
+   "adj": "ADJ10983565",
+   "doc_status": "ok",
+   "chars": 40469,
+   "readable": true,
+   "pdf_sha256": "3c40f112c71188e55e5a4ac760f3b507079bef2de125e2b489a1979b3d855682",
+   "in_db": false,
+   "known": false,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": true,
+   "nit": false
+  },
+  {
+   "row_id": "49c58bc824ec",
+   "folder_year": 2025,
+   "date": "2025-07-29",
+   "adj": "ADJ17550375+ADJ17550386",
+   "doc_status": "ok",
+   "chars": 14740,
+   "readable": true,
+   "pdf_sha256": "2c027111e874bfb625d6fce58421493a1003c52f778857e0ab8914be416d4b48",
+   "in_db": false,
+   "known": true,
+   "fake_cite": true,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": true,
+   "lc5813": true,
+   "nit": true
+  }
+ ],
+ "other_flagged_decisions": [
+  {
+   "row_id": "5a5cac4ea72e",
+   "folder_year": 2026,
+   "date": "2026-10-30",
+   "adj": "ADJ21873454",
+   "doc_status": "ok",
+   "chars": 18201,
+   "readable": true,
+   "pdf_sha256": "f1e7669ec80cea9c27455493f2612b5f319b21fd6dbbdf9e357ba5796bf936c4",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": true,
+   "lc5813": true,
+   "nit": true
+  },
+  {
+   "row_id": "5fd30e0baebe",
+   "folder_year": 2026,
+   "date": "2026-06-08",
+   "adj": "ADJ9898563+ADJ10657938",
+   "doc_status": "ok",
+   "chars": 9152,
+   "readable": true,
+   "pdf_sha256": "600da32c61b3859c44cc885d5a180b1986d19f0d4a544d8e4b36472b593d76c1",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": true,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "6b65b288cff5",
+   "folder_year": 2026,
+   "date": "2026-05-26",
+   "adj": "ADJ12239672+ADJ13283843",
+   "doc_status": "ok",
+   "chars": 28441,
+   "readable": true,
+   "pdf_sha256": "5ed45b90bd275e48b8cecbe0e4dcdfe8bfe62d5599417eba95e76724b0714d40",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": true,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "e3feb8358a79",
+   "folder_year": 2026,
+   "date": "2026-02-20",
+   "adj": "ADJ12214919+ADJ12214918",
+   "doc_status": "ok",
+   "chars": 38680,
+   "readable": true,
+   "pdf_sha256": "7af4e9a449c84a0cc7d562c080d0bbb045b74a0abf35c4e4771c127c17674482",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": false,
+   "noland": true,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "aa4d6ea964a8",
+   "folder_year": 2025,
+   "date": "2025-11-03",
+   "adj": "ADJ15406376",
+   "doc_status": "ok",
+   "chars": 32256,
+   "readable": true,
+   "pdf_sha256": "02b106fb9ee932de9c918b3642d7715a04de119897b697e429525fddc397f9c3",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": true,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  },
+  {
+   "row_id": "ccb78c2f2ca7",
+   "folder_year": 2024,
+   "date": "2024-09-30",
+   "adj": "ADJ7850534+ADJ7904327",
+   "doc_status": "ok",
+   "chars": 54236,
+   "readable": true,
+   "pdf_sha256": "6e8145f131cecd8f2efa4bf8aff2a9afccafef60f9ce76978744d6f7fc59cce4",
+   "in_db": false,
+   "known": false,
+   "fake_cite": false,
+   "ai_mention": false,
+   "ai_citation": false,
+   "hallucination": true,
+   "noland": false,
+   "sedano": false,
+   "lc5813": false,
+   "nit": false
+  }
+ ],
+ "predictions": {
+  "P1": {
+   "text": "recall check (not blind): every one of the six hand-checked decisions is in the frame and has a fabricated-citation phrase",
+   "detail": {
+    "known_in_frame": 6,
+    "flagged": 6
+   },
+   "verdict": "held"
+  },
+  "P2": {
+   "text": "10 to 40 decisions in the frame have a fabricated-citation phrase",
+   "detail": {
+    "n": 12
+   },
+   "verdict": "held"
+  },
+  "P3": {
+   "text": "at most one 2024 decision has a fabricated-citation phrase",
+   "detail": {
+    "n_2024": 0
+   },
+   "verdict": "held"
+  },
+  "P4": {
+   "text": "more 2026 decisions than 2025 decisions have a fabricated-citation phrase",
+   "detail": {
+    "n_2025": 7,
+    "n_2026": 5
+   },
+   "verdict": "failed"
+  },
+  "P5": {
+   "text": "fewer than half of the fabricated-citation decisions mention an AI term",
+   "detail": {
+    "n": 12,
+    "k": 4
+   },
+   "verdict": "held"
+  },
+  "P6": {
+   "text": "at least three quarters of the fabricated-citation decisions cite Labor Code section 5813 (the WCAB's sanctions statute)",
+   "detail": {
+    "n": 12,
+    "k": 9
+   },
+   "verdict": "held"
+  },
+  "P7": {
+   "text": "the database has no WCAB-court row, and at least three cases with a fabricated-citation decision are not in it (not blind: no WCAB row on 11 Nov 2026)",
+   "detail": {
+    "wcab_rows": 0,
+    "cases": 9,
+    "missing": 9
+   },
+   "verdict": "held"
+  },
+  "P8": {
+   "text": "at least two fabricated-citation decisions other than the six hand-checked ones mention Sedano (the WCAB's published 2025 sanctions decision)",
+   "detail": {
+    "k": 0
+   },
+   "verdict": "failed"
+  },
+  "P9": {
+   "text": "method check: at least 98% of the decisions in the frame are readable",
+   "detail": {
+    "readable": 3121,
+    "in_frame": 3123,
+    "share": 0.9994
+   },
+   "verdict": "held"
+  }
+ },
+ "sources": {
+  "plan_commit": {
+   "sha": "e50471046c1328e5e74318d2e14e1edaa9a9ed99",
+   "date": "2026-11-12T08:58:24Z"
+  },
+  "census_commit": {
+   "sha": "e50471046c1328e5e74318d2e14e1edaa9a9ed99",
+   "date": "2026-11-12T08:58:24Z"
+  },
+  "database": {
+   "url": "https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv",
+   "fetched_at": "2026-11-15T00:12:29Z",
+   "bytes": 2199394,
+   "sha256": "74aa53afdb861f4e90fae6a2742d5a14d1bd5ea42b289d9972f25b37dea49e99",
+   "licence": "CC BY 4.0, AI Hallucination Cases Database, Damien Charlotin"
+  },
+  "wcab": {
+   "listing": "https://www.dir.ca.gov/wcab/wcab-Decisions.htm",
+   "failed": 0,
+   "in_frame": 3123,
+   "built_at": "2026-11-15T00:12:34Z"
+  }
+ }
+}
