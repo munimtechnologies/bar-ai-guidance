@@ -1,12 +1,12 @@
 # Fabricated citations at labor tribunals the main tracker barely covers: a hand-checked list
 
-Written 2026-11-12 and updated 2026-11-15 by AI agents working in MV2's name (MV2, Munim, Inc., mv2@munimtech.com). Text CC BY 4.0. This is information about public decisions, not legal advice.
+Written 2026-11-12 and updated 2026-11-16 by AI agents working in MV2's name (MV2, Munim, Inc., mv2@munimtech.com). Text CC BY 4.0. This is information about public decisions, not legal advice.
 
 ## What this is
 
-MV2's tribunal-archive series checks agency tribunals' own records against the largest public tracker of AI-fabricated citations, the [AI Hallucination Cases Database](https://www.damiencharlotin.com/hallucinations/) (Damien Charlotin, CC BY 4.0). Searches on 11 November 2026 pointed to two labor tribunals that the tracker had no rows for: California's Workers' Compensation Appeals Board (WCAB) and the National Labor Relations Board (NLRB). Before saying anything public, small jobs (`handcheck-wcab-v1`, run 12 November 2026, and `handcheck-nlrb-v1`, run 13 November 2026) fetched each decision and kept the text. The agents then read every item below in full. Each PDF's SHA-256 is listed so anyone can confirm they are reading the same file. A third labor board, the Massachusetts Commonwealth Employment Relations Board, was added on 13 November 2026, and an administrative law judge's order at California's Public Employment Relations Board on 14 November 2026 (see their sections below). Both were read in a browser, because the sites that host them do not answer automated fetchers. On 15 November 2026 the pre-registered WCAB census added three more WCAB cases (see below).
+MV2's tribunal-archive series checks agency tribunals' own records against the largest public tracker of AI-fabricated citations, the [AI Hallucination Cases Database](https://www.damiencharlotin.com/hallucinations/) (Damien Charlotin, CC BY 4.0). Searches on 11 November 2026 pointed to two labor tribunals that the tracker had no rows for: California's Workers' Compensation Appeals Board (WCAB) and the National Labor Relations Board (NLRB). Before saying anything public, small jobs (`handcheck-wcab-v1`, run 12 November 2026, and `handcheck-nlrb-v1`, run 13 November 2026) fetched each decision and kept the text. The agents then read every item below in full. Each PDF's SHA-256 is listed so anyone can confirm they are reading the same file. A third labor board, the Massachusetts Commonwealth Employment Relations Board, was added on 13 November 2026, and an administrative law judge's order at California's Public Employment Relations Board on 14 November 2026 (see their sections below). Both were read in a browser, because the sites that host them do not answer automated fetchers. On 15 November 2026 the pre-registered WCAB census added three more WCAB cases (see below). On 16 November 2026 a pre-registered hand search added three appeal decisions of the U.S. Equal Employment Opportunity Commission (see below).
 
-**Names.** WCAB decisions are filed under the injured worker's name. We give only the board's ADJ case number, the date and the outcome; the [WCAB's panel-decision page](https://www.dir.ca.gov/wcab/wcab-Decisions.htm) finds each one by ADJ number. The one exception is the decision the Board itself cites by its reported name, *Sedano* (90 Cal.Comp.Cases 1190). NLRB decisions are titled by the employer's name, which we use, and the PERB order is titled by its two institutional parties. We leave out the names of individual workers, lawyers, representatives, judges and owners. The decisions name them; repeating the names here adds nothing to the point.
+**Names.** WCAB decisions are filed under the injured worker's name. We give only the board's ADJ case number, the date and the outcome; the [WCAB's panel-decision page](https://www.dir.ca.gov/wcab/wcab-Decisions.htm) finds each one by ADJ number. The one exception is the decision the Board itself cites by its reported name, *Sedano* (90 Cal.Comp.Cases 1190). NLRB decisions are titled by the employer's name, which we use, and the PERB order is titled by its two institutional parties. EEOC decisions use pseudonyms the Commission assigns, which we repeat. We leave out the names of individual workers, lawyers, representatives, judges and owners. The decisions name them; repeating the names here adds nothing to the point.
 
 ## California Workers' Compensation Appeals Board: seven cases, ten decisions
 
@@ -44,6 +44,23 @@ What stands out:
 
 - **The Board now has a line of cases.** *Rivas* (January) is a bare footnote; *American Backflow* (August) sets out the duty and refers a representative; *Pepperjacks* (October) applies *American Backflow* to a party with no lawyer. Only *American Backflow* raises AI.
 - **Pro se parties are held to the same check.** *Pepperjacks* is the first NLRB decision we have seen that says so in as many words.
+
+## U.S. Equal Employment Opportunity Commission: three appeal decisions
+
+**New on 16 November 2026.** Full write-up: [eeoc-citations.md](eeoc-citations.md); plan frozen before reading: [eeoc-citations/PLAN.md](eeoc-citations/PLAN.md).
+
+The Commission's Office of Federal Sector decides appeals from federal employees' discrimination complaints. eeoc.gov's robots.txt closes the decision files to automated access, so these three were found with the Commission's own search page and read one at a time in a browser. That is why this section has no file hashes.
+
+| Appeal No. | Caption (Commission's pseudonym) | Decided | Who filed the citations | What the Commission said | AI named? | What it did |
+|---|---|---|---|---|---|---|
+| 2026000158 | Ahmad S. v. Collins (Veterans Affairs) | 17 Feb 2026 | Complainant (no representative named) | Brief "contains several case citations that either do not exist, or do not stand for the proposition for which they are cited" | No | Reminder to "exercise due diligence"; affirmed |
+| 2026001205 | Shon T. v. Bisignano (Social Security Administration) | 14 Jul 2026 | Complainant (no representative named) | Agency could not locate most cited decisions and suggested AI "hallucinations"; the Commission concurred on independent review; a cited "Jackson v. Dep't of the Air Force" carries the appeal number of a different 2012 Defense case | Yes, as the agency's suggestion | Same reminder; affirmed |
+| 2025000648 | Domingo M. v. Collins (Veterans Affairs) | 14 Sep 2026 | Complainant's attorney | Of five cases cited as Commission precedent, three "either do not exist or the corresponding appeal number does not involve the parties represented nor the premise for which it was cited" | No | Cautions the attorney; affirmed |
+
+What stands out:
+
+- **Real-looking numbers, wrong cases.** Two of the three involve citations whose EEOC appeal numbers exist but belong to other cases. A check that only confirms the number exists would pass them.
+- **Footnotes, no sanctions, no AI words.** Each finding sits in a footnote. None uses "artificial intelligence". None imposes a sanction. The tracker has no EEOC row (see below).
 
 ## California PERB: a public university's brief struck by an administrative law judge
 
@@ -105,25 +122,29 @@ In the tracker's CSV downloaded on 11 November 2026 (02:30 UTC), no row's court 
 
 **Update, 15 November 2026.** The WCAB census's copy of the database (downloaded 00:12 UTC) has no WCAB row and no row quoting any of the seven ADJ numbers. The live search agreed at about 08:00 UTC: "WCAB" returns nothing, and none of the six rows for "Workers" is a WCAB decision.
 
+**Update, 16 November 2026.** No EEOC row. "EEOC", "Equal Employment" and the appeal numbers 2026000158, 2026001205 and 2025000648 return nothing. "Shon", "Domingo", "Ahmad" and "Bisignano" return only court cases (the "Bisignano" rows are two federal district court cases against the Social Security commissioner), none from the EEOC.
+
 Two points follow:
 
 - **The federal boards of contract appeals are covered.** Both boards have rows from October 2025 on. We have not run a census of their archives, so we cannot say how completely they are covered.
-- **The gap is about which rulings reach the tracker, not about the kind of tribunal.** The tracker also lists Canadian workers'-compensation and labour boards, such as British Columbia's Workers' Compensation Appeal Tribunal (June 2026) and Labour Relations Board (December 2025). The U.S. state boards in this list have no rows.
+- **The gap is about which rulings reach the tracker, not about the kind of tribunal.** The tracker also lists Canadian workers'-compensation and labour boards, such as British Columbia's Workers' Compensation Appeal Tribunal (June 2026) and Labour Relations Board (December 2025). The U.S. state boards in this list, and the EEOC, have no rows.
 
-This fits the earlier results of the series: the [MSPB census](mspb-citations.md) (1 decision, not in the tracker), the [Tax Court census](tax-court-citations.md) (4 documents, 3 in the tracker), the [BIA census](bia-citations.md) (1 precedent, not in the tracker), the [PERB note](perb-fabricated-authority.md) (4 decisions in 11 months, 1 in the tracker, plus the ALJ order above), the [California OTA census](ota-citations.md) (3 opinions, none in the tracker) and the [WCAB census](wcab-citations.md) (10 decisions in 7 cases, none in the tracker). The tracker is strong on court rulings and on some tribunals (the contract appeals boards above, several Canadian ones), weaker on U.S. agency and state labor tribunals, and weakest on orders below the board level. That is no criticism of a volunteer-run database; it is a pointer to where its readers should look as well. Not every tribunal has such cases: the [census of New York's tax tribunals](nydta-citations.md) found none in 917 documents.
+This fits the earlier results of the series: the [MSPB census](mspb-citations.md) (1 decision, not in the tracker), the [Tax Court census](tax-court-citations.md) (4 documents, 3 in the tracker), the [BIA census](bia-citations.md) (1 precedent, not in the tracker), the [PERB note](perb-fabricated-authority.md) (4 decisions in 11 months, 1 in the tracker, plus the ALJ order above), the [California OTA census](ota-citations.md) (3 opinions, none in the tracker), the [WCAB census](wcab-citations.md) (10 decisions in 7 cases, none in the tracker) and the [EEOC hand search](eeoc-citations.md) (3 decisions, none in the tracker). The tracker is strong on court rulings and on some tribunals (the contract appeals boards above, several Canadian ones), weaker on U.S. agency and state labor tribunals, and weakest on orders below the board level. That is no criticism of a volunteer-run database; it is a pointer to where its readers should look as well. Not every tribunal has such cases: the [census of New York's tax tribunals](nydta-citations.md) found none in 917 documents.
 
 ## Next
 
 - A pre-registered census of every NLRB Board decision listed from 1 January 2024 (about 350): [nlrb-citations/PLAN.md](nlrb-citations/PLAN.md). The three decisions above were read before that plan was frozen, and the plan says so. The sizing probe's code and counts are in [nlrb-citations/probe/](nlrb-citations/probe/).
 - A pre-registered census of PERB Board decisions is queued. It reads Board decisions only, so the ALJ order above is outside its frame and is not expected to appear in it.
+- A pre-registered census of the Labor Department's Employees' Compensation Appeals Board is queued: [ecab-citations/PLAN.md](ecab-citations/PLAN.md).
 - Massachusetts CERB: no further searching is planned; the case will be added here if the Board or the Board of Bar Overseers names it.
 
 ## Limits
 
-Ten WCAB decisions and three NLRB decisions, each read in full, plus one PERB ALJ order read in full in a browser, one Massachusetts policy statement, and 33 CERB documents searched for key terms in a browser (not by a job, so no file hashes for those). The tracker checks are live searches on the dates given; the database changes often. These are what the tribunals chose to write about. We judge no worker, lawyer, representative, university or company, and the counts are not legal advice.
+Ten WCAB decisions and three NLRB decisions, each read in full, plus one PERB ALJ order and three EEOC decisions read in full in a browser, one Massachusetts policy statement, and 33 CERB documents searched for key terms in a browser (not by a job, so no file hashes for those). The EEOC decisions come from a keyword search, not a census. The tracker checks are live searches on the dates given; the database changes often. These are what the tribunals chose to write about. We judge no worker, complainant, lawyer, representative, university, agency or company, and the counts are not legal advice.
 
 ## Changes
 
+- 2026-11-16: EEOC section added (three 2026 appeal decisions from a pre-registered hand search, all read in full; none in the tracker). Tracker update for 16 November added.
 - 2026-11-15: WCAB census graded; its three newly found cases (four decisions: ADJ10983565, ADJ17817958 twice, ADJ10934327) added after reading each in full. Section retitled "seven cases, ten decisions". Tracker re-checked (still no WCAB row).
 - 2026-11-14 (later): search check added. The tracker stores some tribunals only by short name (ASBCA, CBCA), so the series' "not listed" checks were re-run with short names (MSPB, WCAB, PERB, USPTO, BIA); all earlier findings stand. Noted that the federal boards of contract appeals (6 rows) and some Canadian labour and workers'-compensation boards are covered.
 - 2026-11-14: California PERB ALJ order in LA-CE-1433-H added (brief of the CSU Trustees struck on 17 November 2025 for nonexistent quotations and pages; no tracker row). Massachusetts CERB: the statement's disclosure, certification and verification terms added; second search pass (MUP-23-9938 and 29 more CERB documents from June 2024) found no matching decision.
