@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Are US courts getting tougher on AI-invented citations?"
+abstract: "In a public database of court decisions on AI-hallucinated filings, US decisions involving a lawyer were about half as likely to carry a money penalty in the first half of 2026 as a year earlier (25% vs 47%). Penalties that were imposed got somewhat larger, but the earlier group is small. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/bar-ai-guidance"
+url: "https://www.munimtech.com/research/courts-and-ai-hallucinations"
+keywords:
+  - "Pre-registered"
+  - "Society"
+references:
+  - type: article
+    title: "Are US courts getting tougher on AI-invented citations?"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/courts-and-ai-hallucinations"
